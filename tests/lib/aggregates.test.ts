@@ -160,8 +160,8 @@ describe('parseTripFromId', () => {
 });
 
 describe('tripDisplayName', () => {
-  it('title-cases hyphenated slug', () => {
-    expect(tripDisplayName('spring-japan')).toBe('Spring Japan');
+  it('keeps hyphenated trip slug unchanged', () => {
+    expect(tripDisplayName('spring-japan')).toBe('spring-japan');
   });
   it('renders _unsorted as "Unsorted"', () => {
     expect(tripDisplayName('_unsorted')).toBe('Unsorted');
@@ -191,7 +191,7 @@ describe('postsByTrip', () => {
 
     expect(trips[0].year).toBe('2025');
     expect(trips[0].trip).toBe('spring-japan');
-    expect(trips[0].displayName).toBe('Spring Japan');
+    expect(trips[0].displayName).toBe('spring-japan');
     expect(trips[0].posts.length).toBe(2);
     expect(trips[0].countries).toEqual(['jp']);
     expect(trips[0].cities.sort()).toEqual(['Kyoto', 'Tokyo']);
