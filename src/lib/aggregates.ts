@@ -96,7 +96,7 @@ export function parseTripFromId(id: string): { year: string; trip: string } | nu
 
 export function tripDisplayName(slug: string): string {
   if (slug === '_unsorted') return 'Unsorted';
-  return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return slug// .split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 export interface TripGroup {

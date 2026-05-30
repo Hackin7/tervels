@@ -25,7 +25,7 @@ export const EVENTS_BY_SLUG = new Map(EVENT_CATALOG.map(event => [event.slug, ev
 export function eventMeta(slug: string): EventMeta {
   return EVENTS_BY_SLUG.get(slug) ?? {
     slug,
-    name: slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+    name: slug, //.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
     year: Number(slug.match(/-(\d{4})$/)?.[1] ?? 0),
   };
 }
