@@ -1,5 +1,5 @@
 ---
-title: "ISITDTU CTF Writeup"
+title: "ISITDTU CTF SToW Writeup"
 timestamp: 2024-02-13T00:00:00Z
 date: 2024-02-13
 visited:
@@ -11,7 +11,7 @@ location:
   city: "Da Nang"
   city_slug: "danang"
   location_or_event: "ISITDTU CTF 2023 Finals"
-  coords: [16.0681, 108.2162]
+  coords: [16.07482091606699, 108.22284312498289]
 events: ["isitdtu-ctf-finals-2023"]
 tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false

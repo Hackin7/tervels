@@ -1,4 +1,5 @@
 const TABLE: Record<string, { name: string; flag: string }> = {
+  vn: { name: 'Vietnam', flag: '🇻🇳' },
   jp: { name: 'Japan', flag: '🇯🇵' },
   it: { name: 'Italy', flag: '🇮🇹' },
   sg: { name: 'Singapore', flag: '🇸🇬' },
