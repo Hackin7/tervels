@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { navigablePosts, postsByEvent } from '../../lib/aggregates';
+
+const posts = navigablePosts(await getCollection('posts'));
+const events = postsByEvent(posts);
+
+function fmtDateRange(start: Date, end: Date): string {
+  const s = start.toISOString().slice(0, 10);
+  const e = end.toISOString().slice(0, 10);
+  return s === e ? s : `${s} – ${e}`;
+}
+---
+<BaseLayout title="Events · tervels">
+  <h1>Events</h1>
+  <p class="muted">{events.length} event{events.length === 1 ? '' : 's'}, sorted by most recent.</p>
+  <div style="display:grid; gap:2rem;">
+    {events.map(event => (
+      <section>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:0.75rem;">
+          <div>
+            <h2 style="margin:0;">{event.meta.name} · {event.meta.year || 'Unknown year'}</h2>
+            <p class="muted" style="margin:0.15rem 0 0;">
+              {fmtDateRange(event.earliest, event.latest)}
+              {event.meta.location && ` · ${event.meta.location}`}
+              {` · ${event.posts.length} note${event.posts.length === 1 ? '' : 's'}`}
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cards">
+          {event.posts.map(post => <PostCard post={post} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

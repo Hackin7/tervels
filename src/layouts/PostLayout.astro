@@ -1,0 +1,45 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import CountryFlag from '../components/CountryFlag.astro';
+import { Image } from 'astro:assets';
+import type { Post } from '../lib/aggregates';
+import { countrySlug, isLocationResolved } from '../lib/aggregates';
+interface Props { post: Post; }
+const { post } = Astro.props;
+const dateStr = post.data.date.toISOString().slice(0, 10);
+const country = countrySlug(post.data.location.country);
+const base = import.meta.env.BASE_URL;
+const resolved = isLocationResolved(post);
+---
+<BaseLayout title={`${post.data.title} · tervels`}>
+  {resolved ? (
+    <p class="muted">
+      <a href={`${base}/places`}>places</a> ›
+      <a href={`${base}/places/${country}`}><CountryFlag code={country} /></a> ›
+      <a href={`${base}/places/${country}/${post.data.location.city_slug}`}>{post.data.location.city}</a>
+    </p>
+  ) : (
+    <p class="muted">
+      <a href={`${base}/triage`}>triage</a> · <span style="background:#fde68a; color:#92400e; font-size:0.7rem; padding:0.15rem 0.5rem; border-radius:999px;">needs location</span>
+    </p>
+  )}
+  <h1>{post.data.title}</h1>
+  <p class="muted">
+    {dateStr}
+    {resolved && ` · ${post.data.location.name}`}
+  </p>
+  {post.data.cover && (
+    <Image src={post.data.cover} alt={post.data.title} width={1040} height={640} style="border-radius:8px; margin:1rem 0;" />
+  )}
+  <article>
+    <slot />
+  </article>
+  {!resolved && (
+    <aside style="margin-top:2rem; padding:1rem; background:#fef3c7; border-radius:8px;">
+      <strong>To publish this post:</strong> open <code>{post.id}/index.md</code> and set
+      <code>location.country</code> (country name like <code>Japan</code>),
+      <code>location.city</code>, <code>location.city_slug</code>,
+      and ideally <code>location.coords</code>.
+    </aside>
+  )}
+</BaseLayout>

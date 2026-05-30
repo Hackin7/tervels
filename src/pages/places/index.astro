@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CountryFlag from '../../components/CountryFlag.astro';
+import { publishedPosts, postsByCountry } from '../../lib/aggregates';
+import { countryName } from '../../lib/countries';
+
+const posts = publishedPosts(await getCollection('posts'));
+const byCountry = [...postsByCountry(posts).entries()]
+  .sort(([a], [b]) => countryName(a).localeCompare(countryName(b)));
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Places · tervels">
+  <h1>Places</h1>
+  <ul style="list-style:none; padding:0; display:grid; gap:0.75rem;">
+    {byCountry.map(([code, ps]) => (
+      <li>
+        <a href={`${base}/places/${code}`} style="font-size:1.2rem;">
+          <CountryFlag code={code} showName />
+        </a>
+        <span class="muted"> · {ps.length} post{ps.length === 1 ? '' : 's'}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

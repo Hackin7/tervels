@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import CountryFlag from '../../../../components/CountryFlag.astro';
+import { publishedPosts, postsByCountry, citiesInCountry, postsInCity } from '../../../../lib/aggregates';
+
+export async function getStaticPaths() {
+  const posts = publishedPosts(await getCollection('posts'));
+  const out: Array<{ params: { country: string; city: string } }> = [];
+  for (const [country] of postsByCountry(posts)) {
+    for (const [city] of citiesInCountry(posts, country)) {
+      out.push({ params: { country, city } });
+    }
+  }
+  return out;
+}
+
+const { country, city } = Astro.params;
+const posts = postsInCity(publishedPosts(await getCollection('posts')), country!, city!);
+const cityName = posts[0]?.data.location.city ?? city;
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title={`${cityName}, ${country!.toUpperCase()} · tervels`}>
+  <p class="muted">
+    <a href={`${base}/places`}>places</a> ›
+    <a href={`${base}/places/${country}`}><CountryFlag code={country!} /></a>
+  </p>
+  <h1>{cityName}</h1>
+  <div class="grid grid-cards">
+    {posts.map(p => <PostCard post={p} />)}
+  </div>
+</BaseLayout>

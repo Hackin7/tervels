@@ -1,0 +1,6 @@
+---
+import { countryFlag, countryName } from '../lib/countries';
+interface Props { code: string; showName?: boolean; }
+const { code, showName = false } = Astro.props;
+---
+<span title={countryName(code)}>{countryFlag(code)}{showName ? ` ${countryName(code)}` : ''}</span>

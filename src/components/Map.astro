@@ -1,0 +1,34 @@
+---
+interface Props { dataUrl: string; height?: string; }
+const { dataUrl, height = '70vh' } = Astro.props;
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<div id="tervels-map" style={`height: ${height}; border-radius:8px; overflow:hidden;`} data-url={dataUrl}></div>
+<script>
+  import L from 'leaflet';
+  import 'leaflet.markercluster';
+  const el = document.getElementById('tervels-map')!;
+  const url = el.dataset.url!;
+  const base = (import.meta as any).env.BASE_URL || '';
+  const map = L.map(el).setView([20, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap',
+    maxZoom: 19,
+  }).addTo(map);
+  const cluster = (L as any).markerClusterGroup();
+  fetch(url).then(r => r.json()).then((pins: any[]) => {
+    if (!pins.length) return;
+    const bounds = L.latLngBounds([]);
+    for (const p of pins) {
+      const m = L.marker(p.coords).bindPopup(
+        `<strong>${p.title}</strong><br/>${p.city_display} · ${p.date}<br/><a href="${base}/posts/${p.slug}">read →</a>`
+      );
+      cluster.addLayer(m);
+      bounds.extend(p.coords);
+    }
+    map.addLayer(cluster);
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 8 });
+  });
+</script>

@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import Map from '../components/Map.astro';
+import { publishedPosts } from '../lib/aggregates';
+
+const all = await getCollection('posts');
+const posts = publishedPosts(all);
+const dataUrl = `${import.meta.env.BASE_URL}/api/map-data.json`;
+---
+<BaseLayout title="tervels">
+  <Map dataUrl={dataUrl} height="50vh" />
+  <h1 style="margin-top:1.5rem;">tervels</h1>
+  <p class="muted">A travel log. {posts.length} posts.</p>
+  <div class="grid grid-cards">
+    {posts.map(p => <PostCard post={p} />)}
+  </div>
+</BaseLayout>

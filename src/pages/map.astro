@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Map from '../components/Map.astro';
+const dataUrl = `${import.meta.env.BASE_URL}/api/map-data.json`;
+---
+<BaseLayout title="Map · tervels">
+  <h1>Map</h1>
+  <p class="muted">Click a pin to open the post.</p>
+  <Map dataUrl={dataUrl} />
+</BaseLayout>

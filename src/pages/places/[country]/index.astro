@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CountryFlag from '../../../components/CountryFlag.astro';
+import { publishedPosts, postsByCountry, citiesInCountry } from '../../../lib/aggregates';
+import { countryName } from '../../../lib/countries';
+
+export async function getStaticPaths() {
+  const posts = publishedPosts(await getCollection('posts'));
+  return [...postsByCountry(posts).keys()].map(country => ({ params: { country } }));
+}
+
+const { country } = Astro.params;
+const posts = publishedPosts(await getCollection('posts'));
+const cities = [...citiesInCountry(posts, country!).entries()]
+  .sort(([a], [b]) => a.localeCompare(b));
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title={`${countryName(country!)} · tervels`}>
+  <p class="muted"><a href={`${base}/places`}>← all places</a></p>
+  <h1><CountryFlag code={country!} showName /></h1>
+  <ul style="list-style:none; padding:0; display:grid; gap:0.5rem;">
+    {cities.map(([slug, ps]) => (
+      <li>
+        <a href={`${base}/places/${country}/${slug}`}>{ps[0].data.location.city}</a>
+        <span class="muted"> · {ps.length} post{ps.length === 1 ? '' : 's'}</span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

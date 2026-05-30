@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { unresolvedPosts, postUrlSlug, parseTripFromId } from '../lib/aggregates';
+
+const posts = unresolvedPosts(await getCollection('posts'));
+const base = import.meta.env.BASE_URL;
+
+// Group by year/trip for triage convenience
+const byTrip = new Map<string, typeof posts>();
+for (const p of posts) {
+  const seg = parseTripFromId(p.id);
+  if (!seg) continue;
+  const key = `${seg.year}/${seg.trip}`;
+  const arr = byTrip.get(key) ?? [];
+  arr.push(p);
+  byTrip.set(key, arr);
+}
+const tripKeys = [...byTrip.keys()].sort();
+---
+<BaseLayout title="Triage · tervels">
+  <h1>Triage</h1>
+  <p class="muted">
+    {posts.length} post{posts.length === 1 ? '' : 's'} need{posts.length === 1 ? 's' : ''} a location before they can appear in <a href={`${base}/places`}>Places</a> or on the <a href={`${base}/map`}>map</a>.
+  </p>
+  <p class="muted" style="font-size:0.9rem;">
+    To resolve a post, open its <code>index.md</code>, set
+    <code>location.country</code> (e.g. <code>JP</code>),
+    <code>location.city</code> (display name), and
+    <code>location.city_slug</code> (lowercase). Ideally add <code>coords: [lat, lng]</code> too so it pins on the map.
+  </p>
+  {tripKeys.map(key => {
+    const tripPosts = byTrip.get(key)!;
+    return (
+      <section style="margin-top:2rem;">
+        <h2 style="margin-bottom:0.5rem;">{key} <span class="muted" style="font-size:0.85rem; font-weight:normal;">({tripPosts.length})</span></h2>
+        <ul style="list-style:none; padding:0; display:grid; gap:0.4rem;">
+          {tripPosts.map(p => (
+            <li style="padding:0.5rem 0.75rem; background:white; border:1px solid var(--border); border-radius:6px; display:flex; justify-content:space-between; gap:1rem; align-items:center;">
+              <a href={`${base}/posts/${postUrlSlug(p)}`} style="flex:1;">{p.data.title}</a>
+              <span class="muted" style="font-size:0.8rem; white-space:nowrap;">{p.data.date.toISOString().slice(0, 10)}</span>
+              <code style="font-size:0.75rem; color:var(--muted); white-space:nowrap;">{p.id}</code>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+</BaseLayout>
