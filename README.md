@@ -2,8 +2,8 @@
 
 A static travel blog with map view + country→city listing. Built with Astro, Leaflet, and a Telegram-export importer.
 
-Spec: `C:\Users\zunmun\Documents\Stuff\Workspace\2026\ai_experiments\proj_ideas\specs\07-2-travel-blog.md`
-Plan: `C:\Users\zunmun\Documents\Stuff\Workspace\2026\ai_experiments\proj_ideas\specs\plans\2026-05-06-tervels.md`
+1. Spec: `C:\Users\zunmun\Documents\Stuff\Workspace\2026\ai_experiments\proj_ideas\specs\07-2-travel-blog.md`
+2. Plan: `C:\Users\zunmun\Documents\Stuff\Workspace\2026\ai_experiments\proj_ideas\specs\plans\2026-05-06-tervels.md`
 
 ## Running locally
 
