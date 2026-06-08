@@ -55,7 +55,7 @@ It has
   - but not just Japanese 
 9. Workshops
    - in EN also, how to draw, how to make a PNGTuber
-
+ 
 
 ## Scouting
 
@@ -165,6 +165,9 @@ We'll it's kinda exactly what I got, but icecream is just slapped on, and more w
 Then got 9euro gyoza because it's one of the only things left lol to fill my stomach, in hindsight inside the jrave got onigiri 5euros but it's fine
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nIUbTrjCyc4?si=8KUMBVjiAvzY94ED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## JRave
 
 I think seeing aiobahn+81 and kors k (IIDX Guy) in person DJing more than made up for the cost
@@ -187,3 +190,7 @@ Eh
 2. Not all the songs vibed with me and that's fine, but definitely just a rave thingy 
 
 Anyway I recorded a ton, but I hope someone recorded the full set list and will put on YouTube, they did so in 2023 I think and that was vibes af
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yfscD5kDY04?si=SQXYZ1SJTX5_P__A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZfKmOClqtq0?si=3r9ZlgBqC0l5sz1a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
