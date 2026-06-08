@@ -10,7 +10,7 @@ location:
   city: "Nagoya"
   city_slug: "nagoya"
   location_or_event: "Yamaha Music Nagoya"
-  coords: [35.1696, 136.8953]
+  coords: [35.16843968173056, 136.89362938161707]
   coord_source: geocoded-venue
   coord_granularity: venue
   coord_confidence: high
