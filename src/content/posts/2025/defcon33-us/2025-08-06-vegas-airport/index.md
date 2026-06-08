@@ -1,5 +1,5 @@
 ---
-title: "Vegas Airport Food is quite nice"
+title: "Vegas Airport"
 timestamp: 2025-08-06T00:00:00Z
 date: 2025-08-06
 visited:
@@ -27,4 +27,4 @@ source:
 
 Vegas Airport
 
-Food is quite nice
+Gambling Machines before you even get your luggage.
