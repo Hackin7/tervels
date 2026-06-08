@@ -1,6 +1,6 @@
 ---
-title: "Kicon talk selling KiCad"
-timestamp: 2025-11-15T00:00:00Z
+title: "KiCon Asia"
+timestamp: 2025-11-15T08:00:00Z
 date: 2025-11-15
 visited:
   start: 2025-11-15

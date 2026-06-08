@@ -1,6 +1,6 @@
 ---
 title: "Maker Fair Shenzhen"
-timestamp: 2025-11-15T00:00:00Z
+timestamp: 2025-11-15T12:00:00Z
 date: 2025-11-15
 visited:
   start: 2025-11-15
