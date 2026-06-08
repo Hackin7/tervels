@@ -1,10 +1,10 @@
 ---
 title: "Maker Fair Shenzhen"
-timestamp: 2025-11-16T00:00:00Z
-date: 2025-11-16
+timestamp: 2025-11-15T00:00:00Z
+date: 2025-11-15
 visited:
-  start: 2025-11-16
-  end: 2025-11-16
+  start: 2025-11-15
+  end: 2025-11-15
 location:
   name: "Shenzhen, China"
   country: "China"
