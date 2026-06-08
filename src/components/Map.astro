@@ -17,7 +17,11 @@ const { dataUrl, height = '70vh' } = Astro.props;
     attribution: '© OpenStreetMap',
     maxZoom: 19,
   }).addTo(map);
-  const cluster = (L as any).markerClusterGroup();
+  const cluster = (L as any).markerClusterGroup({                                                                    
+    maxClusterRadius: 18,        // default is 80; lower = split sooner                                              
+    disableClusteringAtZoom: 14, // show individual pins at zoom 14+                                                 
+    spiderfyOnMaxZoom: true,     // spread overlapping pins when clicked                                             
+  });  
   fetch(url).then(r => r.json()).then((pins: any[]) => {
     if (!pins.length) return;
     const bounds = L.latLngBounds([]);
