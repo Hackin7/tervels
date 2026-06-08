@@ -17,7 +17,7 @@ import { postSlug, slugify } from '../src/lib/slugify-mjs.mjs';
 const args = parseArgs(process.argv.slice(2));
 const exportDir = args._[0];
 if (!exportDir) {
-  console.error('Usage: node scripts/import-telegram.mjs <export-dir> [--trip <slug>] [--since YYYY-MM-DD] [--until YYYY-MM-DD] [--year YYYY] [--month YYYY-MM] [--date-source capture|telegram|exif-strict] [--photos-per-post N|--all-photos] [--merge-window N] [--dry-run] [--out PATH]');
+  console.error('Usage: node scripts/import-telegram.mjs <export-dir> [--trip <slug>] [--since YYYY-MM-DD] [--until YYYY-MM-DD] [--year YYYY] [--month YYYY-MM] [--date-source capture|telegram|exif-strict] [--photos-per-post N|--all-photos] [--merge-window N] [--no-geocode] [--dry-run] [--out PATH]');
   process.exit(1);
 }
 
@@ -25,6 +25,7 @@ const OUT_ROOT = resolve(args.out ?? 'src/content/posts');
 const DATE_SOURCE = args['date-source'] ?? 'capture';
 const MERGE_WINDOW = parseInt(args['merge-window'] ?? '30', 10);
 const DRY = !!args['dry-run'];
+const NO_GEOCODE = !!args['no-geocode'];
 const TRIP = (typeof args.trip === 'string' && args.trip) ? slugify(args.trip, 8) : '_unsorted';
 const PHOTOS_PER_POST = args['all-photos']
   ? Infinity
@@ -35,7 +36,7 @@ const range = resolveRange(args);
 const result = await loadExport(exportDir);
 const messages = (result.messages ?? []).map(msg => ({
   ...msg,
-  photo: msg.photo ? join(exportDir, msg.photo) : null,
+  photo: resolveExportedPhoto(exportDir, msg.photo),
 }));
 console.log(`Loaded ${messages.length} messages from ${result.format ?? 'json'} export.`);
 
@@ -69,7 +70,7 @@ for (const group of groups) {
     : await firstExifGps(photos);
 
   let country = null, cityDisplay = null, citySlug = null, locName = null;
-  if (coords && !DRY) {
+  if (coords && !DRY && !NO_GEOCODE) {
     try {
       const g = await geo.reverse(coords[0], coords[1]);
       country = g.country;
@@ -87,9 +88,9 @@ for (const group of groups) {
   const slug = postSlug(eff.date, keyword);
 
   const year = String(eff.date.getUTCFullYear());
-  const baseDir = join(OUT_ROOT, year, TRIP, slug);
+  const { dir: baseDir, duplicate } = await resolvePostDir(OUT_ROOT, year, TRIP, slug, messageId);
 
-  if (await dirHasMessageId(baseDir, messageId)) { report.skippedDup++; continue; }
+  if (duplicate) { report.skippedDup++; continue; }
 
   if (!DRY) {
     const keepPhotos = photos.slice(0, PHOTOS_PER_POST);
@@ -168,6 +169,26 @@ async function firstExifGps(photos) {
     } catch {}
   }
   return null;
+}
+function resolveExportedPhoto(exportDir, photo) {
+  if (!photo || typeof photo !== 'string') return null;
+  if (photo.startsWith('(')) return null;
+  const full = join(exportDir, photo);
+  return existsSync(full) ? full : null;
+}
+async function resolvePostDir(outRoot, year, trip, slug, messageId) {
+  const baseDir = join(outRoot, year, trip, slug);
+  if (!existsSync(join(baseDir, 'index.md'))) return { dir: baseDir, duplicate: false };
+  if (await dirHasMessageId(baseDir, messageId)) return { dir: baseDir, duplicate: true };
+
+  let n = 0;
+  while (true) {
+    const suffix = n === 0 ? String(messageId) : `${messageId}-${n + 1}`;
+    const dir = join(outRoot, year, trip, `${slug}-${suffix}`);
+    if (!existsSync(join(dir, 'index.md'))) return { dir, duplicate: false };
+    if (await dirHasMessageId(dir, messageId)) return { dir, duplicate: true };
+    n++;
+  }
 }
 async function dirHasMessageId(dir, id) {
   const idx = join(dir, 'index.md');

@@ -5,7 +5,7 @@ export function slugify(text, max = 4) {
     .join('-').replace(/-+/g,'-').replace(/^-|-$/g,'');
 }
 export function postSlug(date, keyword) {
-  const ym = `${date.getUTCFullYear()}-${String(date.getUTCMonth()+1).padStart(2,'0')}`;
+  const ymd = `${date.getUTCFullYear()}-${String(date.getUTCMonth()+1).padStart(2,'0')}-${String(date.getUTCDate()).padStart(2,'0')}`;
   const kw = slugify(keyword) || 'untitled';
-  return `${ym}-${kw}`;
+  return `${ymd}-${kw}`;
 }
