@@ -10,7 +10,6 @@ location:
   city: "Nagoya"
   city_slug: "nagoya"
   coords: [35.18446750606475, 136.87438539318197]
-cover: "./images/00.jpg"
 source:
   kind: telegram
   message_id: 1585
