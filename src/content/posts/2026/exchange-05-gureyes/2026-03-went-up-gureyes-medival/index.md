@@ -11,7 +11,7 @@ location:
   city: "Gruyeres"
   city_slug: "gruyeres"
   location_or_event: "Medieval city"
-  coords: [46.583682, 7.08159]
+  coords: [46.58390610996834, 7.081187762473898]
   coord_source: geocoded-city
   coord_granularity: city
   coord_confidence: low

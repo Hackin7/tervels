@@ -11,7 +11,7 @@ location:
   city: "Gruyeres"
   city_slug: "gruyeres"
   location_or_event: "Cheese factory"
-  coords: [46.583682, 7.08159]
+  coords: [46.58235028185771, 7.073039224669408]
   coord_source: geocoded-city
   coord_granularity: city
   coord_confidence: low
