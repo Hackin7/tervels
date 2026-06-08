@@ -6,7 +6,7 @@ visited:
   end: 2025-10-02
 location:
   name: "Arcades (eg. Taito Arcade)"
-  country: "JP"
+  country: "Japan"
   city: "Nagoya"
   city_slug: "nagoya"
   coords: [35.16024616997928, 136.90508851932435]

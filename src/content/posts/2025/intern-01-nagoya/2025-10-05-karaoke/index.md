@@ -6,7 +6,7 @@ visited:
   end: 2025-10-05
 location:
   name: "Nagoya, Japan"
-  country: "JP"
+  country: "Japan"
   city: "Nagoya"
   city_slug: "nagoya"
   coords: [35.1815, 136.9066]
