@@ -79,6 +79,62 @@ describe('import-telegram CLI', () => {
     expect(post).toContain('message_id: 46');
   });
 
+  it('uses the full first text line as the post title', async () => {
+    const root = await makeTempDir();
+    const exportDir = join(root, 'export');
+    const outDir = join(root, 'posts');
+    await mkdir(exportDir, { recursive: true });
+    await writeFile(join(exportDir, 'result.json'), JSON.stringify({
+      messages: [{
+        id: 47,
+        type: 'message',
+        date: '2026-06-08T11:00:00',
+        from_id: 'user1',
+        text: 'This first line has more than six words total\nSecond line should stay out',
+      }],
+    }));
+
+    await execFileAsync(process.execPath, [
+      importer,
+      exportDir,
+      '--out', outDir,
+      '--no-geocode',
+    ], { cwd: root });
+
+    const postPath = await findIndexMd(join(outDir, '2026/_unsorted'));
+    const post = await readFile(postPath, 'utf8');
+    expect(post).toContain('title: "This first line has more than six words total"');
+    expect(post).not.toContain('title: "This first line has more than"');
+  });
+
+  it('strips markdown heading markers and outer padding from the post title', async () => {
+    const root = await makeTempDir();
+    const exportDir = join(root, 'export');
+    const outDir = join(root, 'posts');
+    await mkdir(exportDir, { recursive: true });
+    await writeFile(join(exportDir, 'result.json'), JSON.stringify({
+      messages: [{
+        id: 48,
+        type: 'message',
+        date: '2026-06-08T11:00:00',
+        from_id: 'user1',
+        text: '   ### Milan moment   \nBody text',
+      }],
+    }));
+
+    await execFileAsync(process.execPath, [
+      importer,
+      exportDir,
+      '--out', outDir,
+      '--no-geocode',
+    ], { cwd: root });
+
+    const postPath = await findIndexMd(join(outDir, '2026/_unsorted'));
+    const post = await readFile(postPath, 'utf8');
+    expect(post).toContain('title: "Milan moment"');
+    expect(post).not.toContain('title: "### Milan moment"');
+  });
+
   it('skips Telegram photo placeholders when media was not exported', async () => {
     const root = await makeTempDir();
     const exportDir = join(root, 'export');

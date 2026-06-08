@@ -1,5 +1,5 @@
 ---
-title: "Around Milan station to kill time/"
+title: "Around Milan station to kill time/ work on my tiny tapeout"
 date: 2026-05-17
 visited:
   start: 2026-05-17
@@ -21,6 +21,7 @@ source:
   imported_at: 2026-06-08T12:06:17.284Z
   date_basis: telegram
 ---
+
 Around Milan station to kill time/ work on my tiny tapeout
 
 Took bus to airport (and walked to terminal 1 because I dropped off too early🤡)

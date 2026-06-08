@@ -1,5 +1,5 @@
 ---
-title: "Uffizi Gallery Get to see some"
+title: "Uffizi Gallery"
 date: 2026-05-12
 visited:
   start: 2026-05-12

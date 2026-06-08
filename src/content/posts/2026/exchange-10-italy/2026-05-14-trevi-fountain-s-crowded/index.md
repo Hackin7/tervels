@@ -1,5 +1,5 @@
 ---
-title: "Trevi Fountain It's crowded af Quite"
+title: "Trevi Fountain"
 date: 2026-05-14
 visited:
   start: 2026-05-14

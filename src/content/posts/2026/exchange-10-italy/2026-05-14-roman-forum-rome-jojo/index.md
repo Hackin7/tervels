@@ -1,5 +1,5 @@
 ---
-title: "Roman Forum Rome is a Jojo"
+title: "Roman Forum"
 date: 2026-05-14
 visited:
   start: 2026-05-14

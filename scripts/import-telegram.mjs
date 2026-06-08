@@ -84,7 +84,8 @@ for (const group of groups) {
   if (coords && DRY) report.coordsSeen = (report.coordsSeen ?? 0) + 1;
 
   const messageId = group.messages[0].id;
-  const keyword = hashtags[0] ?? text.split(/\s+/).slice(0, 6).join(' ') ?? `untitled-${messageId}`;
+  const title = firstTextLine(text) ?? hashtags[0] ?? `Untitled ${messageId}`;
+  const keyword = hashtags[0] ?? title;
   const slug = postSlug(eff.date, keyword);
 
   const year = String(eff.date.getUTCFullYear());
@@ -109,7 +110,7 @@ for (const group of groups) {
       report.photosDropped = (report.photosDropped ?? 0) + (photos.length - keepPhotos.length);
     }
     const fm = buildFrontmatter({
-      title: keyword.split(/[\s-]+/).slice(0, 6).join(' '),
+      title,
       eff, country, cityDisplay, citySlug, locName, coords, cover,
       hashtags, messageId, basis: eff.basis,
     });
@@ -175,6 +176,12 @@ function resolveExportedPhoto(exportDir, photo) {
   if (photo.startsWith('(')) return null;
   const full = join(exportDir, photo);
   return existsSync(full) ? full : null;
+}
+function firstTextLine(text) {
+  return text.split(/\r?\n/).map(cleanTitle).find(Boolean) || null;
+}
+function cleanTitle(line) {
+  return line.trim().replace(/^#+\s*/, '').trim();
 }
 async function resolvePostDir(outRoot, year, trip, slug, messageId) {
   const baseDir = join(outRoot, year, trip, slug);

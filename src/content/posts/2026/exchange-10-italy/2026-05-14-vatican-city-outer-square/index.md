@@ -1,5 +1,5 @@
 ---
-title: "Vatican City The outer square is"
+title: "Vatican City"
 date: 2026-05-14
 visited:
   start: 2026-05-14

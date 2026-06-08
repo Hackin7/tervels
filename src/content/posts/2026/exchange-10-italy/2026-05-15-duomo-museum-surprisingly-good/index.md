@@ -1,5 +1,5 @@
 ---
-title: "The Duomo museum is surprisingly good"
+title: "Milan moment"
 date: 2026-05-15
 visited:
   start: 2026-05-15
