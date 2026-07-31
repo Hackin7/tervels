@@ -1,0 +1,28 @@
+---
+title: "Balelec"
+date: 2026-05-01
+visited:
+  start: 2026-05-01
+  end: 2026-05-01
+location:
+  name: "Lausanne, Switzerland"
+  country: "CH"
+  city: "Lausanne"
+  city_slug: "lausanne"
+  coords: [46.5197, 6.6323]
+---
+
+# Balelec
+
+[https://youtube.com/playlist?list=PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb&si=8FiCbXRhwyCfzhxP](https://youtube.com/playlist?list=PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb&si=8FiCbXRhwyCfzhxP)
+
+It's like last year but more of it, which means more techno, more French rap etc. I think by the nature of the music, some of it is repetitive, but there are some which can be quite engaging to me. The strat I feel is to touch and go on every part (and not buy the overpriced food), since each stage the artist is 1h+, they will repeat, so there is time to touch base with a wide variety
+I would have preferred less hardstyle and more trance, but the trance at 2am was not bad
+
+Even tho the rest of greyhats went back early at 12:30am, I decided to stay since I'm not coming back anymore, and I really liked last year's music. Then the good stuff came out lmao. 
+
+I think the last singer trance style was quite amazing (im not too good with music genres btw) 
+
+I'm so glad I stayed till 3am, so freaking glad I paid the 42chf for the balelec🔥
+
+I'll be listening to this (and last year's Balelec) to remind me of LakeCTF lol
