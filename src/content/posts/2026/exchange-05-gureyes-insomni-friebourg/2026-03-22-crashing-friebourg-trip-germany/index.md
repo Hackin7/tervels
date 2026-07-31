@@ -5,10 +5,10 @@ visited:
   start: 2026-03-22
   end: 2026-03-22
 location:
-  name: "Lausanne, Switzerland"
-  country: "CH"
-  city: "Lausanne"
-  city_slug: "lausanne"
+  name: "Friebourg"
+  country: "Germany"
+  city: "Friebourg"
+  city_slug: "friebourg"
   coords: [46.5197, 6.6323]
 source:
   kind: telegram
