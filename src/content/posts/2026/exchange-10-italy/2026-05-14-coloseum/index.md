@@ -1,5 +1,5 @@
 ---
-title: "The interior of the coloseum itself is quite nice, well worth the visit"
+title: "Colosseum"
 date: 2026-05-14
 visited:
   start: 2026-05-14
@@ -22,7 +22,7 @@ source:
   date_basis: telegram
 ---
 
-# Rome coloseum
+# Rome Colosseum
 
 They start of with a museum of the colosseum, which is decently interesting, covers the ancient artefacts
 
