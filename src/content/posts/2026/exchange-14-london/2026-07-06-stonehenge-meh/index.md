@@ -11,15 +11,13 @@ location:
   city_slug: "stonehenge"
 ---
 
-
 # Chinese food lol
 Theres a lot of noodles, the liao is not bad too, but was quite filling
-
 
 # Stonehenge
 Stonehenge is meh
 It's some time telling sun device in the past or something 
 
-# Went to oxford street and got Bagel
+# Went to Oxford street and got Bagel
 
 Bagel is nice
