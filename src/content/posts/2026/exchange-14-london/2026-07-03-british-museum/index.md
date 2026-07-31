@@ -6,7 +6,7 @@ visited:
   end: 2026-07-03
 location:
   name: "London"
-  country: "UK"
+  country: "United Kingdom"
   city: "London"
   city_slug: "london"
 ---

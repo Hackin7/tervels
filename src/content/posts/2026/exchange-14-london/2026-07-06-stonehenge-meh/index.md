@@ -6,7 +6,7 @@ visited:
   end: 2026-07-07
 location:
   name: "Stonehenge"
-  country: "UK"
+  country: "United Kingdom"
   city: "Stonehenge"
   city_slug: "stonehenge"
 ---

@@ -6,7 +6,7 @@ visited:
   end: 2026-07-02
 location:
   name: "Brighton"
-  country: "UK"
+  country: "United Kingdom"
   city: "Brighton"
   city_slug: "brighton"
 ---
