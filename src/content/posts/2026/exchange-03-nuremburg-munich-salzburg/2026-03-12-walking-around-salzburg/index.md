@@ -17,7 +17,7 @@ location:
   coord_confidence: low
   coord_query: "Salzburg, Austria"
 tags: ["exchange-03-nuremburg-munich-salzburg", "austria", "salzburg"]
-draft: falsee
+draft: false
 ---
 
 Dropped by Salzburg on a recommendation 

@@ -2,7 +2,7 @@
 title: "Salzburg Fortress"
 timestamp: 2026-03-12T00:00:00Z
 date: 2026-03-12
-visited:w
+visited:
   start: 2026-03-12
   end: 2026-03-12
 location:
