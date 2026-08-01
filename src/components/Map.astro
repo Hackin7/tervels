@@ -26,12 +26,13 @@ const { dataUrl, height = '70vh' } = Astro.props;
     if (!pins.length) return;
     const bounds = L.latLngBounds([]);
     for (const p of pins) {
-      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${p.coords[0]},${p.coords[1]}`;
-      const m = L.marker(p.coords).bindPopup(
-        `<strong>${p.title}</strong><br/><a href="${mapsUrl}">${p.city_display}</a> · ${p.date}<br/><a href="${base}/posts/${p.slug}">read →</a>`
+      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${p.gps[0]},${p.gps[1]}`;
+      const date = String(p.timestamp).slice(0, 10);
+      const m = L.marker(p.gps).bindPopup(
+        `<strong>${p.title}</strong><br/><a href="${mapsUrl}">${p.location_name}</a> · ${date}<br/><a href="${base}/posts/${p.slug}">read →</a>`
       );
       cluster.addLayer(m);
-      bounds.extend(p.coords);
+      bounds.extend(p.gps);
     }
     map.addLayer(cluster);
     map.fitBounds(bounds, { padding: [40, 40], maxZoom: 8 });

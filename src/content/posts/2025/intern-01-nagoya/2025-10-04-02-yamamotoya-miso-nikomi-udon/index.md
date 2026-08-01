@@ -1,20 +1,16 @@
 ---
 title: "Yamamotoya Miso Nikomi Udon"
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Yamamotoya, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Yamamotoya"
-  coords: [35.1815, 136.9066]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: medium
-  coord_query: "Yamamotoya, Nagoya, Japan"
+timestamp: 2025-10-04T00:00:00Z
+locations:
+  - name: "Yamamotoya"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.1815, 136.9066]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: medium
+    gps_query: "Yamamotoya, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

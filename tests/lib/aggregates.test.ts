@@ -31,15 +31,14 @@ function fakePost(id: string, data: {
     collection: 'posts',
     data: {
       title: data.title ?? 'A post',
-      date: data.date ?? new Date('2025-01-01'),
-      visited: { start: new Date('2025-01-01'), end: new Date('2025-01-02') },
-      location: {
+      timestamp: data.date ?? new Date('2025-01-01'),
+      locations: [{
         name: 'X',
         country: data.country ?? 'JP',
         city: data.city ?? 'Kyoto',
         city_slug: data.city_slug ?? 'kyoto',
-        ...(data.coords === null ? {} : { coords: data.coords ?? [0, 0] as [number, number] }),
-      },
+        gps: data.coords === null ? null : data.coords ?? [0, 0] as [number, number],
+      }],
       events: data.events ?? [],
       tags: [],
       draft: data.draft ?? false,
@@ -174,17 +173,14 @@ describe('postsByTrip', () => {
       title: 'Kyoto', country: 'JP', city: 'Kyoto', city_slug: 'kyoto',
       date: new Date('2025-04-12'),
     });
-    a.data.visited = { start: new Date('2025-04-10'), end: new Date('2025-04-12') };
     const b = fakePost('2025/spring-japan/shibuya-night', {
       title: 'Tokyo', country: 'JP', city: 'Tokyo', city_slug: 'tokyo',
       date: new Date('2025-04-15'),
     });
-    b.data.visited = { start: new Date('2025-04-14'), end: new Date('2025-04-15') };
     const c = fakePost('2024/summer-italy/rome-forum', {
       title: 'Rome', country: 'IT', city: 'Rome', city_slug: 'rome',
       date: new Date('2024-08-22'),
     });
-    c.data.visited = { start: new Date('2024-08-21'), end: new Date('2024-08-23') };
 
     const trips = postsByTrip([a, b, c]);
     expect(trips.length).toBe(2);
@@ -195,7 +191,7 @@ describe('postsByTrip', () => {
     expect(trips[0].posts.length).toBe(2);
     expect(trips[0].countries).toEqual(['jp']);
     expect(trips[0].cities.sort()).toEqual(['Kyoto', 'Tokyo']);
-    expect(trips[0].earliest.toISOString().slice(0, 10)).toBe('2025-04-10');
+    expect(trips[0].earliest.toISOString().slice(0, 10)).toBe('2025-04-12');
     expect(trips[0].latest.toISOString().slice(0, 10)).toBe('2025-04-15');
 
     expect(trips[1].trip).toBe('summer-italy');
@@ -203,9 +199,7 @@ describe('postsByTrip', () => {
 
   it('sorts by most-recent post date descending', () => {
     const old = fakePost('2024/summer-italy/x', { date: new Date('2024-08-22') });
-    old.data.visited = { start: new Date('2024-08-21'), end: new Date('2024-08-23') };
     const newer = fakePost('2025/spring-japan/y', { date: new Date('2025-04-12') });
-    newer.data.visited = { start: new Date('2025-04-10'), end: new Date('2025-04-12') };
     const trips = postsByTrip([old, newer]);
     expect(trips[0].trip).toBe('spring-japan');
     expect(trips[1].trip).toBe('summer-italy');
@@ -241,7 +235,7 @@ describe('postsByEvent', () => {
 });
 
 describe('mapPins', () => {
-  it('skips posts with no coords and emits display slug', () => {
+  it('skips locations with no GPS and emits display slug', () => {
     const a = fakePost('2025/sp/x', {
       title: 'Hello world',
       date: new Date('2025-04-12T00:00:00Z'),
@@ -255,6 +249,27 @@ describe('mapPins', () => {
     const pins = mapPins([a, b]);
     expect(pins.length).toBe(1);
     expect(pins[0].slug).toBe('jp/kyoto/2025-04-hello-world');
-    expect(pins[0].coords).toEqual([35, 135]);
+    expect(pins[0].gps).toEqual([35, 135]);
+  });
+
+  it('emits one pin per location', () => {
+    const post = fakePost('2025/sp/x', { title: 'Two stops', coords: [35, 135] });
+    post.data.locations.push({
+      name: 'Second stop', country: 'JP', city: 'Tokyo', city_slug: 'tokyo', gps: [35.6812362, 139.7671248],
+    });
+    expect(mapPins([post]).map(pin => pin.location_name)).toEqual(['X', 'Second stop']);
+  });
+});
+
+describe('multiple locations', () => {
+  it('groups an article into every distinct city without duplicates', () => {
+    const post = fakePost('2025/sp/x', { country: 'JP', city: 'Kyoto', city_slug: 'kyoto' });
+    post.data.locations.push(
+      { name: 'Tokyo Station', country: 'JP', city: 'Tokyo', city_slug: 'tokyo', gps: [35.6812362, 139.7671248] },
+      { name: 'Tokyo Tower', country: 'JP', city: 'Tokyo', city_slug: 'tokyo', gps: [35.6585805, 139.7454329] },
+    );
+    const cities = citiesInCountry([post], 'jp');
+    expect(cities.get('kyoto')).toEqual([post]);
+    expect(cities.get('tokyo')).toEqual([post]);
   });
 });

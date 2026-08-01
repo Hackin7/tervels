@@ -1,21 +1,16 @@
 ---
 title: "Chubu Electric Power MIRAI TOWER"
 timestamp: 2025-10-04T00:00:00Z
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Chubu Electric Power MIRAI TOWER, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Chubu Electric Power MIRAI TOWER"
-  coords: [35.1724, 136.908]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Chubu Electric Power MIRAI TOWER, Nagoya, Japan"
+locations:
+  - name: "Chubu Electric Power MIRAI TOWER"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.1724, 136.908]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Chubu Electric Power MIRAI TOWER, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

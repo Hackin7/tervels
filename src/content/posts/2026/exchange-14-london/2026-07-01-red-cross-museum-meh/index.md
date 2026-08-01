@@ -1,14 +1,16 @@
 ---
 title: "Red Cross museum was meh tbh"
-date: 2026-07-01
-visited:
-  start: 2026-07-01
-  end: 2026-07-01
-location:
-  name: "Geneva"
-  country: "Switzerland"
-  city: "Geneva"
-  city_slug: "geneva"
+timestamp: 2026-07-01T00:00:00Z
+locations:
+  - name: "International Red Cross and Red Crescent Museum"
+    country: "Switzerland"
+    city: "Geneva"
+    city_slug: "geneva"
+    gps: [46.2274043, 6.1367908]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Avenue de la Paix 17, Geneva, Switzerland"
 source:
   kind: telegram
   message_id: 9716

@@ -9,17 +9,13 @@ import {
 function postWith(locationOrEvent, title = 'A note') {
   return parsePost(`---
 title: ${JSON.stringify(title)}
-date: 2026-01-01
-visited:
-  start: 2026-01-01
-  end: 2026-01-01
-location:
-  name: "Singapore, Singapore"
-  country: "Singapore"
-  city: "Singapore"
-  city_slug: "singapore"
-  location_or_event: ${JSON.stringify(locationOrEvent)}
-  coords: null
+timestamp: 2026-01-01T00:00:00Z
+locations:
+  - name: ${JSON.stringify(locationOrEvent)}
+    country: "Singapore"
+    city: "Singapore"
+    city_slug: "singapore"
+    gps: null
 tags: []
 draft: false
 ---
@@ -36,7 +32,7 @@ describe('coordinate enrichment', () => {
       source: 'manual',
       granularity: 'building',
       confidence: 'high',
-      coords: [1.360214, 103.989451],
+      gps: [1.360214, 103.989451],
     });
   });
 
@@ -50,7 +46,7 @@ describe('coordinate enrichment', () => {
     };
     const result = await resolvePost(postWith('Unknown airport context', 'Airport'), geocoder);
     expect(result.status).toBe('resolved');
-    expect(result.coords).toEqual([1.3521, 103.8198]);
+    expect(result.gps).toEqual([1.3521, 103.8198]);
     expect(queries).not.toContain('Chubu Centrair International Airport, Tokoname, Japan');
   });
 
@@ -58,14 +54,14 @@ describe('coordinate enrichment', () => {
     const post = postWith('Jewel L1 / Changi Airport Terminal 1');
     const text = updatePostFrontmatter(post, {
       status: 'resolved',
-      coords: [1.360214, 103.989451],
+      gps: [1.360214, 103.989451],
       source: 'manual',
       granularity: 'building',
       confidence: 'high',
       candidate: { query: 'Jewel Changi Airport, Singapore' },
     });
-    expect(text).toContain('  coord_granularity: building');
-    expect(text).toContain('  coord_query: "Jewel Changi Airport, Singapore"');
+    expect(text).toContain('    gps_granularity: building');
+    expect(text).toContain('    gps_query: "Jewel Changi Airport, Singapore"');
   });
 
   it('builds city fallback queries for vague notes', () => {
@@ -74,5 +70,16 @@ describe('coordinate enrichment', () => {
       granularity: 'city',
       confidence: 'low',
     });
+  });
+
+  it('updates only the primary location when an article has several', () => {
+    const first = postWith('Jewel L1 / Changi Airport Terminal 1');
+    const post = parsePost(first.text.replace('tags: []', `  - name: "Second stop"\n    country: "Singapore"\n    city: "Singapore"\n    city_slug: "singapore"\n    gps: [1.3, 103.8]\ntags: []`), '/tmp/post/index.md');
+    const text = updatePostFrontmatter(post, {
+      status: 'resolved', gps: [1.360214, 103.989451], source: 'manual', granularity: 'building', confidence: 'high',
+      candidate: { query: 'Jewel Changi Airport, Singapore' },
+    });
+    expect(text).toContain('    gps: [1.360214, 103.989451]');
+    expect(text).toContain('    gps: [1.3, 103.8]');
   });
 });

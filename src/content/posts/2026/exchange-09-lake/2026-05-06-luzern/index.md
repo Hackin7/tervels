@@ -1,14 +1,34 @@
 ---
 title: "Luzern Rd 2"
-date: 2026-05-07
-visited:
-  start: 2026-05-06
-  end: 2026-05-06
-location:
-  name: "Luzern"
-  country: "Switzerland"
-  city: "Luzern"
-  city_slug: "luzern"
+timestamp: 2026-05-07T00:00:00Z
+locations:
+  - name: "Musegg Wall"
+    country: "Switzerland"
+    city: "Lucerne"
+    city_slug: "lucerne"
+    gps: [47.0546864, 8.3056105]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Musegg Wall, Lucerne, Switzerland"
+  - name: "Chapel Bridge"
+    country: "Switzerland"
+    city: "Lucerne"
+    city_slug: "lucerne"
+    gps: [47.0518334, 8.307713]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Kapellbrücke, Luzern, Switzerland"
+  - name: "Lion Monument"
+    country: "Switzerland"
+    city: "Lucerne"
+    city_slug: "lucerne"
+    gps: [47.0584443, 8.310868]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Lion Monument, Lucerne, Switzerland"
 ---
 
 To Luzern

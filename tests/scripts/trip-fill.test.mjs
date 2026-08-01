@@ -49,7 +49,7 @@ describe('trip fill helpers', () => {
     expect(() => joinTripRows([{}], [])).toThrow(/row count mismatch/);
   });
 
-  it('rewrites frontmatter with timestamp, location_or_event, and null coords', () => {
+  it('rewrites frontmatter with timestamp, named locations, and null GPS', () => {
     const oldText = `---
 title: "So I went to the Atsuta"
 date: 2025-10-02
@@ -71,8 +71,10 @@ Body text
     expect(migrated.folder).toBe('intern-01-nagoya');
     expect(migrated.text).toContain('timestamp: 2025-10-02T00:00:00Z');
     expect(migrated.text).toContain('country: "Japan"');
-    expect(migrated.text).toContain('location_or_event: "Atsuta Jingu"');
-    expect(migrated.text).toContain('coords: null');
+    expect(migrated.text).toContain('- name: "Atsuta Jingu"');
+    expect(migrated.text).toContain('gps: null');
+    expect(migrated.text).not.toContain('\ndate:');
+    expect(migrated.text).not.toContain('\nvisited:');
     expect(migrated.text).not.toContain('cover:');
   });
 });

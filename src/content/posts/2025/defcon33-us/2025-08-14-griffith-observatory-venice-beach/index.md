@@ -1,21 +1,25 @@
 ---
 title: "Griffith Observatory + Venice Beach (But different)"
 timestamp: 2025-08-14T00:00:00Z
-date: 2025-08-14
-visited:
-  start: 2025-08-14
-  end: 2025-08-14
-location:
-  name: "Los Angeles, United States"
-  country: "United States"
-  city: "Los Angeles"
-  city_slug: "los-angeles"
-  location_or_event: "Griffith Observatory"
-  coords: [34.118219, -118.300293]
-  coord_source: geocoded-building
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Griffith Observatory, Los Angeles, United States"
+locations:
+  - name: "Griffith Observatory"
+    country: "United States"
+    city: "Los Angeles"
+    city_slug: "los-angeles"
+    gps: [34.118219, -118.300293]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Griffith Observatory, Los Angeles, United States"
+  - name: "Venice Beach"
+    country: "United States"
+    city: "Los Angeles"
+    city_slug: "los-angeles"
+    gps: [33.9799601, -118.468771]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Venice Beach, Los Angeles, United States"
 tags: ["defcon33-us", "united-states", "los-angeles"]
 draft: false
 source:

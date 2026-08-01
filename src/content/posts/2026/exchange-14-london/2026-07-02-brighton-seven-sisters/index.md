@@ -1,14 +1,25 @@
 ---
 title: "Brighton and Seven Sisters"
-date: 2026-07-02
-visited:
-  start: 2026-07-02
-  end: 2026-07-02
-location:
-  name: "Brighton"
-  country: "United Kingdom"
-  city: "Brighton"
-  city_slug: "brighton"
+timestamp: 2026-07-02T00:00:00Z
+locations:
+  - name: "Brighton Palace Pier"
+    country: "United Kingdom"
+    city: "Brighton"
+    city_slug: "brighton"
+    gps: [50.8180253, -0.1366389]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: medium
+    gps_query: "Brighton Palace Pier, United Kingdom"
+  - name: "Seven Sisters Country Park"
+    country: "United Kingdom"
+    city: "Seaford"
+    city_slug: "seaford"
+    gps: [50.7648715, 0.1638354]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Seven Sisters Country Park, United Kingdom"
 ---
 
 Start of UK journey (Tesco Meal deal too, I got some cold wrap, boiled eggs, not bad)

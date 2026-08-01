@@ -1,21 +1,16 @@
 ---
 title: "Arimatsu Narumi Shibori Kaikan"
 timestamp: 2025-10-05T00:00:00Z
-date: 2025-10-05
-visited:
-  start: 2025-10-05
-  end: 2025-10-05
-location:
-  name: "Arimatsu Narumi Shibori Kaikan, Japan"
-  country: "Japan"
-  city: "Arimatsu / Nagoya"
-  city_slug: "arimatsu-nagoya"
-  location_or_event: "Arimatsu Narumi Shibori Kaikan"
-  coords: [35.066431, 136.971327]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Arimatsu Narumi Shibori Kaikan, Nagoya, Japan"
+locations:
+  - name: "Arimatsu Narumi Shibori Kaikan"
+    country: "Japan"
+    city: "Arimatsu / Nagoya"
+    city_slug: "arimatsu-nagoya"
+    gps: [35.066431, 136.971327]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Arimatsu Narumi Shibori Kaikan, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "arimatsu-nagoya"]
 draft: false
 source:

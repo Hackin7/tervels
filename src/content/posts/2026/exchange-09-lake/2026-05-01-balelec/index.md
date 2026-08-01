@@ -1,15 +1,16 @@
 ---
 title: "Balelec"
-date: 2026-05-01
-visited:
-  start: 2026-05-01
-  end: 2026-05-01
-location:
-  name: "Lausanne, Switzerland"
-  country: "CH"
-  city: "Lausanne"
-  city_slug: "lausanne"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-05-01T00:00:00Z
+locations:
+  - name: "EPFL campus"
+    country: "Switzerland"
+    city: "Ecublens"
+    city_slug: "ecublens"
+    gps: [46.5186594, 6.5665615]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "EPFL, Ecublens, Switzerland"
 ---
 
 # Balelec

@@ -1,15 +1,13 @@
 ---
 title: "Woke up at 7, prepared and"
-date: 2025-10-06
-visited:
-  start: 2025-10-06
-  end: 2025-10-06
-location:
-  name: "KOMEDA'S Coffee"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  coords: [35.18446750606475, 136.87438539318197]
+timestamp: 2025-10-06T00:00:00Z
+locations:
+  - name: "KOMEDA'S Coffee"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.18446750606475, 136.87438539318197]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 1585

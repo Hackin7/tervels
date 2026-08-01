@@ -1,14 +1,43 @@
 ---
 title: "Dubai moment🙏: Al Fahidi, Burj Khalifa, Dubai Mall"
-date: 2026-07-16
-visited:
-  start: 2026-07-16
-  end: 2026-07-16
-location:
-  name: "Dubai"
-  country: "UAE"
-  city: "Dubai"
-  city_slug: "dubai"
+timestamp: 2026-07-16T00:00:00Z
+locations:
+  - name: "Al Fahidi Historical Neighbourhood"
+    country: "United Arab Emirates"
+    city: "Dubai"
+    city_slug: "dubai"
+    gps: [25.2642301, 55.30017]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Al Fahidi Historical Neighbourhood, Dubai, UAE"
+  - name: "Burj Khalifa"
+    country: "United Arab Emirates"
+    city: "Dubai"
+    city_slug: "dubai"
+    gps: [25.1970336, 55.2741329]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Burj Khalifa, Dubai, UAE"
+  - name: "Dubai Mall"
+    country: "United Arab Emirates"
+    city: "Dubai"
+    city_slug: "dubai"
+    gps: [25.197044, 55.2789516]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Dubai Mall, Dubai, UAE"
+  - name: "Dubai International Airport"
+    country: "United Arab Emirates"
+    city: "Dubai"
+    city_slug: "dubai"
+    gps: [25.2515424, 55.3666519]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Dubai International Airport, Dubai, UAE"
 ---
 
 # Dubai moment🙏

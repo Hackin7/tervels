@@ -1,14 +1,25 @@
 ---
 title: "Travelling to London"
-date: 2026-07-01
-visited:
-  start: 2026-07-01
-  end: 2026-07-01
-location:
-  name: "London"
-  country: "United Kingdom"
-  city: "London"
-  city_slug: "london"
+timestamp: 2026-07-01T00:00:00Z
+locations:
+  - name: "Geneva International Airport"
+    country: "Switzerland"
+    city: "Geneva"
+    city_slug: "geneva"
+    gps: [46.2377125, 6.1079823]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Geneva Airport, Switzerland"
+  - name: "London Gatwick Airport"
+    country: "United Kingdom"
+    city: "Crawley"
+    city_slug: "crawley"
+    gps: [51.1540772, -0.1823226]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Gatwick Airport, United Kingdom"
 ---
 
 OK so 1st day:

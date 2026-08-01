@@ -1,21 +1,16 @@
 ---
 title: "7rmb Breakfast"
 timestamp: 2025-11-15T00:00:00Z
-date: 2025-11-15
-visited:
-  start: 2025-11-15
-  end: 2025-11-15
-location:
-  name: "Shenzhen, China"
-  country: "China"
-  city: "Shenzhen"
-  city_slug: "shenzhen"
-  location_or_event: "KiCon venue"
-  coords: [22.576868, 113.938783]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Atour Hotel Shenzhen Nanshan Vanke Yuncheng, Shenzhen, China"
+locations:
+  - name: "KiCon venue"
+    country: "China"
+    city: "Shenzhen"
+    city_slug: "shenzhen"
+    gps: [22.576868, 113.938783]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Atour Hotel Shenzhen Nanshan Vanke Yuncheng, Shenzhen, China"
 events: ["kicon-asia-2025"]
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false

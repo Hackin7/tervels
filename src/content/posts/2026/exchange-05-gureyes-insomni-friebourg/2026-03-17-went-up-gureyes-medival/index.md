@@ -1,21 +1,16 @@
 ---
 title: "Gureyes Medival City"
 timestamp: 2026-03-17T00:00:00Z
-date: 2026-03-17
-visited:
-  start: 2026-03-17
-  end: 2026-03-17
-location:
-  name: "Gruyeres, Switzerland"
-  country: "Switzerland"
-  city: "Gruyeres"
-  city_slug: "gruyeres"
-  location_or_event: "Medieval city"
-  coords: [46.58390610996834, 7.081187762473898]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: low
-  coord_query: "Gruyeres, Switzerland"
+locations:
+  - name: "Medieval city"
+    country: "Switzerland"
+    city: "Gruyeres"
+    city_slug: "gruyeres"
+    gps: [46.58390610996834, 7.081187762473898]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: low
+    gps_query: "Gruyeres, Switzerland"
 tags: ["exchange-05-gureyes", "switzerland", "gruyeres"]
 draft: false
 source:

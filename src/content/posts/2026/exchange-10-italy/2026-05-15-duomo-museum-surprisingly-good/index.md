@@ -1,20 +1,16 @@
 ---
 title: "Milan moment"
-date: 2026-05-15
-visited:
-  start: 2026-05-15
-  end: 2026-05-15
-location:
-  name: "Duomo Museum"
-  country: "Italy"
-  city: "Milan"
-  city_slug: "milan"
-  location_or_event: "Museo del Duomo"
-  coords: [45.4641, 9.1919]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Museo del Duomo, Milan, Italy"
+timestamp: 2026-05-15T00:00:00Z
+locations:
+  - name: "Museo del Duomo"
+    country: "Italy"
+    city: "Milan"
+    city_slug: "milan"
+    gps: [45.4641, 9.1919]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Museo del Duomo, Milan, Italy"
 source:
   kind: telegram
   message_id: 8079

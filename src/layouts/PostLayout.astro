@@ -3,22 +3,26 @@ import BaseLayout from './BaseLayout.astro';
 import CountryFlag from '../components/CountryFlag.astro';
 import { Image } from 'astro:assets';
 import type { Post } from '../lib/aggregates';
-import { countrySlug, isLocationResolved } from '../lib/aggregates';
+import { countrySlug, isLocationResolved, primaryLocation } from '../lib/aggregates';
 interface Props { post: Post; }
 const { post } = Astro.props;
-const dateStr = post.data.date.toISOString().slice(0, 10);
-const country = countrySlug(post.data.location.country);
+const dateStr = post.data.timestamp.toISOString().slice(0, 10);
+const primary = primaryLocation(post);
+const country = countrySlug(primary.country);
 const base = import.meta.env.BASE_URL;
 const resolved = isLocationResolved(post);
-const coords = post.data.location.coords;
-const mapsUrl = coords ? `https://www.google.com/maps/search/?api=1&query=${coords[0]},${coords[1]}` : null;
+const locationLinks = post.data.locations.map(location => ({
+  location,
+  country: countrySlug(location.country),
+  mapsUrl: location.gps ? `https://www.google.com/maps/search/?api=1&query=${location.gps[0]},${location.gps[1]}` : null,
+}));
 ---
 <BaseLayout title={`${post.data.title} · tervels`}>
   {resolved ? (
     <p class="muted">
       <a href={`${base}/places`}>places</a> ›
       <a href={`${base}/places/${country}`}><CountryFlag code={country} /></a> ›
-      <a href={`${base}/places/${country}/${post.data.location.city_slug}`}>{post.data.location.city}</a>
+      <a href={`${base}/places/${country}/${primary.city_slug}`}>{primary.city}</a>
     </p>
   ) : (
     <p class="muted">
@@ -28,17 +32,17 @@ const mapsUrl = coords ? `https://www.google.com/maps/search/?api=1&query=${coor
   <h1>{post.data.title}</h1>
   <p class="muted">
     {dateStr}
-    {resolved && (
-      <>
-        {' · '}
-        {mapsUrl ? (
-          <a href={mapsUrl}>{post.data.location.name}</a>
-        ) : (
-          <>{post.data.location.name}</>
-        )}
-      </>
-    )}
   </p>
+  {resolved && (
+    <ul class="muted" style="list-style:none; padding:0; margin:0.35rem 0 1rem; display:flex; flex-wrap:wrap; gap:0.35rem 0.8rem;">
+      {locationLinks.map(({ location, country, mapsUrl }) => (
+        <li>
+          <a href={`${base}/places/${country}/${location.city_slug}`}>{location.name}</a>
+          {mapsUrl && <> · <a href={mapsUrl}>GPS</a></>}
+        </li>
+      ))}
+    </ul>
+  )}
   {post.data.cover && (
     <Image src={post.data.cover} alt={post.data.title} width={1040} height={640} style="border-radius:8px; margin:1rem 0;" />
   )}
@@ -48,9 +52,9 @@ const mapsUrl = coords ? `https://www.google.com/maps/search/?api=1&query=${coor
   {!resolved && (
     <aside style="margin-top:2rem; padding:1rem; background:#fef3c7; border-radius:8px;">
       <strong>To publish this post:</strong> open <code>{post.id}/index.md</code> and set
-      <code>location.country</code> (country name like <code>Japan</code>),
-      <code>location.city</code>, <code>location.city_slug</code>,
-      and ideally <code>location.coords</code>.
+      <code>locations[0].country</code> (country name like <code>Japan</code>),
+      <code>locations[0].city</code>, <code>locations[0].city_slug</code>,
+      and ideally <code>locations[0].gps</code>.
     </aside>
   )}
 </BaseLayout>

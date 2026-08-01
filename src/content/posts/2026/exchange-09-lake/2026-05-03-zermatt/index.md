@@ -1,15 +1,13 @@
 ---
 title: "Zermatt"
-date: 2026-05-01
-visited:
-  start: 2026-04-01
-  end: 2026-05-01
-location:
-  name: "Zermatt"
-  country: "CH"
-  city: "Zermatt"
-  city_slug: "zermatt"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-05-01T00:00:00Z
+locations:
+  - name: "Zermatt"
+    country: "CH"
+    city: "Zermatt"
+    city_slug: "zermatt"
+    gps: [46.5197, 6.6323]
+    gps_source: old-frontmatter
 ---
 
 # City

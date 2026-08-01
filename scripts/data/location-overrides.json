@@ -1,0 +1,169 @@
+[
+  {
+    "path": "2026/exchange-16-dubai-transit-home/2026-07-16-dubai-moment/index.md",
+    "locations": [
+      { "name": "Al Fahidi Historical Neighbourhood", "country": "United Arab Emirates", "city": "Dubai", "city_slug": "dubai", "gps": [25.2642301, 55.30017], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Al Fahidi Historical Neighbourhood, Dubai, UAE" },
+      { "name": "Burj Khalifa", "country": "United Arab Emirates", "city": "Dubai", "city_slug": "dubai", "gps": [25.1970336, 55.2741329], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Burj Khalifa, Dubai, UAE" },
+      { "name": "Dubai Mall", "country": "United Arab Emirates", "city": "Dubai", "city_slug": "dubai", "gps": [25.197044, 55.2789516], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Dubai Mall, Dubai, UAE" },
+      { "name": "Dubai International Airport", "country": "United Arab Emirates", "city": "Dubai", "city_slug": "dubai", "gps": [25.2515424, 55.3666519], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Dubai International Airport, Dubai, UAE" }
+    ]
+  },
+  {
+    "path": "2026/exchange-16-dubai-transit-home/2026-07-15-zurich-plan/index.md",
+    "locations": [
+      { "name": "Uetliberg", "country": "Switzerland", "city": "Zurich", "city_slug": "zurich", "gps": [47.3494459, 8.4919649], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Uetliberg, Zurich, Switzerland" },
+      { "name": "Zurich Hauptbahnhof", "country": "Switzerland", "city": "Zurich", "city_slug": "zurich", "gps": [47.3781008, 8.5393635], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Zurich Hauptbahnhof, Zurich, Switzerland" },
+      { "name": "Zurich Airport", "country": "Switzerland", "city": "Kloten", "city_slug": "kloten", "gps": [47.4633881, 8.5533661], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Zurich Airport, Switzerland" }
+    ]
+  },
+  {
+    "path": "2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul/index.md",
+    "locations": [
+      { "name": "Japan Expo Paris 2026 — Parc des Expositions Paris Nord Villepinte", "country": "France", "city": "Villepinte", "city_slug": "villepinte", "gps": [48.970251, 2.5211188], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Parc des Expositions, Villepinte, France" }
+    ]
+  },
+  {
+    "path": "2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris/index.md",
+    "locations": [
+      { "name": "Japan Expo Paris 2026 — Parc des Expositions Paris Nord Villepinte", "country": "France", "city": "Villepinte", "city_slug": "villepinte", "gps": [48.970251, 2.5211188], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Parc des Expositions, Villepinte, France" }
+    ]
+  },
+  {
+    "path": "2026/exchange-15-japan-expo-paris/2026-07-12-did-not-finish-louvre/index.md",
+    "locations": [
+      { "name": "Musée du Louvre", "country": "France", "city": "Paris", "city_slug": "paris", "gps": [48.8611473, 2.3380277], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Louvre Museum, Paris, France" },
+      { "name": "Sacré-Cœur, Montmartre", "country": "France", "city": "Paris", "city_slug": "paris", "gps": [48.8868058, 2.3430153], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Sacre Coeur, Paris, France" },
+      { "name": "Arc de Triomphe", "country": "France", "city": "Paris", "city_slug": "paris", "gps": [48.8737791, 2.2950372], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Arc de Triomphe, Paris, France" },
+      { "name": "Eiffel Tower", "country": "France", "city": "Paris", "city_slug": "paris", "gps": [48.8582599, 2.2945006], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Eiffel Tower, Paris, France" }
+    ]
+  },
+  {
+    "path": "2026/exchange-02-geneva-avoriaz-ski/2026-02-28-patek-phillip-watch-exhibition/index.md",
+    "locations": [
+      { "name": "Patek Philippe Museum", "country": "Switzerland", "city": "Geneva", "city_slug": "geneva", "gps": [46.1984004, 6.1382674], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Patek Philippe Museum, Geneva, Switzerland" }
+    ]
+  },
+  {
+    "path": "2026/exchange-02-geneva-avoriaz-ski/2026-03-01-chess-part-2-park/index.md",
+    "locations": [
+      { "name": "Parc des Bastions chess boards", "country": "Switzerland", "city": "Geneva", "city_slug": "geneva", "gps": [46.1993939, 6.1453019], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "medium", "gps_query": "Parc des Bastions, Geneva, Switzerland" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-07-london-final/index.md",
+    "locations": [
+      { "name": "Borough Market", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5055815, -0.0901984], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Borough Market, London" },
+      { "name": "Millennium Bridge", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5098883, -0.0985076], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Millennium Bridge, London" },
+      { "name": "Chief Coffee", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.4940718, -0.2548499], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Chief Coffee Chiswick, London" },
+      { "name": "London Gatwick Airport", "country": "United Kingdom", "city": "Crawley", "city_slug": "crawley", "gps": [51.1540772, -0.1823226], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "medium", "gps_query": "Gatwick Airport, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-13-chamonix/2026-06-22-chamonix/index.md",
+    "locations": [
+      { "name": "Aiguille du Midi", "country": "France", "city": "Chamonix-Mont-Blanc", "city_slug": "chamonix-mont-blanc", "gps": [45.8787035, 6.8875506], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Aiguille du Midi, Chamonix, France" },
+      { "name": "Montenvers — Mer de Glace station", "country": "France", "city": "Chamonix-Mont-Blanc", "city_slug": "chamonix-mont-blanc", "gps": [45.9317275, 6.9174169], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Montenvers railway station, Chamonix, France" },
+      { "name": "Mer de Glace", "country": "France", "city": "Chamonix-Mont-Blanc", "city_slug": "chamonix-mont-blanc", "gps": [45.9136531, 6.9386736], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Mer de Glace, Chamonix, France" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-01-red-cross-museum-meh/index.md",
+    "locations": [
+      { "name": "International Red Cross and Red Crescent Museum", "country": "Switzerland", "city": "Geneva", "city_slug": "geneva", "gps": [46.2274043, 6.1367908], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Avenue de la Paix 17, Geneva, Switzerland" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-06-stonehenge-meh/index.md",
+    "locations": [
+      { "name": "Stonehenge", "country": "United Kingdom", "city": "Amesbury", "city_slug": "amesbury", "gps": [51.1788293, -1.826183], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Stonehenge, Wiltshire, United Kingdom" },
+      { "name": "Oxford Street", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5154118, -0.1412595], "gps_source": "openstreetmap", "gps_granularity": "street", "gps_confidence": "medium", "gps_query": "Oxford Street, London, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-03-around-london/index.md",
+    "locations": [
+      { "name": "Platform 9¾, King's Cross", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5321868, -0.1239137], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Platform 9 3/4 King's Cross, London, United Kingdom" },
+      { "name": "University College London", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.524203, -0.1330007], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "UCL, London, United Kingdom" },
+      { "name": "Chinatown Gate", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5109933, -0.1318175], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Chinatown Gate, London, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-05-roast-pork-good-stuff/index.md",
+    "locations": [
+      { "name": "The Regent's Park", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.530107, -0.1537691], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Regent's Park, London, United Kingdom" },
+      { "name": "IKEA Oxford Street", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5155073, -0.1414115], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "IKEA Oxford Street, London, United Kingdom" },
+      { "name": "National Gallery", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.508881, -0.1283826], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "National Gallery, London, United Kingdom" },
+      { "name": "Imperial College London", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.4989595, -0.1756407], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Imperial College London, United Kingdom" },
+      { "name": "Kensington Gardens", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5066463, -0.1803888], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Kensington Gardens, London, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-01-navigation/index.md",
+    "locations": [
+      { "name": "Geneva International Airport", "country": "Switzerland", "city": "Geneva", "city_slug": "geneva", "gps": [46.2377125, 6.1079823], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Geneva Airport, Switzerland" },
+      { "name": "London Gatwick Airport", "country": "United Kingdom", "city": "Crawley", "city_slug": "crawley", "gps": [51.1540772, -0.1823226], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Gatwick Airport, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-02-brighton-seven-sisters/index.md",
+    "locations": [
+      { "name": "Brighton Palace Pier", "country": "United Kingdom", "city": "Brighton", "city_slug": "brighton", "gps": [50.8180253, -0.1366389], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "medium", "gps_query": "Brighton Palace Pier, United Kingdom" },
+      { "name": "Seven Sisters Country Park", "country": "United Kingdom", "city": "Seaford", "city_slug": "seaford", "gps": [50.7648715, 0.1638354], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Seven Sisters Country Park, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-04-london-sights-play-freeplaycity-bridge/index.md",
+    "locations": [
+      { "name": "Buckingham Palace", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5008349, -0.1430045], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Buckingham Palace, London" },
+      { "name": "St James's Park", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5031295, -0.133165], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "St James's Park, London" },
+      { "name": "Big Ben", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5007042, -0.1245721], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Big Ben, London" },
+      { "name": "Westminster Abbey", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.499399, -0.127391], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Westminster Abbey, London" },
+      { "name": "FreePlayCity", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5754113, -0.0877368], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "FreePlayCity, London" },
+      { "name": "London Bridge", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.508049, -0.0876715], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "London Bridge, London" }
+    ]
+  },
+  {
+    "path": "2026/exchange-14-london/2026-07-03-british-museum/index.md",
+    "locations": [
+      { "name": "British Museum", "country": "United Kingdom", "city": "London", "city_slug": "london", "gps": [51.5193118, -0.1267051], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "British Museum, London, United Kingdom" }
+    ]
+  },
+  {
+    "path": "2026/exchange-09-lake/2026-05-06-luzern/index.md",
+    "locations": [
+      { "name": "Musegg Wall", "country": "Switzerland", "city": "Lucerne", "city_slug": "lucerne", "gps": [47.0546864, 8.3056105], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Musegg Wall, Lucerne, Switzerland" },
+      { "name": "Chapel Bridge", "country": "Switzerland", "city": "Lucerne", "city_slug": "lucerne", "gps": [47.0518334, 8.307713], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Kapellbrücke, Luzern, Switzerland" },
+      { "name": "Lion Monument", "country": "Switzerland", "city": "Lucerne", "city_slug": "lucerne", "gps": [47.0584443, 8.310868], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Lion Monument, Lucerne, Switzerland" }
+    ]
+  },
+  {
+    "path": "2025/defcon33-us/2025-08-14-griffith-observatory-venice-beach/index.md",
+    "locations": [
+      { "name": "Griffith Observatory", "country": "United States", "city": "Los Angeles", "city_slug": "los-angeles", "gps": [34.118219, -118.300293], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Griffith Observatory, Los Angeles, United States" },
+      { "name": "Venice Beach", "country": "United States", "city": "Los Angeles", "city_slug": "los-angeles", "gps": [33.9799601, -118.468771], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "high", "gps_query": "Venice Beach, Los Angeles, United States" }
+    ]
+  },
+  {
+    "path": "2026/exchange-08-kingsley-geneva-interlakenv2/2026-04-13-went-back-interlaken-lauterbrunnen/index.md",
+    "locations": [
+      { "name": "Trümmelbach Falls", "country": "Switzerland", "city": "Lauterbrunnen", "city_slug": "lauterbrunnen", "gps": [46.5700531, 7.9130314], "gps_source": "openstreetmap", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Trummelbach Falls, Lauterbrunnen, Switzerland" },
+      { "name": "Lauterbrunnen", "country": "Switzerland", "city": "Lauterbrunnen", "city_slug": "lauterbrunnen", "gps": [46.5939043, 7.9078016], "gps_source": "openstreetmap", "gps_granularity": "city", "gps_confidence": "medium", "gps_query": "Lauterbrunnen, Switzerland" },
+      { "name": "Interlaken Ost", "country": "Switzerland", "city": "Interlaken", "city_slug": "interlaken", "gps": [46.6904478, 7.8689965], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "medium", "gps_query": "Interlaken Ost, Switzerland" }
+    ]
+  },
+  {
+    "path": "2026/exchange-04-ph0wn-nice-trip/2026-03-14-walk-around-nice-antibes/index.md",
+    "locations": [
+      { "name": "Promenade des Anglais", "country": "France", "city": "Nice", "city_slug": "nice", "gps": [43.6950875, 7.2677345], "gps_source": "openstreetmap", "gps_granularity": "street", "gps_confidence": "medium", "gps_query": "Promenade des Anglais, Nice, France" },
+      { "name": "Antibes Old Town", "country": "France", "city": "Antibes", "city_slug": "antibes", "gps": [43.5810022, 7.1262658], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "medium", "gps_query": "Vieil Antibes, Antibes, France" }
+    ]
+  },
+  {
+    "path": "2026/exchange-09-lake/2026-05-08-zurich-again/index.md",
+    "locations": [
+      { "name": "Lake Zurich waterfront at Bürkliplatz", "country": "Switzerland", "city": "Zurich", "city_slug": "zurich", "gps": [47.3664982, 8.5407654], "gps_source": "openstreetmap", "gps_granularity": "area", "gps_confidence": "medium", "gps_query": "Burkliplatz, Zurich, Switzerland" },
+      { "name": "Botanical Garden of the University of Zurich", "country": "Switzerland", "city": "Zurich", "city_slug": "zurich", "gps": [47.3586111, 8.5611111], "gps_source": "manual", "gps_granularity": "venue", "gps_confidence": "high", "gps_query": "Botanical Garden University of Zurich, Zollikerstrasse 107" },
+      { "name": "Glatt shopping centre", "country": "Switzerland", "city": "Wallisellen", "city_slug": "wallisellen", "gps": [47.4082484, 8.5955698], "gps_source": "openstreetmap", "gps_granularity": "building", "gps_confidence": "high", "gps_query": "Glattzentrum, Wallisellen, Switzerland" }
+    ]
+  }
+]

@@ -1,15 +1,13 @@
 ---
 title: "Karaoke"
-date: 2025-10-05
-visited:
-  start: 2025-10-05
-  end: 2025-10-05
-location:
-  name: "Nagoya, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  coords: [35.1815, 136.9066]
+timestamp: 2025-10-05T00:00:00Z
+locations:
+  - name: "Nagoya, Japan"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.1815, 136.9066]
+    gps_source: old-frontmatter
 ---
 
 # maimai

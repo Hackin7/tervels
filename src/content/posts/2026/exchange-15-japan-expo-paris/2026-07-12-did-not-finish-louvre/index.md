@@ -1,15 +1,43 @@
 ---
 title: "I did not finish the Louvre"
-date: 2026-07-12
-visited:
-  start: 2026-07-12
-  end: 2026-07-12
-location:
-  name: "Paris"
-  country: "FR"
-  city: "Paris"
-  city_slug: "paris"
-  location_or_event: "Japan Expo Paris 2026"
+timestamp: 2026-07-12T00:00:00Z
+locations:
+  - name: "Musée du Louvre"
+    country: "France"
+    city: "Paris"
+    city_slug: "paris"
+    gps: [48.8611473, 2.3380277]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Louvre Museum, Paris, France"
+  - name: "Sacré-Cœur, Montmartre"
+    country: "France"
+    city: "Paris"
+    city_slug: "paris"
+    gps: [48.8868058, 2.3430153]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Sacre Coeur, Paris, France"
+  - name: "Arc de Triomphe"
+    country: "France"
+    city: "Paris"
+    city_slug: "paris"
+    gps: [48.8737791, 2.2950372]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Arc de Triomphe, Paris, France"
+  - name: "Eiffel Tower"
+    country: "France"
+    city: "Paris"
+    city_slug: "paris"
+    gps: [48.8582599, 2.2945006]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Eiffel Tower, Paris, France"
 ---
 
 I did not finish the Louvre. 

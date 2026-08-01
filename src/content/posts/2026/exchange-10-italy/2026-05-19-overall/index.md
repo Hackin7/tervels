@@ -1,20 +1,16 @@
 ---
 title: "Hackaday Europe + Overall"
-date: 2026-05-19
-visited:
-  start: 2026-05-19
-  end: 2026-05-19
-location:
-  name: "Politecnico di Milano - Lecco Campus"
-  country: "Italy"
-  city: "Lecco"
-  city_slug: "lecco"
-  location_or_event: "Hackaday Europe 2026"
-  coords: [45.849312426786234, 9.397100168818492]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Politecnico di Milano Lecco Campus, Lecco, Italy"
+timestamp: 2026-05-19T00:00:00Z
+locations:
+  - name: "Hackaday Europe 2026"
+    country: "Italy"
+    city: "Lecco"
+    city_slug: "lecco"
+    gps: [45.849312426786234, 9.397100168818492]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Politecnico di Milano Lecco Campus, Lecco, Italy"
 source:
   kind: telegram
   message_id: 8243

@@ -1,14 +1,43 @@
 ---
 title: "Final Day in London"
-date: 2026-07-07
-visited:
-  start: 2026-07-07
-  end: 2026-07-07
-location:
-  name: "London"
-  country: "United Kingdom"
-  city: "London"
-  city_slug: "london"
+timestamp: 2026-07-07T00:00:00Z
+locations:
+  - name: "Borough Market"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5055815, -0.0901984]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Borough Market, London"
+  - name: "Millennium Bridge"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5098883, -0.0985076]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Millennium Bridge, London"
+  - name: "Chief Coffee"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.4940718, -0.2548499]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Chief Coffee Chiswick, London"
+  - name: "London Gatwick Airport"
+    country: "United Kingdom"
+    city: "Crawley"
+    city_slug: "crawley"
+    gps: [51.1540772, -0.1823226]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: medium
+    gps_query: "Gatwick Airport, United Kingdom"
 ---
 
 # Nice Dishrooms English Breakfast

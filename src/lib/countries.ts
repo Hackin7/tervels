@@ -16,6 +16,7 @@ const TABLE: Record<string, { name: string; flag: string }> = {
   pl: { name: 'Poland', flag: '🇵🇱' },
   es: { name: 'Spain', flag: '🇪🇸' },
   cz: { name: 'Czech', flag: '🇨🇿' },
+  ae: { name: 'United Arab Emirates', flag: '🇦🇪' },
 };
 
 const NAME_TO_KEY = new Map(Object.entries(TABLE).map(([key, value]) => [slug(value.name), key]));

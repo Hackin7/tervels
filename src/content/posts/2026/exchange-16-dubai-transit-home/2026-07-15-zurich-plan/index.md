@@ -1,14 +1,34 @@
 ---
 title: "OK here's the Zurich day plan (Before Dubai)"
-date: 2026-07-15
-visited:
-  start: 2026-07-15
-  end: 2026-07-15
-location:
-  name: "Zurich"
-  country: "Switzerland"
-  city: "Zurich"
-  city_slug: "zurich"
+timestamp: 2026-07-15T00:00:00Z
+locations:
+  - name: "Uetliberg"
+    country: "Switzerland"
+    city: "Zurich"
+    city_slug: "zurich"
+    gps: [47.3494459, 8.4919649]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Uetliberg, Zurich, Switzerland"
+  - name: "Zurich Hauptbahnhof"
+    country: "Switzerland"
+    city: "Zurich"
+    city_slug: "zurich"
+    gps: [47.3781008, 8.5393635]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Zurich Hauptbahnhof, Zurich, Switzerland"
+  - name: "Zurich Airport"
+    country: "Switzerland"
+    city: "Kloten"
+    city_slug: "kloten"
+    gps: [47.4633881, 8.5533661]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Zurich Airport, Switzerland"
 ---
 
 # FMEL fine on Checking Out

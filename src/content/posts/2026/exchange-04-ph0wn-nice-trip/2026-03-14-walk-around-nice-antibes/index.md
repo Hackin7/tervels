@@ -1,17 +1,25 @@
 ---
 title: "Walk Around Nice Antibes France"
 timestamp: 2026-03-14T00:00:00Z
-date: 2026-03-14
-visited:
-  start: 2026-03-14
-  end: 2026-03-15
-location:
-  name: "Nice / Antibes, France"
-  country: "France"
-  city: "Nice / Antibes"
-  city_slug: "nice-antibes"
-  location_or_event: "ph0wn event / Nice and Antibes walk"
-  coords: [43.58280282367898, 7.1267836043071675]
+locations:
+  - name: "Promenade des Anglais"
+    country: "France"
+    city: "Nice"
+    city_slug: "nice"
+    gps: [43.6950875, 7.2677345]
+    gps_source: openstreetmap
+    gps_granularity: street
+    gps_confidence: medium
+    gps_query: "Promenade des Anglais, Nice, France"
+  - name: "Antibes Old Town"
+    country: "France"
+    city: "Antibes"
+    city_slug: "antibes"
+    gps: [43.5810022, 7.1262658]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: "Vieil Antibes, Antibes, France"
 tags: ["exchange-04-ph0wn-nice-trip", "france", "nice-antibes"]
 draft: false
 source:

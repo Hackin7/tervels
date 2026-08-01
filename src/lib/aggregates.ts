@@ -3,6 +3,7 @@ import { slugify } from './slugify';
 import { eventMeta, type EventMeta } from './events';
 
 export type Post = CollectionEntry<'posts'>;
+export type Location = Post['data']['locations'][number];
 
 const UNRESOLVED_COUNTRY = 'XX';
 const UNRESOLVED_COUNTRY_NAME = 'Unknown';
@@ -12,18 +13,27 @@ export function countrySlug(country: string): string {
   return slugify(country, 8) || country.toLowerCase();
 }
 
+export function primaryLocation(post: Post): Location {
+  return post.data.locations[0];
+}
+
+export function isLocationValueResolved(location: Location): boolean {
+  return location.country !== UNRESOLVED_COUNTRY &&
+    location.country !== UNRESOLVED_COUNTRY_NAME &&
+    location.city_slug !== UNRESOLVED_CITY;
+}
+
 export function isLocationResolved(post: Post): boolean {
-  const c = post.data.location.country;
-  const cs = post.data.location.city_slug;
-  return c !== UNRESOLVED_COUNTRY && c !== UNRESOLVED_COUNTRY_NAME && cs !== UNRESOLVED_CITY;
+  return isLocationValueResolved(primaryLocation(post));
 }
 
 /** Build the display URL slug for a post: <country>/<city_slug>/<YYYY-MM-title>. */
 export function postUrlSlug(post: Post): string {
-  const country = countrySlug(post.data.location.country);
-  const city = post.data.location.city_slug;
-  const date = post.data.date;
-  const ym = `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, '0')}`;
+  const location = primaryLocation(post);
+  const country = countrySlug(location.country);
+  const city = location.city_slug;
+  const timestamp = post.data.timestamp;
+  const ym = `${timestamp.getUTCFullYear()}-${String(timestamp.getUTCMonth() + 1).padStart(2, '0')}`;
   const title = slugify(post.data.title) || 'untitled';
   return `${country}/${city}/${ym}-${title}`;
 }
@@ -31,30 +41,31 @@ export function postUrlSlug(post: Post): string {
 export function publishedPosts(all: Post[]): Post[] {
   return all
     .filter(p => !p.data.draft && isLocationResolved(p))
-    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    .sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime());
 }
 
 /** All non-draft posts, including those with unresolved location. */
 export function navigablePosts(all: Post[]): Post[] {
   return all
     .filter(p => !p.data.draft)
-    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    .sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime());
 }
 
 /** Posts whose location couldn't be resolved (need manual triage). */
 export function unresolvedPosts(all: Post[]): Post[] {
   return all
     .filter(p => !p.data.draft && !isLocationResolved(p))
-    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+    .sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime());
 }
 
 export function postsByCountry(posts: Post[]): Map<string, Post[]> {
   const map = new Map<string, Post[]>();
   for (const p of posts) {
-    const country = countrySlug(p.data.location.country);
-    const arr = map.get(country) ?? [];
-    arr.push(p);
-    map.set(country, arr);
+    for (const country of new Set(p.data.locations.filter(isLocationValueResolved).map(l => countrySlug(l.country)))) {
+      const arr = map.get(country) ?? [];
+      arr.push(p);
+      map.set(country, arr);
+    }
   }
   return map;
 }
@@ -62,20 +73,26 @@ export function postsByCountry(posts: Post[]): Map<string, Post[]> {
 export function citiesInCountry(posts: Post[], country: string): Map<string, Post[]> {
   const map = new Map<string, Post[]>();
   for (const p of posts) {
-    if (countrySlug(p.data.location.country) !== country) continue;
-    const slug = p.data.location.city_slug;
-    const arr = map.get(slug) ?? [];
-    arr.push(p);
-    map.set(slug, arr);
+    const citySlugs = new Set(p.data.locations
+      .filter(l => isLocationValueResolved(l) && countrySlug(l.country) === country)
+      .map(l => l.city_slug));
+    for (const slug of citySlugs) {
+      const arr = map.get(slug) ?? [];
+      arr.push(p);
+      map.set(slug, arr);
+    }
   }
   return map;
 }
 
 export function postsInCity(posts: Post[], country: string, city: string): Post[] {
-  return posts.filter(p =>
-    countrySlug(p.data.location.country) === country &&
-    p.data.location.city_slug === city
-  );
+  return posts.filter(p => p.data.locations.some(l =>
+    countrySlug(l.country) === country && l.city_slug === city
+  ));
+}
+
+export function locationInCity(post: Post, country: string, city: string): Location | undefined {
+  return post.data.locations.find(l => countrySlug(l.country) === country && l.city_slug === city);
 }
 
 export interface MapPin {
@@ -84,8 +101,9 @@ export interface MapPin {
   country: string;
   city: string;
   city_display: string;
-  date: string;
-  coords: [number, number];
+  location_name: string;
+  timestamp: string;
+  gps: [number, number];
 }
 
 export function parseTripFromId(id: string): { year: string; trip: string } | null {
@@ -131,12 +149,11 @@ export function postsByTrip(posts: Post[]): TripGroup[] {
   const out: TripGroup[] = [];
   for (const [key, arr] of buckets) {
     const [year, trip] = key.split('/');
-    const starts = arr.map(p => p.data.visited.start.getTime());
-    const ends = arr.map(p => p.data.visited.end.getTime());
-    const earliest = new Date(Math.min(...starts));
-    const latest = new Date(Math.max(...ends));
-    const countries = [...new Set(arr.map(p => countrySlug(p.data.location.country)))];
-    const cities = [...new Set(arr.map(p => p.data.location.city))];
+    const times = arr.map(p => p.data.timestamp.getTime());
+    const earliest = new Date(Math.min(...times));
+    const latest = new Date(Math.max(...times));
+    const countries = [...new Set(arr.flatMap(p => p.data.locations.filter(isLocationValueResolved).map(l => countrySlug(l.country))))];
+    const cities = [...new Set(arr.flatMap(p => p.data.locations.filter(isLocationValueResolved).map(l => l.city)))];
     out.push({
       year, trip, displayName: tripDisplayName(trip),
       posts: arr, earliest, latest, countries, cities,
@@ -158,15 +175,14 @@ export function postsByEvent(posts: Post[]): EventGroup[] {
 
   const out: EventGroup[] = [];
   for (const [slug, arr] of buckets) {
-    const sorted = [...arr].sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
-    const starts = sorted.map(p => p.data.visited.start.getTime());
-    const ends = sorted.map(p => p.data.visited.end.getTime());
+    const sorted = [...arr].sort((a, b) => a.data.timestamp.getTime() - b.data.timestamp.getTime());
+    const times = sorted.map(p => p.data.timestamp.getTime());
     out.push({
       slug,
       meta: eventMeta(slug),
       posts: sorted,
-      earliest: new Date(Math.min(...starts)),
-      latest: new Date(Math.max(...ends)),
+      earliest: new Date(Math.min(...times)),
+      latest: new Date(Math.max(...times)),
     });
   }
 
@@ -181,16 +197,19 @@ export function postsByEvent(posts: Post[]): EventGroup[] {
 export function mapPins(posts: Post[]): MapPin[] {
   const out: MapPin[] = [];
   for (const p of posts) {
-    if (!p.data.location.coords) continue;
-    out.push({
-      slug: postUrlSlug(p),
-      title: p.data.title,
-      country: countrySlug(p.data.location.country),
-      city: p.data.location.city_slug,
-      city_display: p.data.location.city,
-      date: p.data.date.toISOString().slice(0, 10),
-      coords: p.data.location.coords,
-    });
+    for (const location of p.data.locations) {
+      if (!location.gps || !isLocationValueResolved(location)) continue;
+      out.push({
+        slug: postUrlSlug(p),
+        title: p.data.title,
+        country: countrySlug(location.country),
+        city: location.city_slug,
+        city_display: location.city,
+        location_name: location.name,
+        timestamp: p.data.timestamp.toISOString(),
+        gps: location.gps,
+      });
+    }
   }
   return out;
 }

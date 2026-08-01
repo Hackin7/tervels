@@ -1,21 +1,16 @@
 ---
 title: "Embedded World"
 timestamp: 2026-03-09T00:00:00Z
-date: 2026-03-09
-visited:
-  start: 2026-03-09
-  end: 2026-03-11
-location:
-  name: "Nuremberg, Germany"
-  country: "Germany"
-  city: "Nuremberg"
-  city_slug: "nuremberg"
-  location_or_event: "Embedded World venue"
-  coords: [49.416511, 11.118636]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Nürnberg Messe, Nuremberg, Germany"
+locations:
+  - name: "Embedded World venue"
+    country: "Germany"
+    city: "Nuremberg"
+    city_slug: "nuremberg"
+    gps: [49.416511, 11.118636]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Nürnberg Messe, Nuremberg, Germany"
 events: ["embedded-world-2026"]
 tags: ["exchange-03-nuremburg-munich-salzburg", "germany", "nuremberg"]
 draft: false

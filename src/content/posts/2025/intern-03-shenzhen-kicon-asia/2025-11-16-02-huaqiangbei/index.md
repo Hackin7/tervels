@@ -1,17 +1,13 @@
 ---
 title: "Huaqiangbei"
 timestamp: 2025-11-16T15:30:00Z
-date: 2025-11-16
-visited:
-  start: 2025-11-16
-  end: 2025-11-16
-location:
-  name: "Huaqiangbei, Shenzhen"
-  country: "China"
-  city: "Shenzhen"
-  city_slug: "shenzhen"
-  location_or_event: "Huaqiangbei"
-  coords: [22.5431, 114.0859]
+locations:
+  - name: "Huaqiangbei"
+    country: "China"
+    city: "Shenzhen"
+    city_slug: "shenzhen"
+    gps: [22.5431, 114.0859]
+    gps_source: old-frontmatter
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

@@ -1,17 +1,13 @@
 ---
 title: "Shenzhen Overall"
 timestamp: 2025-11-16T23:00:00Z
-date: 2025-11-16
-visited:
-  start: 2025-11-16
-  end: 2025-11-16
-location:
-  name: "Shenzhen, China"
-  country: "China"
-  city: "Shenzhen"
-  city_slug: "shenzhen"
-  location_or_event: "Shenzhen trip reflection"
-  coords: [22.5431, 114.0579]
+locations:
+  - name: "Shenzhen trip reflection"
+    country: "China"
+    city: "Shenzhen"
+    city_slug: "shenzhen"
+    gps: [22.5431, 114.0579]
+    gps_source: old-frontmatter
 events: ["maker-faire-shenzhen-2025"]
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false

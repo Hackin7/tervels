@@ -1,150 +1,88 @@
 # Content Structure Spec
 
-This project stores travel notes as Markdown content and presents them through
-static Astro pages. The storage structure is organized by trip, while the public
-views are derived from note metadata.
-
-Images are intentionally out of scope for this spec. They may be stored in a
-separate repository in the future and should not define the local content model.
-
-## Storage Structure
-
-Each note is stored at:
+Travel notes are stored as Markdown under:
 
 ```text
 src/content/posts/<year>/<trip>/<note>/index.md
 ```
 
-The path parts mean:
+The path controls trip grouping only. Article chronology and place membership
+come from frontmatter.
 
-- `<year>`: the calendar year for the note or trip.
-- `<trip>`: an organizational grouping for related notes.
-- `<note>`: the individual note folder.
-- `index.md`: the Markdown note content and frontmatter metadata.
-
-The folder path is used for trip grouping. It is not the source of truth for
-country, city, or map placement.
-
-## Note Metadata
-
-Each note should include enough metadata to support chronological views, trip
-views, place views, triage, and map display.
-
-Recommended frontmatter:
+## Article metadata
 
 ```yaml
 ---
 title: "Example note"
-timestamp: 2025-07-27T14:30:00Z
-date: 2025-07-27
-visited:
-  start: 2025-07-27
-  end: 2025-07-27
-location:
-  country: "Japan"
-  city: "Kyoto"
-  city_slug: "kyoto"
-  location_or_event: "Fushimi Inari visit"
-  coords: [34.9671, 135.7727]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Fushimi Inari, Kyoto, Japan"
+timestamp: 2025-07-27T14:30:00+09:00
+locations:
+  - name: "Fushimi Inari Taisha"
+    country: "Japan"
+    city: "Kyoto"
+    city_slug: "kyoto"
+    gps: [34.9671402, 135.7726717]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Fushimi Inari Taisha, Kyoto, Japan"
+  - name: "Kyoto Station"
+    country: "Japan"
+    city: "Kyoto"
+    city_slug: "kyoto"
+    gps: [34.985849, 135.7587667]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
 events: []
 tags: []
 draft: false
 ---
 ```
 
-Field meanings:
+- `timestamp` is the single canonical article time. Keep the source timezone
+  offset when known. Sorting, display dates, URL months, and trip/event ranges
+  are derived from it.
+- `locations` is an ordered, non-empty list. The first item is the primary
+  location used for the article URL and breadcrumb. Every resolved item links
+  the article to its place page and may create a map pin.
+- `name` identifies the specific venue, landmark, route stop, or area.
+- `country`, `city`, and `city_slug` support stable place navigation.
+- `gps` is `[latitude, longitude]`, or `null` when unresolved. Latitude must be
+  between -90 and 90 and longitude between -180 and 180.
+- `gps_source` records where the values came from: `telegram`, `exif`,
+  `official`, `openstreetmap`, `manual`, or `old-frontmatter`.
+- `gps_granularity` is `building`, `venue`, `street`, `area`, or `city`.
+- `gps_confidence` is `high`, `medium`, or `low`.
+- `gps_query` records the lookup or clue used for reproducibility.
 
-- `title`: human-readable note title.
-- `timestamp`: full date and time for when the note happened or was captured.
-- `date`: date-only compatibility field used by current pages.
-- `visited.start` and `visited.end`: date range used for trip summaries.
-- `location.country`: full country name, such as `Japan`.
-- `location.city`: human-readable city name.
-- `location.city_slug`: URL-safe city identifier.
-- `location.location_or_event`: specific place, venue, event, activity, or
-  contextual label for the note.
-- `location.coords`: `[latitude, longitude]` when known, otherwise `null`.
-- `location.coord_source`: how coordinates were produced. Geocoded values
-  should distinguish building, venue, street, area, and city-level matches.
-- `location.coord_granularity`: precision label for the coordinate. Prefer
-  `building` whenever the note content identifies a specific building.
-- `location.coord_confidence`: confidence in the coordinate assignment.
-- `location.coord_query`: query or clue used to resolve the coordinate.
-- `events`: stable event slugs this note belongs to, such as
-  `defcon33-2025` or `lakectf-2026`. Leave as an empty array when the note is
-  not part of an event.
-- `tags`: optional broad labels for filtering or future views.
-- `draft`: whether the note should be hidden from public published views.
+Coordinate digits must be preserved from the source. Do not pad a coarse match
+with zeroes: decimal places represent storage precision, while granularity and
+confidence describe real-world accuracy.
 
-When coordinates are unknown, keep the field present with a null value:
+## Unresolved locations
 
 ```yaml
-location:
-  country: "Japan"
-  city: "Kyoto"
-  city_slug: "kyoto"
-  location_or_event: "Dinner near station"
-  coords: null
+locations:
+  - name: "Unknown"
+    country: "Unknown"
+    city: "Unknown"
+    city_slug: "unknown"
+    gps: null
 ```
 
-When the location itself is unresolved, use triage placeholders:
+An article whose primary location is unresolved remains available through trip
+and triage views but is excluded from published place views. A location with
+`gps: null` does not create a map pin.
 
-```yaml
-location:
-  country: "Unknown"
-  city: "Unknown"
-  city_slug: "unknown"
-  location_or_event: "Unknown"
-  coords: null
-```
+## Derived presentation
 
-## Presentation Rules
+- Trip membership comes from the storage path.
+- Event membership comes from `events`.
+- Country/city membership comes from every resolved `locations` entry, with an
+  article listed only once per city even if it has several stops there.
+- Trip and event ranges are the minimum and maximum article timestamps.
+- Public article URLs use the primary location, timestamp month, and title.
+- The map emits one pin per resolved location with GPS.
 
-Trip views are derived from the storage path:
-
-```text
-src/content/posts/<year>/<trip>/<note>/index.md
-```
-
-Place views are derived from frontmatter:
-
-- `location.country`
-- `location.city`
-- `location.city_slug`
-
-Event views are derived from frontmatter:
-
-- `events`
-
-Event slugs should include the year, so repeat attendance can be represented
-without ambiguity. Display names, years, and optional locations are resolved
-from the site event catalog.
-
-Individual note URLs are generated from the note's country, city, date, and
-title. The trip folder is not part of the public note URL.
-
-Map pins require real coordinates. Notes with `location.coords: null` can still
-appear in trip and place views, but they should not appear on the map.
-
-Notes with unresolved country or city metadata should remain in triage-only
-views until the metadata is corrected.
-
-## Current Compatibility
-
-The current Astro implementation already supports the year/trip/note storage
-layout, country and city based place views, trip grouping from folder paths, and
-map pins from coordinates.
-
-The current implementation uses `date` as the primary date field. This spec
-introduces `timestamp` as the intended full date-time field while keeping `date`
-for compatibility with existing pages.
-
-The current implementation supports optional coordinates. This spec standardizes
-unknown coordinates as `coords: null`.
-
-The current implementation does not yet require `location.location_or_event`.
-Future schema and importer updates should add it as part of the note metadata.
+The deprecated `date`, `visited`, singular `location`, and `coords` fields must
+not be added to article frontmatter.

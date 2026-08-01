@@ -1,15 +1,34 @@
 ---
 title: "Zurich Again"
-date: 2026-05-08
-visited:
-  start: 2026-05-08
-  end: 2026-05-08
-location:
-  name: "Zurich"
-  country: "CH"
-  city: "Zurich"
-  city_slug: "zurich"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-05-08T00:00:00Z
+locations:
+  - name: "Lake Zurich waterfront at Bürkliplatz"
+    country: "Switzerland"
+    city: "Zurich"
+    city_slug: "zurich"
+    gps: [47.3664982, 8.5407654]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: "Burkliplatz, Zurich, Switzerland"
+  - name: "Botanical Garden of the University of Zurich"
+    country: "Switzerland"
+    city: "Zurich"
+    city_slug: "zurich"
+    gps: [47.3586111, 8.5611111]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Botanical Garden University of Zurich, Zollikerstrasse 107"
+  - name: "Glatt shopping centre"
+    country: "Switzerland"
+    city: "Wallisellen"
+    city_slug: "wallisellen"
+    gps: [47.4082484, 8.5955698]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Glattzentrum, Wallisellen, Switzerland"
 source:
   kind: telegram
   message_id: 7373

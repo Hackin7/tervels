@@ -1,17 +1,13 @@
 ---
 title: "The China Hi-Tech Fair"
 timestamp: 2025-11-16T10:00:00Z
-date: 2025-11-16
-visited:
-  start: 2025-11-16
-  end: 2025-11-16
-location:
-  name: "Shenzhen World Exhibition & Convention Center(Bao'an)"
-  country: "China"
-  city: "Shenzhen"
-  city_slug: "shenzhen"
-  location_or_event: "China Hi-Tech Fair"
-  coords: [22.699821866669478, 113.769670135582]
+locations:
+  - name: "China Hi-Tech Fair"
+    country: "China"
+    city: "Shenzhen"
+    city_slug: "shenzhen"
+    gps: [22.699821866669478, 113.769670135582]
+    gps_source: old-frontmatter
 events: ["maker-faire-shenzhen-2025"]
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false

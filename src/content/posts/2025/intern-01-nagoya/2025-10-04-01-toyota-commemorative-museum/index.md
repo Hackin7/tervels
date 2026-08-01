@@ -1,20 +1,16 @@
 ---
 title: "Toyota Commemorative Museum of Industry and Technology"
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Toyota Commemorative Museum of Industry and Technology, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Toyota Commemorative Museum of Industry and Technology"
-  coords: [35.182641, 136.87579]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Toyota Commemorative Museum of Industry and Technology, Nagoya, Japan"
+timestamp: 2025-10-04T00:00:00Z
+locations:
+  - name: "Toyota Commemorative Museum of Industry and Technology"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.182641, 136.87579]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Toyota Commemorative Museum of Industry and Technology, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

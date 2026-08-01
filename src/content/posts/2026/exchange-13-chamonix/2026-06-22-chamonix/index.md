@@ -1,15 +1,34 @@
 ---
 title: "Chamonix"
 timestamp: 2026-06-22T00:00:00Z
-date: 2026-06-22
-visited:
-  start: 2026-06-22
-  end: 2026-06-22
-location:
-  name: "Chamonix"
-  country: "FR"
-  city: "chamonix"
-  city_slug: "chamonix"
+locations:
+  - name: "Aiguille du Midi"
+    country: "France"
+    city: "Chamonix-Mont-Blanc"
+    city_slug: "chamonix-mont-blanc"
+    gps: [45.8787035, 6.8875506]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Aiguille du Midi, Chamonix, France"
+  - name: "Montenvers — Mer de Glace station"
+    country: "France"
+    city: "Chamonix-Mont-Blanc"
+    city_slug: "chamonix-mont-blanc"
+    gps: [45.9317275, 6.9174169]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Montenvers railway station, Chamonix, France"
+  - name: "Mer de Glace"
+    country: "France"
+    city: "Chamonix-Mont-Blanc"
+    city_slug: "chamonix-mont-blanc"
+    gps: [45.9136531, 6.9386736]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Mer de Glace, Chamonix, France"
 ---
 
 Chamonix was really really fun, talked and yapped to the other exchangers 

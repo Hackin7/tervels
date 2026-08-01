@@ -1,20 +1,16 @@
 ---
 title: "Vatican City"
-date: 2026-05-14
-visited:
-  start: 2026-05-14
-  end: 2026-05-14
-location:
-  name: "Vatican City"
-  country: "Vatican City"
-  city: "Vatican City"
-  city_slug: "vatican-city"
-  location_or_event: "St. Peter's Square"
-  coords: [41.902916, 12.453389]
-  coord_source: manual
-  coord_granularity: city
-  coord_confidence: high
-  coord_query: "Vatican City"
+timestamp: 2026-05-14T00:00:00Z
+locations:
+  - name: "St. Peter's Square"
+    country: "Vatican City"
+    city: "Vatican City"
+    city_slug: "vatican-city"
+    gps: [41.902916, 12.453389]
+    gps_source: manual
+    gps_granularity: city
+    gps_confidence: high
+    gps_query: "Vatican City"
 source:
   kind: telegram
   message_id: 7954

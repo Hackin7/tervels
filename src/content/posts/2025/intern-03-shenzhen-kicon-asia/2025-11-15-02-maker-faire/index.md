@@ -1,21 +1,16 @@
 ---
 title: "Maker Fair Shenzhen"
 timestamp: 2025-11-15T12:00:00Z
-date: 2025-11-15
-visited:
-  start: 2025-11-15
-  end: 2025-11-15
-location:
-  name: "Shenzhen, China"
-  country: "China"
-  city: "Shenzhen"
-  city_slug: "shenzhen"
-  location_or_event: "Hotel / Maker Faire return"
-  coords: [22.576868, 113.938783]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: medium
-  coord_query: "Vanke Design Commune / Vanke Cloud City, Shenzhen, China"
+locations:
+  - name: "Hotel / Maker Faire return"
+    country: "China"
+    city: "Shenzhen"
+    city_slug: "shenzhen"
+    gps: [22.576868, 113.938783]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: medium
+    gps_query: "Vanke Design Commune / Vanke Cloud City, Shenzhen, China"
 events: ["maker-faire-shenzhen-2025"]
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false

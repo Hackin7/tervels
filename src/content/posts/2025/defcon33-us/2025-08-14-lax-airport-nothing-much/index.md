@@ -1,21 +1,16 @@
 ---
 title: "LAX Airport Nothing much but it"
 timestamp: 2025-08-14T00:00:00Z
-date: 2025-08-14
-visited:
-  start: 2025-08-14
-  end: 2025-08-14
-location:
-  name: "Los Angeles, United States"
-  country: "United States"
-  city: "Los Angeles"
-  city_slug: "los-angeles"
-  location_or_event: "LAX Airport"
-  coords: [33.942167, -118.421359]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Los Angeles International Airport, Los Angeles, United States"
+locations:
+  - name: "LAX Airport"
+    country: "United States"
+    city: "Los Angeles"
+    city_slug: "los-angeles"
+    gps: [33.942167, -118.421359]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Los Angeles International Airport, Los Angeles, United States"
 tags: ["defcon33-us", "united-states", "los-angeles"]
 draft: false
 source:

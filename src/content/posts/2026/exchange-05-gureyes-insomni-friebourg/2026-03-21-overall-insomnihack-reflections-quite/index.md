@@ -1,15 +1,13 @@
 ---
 title: "**Overall Insomnihack Reflections** I was quite"
-date: 2026-03-21
-visited:
-  start: 2026-03-19
-  end: 2026-03-21
-location:
-  name: "Lausanne, Switzerland"
-  country: "CH"
-  city: "Lausanne"
-  city_slug: "lausanne"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-03-21T00:00:00Z
+locations:
+  - name: "Lausanne, Switzerland"
+    country: "CH"
+    city: "Lausanne"
+    city_slug: "lausanne"
+    gps: [46.5197, 6.6323]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 5870

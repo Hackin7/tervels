@@ -133,7 +133,7 @@ export function nestedScalar(frontmatter, parent, key) {
   if (start === -1) return null;
   for (let i = start + 1; i < lines.length; i++) {
     if (/^\S/.test(lines[i])) break;
-    const match = lines[i].match(new RegExp(`^\\s+${escapeRegExp(key)}:\\s*(.*)$`));
+    const match = lines[i].match(new RegExp(`^\\s+(?:-\\s+)?${escapeRegExp(key)}:\\s*(.*)$`));
     if (match) return parseScalar(match[1].trim());
   }
   return null;
@@ -148,11 +148,11 @@ export function parsePost(text, path) {
     frontmatter,
     body,
     title: scalar(frontmatter, 'title') ?? '',
-    date: scalar(frontmatter, 'date') ?? '',
-    country: nestedScalar(frontmatter, 'location', 'country') ?? 'Unknown',
-    city: nestedScalar(frontmatter, 'location', 'city') ?? 'Unknown',
-    locationOrEvent: nestedScalar(frontmatter, 'location', 'location_or_event') ?? 'Unknown',
-    coordsRaw: nestedScalar(frontmatter, 'location', 'coords'),
+    timestamp: scalar(frontmatter, 'timestamp') ?? '',
+    country: nestedScalar(frontmatter, 'locations', 'country') ?? 'Unknown',
+    city: nestedScalar(frontmatter, 'locations', 'city') ?? 'Unknown',
+    locationOrEvent: nestedScalar(frontmatter, 'locations', 'name') ?? 'Unknown',
+    gpsRaw: nestedScalar(frontmatter, 'locations', 'gps'),
   };
 }
 
@@ -218,13 +218,13 @@ export class ForwardGeocoder {
 }
 
 export async function resolvePost(post, geocoder, { overwrite = false } = {}) {
-  if (!overwrite && post.coordsRaw && post.coordsRaw !== 'null') return { status: 'skipped-existing' };
+  if (!overwrite && post.gpsRaw && post.gpsRaw !== 'null') return { status: 'skipped-existing' };
   const override = coordOverride(post.locationOrEvent) ?? coordOverride(post.title);
   if (override) {
     return {
       status: 'resolved',
       candidate: { query: override.query, granularity: override.granularity, confidence: override.confidence, reason: 'coord-override' },
-      coords: override.coords,
+      gps: override.coords,
       displayName: override.displayName,
       source: 'manual',
       granularity: override.granularity,
@@ -239,7 +239,7 @@ export async function resolvePost(post, geocoder, { overwrite = false } = {}) {
     return {
       status: 'resolved',
       candidate,
-      coords: [roundCoord(Number(result.lat)), roundCoord(Number(result.lon))],
+      gps: [Number(result.lat), Number(result.lon)],
       displayName: result.display_name,
       source: sourceFor(candidate.granularity),
       granularity: candidate.granularity,
@@ -253,28 +253,39 @@ export function updatePostFrontmatter(post, resolution) {
   if (resolution.status !== 'resolved') return post.text;
   const lines = post.frontmatter.split('\n');
   const out = [];
-  let inLocation = false;
-  let wroteCoords = false;
+  let inLocations = false;
+  let inFirstLocation = false;
+  let wroteGps = false;
 
   for (const line of lines) {
-    if (line === 'location:') {
-      inLocation = true;
+    if (line === 'locations:') {
+      inLocations = true;
       out.push(line);
       continue;
     }
-    if (inLocation && /^\S/.test(line)) {
-      if (!wroteCoords) out.push(...coordLines(resolution));
-      inLocation = false;
+    if (inLocations && /^  - /.test(line)) {
+      if (!inFirstLocation) {
+        inFirstLocation = true;
+      } else {
+        if (!wroteGps) out.push(...gpsLines(resolution));
+        inLocations = false;
+        inFirstLocation = false;
+      }
     }
-    if (inLocation && /^\s+coord_(source|granularity|confidence|query):/.test(line)) continue;
-    if (inLocation && /^\s+coords:/.test(line)) {
-      out.push(...coordLines(resolution));
-      wroteCoords = true;
+    if (inLocations && inFirstLocation && /^\s+gps_(source|granularity|confidence|query):/.test(line)) continue;
+    if (inLocations && inFirstLocation && /^\s+gps:/.test(line)) {
+      out.push(...gpsLines(resolution));
+      wroteGps = true;
       continue;
+    }
+    if (inLocations && /^\S/.test(line)) {
+      if (!wroteGps) out.push(...gpsLines(resolution));
+      inLocations = false;
+      inFirstLocation = false;
     }
     out.push(line);
   }
-  if (inLocation && !wroteCoords) out.push(...coordLines(resolution));
+  if (inLocations && !wroteGps) out.push(...gpsLines(resolution));
   const nextFrontmatter = out.join('\n');
   return post.text.replace(post.fullMatch, `---\n${nextFrontmatter}\n---\n`);
 }
@@ -286,7 +297,7 @@ export function renderReport({ resolved, skipped, unresolved }) {
     '# Coordinate Enrichment Report',
     '',
     `- Resolved posts: ${resolved.length}`,
-    `- Skipped existing coords: ${skipped.length}`,
+    `- Skipped existing GPS: ${skipped.length}`,
     `- Unresolved posts: ${unresolved.length}`,
     '',
     '## Resolved By Granularity',
@@ -354,24 +365,18 @@ function pickResult(results, post) {
   }) ?? null;
 }
 
-function coordLines(resolution) {
+function gpsLines(resolution) {
   return [
-    `  coords: [${resolution.coords[0]}, ${resolution.coords[1]}]`,
-    `  coord_source: ${resolution.source}`,
-    `  coord_granularity: ${resolution.granularity}`,
-    `  coord_confidence: ${resolution.confidence}`,
-    `  coord_query: ${JSON.stringify(resolution.candidate.query)}`,
+    `    gps: [${resolution.gps[0]}, ${resolution.gps[1]}]`,
+    `    gps_source: ${resolution.source}`,
+    `    gps_granularity: ${resolution.granularity}`,
+    `    gps_confidence: ${resolution.confidence}`,
+    `    gps_query: ${JSON.stringify(resolution.candidate.query)}`,
   ];
 }
 
-function sourceFor(granularity) {
-  return {
-    building: 'geocoded-building',
-    venue: 'geocoded-venue',
-    street: 'geocoded-street',
-    area: 'geocoded-area',
-    city: 'geocoded-city',
-  }[granularity] ?? 'geocoded-area';
+function sourceFor() {
+  return 'openstreetmap';
 }
 
 function isVagueLocation(text) {
@@ -388,10 +393,6 @@ function parseScalar(value) {
 
 function normalizeQuery(value) {
   return String(value ?? '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
-}
-
-function roundCoord(value) {
-  return Number(value.toFixed(6));
 }
 
 function countBy(items, keyFn) {

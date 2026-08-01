@@ -65,23 +65,23 @@ for (const group of groups) {
   const tgLoc = group.messages.find(m => m.location_information)?.location_information;
   const photos = group.messages.map(m => m.photo).filter(Boolean);
 
-  const coords = tgLoc
-    ? [tgLoc.latitude, tgLoc.longitude]
-    : await firstExifGps(photos);
+  const exifGps = tgLoc ? null : await firstExifGps(photos);
+  const gps = tgLoc ? [tgLoc.latitude, tgLoc.longitude] : exifGps;
+  const gpsSource = tgLoc ? 'telegram' : exifGps ? 'exif' : null;
 
   let country = null, cityDisplay = null, citySlug = null, locName = null;
-  if (coords && !DRY && !NO_GEOCODE) {
+  if (gps && !DRY && !NO_GEOCODE) {
     try {
-      const g = await geo.reverse(coords[0], coords[1]);
+      const g = await geo.reverse(gps[0], gps[1]);
       country = g.country;
       cityDisplay = g.city;
       citySlug = cityDisplay ? slugify(cityDisplay, 4) : null;
       locName = [cityDisplay, country?.toUpperCase()].filter(Boolean).join(', ');
     } catch (e) {
-      console.warn('geocode failed for', coords, e.message);
+      console.warn('geocode failed for', gps, e.message);
     }
   }
-  if (coords && DRY) report.coordsSeen = (report.coordsSeen ?? 0) + 1;
+  if (gps && DRY) report.coordsSeen = (report.coordsSeen ?? 0) + 1;
 
   const messageId = group.messages[0].id;
   const title = firstTextLine(text) ?? hashtags[0] ?? `Untitled ${messageId}`;
@@ -111,7 +111,7 @@ for (const group of groups) {
     }
     const fm = buildFrontmatter({
       title,
-      eff, country, cityDisplay, citySlug, locName, coords, cover,
+      eff, country, cityDisplay, citySlug, locName, gps, gpsSource, cover,
       hashtags, messageId, basis: eff.basis,
     });
     await writeFile(join(baseDir, 'index.md'), `${fm}\n${text}\n`);
@@ -203,22 +203,19 @@ async function dirHasMessageId(dir, id) {
   const txt = await readFile(idx, 'utf8');
   return txt.includes(`message_id: ${id}`);
 }
-function buildFrontmatter({ title, eff, country, cityDisplay, citySlug, locName, coords, cover, hashtags, messageId, basis }) {
-  const visit = eff.date.toISOString().slice(0, 10);
+function buildFrontmatter({ title, eff, country, cityDisplay, citySlug, locName, gps, gpsSource, cover, hashtags, messageId, basis }) {
   const lines = [
     '---',
     `title: ${JSON.stringify(title || 'Untitled')}`,
-    `date: ${visit}`,
-    'visited:',
-    `  start: ${visit}`,
-    `  end: ${visit}`,
-    'location:',
-    `  name: ${JSON.stringify(locName || 'Unknown')}`,
-    `  country: ${JSON.stringify((country || 'XX').toUpperCase())}`,
-    `  city: ${JSON.stringify(cityDisplay || 'Unknown')}`,
-    `  city_slug: ${JSON.stringify(citySlug || 'unknown')}`,
+    `timestamp: ${eff.date.toISOString()}`,
+    'locations:',
+    `  - name: ${JSON.stringify(locName || 'Unknown')}`,
+    `    country: ${JSON.stringify((country || 'XX').toUpperCase())}`,
+    `    city: ${JSON.stringify(cityDisplay || 'Unknown')}`,
+    `    city_slug: ${JSON.stringify(citySlug || 'unknown')}`,
+    `    gps: ${gps ? `[${gps[0]}, ${gps[1]}]` : 'null'}`,
   ];
-  if (coords) lines.push(`  coords: [${coords[0]}, ${coords[1]}]`);
+  if (gpsSource) lines.push(`    gps_source: ${gpsSource}`);
   if (cover) lines.push(`cover: ${JSON.stringify(cover)}`);
   if (hashtags.length) lines.push(`tags: [${hashtags.map(t => JSON.stringify(t)).join(', ')}]`);
   lines.push('source:');

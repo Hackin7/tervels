@@ -1,21 +1,16 @@
 ---
 title: "Flight to LA"
 timestamp: 2025-08-05T00:00:00Z
-date: 2025-08-05
-visited:
-  start: 2025-08-05
-  end: 2025-08-05
-location:
-  name: "Los Angeles"
-  country: "United States"
-  city: "Los Angeles"
-  city_slug: "los-angeles"
-  location_or_event: "Flight to Los Angeles"
-  coords: [34.0522342, -118.2436849]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: medium
-  coord_query: "Los Angeles, California, United States"
+locations:
+  - name: "Flight to Los Angeles"
+    country: "United States"
+    city: "Los Angeles"
+    city_slug: "los-angeles"
+    gps: [34.0522342, -118.2436849]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: medium
+    gps_query: "Los Angeles, California, United States"
 tags: ["defcon33-us", "united-states", "los-angeles"]
 draft: false
 source:

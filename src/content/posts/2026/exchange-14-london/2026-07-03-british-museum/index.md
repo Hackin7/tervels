@@ -1,14 +1,16 @@
 ---
 title: "Things I saw at the British Museum"
-date: 2026-07-03
-visited:
-  start: 2026-07-03
-  end: 2026-07-03
-location:
-  name: "London"
-  country: "United Kingdom"
-  city: "London"
-  city_slug: "london"
+timestamp: 2026-07-03T00:00:00Z
+locations:
+  - name: "British Museum"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5193118, -0.1267051]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "British Museum, London, United Kingdom"
 ---
 Things I saw at the British Museum
 1. Artefacts by various British explorers all over the World, how they link up

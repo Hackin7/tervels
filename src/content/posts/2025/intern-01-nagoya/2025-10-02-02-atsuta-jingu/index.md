@@ -1,21 +1,16 @@
 ---
 title: "Atsuta Jingu"
 timestamp: 2025-10-02T00:00:00Z
-date: 2025-10-02
-visited:
-  start: 2025-10-02
-  end: 2025-10-02
-location:
-  name: "Atsuta Jingu, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Atsuta Jingu"
-  coords: [35.125431, 136.909254]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Atsuta Jingu, Nagoya, Japan"
+locations:
+  - name: "Atsuta Jingu"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.125431, 136.909254]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Atsuta Jingu, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

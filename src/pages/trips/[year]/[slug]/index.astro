@@ -22,7 +22,7 @@ function fmtDateRange(start: Date, end: Date): string {
   return s === e ? s : `${s} – ${e}`;
 }
 
-const sortedPosts = [...trip.posts].sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+const sortedPosts = [...trip.posts].sort((a, b) => a.data.timestamp.getTime() - b.data.timestamp.getTime());
 const resolvedCountries = trip.countries.filter((c: string) => c !== 'xx' && c !== 'unknown');
 const resolvedCities = trip.cities.filter((c: string) => c !== 'Unknown');
 const unresolvedCount = trip.posts.filter((p: any) => !isLocationResolved(p)).length;

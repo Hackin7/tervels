@@ -1,21 +1,16 @@
 ---
 title: "Vegas Loop Tbh just a bunch"
 timestamp: 2025-08-11T00:00:00Z
-date: 2025-08-11
-visited:
-  start: 2025-08-11
-  end: 2025-08-11
-location:
-  name: "Las Vegas, United States"
-  country: "United States"
-  city: "Las Vegas"
-  city_slug: "las-vegas"
-  location_or_event: "Vegas Loop"
-  coords: [36.131012, -115.148752]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: medium
-  coord_query: "Las Vegas Convention Center Loop, Las Vegas, United States"
+locations:
+  - name: "Vegas Loop"
+    country: "United States"
+    city: "Las Vegas"
+    city_slug: "las-vegas"
+    gps: [36.131012, -115.148752]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: medium
+    gps_query: "Las Vegas Convention Center Loop, Las Vegas, United States"
 tags: ["defcon33-us", "united-states", "las-vegas"]
 draft: false
 source:

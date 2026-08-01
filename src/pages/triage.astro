@@ -25,9 +25,9 @@ const tripKeys = [...byTrip.keys()].sort();
   </p>
   <p class="muted" style="font-size:0.9rem;">
     To resolve a post, open its <code>index.md</code>, set
-    <code>location.country</code> (e.g. <code>JP</code>),
-    <code>location.city</code> (display name), and
-    <code>location.city_slug</code> (lowercase). Ideally add <code>coords: [lat, lng]</code> too so it pins on the map.
+    <code>locations[0].country</code> (e.g. <code>JP</code>),
+    <code>locations[0].city</code> (display name), and
+    <code>locations[0].city_slug</code> (lowercase). Ideally add <code>gps: [lat, lng]</code> too so it pins on the map.
   </p>
   {tripKeys.map(key => {
     const tripPosts = byTrip.get(key)!;
@@ -38,7 +38,7 @@ const tripKeys = [...byTrip.keys()].sort();
           {tripPosts.map(p => (
             <li style="padding:0.5rem 0.75rem; background:white; border:1px solid var(--border); border-radius:6px; display:flex; justify-content:space-between; gap:1rem; align-items:center;">
               <a href={`${base}/posts/${postUrlSlug(p)}`} style="flex:1;">{p.data.title}</a>
-              <span class="muted" style="font-size:0.8rem; white-space:nowrap;">{p.data.date.toISOString().slice(0, 10)}</span>
+              <span class="muted" style="font-size:0.8rem; white-space:nowrap;">{p.data.timestamp.toISOString().slice(0, 10)}</span>
               <code style="font-size:0.75rem; color:var(--muted); white-space:nowrap;">{p.id}</code>
             </li>
           ))}

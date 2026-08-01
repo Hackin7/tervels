@@ -1,20 +1,16 @@
 ---
 title: "Doge Palace"
-date: 2026-05-13
-visited:
-  start: 2026-05-13
-  end: 2026-05-13
-location:
-  name: "Doge Palace"
-  country: "Italy"
-  city: "Venice"
-  city_slug: "venice"
-  location_or_event: "Doge Palace"
-  coords: [45.433704, 12.340389]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Doge Palace, Venice, Italy"
+timestamp: 2026-05-13T00:00:00Z
+locations:
+  - name: "Doge Palace"
+    country: "Italy"
+    city: "Venice"
+    city_slug: "venice"
+    gps: [45.433704, 12.340389]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Doge Palace, Venice, Italy"
 source:
   kind: telegram
   message_id: 7713

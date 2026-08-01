@@ -1,15 +1,13 @@
 ---
 title: "Afterwards is mainly exploring the arcade"
-date: 2025-10-02
-visited:
-  start: 2025-10-02
-  end: 2025-10-02
-location:
-  name: "Arcades (eg. Taito Arcade)"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  coords: [35.16024616997928, 136.90508851932435]
+timestamp: 2025-10-02T00:00:00Z
+locations:
+  - name: "Arcades (eg. Taito Arcade)"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.16024616997928, 136.90508851932435]
+    gps_source: old-frontmatter
 ---
 Afterwards is mainly exploring the arcade
 

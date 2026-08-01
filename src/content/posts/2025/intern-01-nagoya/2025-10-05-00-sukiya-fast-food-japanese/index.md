@@ -1,15 +1,13 @@
 ---
 title: "Sukiya Fast Food Japanese Breakfast 690"
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Sukiya"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  coords: [35.18657545227711, 136.87404207954413]
+timestamp: 2025-10-04T00:00:00Z
+locations:
+  - name: "Sukiya"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.18657545227711, 136.87404207954413]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 1281

@@ -48,9 +48,10 @@ describe('import-telegram CLI', () => {
     expect(existsSync(fetchMarker)).toBe(false);
     const postPath = await findIndexMd(join(outDir, '2026/_unsorted'));
     const post = await readFile(postPath, 'utf8');
-    expect(post).toContain('  coords: [52.52, 13.405]');
-    expect(post).toContain('  country: "XX"');
-    expect(post).toContain('  city: "Unknown"');
+    expect(post).toContain('    gps: [52.52, 13.405]');
+    expect(post).toContain('    gps_source: telegram');
+    expect(post).toContain('    country: "XX"');
+    expect(post).toContain('    city: "Unknown"');
   });
 
   it('uses year-month-day in generated post folder names', async () => {

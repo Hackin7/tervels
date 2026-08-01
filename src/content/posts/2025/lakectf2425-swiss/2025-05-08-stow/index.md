@@ -1,21 +1,16 @@
 ---
 title: "LakeCTF 2024/25 SToW Writeup"
 timestamp: 2025-05-08T00:00:00Z
-date: 2025-05-29
-visited:
-  start: 2025-05-08
-  end: 2025-05-08
-location:
-  name: "Lausanne, Switzerland"
-  country: "Switzerland"
-  city: "Lausanne"
-  city_slug: "lausanne"
-  location_or_event: "EPFL campus"
-  coords: [46.519124, 6.566757]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "EPFL campus, Lausanne, Switzerland"
+locations:
+  - name: "EPFL campus"
+    country: "Switzerland"
+    city: "Lausanne"
+    city_slug: "lausanne"
+    gps: [46.519124, 6.566757]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "EPFL campus, Lausanne, Switzerland"
 tags: ["lakectf2425-swiss", "switzerland", "lausanne"]
 draft: false
 ---

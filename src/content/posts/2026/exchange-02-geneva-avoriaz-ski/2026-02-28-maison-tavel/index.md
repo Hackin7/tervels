@@ -1,21 +1,16 @@
 ---
 title: "Maison Tavel"
 timestamp: 2026-02-28T00:00:00Z
-date: 2026-02-28
-visited:
-  start: 2026-02-28
-  end: 2026-02-28
-location:
-  name: "Geneva, Switzerland"
-  country: "Switzerland"
-  city: "Geneva"
-  city_slug: "geneva"
-  location_or_event: "Maison Tavel"
-  coords: [46.201512, 6.146995]
-  coord_source: geocoded-building
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Maison Tavel, Geneva, Switzerland"
+locations:
+  - name: "Maison Tavel"
+    country: "Switzerland"
+    city: "Geneva"
+    city_slug: "geneva"
+    gps: [46.201512, 6.146995]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Maison Tavel, Geneva, Switzerland"
 tags: ["exchange-02-geneva-france-ski-trip-1", "switzerland", "geneva"]
 draft: false
 source:

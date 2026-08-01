@@ -1,17 +1,13 @@
 ---
 title: "Nagoya Arcade"
 timestamp: 2025-10-04T00:00:00Z
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Game Box Q3"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Nagoya Arcade"
-  coords: [35.17348597459894, 136.8765787134443]
+locations:
+  - name: "Nagoya Arcade"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.17348597459894, 136.8765787134443]
+    gps_source: old-frontmatter
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

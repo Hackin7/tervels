@@ -1,15 +1,16 @@
 ---
 title: "Zurich - Google Office Visit"
-date: 2026-05-08
-visited:
-  start: 2026-05-08
-  end: 2026-05-08
-location:
-  name: "Zurich"
-  country: "CH"
-  city: "Zurich"
-  city_slug: "zurich"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-05-08T00:00:00Z
+locations:
+  - name: "Google Zurich office (Brandschenkestrasse 110)"
+    country: "Switzerland"
+    city: "Zurich"
+    city_slug: "zurich"
+    gps: [47.3656492, 8.5248522]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Google, Brandschenkestrasse 110, Zurich, Switzerland"
 ---
 
 Google Zurich Office Visit.

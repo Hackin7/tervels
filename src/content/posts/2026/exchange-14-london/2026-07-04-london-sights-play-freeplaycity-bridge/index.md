@@ -1,14 +1,61 @@
 ---
 title: "London Day 4: Sights, Play, FreePlayCity, Bridge"
-date: 2026-07-05
-visited:
-  start: 2026-07-05
-  end: 2026-07-05
-location:
-  name: "London"
-  country: "United Kingdom"
-  city: "London"
-  city_slug: "london"
+timestamp: 2026-07-05T00:00:00Z
+locations:
+  - name: "Buckingham Palace"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5008349, -0.1430045]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Buckingham Palace, London"
+  - name: "St James's Park"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5031295, -0.133165]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "St James's Park, London"
+  - name: "Big Ben"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5007042, -0.1245721]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Big Ben, London"
+  - name: "Westminster Abbey"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.499399, -0.127391]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Westminster Abbey, London"
+  - name: "FreePlayCity"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5754113, -0.0877368]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "FreePlayCity, London"
+  - name: "London Bridge"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.508049, -0.0876715]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "London Bridge, London"
 ---
 
 # Tourist spots

@@ -1,21 +1,16 @@
 ---
 title: "Chubu Centrair International Airport"
 timestamp: 2025-10-02T00:00:00Z
-date: 2025-10-02
-visited:
-  start: 2025-10-02
-  end: 2025-10-02
-location:
-  name: "Chubu Centrair International Airport, Japan"
-  country: "Japan"
-  city: "Tokoname"
-  city_slug: "tokoname"
-  location_or_event: "Chubu Centrair International Airport"
-  coords: [34.858414, 136.805408]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Chubu Centrair International Airport, Tokoname, Japan"
+locations:
+  - name: "Chubu Centrair International Airport"
+    country: "Japan"
+    city: "Tokoname"
+    city_slug: "tokoname"
+    gps: [34.858414, 136.805408]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Chubu Centrair International Airport, Tokoname, Japan"
 tags: ["intern-01-nagoya", "japan", "tokoname"]
 draft: false
 source:

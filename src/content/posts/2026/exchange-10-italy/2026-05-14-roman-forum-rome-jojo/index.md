@@ -1,20 +1,16 @@
 ---
 title: "Roman Forum"
-date: 2026-05-14
-visited:
-  start: 2026-05-14
-  end: 2026-05-14
-location:
-  name: "Roman Forum"
-  country: "Italy"
-  city: "Rome"
-  city_slug: "rome"
-  location_or_event: "Roman Forum"
-  coords: [41.892462, 12.485325]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Roman Forum, Rome, Italy"
+timestamp: 2026-05-14T00:00:00Z
+locations:
+  - name: "Roman Forum"
+    country: "Italy"
+    city: "Rome"
+    city_slug: "rome"
+    gps: [41.892462, 12.485325]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Roman Forum, Rome, Italy"
 source:
   kind: telegram
   message_id: 8024

@@ -1,21 +1,16 @@
 ---
 title: "Walking around Salzburg"
 timestamp: 2026-03-12T00:00:00Z
-date: 2026-03-12
-visited:
-  start: 2026-03-12
-  end: 2026-03-12
-location:
-  name: "Salzburg, Austria"
-  country: "Austria"
-  city: "Salzburg"
-  city_slug: "salzburg"
-  location_or_event: "Salzburg old town walking route"
-  coords: [47.798135, 13.046481]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: low
-  coord_query: "Salzburg, Austria"
+locations:
+  - name: "Salzburg old town walking route"
+    country: "Austria"
+    city: "Salzburg"
+    city_slug: "salzburg"
+    gps: [47.798135, 13.046481]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: low
+    gps_query: "Salzburg, Austria"
 tags: ["exchange-03-nuremburg-munich-salzburg", "austria", "salzburg"]
 draft: false
 ---

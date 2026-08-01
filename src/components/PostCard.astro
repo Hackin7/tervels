@@ -1,14 +1,15 @@
 ---
 import type { Post } from '../lib/aggregates';
-import { postUrlSlug, isLocationResolved } from '../lib/aggregates';
+import { postUrlSlug, isLocationResolved, primaryLocation } from '../lib/aggregates';
 import CountryFlag from './CountryFlag.astro';
 import { Image } from 'astro:assets';
 interface Props { post: Post; }
 const { post } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const href = `${base}/posts/${postUrlSlug(post)}`;
-const dateStr = post.data.date.toISOString().slice(0, 10);
+const dateStr = post.data.timestamp.toISOString().slice(0, 10);
 const resolved = isLocationResolved(post);
+const location = primaryLocation(post);
 ---
 <a href={href} class="card" style="display:block; color:inherit; text-decoration:none;">
   {post.data.cover && (
@@ -24,7 +25,7 @@ const resolved = isLocationResolved(post);
   </h3>
   <p class="muted" style="margin:0;">
     {resolved ? (
-      <><CountryFlag code={post.data.location.country} /> {post.data.location.city} · {dateStr}</>
+      <><CountryFlag code={location.country} /> {location.city} · {dateStr}</>
     ) : (
       <>{dateStr}</>
     )}

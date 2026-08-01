@@ -1,21 +1,16 @@
 ---
 title: "Munich Day Trip with Andreus"
 timestamp: 2026-03-12T00:00:00Z
-date: 2026-03-12
-visited:
-  start: 2026-03-12
-  end: 2026-03-12
-location:
-  name: "Munich, Germany"
-  country: "Germany"
-  city: "Munich"
-  city_slug: "munich"
-  location_or_event: "BMW Museum"
-  coords: [48.176903, 11.559069]
-  coord_source: geocoded-building
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "BMW Museum, Munich, Germany"
+locations:
+  - name: "BMW Museum"
+    country: "Germany"
+    city: "Munich"
+    city_slug: "munich"
+    gps: [48.176903, 11.559069]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "BMW Museum, Munich, Germany"
 tags: ["exchange-03-nuremburg-munich-salzburg", "germany", "munich"]
 draft: false
 source:

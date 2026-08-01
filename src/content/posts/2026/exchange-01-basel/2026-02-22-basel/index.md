@@ -1,21 +1,16 @@
 ---
 title: "Basel"
 timestamp: 2026-02-22T00:00:00Z
-date: 2026-02-22
-visited:
-  start: 2026-02-22
-  end: 2026-02-22
-location:
-  name: "Basel, Switzerland"
-  country: "Switzerland"
-  city: "Basel"
-  city_slug: "basel"
-  location_or_event: "Basel streets / Rhine crossing"
-  coords: [47.558108, 7.587826]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: low
-  coord_query: "Basel, Switzerland"
+locations:
+  - name: "Basel streets / Rhine crossing"
+    country: "Switzerland"
+    city: "Basel"
+    city_slug: "basel"
+    gps: [47.558108, 7.587826]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: low
+    gps_query: "Basel, Switzerland"
 tags: ["exchange-01-basel", "switzerland", "basel"]
 draft: false
 source:

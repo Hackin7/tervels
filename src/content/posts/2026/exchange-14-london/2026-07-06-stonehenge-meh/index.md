@@ -1,14 +1,25 @@
 ---
 title: "Stonehenge is meh"
-date: 2026-07-07
-visited:
-  start: 2026-07-07
-  end: 2026-07-07
-location:
-  name: "Stonehenge"
-  country: "United Kingdom"
-  city: "Stonehenge"
-  city_slug: "stonehenge"
+timestamp: 2026-07-07T00:00:00Z
+locations:
+  - name: "Stonehenge"
+    country: "United Kingdom"
+    city: "Amesbury"
+    city_slug: "amesbury"
+    gps: [51.1788293, -1.826183]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Stonehenge, Wiltshire, United Kingdom"
+  - name: "Oxford Street"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5154118, -0.1412595]
+    gps_source: openstreetmap
+    gps_granularity: street
+    gps_confidence: medium
+    gps_query: "Oxford Street, London, United Kingdom"
 ---
 
 # Chinese food lol

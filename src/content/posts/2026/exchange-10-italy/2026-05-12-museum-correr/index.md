@@ -1,20 +1,16 @@
 ---
 title: "Museum Correr"
-date: 2026-05-12
-visited:
-  start: 2026-05-12
-  end: 2026-05-12
-location:
-  name: "Museum Correr"
-  country: "Italy"
-  city: "Venice"
-  city_slug: "venice"
-  location_or_event: "Museum Correr"
-  coords: [45.434033, 12.337427]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Museum Correr, Piazza San Marco, Venice, Italy"
+timestamp: 2026-05-12T00:00:00Z
+locations:
+  - name: "Museum Correr"
+    country: "Italy"
+    city: "Venice"
+    city_slug: "venice"
+    gps: [45.434033, 12.337427]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Museum Correr, Piazza San Marco, Venice, Italy"
 source:
   kind: telegram
   message_id: 7682

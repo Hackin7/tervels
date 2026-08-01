@@ -1,20 +1,16 @@
 ---
 title: "Around Milan station to kill time/ work on my tiny tapeout"
-date: 2026-05-17
-visited:
-  start: 2026-05-17
-  end: 2026-05-17
-location:
-  name: "Milano Centrale Railway Station"
-  country: "Italy"
-  city: "Milan"
-  city_slug: "milan"
-  location_or_event: "Milano Centrale Railway Station"
-  coords: [45.4863, 9.2024]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: medium
-  coord_query: "Milano Centrale Railway Station, Milan, Italy"
+timestamp: 2026-05-17T00:00:00Z
+locations:
+  - name: "Milano Centrale Railway Station"
+    country: "Italy"
+    city: "Milan"
+    city_slug: "milan"
+    gps: [45.4863, 9.2024]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: medium
+    gps_query: "Milano Centrale Railway Station, Milan, Italy"
 source:
   kind: telegram
   message_id: 8213

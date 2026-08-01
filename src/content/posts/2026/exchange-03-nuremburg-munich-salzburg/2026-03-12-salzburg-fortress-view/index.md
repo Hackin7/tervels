@@ -1,21 +1,16 @@
 ---
 title: "Salzburg Fortress"
 timestamp: 2026-03-12T00:00:00Z
-date: 2026-03-12
-visited:
-  start: 2026-03-12
-  end: 2026-03-12
-location:
-  name: "Salzburg, Austria"
-  country: "Austria"
-  city: "Salzburg"
-  city_slug: "salzburg"
-  location_or_event: "Salzburg Fortress"
-  coords: [47.79521, 13.048097]
-  coord_source: geocoded-building
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Hohensalzburg Fortress, Salzburg, Austria"
+locations:
+  - name: "Salzburg Fortress"
+    country: "Austria"
+    city: "Salzburg"
+    city_slug: "salzburg"
+    gps: [47.79521, 13.048097]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Hohensalzburg Fortress, Salzburg, Austria"
 tags: ["exchange-03-nuremburg-munich-salzburg", "austria", "salzburg"]
 draft: false
 source:

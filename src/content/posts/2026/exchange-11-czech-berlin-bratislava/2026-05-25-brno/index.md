@@ -1,15 +1,13 @@
 ---
 title: "Brno"
-date: 2026-05-25
-visited:
-  start: 2026-05-25
-  end: 2026-05-25
-location:
-  name: "Espressif"
-  country: "Czech"
-  city: "Brno"
-  city_slug: "brno"
-  coords: [49.1901393910661, 16.61662440779448]
+timestamp: 2026-05-25T00:00:00Z
+locations:
+  - name: "Espressif"
+    country: "Czech"
+    city: "Brno"
+    city_slug: "brno"
+    gps: [49.1901393910661, 16.61662440779448]
+    gps_source: old-frontmatter
 ---
 
 On a whim, since my bus dropped by Brno

@@ -1,21 +1,16 @@
 ---
 title: "Nanjing Day Trip"
 timestamp: 2025-11-09T00:00:00Z
-date: 2025-11-09
-visited:
-  start: 2025-11-09
-  end: 2025-11-09
-location:
-  name: "Nanjing, China"
-  country: "China"
-  city: "Nanjing"
-  city_slug: "nanjing"
-  location_or_event: "Nanjing day trip"
-  coords: [32.043828, 118.778863]
-  coord_source: geocoded-city
-  coord_granularity: city
-  coord_confidence: low
-  coord_query: "Nanjing, China"
+locations:
+  - name: "Nanjing day trip"
+    country: "China"
+    city: "Nanjing"
+    city_slug: "nanjing"
+    gps: [32.043828, 118.778863]
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: low
+    gps_query: "Nanjing, China"
 tags: ["intern-02-nanjing", "china", "nanjing"]
 draft: false
 source:

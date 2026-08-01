@@ -1,15 +1,16 @@
 ---
 title: "Japan Expo Paris Haul ish"
-date: 2026-07-11
-visited:
-  start: 2026-07-11
-  end: 2026-07-11
-location:
-  name: "Paris"
-  country: "FR"
-  city: "Paris"
-  city_slug: "paris"
-  location_or_event: "Japan Expo Paris 2026"
+timestamp: 2026-07-11T00:00:00Z
+locations:
+  - name: "Japan Expo Paris 2026 — Parc des Expositions Paris Nord Villepinte"
+    country: "France"
+    city: "Villepinte"
+    city_slug: "villepinte"
+    gps: [48.970251, 2.5211188]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Parc des Expositions, Villepinte, France"
 events: ["japan-expo-paris-2026"]
 ---
 

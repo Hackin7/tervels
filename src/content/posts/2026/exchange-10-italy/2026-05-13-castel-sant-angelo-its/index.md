@@ -1,20 +1,16 @@
 ---
 title: "Castel Sant'Angelo"
-date: 2026-05-13
-visited:
-  start: 2026-05-13
-  end: 2026-05-13
-location:
-  name: "Castel Sant'Angelo"
-  country: "Italy"
-  city: "Rome"
-  city_slug: "rome"
-  location_or_event: "Castel Sant'Angelo"
-  coords: [41.903064, 12.466276]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Castel Sant'Angelo, Rome, Italy"
+timestamp: 2026-05-13T00:00:00Z
+locations:
+  - name: "Castel Sant'Angelo"
+    country: "Italy"
+    city: "Rome"
+    city_slug: "rome"
+    gps: [41.903064, 12.466276]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Castel Sant'Angelo, Rome, Italy"
 source:
   kind: telegram
   message_id: 7881

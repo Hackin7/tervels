@@ -1,17 +1,13 @@
 ---
 title: "ISITDTU CTF SToW Writeup"
 timestamp: 2024-02-13T00:00:00Z
-date: 2024-02-13
-visited:
-  start: 2023-12-08
-  end: 2023-12-13
-location:
-  name: "Duy Tan University"
-  country: "Vietnam"
-  city: "Da Nang"
-  city_slug: "danang"
-  location_or_event: "ISITDTU CTF 2023 Finals"
-  coords: [16.07482091606699, 108.22284312498289]
+locations:
+  - name: "ISITDTU CTF 2023 Finals"
+    country: "Vietnam"
+    city: "Da Nang"
+    city_slug: "danang"
+    gps: [16.07482091606699, 108.22284312498289]
+    gps_source: old-frontmatter
 events: ["isitdtu-ctf-finals-2023"]
 tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false
@@ -34,7 +30,7 @@ When we reached Da Nang,  we went to eat a good lunch. Afterwards, we dropped of
 
 On our 2nd day, we played the ISITDTU CTF. And surprisingly, we did quite well. We managed to find exploits, write exploits, get flags for exploits and suggest patches to our services. Overall, we managed to get 5th place. For my 1st Attack Defence Capture The Flag Competition, I think that was a decent performance.
 
-We also visited the Dragon Bridge. It was quite fun to see the dragon spit out fire, and you can really feel the heat, even at a distance. 
+We also visited the Dragon Bridge. It was quite fun to see the dragon spit out fire, and you can really feel the heat, even at a distance.
 
 On our 3rd day, we went to the beach , Marble Mountains and Hoi An. All are great spots. The beach was very clean and calming, a great place to walk around and chill. Marble Mountain was great for walking and hiking. The View when reaching the top is amazing too.
 

@@ -1,15 +1,13 @@
 ---
 title: "Open Hardware Summit trip reflections"
-date: 2026-05-27
-visited:
-  start: 2026-05-27
-  end: 2026-05-27
-location:
-  name: "TU Berlin"
-  country: "Germany"
-  city: "Berlin"
-  city_slug: "berlin"
-  coords: [52.51407143608563, 13.325159796987773]
+timestamp: 2026-05-27T00:00:00Z
+locations:
+  - name: "TU Berlin"
+    country: "Germany"
+    city: "Berlin"
+    city_slug: "berlin"
+    gps: [52.51407143608563, 13.325159796987773]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 8656

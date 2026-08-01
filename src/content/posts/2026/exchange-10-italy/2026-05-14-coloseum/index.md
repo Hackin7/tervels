@@ -1,20 +1,16 @@
 ---
 title: "Colosseum"
-date: 2026-05-14
-visited:
-  start: 2026-05-14
-  end: 2026-05-14
-location:
-  name: "Colosseum"
-  country: "Italy"
-  city: "Rome"
-  city_slug: "rome"
-  location_or_event: "Colosseum"
-  coords: [41.89021, 12.492231]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Colosseum, Rome, Italy"
+timestamp: 2026-05-14T00:00:00Z
+locations:
+  - name: "Colosseum"
+    country: "Italy"
+    city: "Rome"
+    city_slug: "rome"
+    gps: [41.89021, 12.492231]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Colosseum, Rome, Italy"
 source:
   kind: telegram
   message_id: 7974

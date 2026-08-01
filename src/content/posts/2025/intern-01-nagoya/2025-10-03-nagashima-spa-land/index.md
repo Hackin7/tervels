@@ -1,21 +1,16 @@
 ---
 title: "Nagashima Spa Land"
 timestamp: 2025-10-03T00:00:00Z
-date: 2025-10-03
-visited:
-  start: 2025-10-03
-  end: 2025-10-03
-location:
-  name: "Nagashima Spa Land, Japan"
-  country: "Japan"
-  city: "Kuwana / Nagashima"
-  city_slug: "kuwana-nagashima"
-  location_or_event: "Nagashima Spa Land"
-  coords: [35.030668, 136.733336]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Nagashima Spa Land, Kuwana, Japan"
+locations:
+  - name: "Nagashima Spa Land"
+    country: "Japan"
+    city: "Kuwana / Nagashima"
+    city_slug: "kuwana-nagashima"
+    gps: [35.030668, 136.733336]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Nagashima Spa Land, Kuwana, Japan"
 tags: ["intern-01-nagoya", "japan", "kuwana-nagashima"]
 draft: false
 source:

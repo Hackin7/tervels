@@ -1,15 +1,12 @@
 ---
 title: "Miso Katsu"
 timestamp: 2025-10-04T00:00:00Z
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Nagoya Miso Katsu Restaurant, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
+locations:
+  - name: "Nagoya Miso Katsu Restaurant, Japan"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: null
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

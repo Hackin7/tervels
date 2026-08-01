@@ -11,7 +11,11 @@
     "test:watch": "vitest",
     "import": "node scripts/import-telegram.mjs",
     "fill:trips": "node scripts/fill-content-from-trips.mjs",
+    "migrate:schema": "node scripts/migrate-content-schema.mjs --write",
     "coords:enrich": "node scripts/enrich-coords.mjs",
+    "locations:audit": "node scripts/audit-locations.mjs --check",
+    "locations:propagate": "node scripts/propagate-locations.mjs --write",
+    "locations:curate": "node scripts/apply-location-overrides.mjs --write",
     "optimize": "node scripts/optimize-photos.mjs"
   },
   "dependencies": {

@@ -1,21 +1,16 @@
 ---
 title: "Osu Shopping Street"
 timestamp: 2025-10-02T00:00:00Z
-date: 2025-10-02
-visited:
-  start: 2025-10-02
-  end: 2025-10-02
-location:
-  name: "Osu Shopping Street, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Osu Shopping Street"
-  coords: [35.159359, 136.901099]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Osu Shopping Street, Nagoya, Japan"
+locations:
+  - name: "Osu Shopping Street"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.159359, 136.901099]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Osu Shopping Street, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

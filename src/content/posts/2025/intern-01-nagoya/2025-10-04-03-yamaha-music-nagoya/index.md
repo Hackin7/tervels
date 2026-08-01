@@ -1,20 +1,16 @@
 ---
 title: "Yamaha Music Nagoya"
-date: 2025-10-04
-visited:
-  start: 2025-10-04
-  end: 2025-10-04
-location:
-  name: "Yamaha Music Nagoya, Japan"
-  country: "Japan"
-  city: "Nagoya"
-  city_slug: "nagoya"
-  location_or_event: "Yamaha Music Nagoya"
-  coords: [35.16843968173056, 136.89362938161707]
-  coord_source: geocoded-venue
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Yamaha Music Nagoya Store, 1-18-28 Nishiki, Naka-ku, Nagoya, Japan"
+timestamp: 2025-10-04T00:00:00Z
+locations:
+  - name: "Yamaha Music Nagoya"
+    country: "Japan"
+    city: "Nagoya"
+    city_slug: "nagoya"
+    gps: [35.16843968173056, 136.89362938161707]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Yamaha Music Nagoya Store, 1-18-28 Nishiki, Naka-ku, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

@@ -1,21 +1,16 @@
 ---
 title: "DEF CON 33"
 timestamp: 2025-08-07T00:00:00Z
-date: 2025-08-07
-visited:
-  start: 2025-08-07
-  end: 2025-08-11
-location:
-  name: "Las Vegas Convention Center, Las Vegas, United States"
-  country: "United States"
-  city: "Las Vegas"
-  city_slug: "las-vegas"
-  location_or_event: "DEF CON 33"
-  coords: [36.131903, -115.151966]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Las Vegas Convention Center, Las Vegas, United States"
+locations:
+  - name: "DEF CON 33"
+    country: "United States"
+    city: "Las Vegas"
+    city_slug: "las-vegas"
+    gps: [36.131903, -115.151966]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Las Vegas Convention Center, Las Vegas, United States"
 events: ["defcon33-2025"]
 tags: ["defcon33-us", "united-states", "las-vegas"]
 draft: false

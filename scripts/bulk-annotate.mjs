@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * One-off bulk frontmatter annotator: fills in location for date-based rules.
+ * One-off bulk frontmatter annotator: fills in primary locations for timestamp-based rules.
  * Only touches posts where country is currently "XX" (unresolved). Won't
  * overwrite anything you've already fixed by hand.
  *
@@ -17,22 +17,22 @@ const ROOT = resolve(rootIdx >= 0 ? args[rootIdx + 1] : 'src/content/posts');
 const LV = {
   name: 'Las Vegas, USA',
   country: 'US', city: 'Las Vegas', city_slug: 'las-vegas',
-  coords: [36.1699, -115.1398],
+  gps: [36.1699, -115.1398],
 };
 const SH = {
   name: 'Shanghai, China',
   country: 'CN', city: 'Shanghai', city_slug: 'shanghai',
-  coords: [31.2304, 121.4737],
+  gps: [31.2304, 121.4737],
 };
 const NG = {
   name: 'Nagoya, Japan',
   country: 'JP', city: 'Nagoya', city_slug: 'nagoya',
-  coords: [35.1815, 136.9066],
+  gps: [35.1815, 136.9066],
 };
 const LAU = {
   name: 'Lausanne, Switzerland',
   country: 'CH', city: 'Lausanne', city_slug: 'lausanne',
-  coords: [46.5197, 6.6323],
+  gps: [46.5197, 6.6323],
 };
 
 /** Returns location for a date, or null to leave unresolved. */
@@ -60,20 +60,21 @@ async function* walkPosts(dir) {
   }
 }
 
-const dateRe = /^date:\s*(\d{4}-\d{2}-\d{2})/m;
+const timestampRe = /^timestamp:\s*(\d{4}-\d{2}-\d{2})/m;
 
 function rewriteLocation(text, loc) {
-  // Replace the entire location block. The importer always emits this exact 4-line
-  // unresolved location block, with optional 5th line for coords.
-  const re = /location:\s*\n\s*name:.*\n\s*country:\s*"XX".*\n\s*city:.*\n\s*city_slug:.*\n(?:\s*coords:.*\n)?(\s*zoom:.*\n)?/;
+  const re = /locations:\s*\n\s*- name:.*\n\s*country:\s*"XX".*\n\s*city:.*\n\s*city_slug:.*\n\s*gps:.*\n/;
   if (!re.test(text)) return null;
   const replacement =
-    `location:\n` +
-    `  name: ${JSON.stringify(loc.name)}\n` +
-    `  country: ${JSON.stringify(loc.country)}\n` +
-    `  city: ${JSON.stringify(loc.city)}\n` +
-    `  city_slug: ${JSON.stringify(loc.city_slug)}\n` +
-    `  coords: [${loc.coords[0]}, ${loc.coords[1]}]\n`;
+    `locations:\n` +
+    `  - name: ${JSON.stringify(loc.name)}\n` +
+    `    country: ${JSON.stringify(loc.country)}\n` +
+    `    city: ${JSON.stringify(loc.city)}\n` +
+    `    city_slug: ${JSON.stringify(loc.city_slug)}\n` +
+    `    gps: [${loc.gps[0]}, ${loc.gps[1]}]\n` +
+    `    gps_source: manual\n` +
+    `    gps_granularity: city\n` +
+    `    gps_confidence: low\n`;
   return text.replace(re, replacement);
 }
 
@@ -84,7 +85,7 @@ for await (const file of walkPosts(ROOT)) {
   stats.scanned++;
   const text = await readFile(file, 'utf8');
   if (!/country:\s*"XX"/.test(text)) { stats.alreadyResolved++; continue; }
-  const dateMatch = text.match(dateRe);
+  const dateMatch = text.match(timestampRe);
   if (!dateMatch) { stats.missingDate++; continue; }
   const date = new Date(dateMatch[1] + 'T12:00:00Z');
   const loc = locationFor(date);
@@ -102,8 +103,8 @@ console.log(`- Mode: ${DRY ? 'DRY RUN' : 'WRITE'}`);
 console.log(`- Posts scanned: ${stats.scanned}`);
 console.log(`- Already resolved (skipped): ${stats.alreadyResolved}`);
 console.log(`- Updated: ${stats.updated}`);
-console.log(`- Skipped: no rule for date: ${stats.noRule}`);
-console.log(`- Skipped: missing/unparseable date or location block: ${stats.missingDate}`);
+console.log(`- Skipped: no rule for timestamp: ${stats.noRule}`);
+console.log(`- Skipped: missing/unparseable timestamp or locations block: ${stats.missingDate}`);
 console.log('## Updates by country');
 for (const [c, n] of [...byCountry.entries()].sort((a, b) => b[1] - a[1])) {
   console.log(`  ${n.toString().padStart(4)}  ${c}`);

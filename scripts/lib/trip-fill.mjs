@@ -188,11 +188,9 @@ export function migratePost(oldText, sourcePost, placeRow, tripRow) {
   const source = sourceBlock(frontmatter);
   const title = scalar(frontmatter, 'title') ?? titleFromPath(sourcePost);
   const date = firstDate(placeRow.dateRange) ?? scalar(frontmatter, 'date');
-  const endDate = lastDate(placeRow.dateRange) ?? date;
   const country = countryName(placeRow.country);
   const city = normalizeCity(placeRow.city);
   const citySlug = slugify(city, 6) || 'unknown';
-  const locationName = [city, country === 'Unknown' ? null : country].filter(Boolean).join(', ') || 'Unknown';
   const year = date.slice(0, 4);
   const note = basename(dirname(sourcePost));
   const folder = tripRow.folder;
@@ -202,17 +200,12 @@ export function migratePost(oldText, sourcePost, placeRow, tripRow) {
     '---',
     `title: ${JSON.stringify(title)}`,
     `timestamp: ${date}T00:00:00Z`,
-    `date: ${date}`,
-    'visited:',
-    `  start: ${date}`,
-    `  end: ${endDate}`,
-    'location:',
-    `  name: ${JSON.stringify(locationName)}`,
-    `  country: ${JSON.stringify(country)}`,
-    `  city: ${JSON.stringify(city)}`,
-    `  city_slug: ${JSON.stringify(citySlug)}`,
-    `  location_or_event: ${JSON.stringify(placeRow.locationOrEvent)}`,
-    '  coords: null',
+    'locations:',
+    `  - name: ${JSON.stringify(placeRow.locationOrEvent || 'Unknown')}`,
+    `    country: ${JSON.stringify(country)}`,
+    `    city: ${JSON.stringify(city)}`,
+    `    city_slug: ${JSON.stringify(citySlug)}`,
+    '    gps: null',
     `tags: [${tags.map(t => JSON.stringify(t)).join(', ')}]`,
     `draft: ${scalar(frontmatter, 'draft') ?? 'false'}`,
   ];
@@ -325,11 +318,6 @@ function sourceBlock(frontmatter) {
 
 function firstDate(dateRange) {
   return dateRange.match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? null;
-}
-
-function lastDate(dateRange) {
-  const dates = dateRange.match(/\d{4}-\d{2}-\d{2}/g);
-  return dates?.at(-1) ?? null;
 }
 
 function countryName(country) {

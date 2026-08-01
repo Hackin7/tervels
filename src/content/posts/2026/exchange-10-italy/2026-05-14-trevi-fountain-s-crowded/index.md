@@ -1,20 +1,16 @@
 ---
 title: "Trevi Fountain"
-date: 2026-05-14
-visited:
-  start: 2026-05-14
-  end: 2026-05-14
-location:
-  name: "Trevi Fountain"
-  country: "Italy"
-  city: "Rome"
-  city_slug: "rome"
-  location_or_event: "Trevi Fountain"
-  coords: [41.900932, 12.483313]
-  coord_source: manual
-  coord_granularity: venue
-  coord_confidence: high
-  coord_query: "Trevi Fountain, Rome, Italy"
+timestamp: 2026-05-14T00:00:00Z
+locations:
+  - name: "Trevi Fountain"
+    country: "Italy"
+    city: "Rome"
+    city_slug: "rome"
+    gps: [41.900932, 12.483313]
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Trevi Fountain, Rome, Italy"
 source:
   kind: telegram
   message_id: 7871

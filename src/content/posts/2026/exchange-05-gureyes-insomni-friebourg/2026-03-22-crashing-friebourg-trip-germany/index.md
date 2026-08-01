@@ -1,15 +1,13 @@
 ---
 title: "Crashing Friebourg trip to Germany"
-date: 2026-03-22
-visited:
-  start: 2026-03-22
-  end: 2026-03-22
-location:
-  name: "Friebourg"
-  country: "Germany"
-  city: "Friebourg"
-  city_slug: "friebourg"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-03-22T00:00:00Z
+locations:
+  - name: "Friebourg"
+    country: "Germany"
+    city: "Friebourg"
+    city_slug: "friebourg"
+    gps: [46.5197, 6.6323]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 5871

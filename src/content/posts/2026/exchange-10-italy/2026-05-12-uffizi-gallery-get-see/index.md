@@ -1,20 +1,16 @@
 ---
 title: "Uffizi Gallery"
-date: 2026-05-12
-visited:
-  start: 2026-05-12
-  end: 2026-05-12
-location:
-  name: "Uffizi Gallery"
-  country: "Italy"
-  city: "Florence"
-  city_slug: "florence"
-  location_or_event: "Uffizi Gallery"
-  coords: [43.768715, 11.255398]
-  coord_source: manual
-  coord_granularity: building
-  coord_confidence: high
-  coord_query: "Uffizi Gallery, Florence, Italy"
+timestamp: 2026-05-12T00:00:00Z
+locations:
+  - name: "Uffizi Gallery"
+    country: "Italy"
+    city: "Florence"
+    city_slug: "florence"
+    gps: [43.768715, 11.255398]
+    gps_source: manual
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "Uffizi Gallery, Florence, Italy"
 source:
   kind: telegram
   message_id: 7781

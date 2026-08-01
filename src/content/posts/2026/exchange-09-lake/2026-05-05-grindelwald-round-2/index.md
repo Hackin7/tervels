@@ -1,15 +1,13 @@
 ---
 title: "Grindelwald Round 2"
-date: 2026-05-05
-visited:
-  start: 2026-05-05
-  end: 2026-05-05
-location:
-  name: "Grindelwald"
-  country: "CH"
-  city: "Interlaken"
-  city_slug: "interlaken"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-05-05T00:00:00Z
+locations:
+  - name: "Grindelwald"
+    country: "CH"
+    city: "Interlaken"
+    city_slug: "interlaken"
+    gps: [46.5197, 6.6323]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 7373

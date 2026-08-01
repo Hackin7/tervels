@@ -1,14 +1,52 @@
 ---
 title: "London Day 5: Gardens, Roast Pork, National Gallery"
-date: 2026-07-05
-visited:
-  start: 2026-07-05
-  end: 2026-07-05
-location:
-  name: "London"
-  country: "United Kingdom"
-  city: "London"
-  city_slug: "london"
+timestamp: 2026-07-05T00:00:00Z
+locations:
+  - name: "The Regent's Park"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.530107, -0.1537691]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Regent's Park, London, United Kingdom"
+  - name: "IKEA Oxford Street"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5155073, -0.1414115]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "IKEA Oxford Street, London, United Kingdom"
+  - name: "National Gallery"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.508881, -0.1283826]
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: "National Gallery, London, United Kingdom"
+  - name: "Imperial College London"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.4989595, -0.1756407]
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Imperial College London, United Kingdom"
+  - name: "Kensington Gardens"
+    country: "United Kingdom"
+    city: "London"
+    city_slug: "london"
+    gps: [51.5066463, -0.1803888]
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: "Kensington Gardens, London, United Kingdom"
 ---
 
 # Breakfast

@@ -1,15 +1,13 @@
 ---
 title: "Skiing and Chinese food to celebrate being safe"
-date: 2026-03-01
-visited:
-  start: 2026-03-01
-  end: 2026-03-01
-location:
-  name: "Avoriaz"
-  country: "France"
-  city: "Avoriaz"
-  city_slug: "avoriaz"
-  coords: [46.5197, 6.6323]
+timestamp: 2026-03-01T00:00:00Z
+locations:
+  - name: "Avoriaz"
+    country: "France"
+    city: "Avoriaz"
+    city_slug: "avoriaz"
+    gps: [46.5197, 6.6323]
+    gps_source: old-frontmatter
 source:
   kind: telegram
   message_id: 5045

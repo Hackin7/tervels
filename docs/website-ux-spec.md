@@ -18,7 +18,7 @@ ways to browse the same post collection:
 - A triage workflow for posts whose location metadata is incomplete.
 
 Individual posts are the destination for all browse paths. Their public URLs are
-generated from resolved location metadata, date, and title rather than from the
+generated from the primary resolved location, timestamp, and title rather than from the
 storage folder path.
 
 ## Global UX Shell
@@ -59,7 +59,7 @@ Post pages render a single Markdown note inside the post layout. They show:
 
 - A context line above the title.
 - The post title.
-- The post date and resolved location name when available.
+- The post date derived from `timestamp` and all resolved location names.
 - An optional cover image.
 - The rendered Markdown article body.
 
@@ -97,7 +97,7 @@ Country pages list the cities in a selected country. They show:
 - The country flag/name as the page heading.
 - A list of city links with post counts.
 
-Cities are derived from post location metadata and sorted alphabetically by
+Cities are derived from every entry in post `locations` metadata and sorted alphabetically by
 their city slug.
 
 ### City Page
@@ -127,7 +127,7 @@ Each trip card shows:
 - A generated display name from the trip slug.
 - The trip year.
 - The number of posts.
-- The visited date range.
+- The timestamp range derived from the trip's articles.
 - Country flags and city chips when available.
 - A `need triage` badge when any posts in the trip have unresolved location.
 
@@ -173,9 +173,9 @@ The map page is the full geographic exploration view. It shows:
 
 - A short instruction line.
 - A large Leaflet map with OpenStreetMap tiles.
-- Clustered markers for published posts that have coordinates.
+- Clustered markers for every published article location that has GPS.
 
-Clicking a marker opens a popup with the post title, city, date, and a link to
+Clicking a marker opens a popup with the post title, location name, timestamp date, and a link to
 read the post.
 
 ### Triage
@@ -198,7 +198,7 @@ Route: `/api/map-data.json`
 
 This is supporting infrastructure for the map views rather than a user-facing
 page. It returns JSON pins for published posts that have coordinates. Each pin
-includes the post slug, title, country, city, display date, and coordinates.
+includes the post slug, title, country, city, location name, timestamp, and GPS.
 
 ## Navigation And User Flows
 
