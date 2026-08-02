@@ -80,8 +80,8 @@ draft: false
   local `cover` field and `youtube.cover` on the same post.
 
 A YouTube watch, share, Shorts, live, embed, or playlist URL on its own line in
-the Markdown body is also rendered as a responsive embed. Use frontmatter when
-the video belongs in the post's gallery or should supply its cover image.
+the Markdown body is collected into the responsive video section at the top of
+the post. Use frontmatter to control gallery order or select the card thumbnail.
 
 Coordinate digits must be preserved from the source. Do not pad a coarse match
 with zeroes: decimal places represent storage precision, while granularity and

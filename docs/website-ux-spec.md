@@ -62,13 +62,13 @@ Post pages render a single Markdown note inside the post layout. They show:
 - The post date derived from `timestamp` and all resolved location names.
 - An optional cover image.
 - The rendered Markdown article body.
-- Responsive YouTube embeds for standalone video links in the article.
-- An optional ordered video/playlist gallery after the article.
+- An optional ordered video/playlist section above the article.
+- Responsive YouTube embeds collected from standalone links in the article.
 
-A post may use either a local image or a YouTube thumbnail as its cover. The
-same YouTube cover treatment is used on post cards. Gallery entries already
-embedded as standalone links in the body are omitted from the gallery to avoid
-showing the same video twice.
+A local cover image remains visible on the post. A YouTube cover ID supplies a
+thumbnail on post cards, but the post page embeds that video instead of showing
+a separate thumbnail cover. Frontmatter items and standalone article links are
+deduplicated and rendered together above the article.
 
 For resolved posts, the context line acts as a breadcrumb:
 

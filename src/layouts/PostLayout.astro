@@ -6,7 +6,7 @@ import type { Post } from '../lib/aggregates';
 import { countrySlug, isLocationResolved, primaryLocation } from '../lib/aggregates';
 import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 import { youtubeItemTitle, type YouTubeItem } from '../lib/youtube';
-import { standaloneYouTubeItems, youtubeItemKey, youtubeThumbnailUrl, youtubeWatchUrl } from '../lib/youtube-core.mjs';
+import { standaloneYouTubeItems, youtubeItemKey } from '../lib/youtube-core.mjs';
 interface Props { post: Post; }
 const { post } = Astro.props;
 const dateStr = post.data.timestamp.toISOString().slice(0, 10);
@@ -20,9 +20,18 @@ const locationLinks = post.data.locations.map(location => ({
   mapsUrl: location.gps ? `https://www.google.com/maps/search/?api=1&query=${location.gps[0]},${location.gps[1]}` : null,
 }));
 const youtube = post.data.youtube;
-const inlineItems = new Set(standaloneYouTubeItems(post.body ?? '').map(youtubeItemKey));
-const galleryItems = (youtube?.items ?? []).filter(item => !inlineItems.has(youtubeItemKey(item))) as YouTubeItem[];
 const youtubeCover = youtube?.cover;
+const topItems: YouTubeItem[] = [];
+const seenYouTubeItems = new Set<string>();
+const addYouTubeItem = (item: YouTubeItem) => {
+  const key = youtubeItemKey(item);
+  if (seenYouTubeItems.has(key)) return;
+  seenYouTubeItems.add(key);
+  topItems.push(item);
+};
+if (youtubeCover) addYouTubeItem({ kind: 'video', id: youtubeCover });
+for (const item of (youtube?.items ?? []) as YouTubeItem[]) addYouTubeItem(item);
+for (const item of standaloneYouTubeItems(post.body ?? '') as YouTubeItem[]) addYouTubeItem(item);
 ---
 <BaseLayout title={`${post.data.title} · tervels`}>
   {resolved ? (
@@ -53,22 +62,17 @@ const youtubeCover = youtube?.cover;
   {post.data.cover && (
     <Image src={post.data.cover} alt={post.data.title} width={1040} height={640} style="border-radius:8px; margin:1rem 0;" />
   )}
-  {youtubeCover && (
-    <a class="youtube-cover" href={youtubeWatchUrl({ kind: 'video', id: youtubeCover })} aria-label={`Watch ${post.data.title} on YouTube`}>
-      <img src={youtubeThumbnailUrl(youtubeCover)} alt={post.data.title} width="480" height="360" />
-    </a>
+  {topItems.length > 0 && (
+    <section class="post-videos">
+      <h2>Videos</h2>
+      <div class="youtube-gallery">
+        {topItems.map(item => <YouTubeEmbed item={item} title={youtubeItemTitle(item)} />)}
+      </div>
+    </section>
   )}
   <article>
     <slot />
   </article>
-  {galleryItems.length > 0 && (
-    <section style="margin-top:2.5rem;">
-      <h2>Videos</h2>
-      <div class="youtube-gallery">
-        {galleryItems.map(item => <YouTubeEmbed item={item} title={youtubeItemTitle(item)} />)}
-      </div>
-    </section>
-  )}
   {!resolved && (
     <aside style="margin-top:2rem; padding:1rem; background:#fef3c7; border-radius:8px;">
       <strong>To publish this post:</strong> open <code>{post.id}/index.md</code> and set

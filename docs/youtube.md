@@ -6,7 +6,7 @@ schema is documented in `docs/content-spec.md`.
 
 ## Add videos to a post
 
-Put a URL on its own line for an embed at that point in the article:
+Put a URL on its own line to add it to the video section above the article:
 
 ```md
 https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=42s
@@ -27,9 +27,9 @@ youtube:
   cover: "dQw4w9WgXcQ"
 ```
 
-The cover ID controls only the thumbnail. Add the same ID to `items` if the
-video should also appear in the gallery. A post cannot have both `cover` (a
-local image) and `youtube.cover`.
+The cover ID supplies the thumbnail on listing cards and is embedded at the top
+of the post. Frontmatter items and standalone links are deduplicated. A post
+cannot have both `cover` (a local image) and `youtube.cover`.
 
 ## Sync Tervel's channel
 
