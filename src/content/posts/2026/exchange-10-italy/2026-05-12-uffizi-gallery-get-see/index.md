@@ -1,5 +1,12 @@
 ---
 title: "Uffizi Gallery"
+youtube:
+  items:
+    - kind: video
+      id: "jQldaWwuRcE"
+    - kind: video
+      id: "9ocBK9bfJIA"
+  cover: "jQldaWwuRcE"
 timestamp: 2026-05-12T00:00:00Z
 locations:
   - name: "Uffizi Gallery"
@@ -11,6 +18,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Uffizi Gallery, Florence, Italy"
+experiences:
+  - kind: museum
+    name: "Uffizi Gallery"
 source:
   kind: telegram
   message_id: 7781

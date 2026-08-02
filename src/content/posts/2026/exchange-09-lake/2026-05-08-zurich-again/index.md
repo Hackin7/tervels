@@ -1,5 +1,16 @@
 ---
 title: "Zurich Again"
+youtube:
+  items:
+    - kind: video
+      id: "XyPxO9HM9Ok"
+    - kind: video
+      id: "8Q-jW9owhRs"
+    - kind: video
+      id: "tpq8VEeqeRA"
+    - kind: video
+      id: "GEH1MYZnCDQ"
+  cover: "XyPxO9HM9Ok"
 timestamp: 2026-05-08T00:00:00Z
 locations:
   - name: "Lake Zurich waterfront at Bürkliplatz"
@@ -29,6 +40,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Glattzentrum, Wallisellen, Switzerland"
+experiences:
+  - kind: museum
+    name: "Swiss National Museum"
 source:
   kind: telegram
   message_id: 7373

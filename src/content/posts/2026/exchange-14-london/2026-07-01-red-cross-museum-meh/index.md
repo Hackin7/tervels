@@ -11,6 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Avenue de la Paix 17, Geneva, Switzerland"
+experiences:
+  - kind: museum
+    name: "International Red Cross and Red Crescent Museum"
 source:
   kind: telegram
   message_id: 9716

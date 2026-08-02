@@ -8,7 +8,9 @@ locations:
     city_slug: "shenzhen"
     gps: [22.5431, 114.0579]
     gps_source: old-frontmatter
-events: ["maker-faire-shenzhen-2025"]
+experiences:
+  - kind: event
+    slug: "maker-faire-shenzhen-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

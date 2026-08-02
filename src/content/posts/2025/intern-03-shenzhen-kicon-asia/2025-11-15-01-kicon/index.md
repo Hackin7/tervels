@@ -11,7 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Atour Hotel Shenzhen Nanshan Vanke Yuncheng, Shenzhen, China"
-events: ["kicon-asia-2025"]
+experiences:
+  - kind: event
+    slug: "kicon-asia-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:
@@ -55,4 +57,3 @@ Not too much interactivity, but it's close to Maker Faire so it's ok.
 The content is mainly about KiCad in use, so you get to learn tips and tricks. I think it's nice to drop by, but I wouldn't pay 99rmb student price for the full thing alone.
 
 The meals made it worth tho, not bad
-

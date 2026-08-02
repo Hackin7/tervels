@@ -11,11 +11,16 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "EPFL, Ecublens, Switzerland"
+youtube:
+  items:
+    - kind: playlist
+      id: "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+  cover: "e5pFR_iYCaM"
 ---
 
 # Balelec
 
-[https://youtube.com/playlist?list=PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb&si=8FiCbXRhwyCfzhxP](https://youtube.com/playlist?list=PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb&si=8FiCbXRhwyCfzhxP)
+The playlist is included below.
 
 It's like last year but more of it, which means more techno, more French rap etc. I think by the nature of the music, some of it is repetitive, but there are some which can be quite engaging to me. The strat I feel is to touch and go on every part (and not buy the overpriced food), since each stage the artist is 1h+, they will repeat, so there is time to touch base with a wide variety
 I would have preferred less hardstyle and more trance, but the trance at 2am was not bad

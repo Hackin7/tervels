@@ -11,6 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "British Museum, London, United Kingdom"
+experiences:
+  - kind: museum
+    name: "British Museum"
 ---
 Things I saw at the British Museum
 1. Artefacts by various British explorers all over the World, how they link up
@@ -47,4 +50,3 @@ The British are theives
 
 
 Then after that I went Gym with shengyao lolol metabolic age 30+ rip
-

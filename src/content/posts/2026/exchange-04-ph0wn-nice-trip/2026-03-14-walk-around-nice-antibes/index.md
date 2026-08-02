@@ -21,6 +21,8 @@ locations:
     gps_confidence: medium
     gps_query: "Vieil Antibes, Antibes, France"
 tags: ["exchange-04-ph0wn-nice-trip", "france", "nice-antibes"]
+youtube:
+  cover: "PxWfj0q7jw4"
 draft: false
 source:
   kind: telegram
@@ -34,4 +36,4 @@ Walk Around Nice Antibes France
 It's really really scenic, with the sea and the coast, though only have night to explore.
 The 24 euro carbonara is actually really good too
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PxWfj0q7jw4?si=cC4bkaklHbMuJ64m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=PxWfj0q7jw4

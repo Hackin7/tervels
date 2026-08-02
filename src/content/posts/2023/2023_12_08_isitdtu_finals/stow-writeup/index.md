@@ -8,7 +8,13 @@ locations:
     city_slug: "danang"
     gps: [16.07482091606699, 108.22284312498289]
     gps_source: old-frontmatter
-events: ["isitdtu-ctf-finals-2023"]
+experiences:
+  - kind: event
+    slug: "isitdtu-ctf-finals-2023"
+  - kind: museum
+    name: "Da Nang museum (name not recorded)"
+  - kind: trail
+    name: "Marble Mountains"
 tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false
 ---

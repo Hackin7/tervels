@@ -11,6 +11,16 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "BMW Museum, Munich, Germany"
+experiences:
+  - kind: museum
+    name: "BMW Museum"
+youtube:
+  items:
+    - kind: video
+      id: "lMesBcf3Arc"
+    - kind: video
+      id: "9NqWLC9Uexs"
+  cover: "lMesBcf3Arc"
 tags: ["exchange-03-nuremburg-munich-salzburg", "germany", "munich"]
 draft: false
 source:

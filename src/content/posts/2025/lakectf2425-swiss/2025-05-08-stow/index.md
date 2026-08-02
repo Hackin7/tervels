@@ -12,6 +12,10 @@ locations:
     gps_confidence: high
     gps_query: "EPFL campus, Lausanne, Switzerland"
 tags: ["lakectf2425-swiss", "switzerland", "lausanne"]
+youtube:
+  items:
+    - kind: playlist
+      id: "PLfua2ojFezdMg6vu40JrjouXh_1pjXOrY"
 draft: false
 ---
 
@@ -23,7 +27,7 @@ https://drive.google.com/file/d/1XmqSEE4zUCOJ_oSsRX6TpEL9OJflXq7G/view?pli=1
 Original SToW Writeups
 1. https://blog.nus.edu.sg/hackin7/2025/05/29/lakectf-finals-2025/
 2. https://blog.nus.edu.sg/beetle/2025/05/19/lakectf-finals-2025/
-3. Vlogs: https://www.youtube.com/playlist?list=PLfua2ojFezdMg6vu40JrjouXh_1pjXOrY
+3. Vlogs are included below.
 
 On 8/5/2025 to 16/5/2025 NUS GreyHats travelled to Switzerland to participate in LakeCTF 225 Finals. For me, since it was held at EPFL, I got the chance to scout out my exchange school & country too!
 
@@ -44,4 +48,3 @@ Also Elijah was playing CTF during the trip.
  
 
 quite vibes. Good break from finals
-

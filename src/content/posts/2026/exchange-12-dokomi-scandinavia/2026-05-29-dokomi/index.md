@@ -8,7 +8,11 @@ locations:
     city_slug: "dusseldorf"
     gps: [51.269011, 6.727094]
     gps_source: old-frontmatter
-events: ["dokomi-2026"]
+experiences:
+  - kind: event
+    slug: "dokomi-2026"
+youtube:
+  cover: "nIUbTrjCyc4"
 tags: []
 draft: false
 ---
@@ -161,7 +165,7 @@ We'll it's kinda exactly what I got, but icecream is just slapped on, and more w
 Then got 9euro gyoza because it's one of the only things left lol to fill my stomach, in hindsight inside the jrave got onigiri 5euros but it's fine
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nIUbTrjCyc4?si=8KUMBVjiAvzY94ED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=nIUbTrjCyc4
 
 
 ## JRave
@@ -187,6 +191,6 @@ Eh
 
 Anyway I recorded a ton, but I hope someone recorded the full set list and will put on YouTube, they did so in 2023 I think and that was vibes af
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yfscD5kDY04?si=SQXYZ1SJTX5_P__A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=yfscD5kDY04
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZfKmOClqtq0?si=3r9ZlgBqC0l5sz1a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=ZfKmOClqtq0

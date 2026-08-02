@@ -1,5 +1,20 @@
 ---
 title: "Hackaday Europe + Overall"
+youtube:
+  items:
+    - kind: video
+      id: "jFAmJgdtkDA"
+    - kind: video
+      id: "PRnwtyV7TEc"
+    - kind: video
+      id: "xESdXQ-PHuk"
+    - kind: video
+      id: "rlM67zuKZ-0"
+    - kind: video
+      id: "ouyU20n7a2A"
+    - kind: video
+      id: "V56ux6CoMlo"
+  cover: "V56ux6CoMlo"
 timestamp: 2026-05-19T00:00:00Z
 locations:
   - name: "Hackaday Europe 2026"
@@ -11,6 +26,11 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Politecnico di Milano Lecco Campus, Lecco, Italy"
+experiences:
+  - kind: museum
+    name: "Uffizi Gallery"
+  - kind: museum
+    name: "Museo del Duomo"
 source:
   kind: telegram
   message_id: 8243

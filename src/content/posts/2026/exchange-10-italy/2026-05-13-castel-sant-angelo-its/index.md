@@ -11,6 +11,11 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Castel Sant'Angelo, Rome, Italy"
+youtube:
+  items:
+    - kind: video
+      id: "zM_98K2aJuY"
+  cover: "zM_98K2aJuY"
 source:
   kind: telegram
   message_id: 7881

@@ -1,5 +1,16 @@
 ---
 title: "Embedded World"
+youtube:
+  items:
+    - kind: video
+      id: "QcPnEJqxUmw"
+    - kind: video
+      id: "b88PRyrt3U4"
+    - kind: video
+      id: "AyxXaExSm8Q"
+    - kind: video
+      id: "ArQ1eTVZxoc"
+  cover: "QcPnEJqxUmw"
 timestamp: 2026-03-09T00:00:00Z
 locations:
   - name: "Embedded World venue"
@@ -11,7 +22,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Nürnberg Messe, Nuremberg, Germany"
-events: ["embedded-world-2026"]
+experiences:
+  - kind: event
+    slug: "embedded-world-2026"
 tags: ["exchange-03-nuremburg-munich-salzburg", "germany", "nuremberg"]
 draft: false
 ---

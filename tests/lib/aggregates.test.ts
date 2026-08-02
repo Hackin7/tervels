@@ -9,8 +9,11 @@ import {
   isLocationResolved,
   postsByTrip,
   postsByEvent,
+  namedExperiences,
+  postsWithExperience,
   tripDisplayName,
   parseTripFromId,
+  type Experience,
   type Post,
 } from '../../src/lib/aggregates';
 
@@ -22,7 +25,7 @@ function fakePost(id: string, data: {
   city_slug?: string;
   coords?: [number, number] | null;
   draft?: boolean;
-  events?: string[];
+  experiences?: Experience[];
 } = {}): Post {
   return {
     id,
@@ -39,7 +42,7 @@ function fakePost(id: string, data: {
         city_slug: data.city_slug ?? 'kyoto',
         gps: data.coords === null ? null : data.coords ?? [0, 0] as [number, number],
       }],
-      events: data.events ?? [],
+      experiences: data.experiences ?? [],
       tags: [],
       draft: data.draft ?? false,
     },
@@ -211,17 +214,17 @@ describe('postsByEvent', () => {
     const older = fakePost('2025/defcon33-us/a', {
       title: 'DEF CON day',
       date: new Date('2025-08-08'),
-      events: ['defcon33-2025'],
+      experiences: [{ kind: 'event', slug: 'defcon33-2025' }],
     });
     const newer = fakePost('2026/exchange-main-lausanne/b', {
       title: 'LakeCTF',
       date: new Date('2026-05-02'),
-      events: ['lakectf-2026'],
+      experiences: [{ kind: 'event', slug: 'lakectf-2026' }],
     });
     const earlierLake = fakePost('2026/exchange-main-lausanne/c', {
       title: 'LakeCTF start',
       date: new Date('2026-04-30'),
-      events: ['lakectf-2026'],
+      experiences: [{ kind: 'event', slug: 'lakectf-2026' }],
     });
 
     const events = postsByEvent([older, newer, earlierLake]);
@@ -258,6 +261,45 @@ describe('mapPins', () => {
       name: 'Second stop', country: 'JP', city: 'Tokyo', city_slug: 'tokyo', gps: [35.6812362, 139.7671248],
     });
     expect(mapPins([post]).map(pin => pin.location_name)).toEqual(['X', 'Second stop']);
+  });
+
+  it('does not duplicate a post with repeated event entries', () => {
+    const post = fakePost('2025/defcon33-us/a', {
+      experiences: [
+        { kind: 'event', slug: 'defcon33-2025' },
+        { kind: 'event', slug: 'defcon33-2025' },
+      ],
+    });
+    expect(postsByEvent([post])[0].posts).toEqual([post]);
+  });
+});
+
+describe('named experiences', () => {
+  it('filters posts by kind without changing their order', () => {
+    const newest = fakePost('newest', {
+      experiences: [{ kind: 'museum', name: 'British Museum' }],
+    });
+    const unrelated = fakePost('unrelated');
+    const older = fakePost('older', {
+      experiences: [{ kind: 'museum', name: 'Kunstmuseum Basel' }],
+    });
+    expect(postsWithExperience([newest, unrelated, older], 'museum')).toEqual([newest, older]);
+  });
+
+  it('returns all matching labels and supports dual-section membership', () => {
+    const post = fakePost('multi', {
+      experiences: [
+        { kind: 'museum', name: 'Ice cave museum' },
+        { kind: 'trail', name: 'Mer de Glace walk' },
+        { kind: 'museum', name: 'Second museum' },
+      ],
+    });
+    expect(namedExperiences(post, 'museum').map(experience => experience.name)).toEqual([
+      'Ice cave museum',
+      'Second museum',
+    ]);
+    expect(postsWithExperience([post], 'museum')).toEqual([post]);
+    expect(postsWithExperience([post], 'trail')).toEqual([post]);
   });
 });
 

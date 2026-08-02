@@ -3,17 +3,28 @@ import type { Post } from '../lib/aggregates';
 import { postUrlSlug, isLocationResolved, primaryLocation } from '../lib/aggregates';
 import CountryFlag from './CountryFlag.astro';
 import { Image } from 'astro:assets';
-interface Props { post: Post; }
-const { post } = Astro.props;
+import { youtubeThumbnailUrl } from '../lib/youtube-core.mjs';
+export interface PostCardLabel {
+  kind: 'museum' | 'trail' | 'event';
+  name: string;
+}
+interface Props { post: Post; labels?: PostCardLabel[]; }
+const { post, labels = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const href = `${base}/posts/${postUrlSlug(post)}`;
 const dateStr = post.data.timestamp.toISOString().slice(0, 10);
 const resolved = isLocationResolved(post);
 const location = primaryLocation(post);
+const youtubeCover = post.data.youtube?.cover;
 ---
 <a href={href} class="card" style="display:block; color:inherit; text-decoration:none;">
   {post.data.cover && (
     <Image src={post.data.cover} alt={post.data.title} width={520} height={320} style="border-radius:6px; margin-bottom:0.75rem;" />
+  )}
+  {youtubeCover && (
+    <span class="youtube-cover">
+      <img src={youtubeThumbnailUrl(youtubeCover)} alt={post.data.title} width="480" height="360" loading="lazy" />
+    </span>
   )}
   <h3>
     {post.data.title}
@@ -30,4 +41,13 @@ const location = primaryLocation(post);
       <>{dateStr}</>
     )}
   </p>
+  {labels.length > 0 && (
+    <div class="experience-chips" aria-label="Explore labels">
+      {labels.map(label => (
+        <span class={`experience-chip experience-chip-${label.kind}`}>
+          {label.kind.charAt(0).toUpperCase() + label.kind.slice(1)} · {label.name}
+        </span>
+      ))}
+    </div>
+  )}
 </a>

@@ -11,6 +11,14 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Maison Tavel, Geneva, Switzerland"
+experiences:
+  - kind: museum
+    name: "Maison Tavel"
+youtube:
+  items:
+    - kind: video
+      id: "iP0GpBz1swk"
+  cover: "iP0GpBz1swk"
 tags: ["exchange-02-geneva-france-ski-trip-1", "switzerland", "geneva"]
 draft: false
 source:

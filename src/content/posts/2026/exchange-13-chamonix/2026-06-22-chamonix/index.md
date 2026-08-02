@@ -29,6 +29,11 @@ locations:
     gps_granularity: area
     gps_confidence: high
     gps_query: "Mer de Glace, Chamonix, France"
+experiences:
+  - kind: museum
+    name: "Ice cave museum"
+  - kind: trail
+    name: "Mer de Glace and ice-cave walk"
 ---
 
 Chamonix was really really fun, talked and yapped to the other exchangers 

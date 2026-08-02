@@ -11,7 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Las Vegas Convention Center, Las Vegas, United States"
-events: ["defcon33-2025"]
+experiences:
+  - kind: event
+    slug: "defcon33-2025"
 tags: ["defcon33-us", "united-states", "las-vegas"]
 draft: false
 source:

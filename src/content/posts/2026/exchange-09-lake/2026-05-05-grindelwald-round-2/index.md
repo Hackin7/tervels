@@ -1,5 +1,10 @@
 ---
 title: "Grindelwald Round 2"
+youtube:
+  items:
+    - kind: video
+      id: "dJKxCKStLTE"
+  cover: "dJKxCKStLTE"
 timestamp: 2026-05-05T00:00:00Z
 locations:
   - name: "Grindelwald"
@@ -8,6 +13,9 @@ locations:
     city_slug: "interlaken"
     gps: [46.5197, 6.6323]
     gps_source: old-frontmatter
+experiences:
+  - kind: trail
+    name: "Grindelwald mountain path"
 source:
   kind: telegram
   message_id: 7373

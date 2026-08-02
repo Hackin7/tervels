@@ -33,7 +33,21 @@ locations:
     gps_source: openstreetmap
     gps_granularity: building
     gps_confidence: high
-events: []
+experiences:
+  - kind: museum
+    name: "Kyoto Railway Museum"
+  - kind: trail
+    name: "Fushimi Inari summit trail"
+  - kind: event
+    slug: "example-event-2025"
+youtube:
+  items:
+    - kind: video
+      id: "dQw4w9WgXcQ"
+      start: 42
+    - kind: playlist
+      id: "PL123456789012"
+  cover: "dQw4w9WgXcQ"
 tags: []
 draft: false
 ---
@@ -54,6 +68,20 @@ draft: false
 - `gps_granularity` is `building`, `venue`, `street`, `area`, or `city`.
 - `gps_confidence` is `high`, `medium`, or `low`.
 - `gps_query` records the lookup or clue used for reproducibility.
+- `experiences` controls the Explore page. Museum and trail entries store the
+  exact editorial label shown on post cards. Event entries reference a stable
+  slug in `src/lib/events.ts`, which supplies the shared event name, year, and
+  location. A post may contain multiple entries of any kind.
+- `youtube.items` is the ordered video gallery for the post. Video entries use
+  an 11-character YouTube ID and may include a non-negative `start` time in
+  seconds. Playlist entries use the playlist ID and do not take a start time.
+- `youtube.cover` uses a video thumbnail as the post and card cover. It may
+  point to a gallery video or any other YouTube video. Do not set both the
+  local `cover` field and `youtube.cover` on the same post.
+
+A YouTube watch, share, Shorts, live, embed, or playlist URL on its own line in
+the Markdown body is also rendered as a responsive embed. Use frontmatter when
+the video belongs in the post's gallery or should supply its cover image.
 
 Coordinate digits must be preserved from the source. Do not pad a coarse match
 with zeroes: decimal places represent storage precision, while granularity and
@@ -77,12 +105,12 @@ and triage views but is excluded from published place views. A location with
 ## Derived presentation
 
 - Trip membership comes from the storage path.
-- Event membership comes from `events`.
+- Museum, trail, and event membership comes from `experiences`.
 - Country/city membership comes from every resolved `locations` entry, with an
   article listed only once per city even if it has several stops there.
 - Trip and event ranges are the minimum and maximum article timestamps.
 - Public article URLs use the primary location, timestamp month, and title.
 - The map emits one pin per resolved location with GPS.
 
-The deprecated `date`, `visited`, singular `location`, and `coords` fields must
-not be added to article frontmatter.
+The deprecated `date`, `visited`, singular `location`, `coords`, and `events`
+fields must not be added to article frontmatter.

@@ -1,0 +1,22 @@
+---
+import { youtubeEmbedUrl, youtubeWatchUrl } from '../lib/youtube-core.mjs';
+
+interface Props {
+  item: { kind: 'video'; id: string; start?: number } | { kind: 'playlist'; id: string };
+  title: string;
+}
+const { item, title } = Astro.props;
+---
+<figure class="youtube-figure">
+  <div class="youtube-embed">
+    <iframe
+      src={youtubeEmbedUrl(item)}
+      title={title}
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <figcaption><a href={youtubeWatchUrl(item)}>{title}</a></figcaption>
+</figure>

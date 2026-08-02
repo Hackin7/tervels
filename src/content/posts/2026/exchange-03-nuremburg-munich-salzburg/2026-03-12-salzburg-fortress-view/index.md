@@ -11,6 +11,11 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Hohensalzburg Fortress, Salzburg, Austria"
+youtube:
+  items:
+    - kind: video
+      id: "B70HYOZumZ8"
+  cover: "B70HYOZumZ8"
 tags: ["exchange-03-nuremburg-munich-salzburg", "austria", "salzburg"]
 draft: false
 source:

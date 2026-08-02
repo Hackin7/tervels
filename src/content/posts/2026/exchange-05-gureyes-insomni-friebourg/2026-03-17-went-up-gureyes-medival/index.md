@@ -12,6 +12,8 @@ locations:
     gps_confidence: low
     gps_query: "Gruyeres, Switzerland"
 tags: ["exchange-05-gureyes", "switzerland", "gruyeres"]
+youtube:
+  cover: "wCeiAbyBjU8"
 draft: false
 source:
   kind: telegram
@@ -23,4 +25,4 @@ source:
 Went up to Gureyes Medival City
 Nice view
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wCeiAbyBjU8?si=jnq2EK0UPPlHbJLr&amp;start=776" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=wCeiAbyBjU8&t=776s

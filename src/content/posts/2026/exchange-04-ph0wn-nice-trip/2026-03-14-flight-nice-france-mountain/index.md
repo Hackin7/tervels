@@ -11,7 +11,14 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Learning Centre SophiaTech, Sophia Antipolis, France"
-events: ["ph0wn-2026"]
+experiences:
+  - kind: event
+    slug: "ph0wn-2026"
+youtube:
+  items:
+    - kind: video
+      id: "aNCBnGinHKo"
+  cover: "hGGIK6IYj9I"
 tags: ["exchange-04-ph0wn-nice-trip", "france", "nice-antibes"]
 draft: false
 source:
@@ -48,4 +55,4 @@ Was fun to revise some basic hacking (and actually solve stuff)
 And also not just aimless networking
 Pizza is quite good too
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hGGIK6IYj9I?si=kINTzfkRppaj7ida" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=hGGIK6IYj9I

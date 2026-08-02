@@ -11,6 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Patek Philippe Museum, Geneva, Switzerland"
+experiences:
+  - kind: museum
+    name: "Patek Philippe Museum"
 ---
 
 I thought the watch exhibition would be more simple.

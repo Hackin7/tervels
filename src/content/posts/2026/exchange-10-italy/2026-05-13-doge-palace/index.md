@@ -11,6 +11,11 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Doge Palace, Venice, Italy"
+youtube:
+  items:
+    - kind: video
+      id: "wz04ysSmpko"
+  cover: "wz04ysSmpko"
 source:
   kind: telegram
   message_id: 7713

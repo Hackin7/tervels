@@ -8,6 +8,23 @@ locations:
     city_slug: "berlin"
     gps: [52.51407143608563, 13.325159796987773]
     gps_source: old-frontmatter
+youtube:
+  items:
+    - kind: video
+      id: "nN-R3hVHorc"
+    - kind: video
+      id: "VzdssotRqnc"
+    - kind: video
+      id: "K8KMNQWxiPI"
+    - kind: video
+      id: "uipxNlcw5_8"
+    - kind: video
+      id: "-esQSMC-uUM"
+    - kind: video
+      id: "f2_t52GcKvU"
+    - kind: video
+      id: "iPT_Mj9W5Zo"
+  cover: "nN-R3hVHorc"
 source:
   kind: telegram
   message_id: 8656

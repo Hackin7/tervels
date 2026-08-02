@@ -23,6 +23,21 @@ nav.site-nav a { color: var(--text); font-weight: 500; }
 .nav-menu-panel .nav-link { padding: 0.35rem 0.5rem; }
 .card { padding: 1rem; background: white; border: 1px solid var(--border); border-radius: 8px; }
 .card h3 { margin: 0 0 0.5rem; }
+.experience-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.7rem; }
+.experience-chip { display: inline-flex; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.78rem; line-height: 1.4; color: #333; background: #f0f0f0; }
+.experience-chip-museum { background: #ede9fe; color: #5b21b6; }
+.experience-chip-trail { background: #dcfce7; color: #166534; }
+.experience-chip-event { background: #e0f2fe; color: #075985; }
+.explore-section { scroll-margin-top: 1rem; margin-top: 2.5rem; }
+.youtube-cover { display: block; margin: 1rem 0; }
+.youtube-cover img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
+.card .youtube-cover { margin: 0 0 0.75rem; }
+.card .youtube-cover img { border-radius: 6px; }
+.youtube-gallery { display: grid; gap: 1.25rem; margin-top: 1rem; }
+.youtube-figure { margin: 0; }
+.youtube-figure figcaption { margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
+.youtube-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; background: #111; }
+.youtube-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
 @media (max-width: 640px) {
   nav.site-nav { gap: 1rem; padding: 0.75rem 1rem; }

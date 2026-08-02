@@ -16,6 +16,9 @@
     "locations:audit": "node scripts/audit-locations.mjs --check",
     "locations:propagate": "node scripts/propagate-locations.mjs --write",
     "locations:curate": "node scripts/apply-location-overrides.mjs --write",
+    "posts:consolidate": "node scripts/consolidate-posts.mjs",
+    "youtube:sync": "node scripts/sync-youtube.mjs",
+    "youtube:report": "node scripts/report-youtube-links.mjs",
     "optimize": "node scripts/optimize-photos.mjs"
   },
   "dependencies": {

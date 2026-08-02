@@ -1,5 +1,10 @@
 ---
 title: "**Overall Insomnihack Reflections** I was quite"
+youtube:
+  items:
+    - kind: video
+      id: "MqzDXW2vbek"
+  cover: "MqzDXW2vbek"
 timestamp: 2026-03-21T00:00:00Z
 locations:
   - name: "Lausanne, Switzerland"

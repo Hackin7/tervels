@@ -1,5 +1,10 @@
 ---
 title: "London Day 4: Sights, Play, FreePlayCity, Bridge"
+youtube:
+  items:
+    - kind: video
+      id: "r-qCwBF58AE"
+  cover: "r-qCwBF58AE"
 timestamp: 2026-07-05T00:00:00Z
 locations:
   - name: "Buckingham Palace"

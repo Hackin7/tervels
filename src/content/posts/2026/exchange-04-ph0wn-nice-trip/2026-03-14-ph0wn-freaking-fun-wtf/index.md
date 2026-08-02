@@ -11,7 +11,11 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Learning Centre SophiaTech, Sophia Antipolis, France"
-events: ["ph0wn-2026"]
+experiences:
+  - kind: event
+    slug: "ph0wn-2026"
+youtube:
+  cover: "1Pzolh0gN0E"
 tags: ["exchange-04-ph0wn-nice-trip", "france", "nice-antibes"]
 draft: false
 source:
@@ -25,4 +29,4 @@ ph0wn was freaking fun wtf
 
 It's basically like hardware challenges but actually in depth
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1Pzolh0gN0E?si=Li_wzt8AsTxrZCYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=1Pzolh0gN0E

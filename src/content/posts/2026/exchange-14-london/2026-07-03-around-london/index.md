@@ -29,6 +29,11 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Chinatown Gate, London, United Kingdom"
+youtube:
+  items:
+    - kind: video
+      id: "09b4eGNFpf4"
+  cover: "09b4eGNFpf4"
 ---
 # Platform 9 3/4
 Just dropped by to see (it's meh) , long queue (even into the shop also got queue) LOL so left

@@ -11,6 +11,14 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Museum Correr, Piazza San Marco, Venice, Italy"
+experiences:
+  - kind: museum
+    name: "Museo Correr"
+youtube:
+  items:
+    - kind: video
+      id: "gmNySruHZVQ"
+  cover: "gmNySruHZVQ"
 source:
   kind: telegram
   message_id: 7682

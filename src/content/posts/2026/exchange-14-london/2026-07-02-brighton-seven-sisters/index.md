@@ -20,6 +20,9 @@ locations:
     gps_granularity: area
     gps_confidence: high
     gps_query: "Seven Sisters Country Park, United Kingdom"
+experiences:
+  - kind: trail
+    name: "Seven Sisters Country Park"
 ---
 
 Start of UK journey (Tesco Meal deal too, I got some cold wrap, boiled eggs, not bad)

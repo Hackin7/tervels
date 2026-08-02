@@ -11,6 +11,11 @@ locations:
     gps_granularity: city
     gps_confidence: low
     gps_query: "Basel, Switzerland"
+experiences:
+  - kind: museum
+    name: "Smallest museum (name not recorded)"
+  - kind: museum
+    name: "Kunstmuseum Basel"
 tags: ["exchange-01-basel", "switzerland", "basel"]
 draft: false
 source:
@@ -66,4 +71,3 @@ Waited a long while but the heat is real on that
 
 Was fun hanging out with the other exchangers (NUS and also NTU!), 
 though I do regret not initiating more travels with them (too busy).
-

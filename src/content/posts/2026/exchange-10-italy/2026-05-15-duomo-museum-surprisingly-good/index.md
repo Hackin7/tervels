@@ -11,6 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Museo del Duomo, Milan, Italy"
+experiences:
+  - kind: museum
+    name: "Museo del Duomo"
 source:
   kind: telegram
   message_id: 8079

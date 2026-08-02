@@ -1,5 +1,10 @@
 ---
 title: "LakeCTF Time"
+youtube:
+  items:
+    - kind: video
+      id: "aI6WOpZcZdk"
+  cover: "aI6WOpZcZdk"
 timestamp: 2026-05-01T00:00:00Z
 locations:
   - name: "EPFL campus"

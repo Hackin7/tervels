@@ -11,6 +11,11 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Roman Forum, Rome, Italy"
+youtube:
+  items:
+    - kind: video
+      id: "02jIH0t4loI"
+  cover: "02jIH0t4loI"
 source:
   kind: telegram
   message_id: 8024

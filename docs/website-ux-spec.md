@@ -13,7 +13,7 @@ ways to browse the same post collection:
 - A reverse-chronological home feed with a map preview.
 - Geographic browsing by country and city.
 - Trip browsing from the storage folder structure.
-- Event browsing from post frontmatter event tags.
+- Museum, trail, and event browsing from post frontmatter experiences.
 - A full map for coordinate-based exploration.
 - A triage workflow for posts whose location metadata is incomplete.
 
@@ -26,7 +26,7 @@ storage folder path.
 All pages use the shared base layout. The page shell includes:
 
 - A simple top navigation bar with links to `tervels`, `map`, `places`, `trips`,
-  `events`, and `triage`.
+  and `explore`.
 - A centered main content container with a maximum width suited to reading and
   card grids.
 - A quiet visual system: white cards, light borders, muted metadata text, and a
@@ -62,6 +62,13 @@ Post pages render a single Markdown note inside the post layout. They show:
 - The post date derived from `timestamp` and all resolved location names.
 - An optional cover image.
 - The rendered Markdown article body.
+- Responsive YouTube embeds for standalone video links in the article.
+- An optional ordered video/playlist gallery after the article.
+
+A post may use either a local image or a YouTube thumbnail as its cover. The
+same YouTube cover treatment is used on post cards. Gallery entries already
+embedded as standalone links in the body are omitted from the gallery to avoid
+showing the same video twice.
 
 For resolved posts, the context line acts as a breadcrumb:
 
@@ -148,22 +155,21 @@ Trip detail pages show one trip group. They include:
 Trip pages include non-draft posts even when their location is unresolved, so
 they can act as a working browse view while metadata is being cleaned up.
 
-### Events
+### Explore
 
-Route: `/events`
+Route: `/explore`
 
-The events page groups non-draft posts by their `events` frontmatter values.
-Each event section shows:
+Explore contains three anchored sections in order: Museums, Trails, and Events.
+Museum and trail sections show published posts newest first. Each card includes
+chips naming the matching museum or trail from the post's `experiences`
+frontmatter.
 
-- Event name and year from the event catalog.
-- The event date range based on included posts.
-- Optional event location.
-- The number of notes.
-- A grid of post cards.
+The Events section groups non-draft posts by event experience slug. Each group
+shows its catalog name, year, date range, optional location, note count, and a
+grid of post cards labeled with the event name. Events remain sorted by most
+recent event metadata/date and do not have detail routes.
 
-Events are sorted by most recent event metadata/date. Unlike places, event
-grouping is not a route hierarchy; all event sections currently live on one
-page.
+The legacy `/events` route redirects to `/explore#events`.
 
 ### Map
 
@@ -207,13 +213,13 @@ The primary user flows are:
 - Home feed: `home -> post card -> post`.
 - Geographic browse: `places -> country -> city -> post`.
 - Trip browse: `trips -> trip -> post`.
-- Event browse: `events -> event section -> post`.
+- Explore browse: `explore -> museum, trail, or event section -> post`.
 - Map exploration: `home map` or `map -> marker popup -> post`.
 - Cleanup flow: `triage -> unresolved post/source id -> edit Markdown metadata`.
 
 The same post can appear in several views depending on its metadata. For
 example, a resolved event post with coordinates can appear on the home feed, in
-places, in its trip, in events, and on the map.
+places, in its trip, in Explore, and on the map.
 
 ## Visibility And Data Rules
 
@@ -222,7 +228,8 @@ The current implementation uses these content sets:
 - Published posts: non-draft posts with resolved location metadata. These appear
   on home, places, city pages, and the map data source.
 - Navigable posts: all non-draft posts, including unresolved posts. These appear
-  in trips, events, and generated post routes.
+  in trips, Explore event groups, and generated post routes. Museum and trail
+  sections use the published set.
 - Unresolved posts: non-draft posts whose country or city slug is still a
   placeholder. These appear in triage and can show `needs triage` badges.
 - Map pins: published posts with non-null coordinates.
@@ -235,11 +242,11 @@ is kept out of public geographic listings until the metadata is corrected.
 
 - Places are metadata-driven; trips are folder-driven. This is intentional and
   lets the storage structure differ from public browsing.
-- Post cards are the shared preview unit across home, city, trip, and event
-  views.
+- Post cards are the shared preview unit across home, city, trip, and Explore
+  views. Explore cards can add typed experience chips.
 - The map is embedded on the home page at a shorter height and has a dedicated
   taller page at `/map`.
-- Events currently have an index page only; there are no separate event detail
-  routes.
+- Museums, trails, and events are consolidated on Explore; none has a separate
+  detail route.
 - Triage is exposed in the main nav because metadata cleanup is part of the
   current operating workflow.

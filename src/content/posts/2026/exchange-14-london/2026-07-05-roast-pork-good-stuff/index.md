@@ -47,6 +47,9 @@ locations:
     gps_granularity: area
     gps_confidence: high
     gps_query: "Kensington Gardens, London, United Kingdom"
+experiences:
+  - kind: museum
+    name: "National Gallery"
 ---
 
 # Breakfast

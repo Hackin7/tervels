@@ -1,5 +1,10 @@
 ---
 title: "Walking around Salzburg"
+youtube:
+  items:
+    - kind: video
+      id: "zjwTEea4IeA"
+  cover: "zjwTEea4IeA"
 timestamp: 2026-03-12T00:00:00Z
 locations:
   - name: "Salzburg old town walking route"

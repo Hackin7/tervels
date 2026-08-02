@@ -1,5 +1,10 @@
 ---
 title: "Zermatt"
+youtube:
+  items:
+    - kind: video
+      id: "uBugBNCd1QY"
+  cover: "uBugBNCd1QY"
 timestamp: 2026-05-01T00:00:00Z
 locations:
   - name: "Zermatt"
@@ -8,6 +13,9 @@ locations:
     city_slug: "zermatt"
     gps: [46.5197, 6.6323]
     gps_source: old-frontmatter
+experiences:
+  - kind: trail
+    name: "Zermatt city hike"
 ---
 
 # City

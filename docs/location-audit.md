@@ -1,8 +1,8 @@
 # Location Audit
 
-- Articles: 96
-- Location links: 131
-- Multi-location articles: 16
+- Articles: 99
+- Location links: 141
+- Multi-location articles: 19
 - Locations without GPS: 1
 - Unresolved locations: 0
 - Generic city-level names requiring review: 5
@@ -11,26 +11,26 @@
 
 ## GPS Sources
 
-- openstreetmap: 89
+- openstreetmap: 98
 - manual: 23
-- old-frontmatter: 18
+- old-frontmatter: 19
 - unspecified: 1
 
 ## Granularity
 
-- venue: 49
-- building: 37
-- unspecified: 19
-- area: 12
-- city: 12
-- street: 2
+- venue: 52
+- building: 39
+- unspecified: 20
+- city: 14
+- area: 13
+- street: 3
 
 ## Confidence
 
-- high: 89
-- unspecified: 19
-- medium: 15
-- low: 8
+- high: 91
+- medium: 20
+- unspecified: 20
+- low: 10
 
 ## Missing GPS
 

@@ -11,6 +11,11 @@ locations:
     gps_granularity: city
     gps_confidence: low
     gps_query: "Nanjing, China"
+experiences:
+  - kind: museum
+    name: "Nanjing mall art museum (name not recorded)"
+  - kind: trail
+    name: "Xuanwu Lake walk"
 tags: ["intern-02-nanjing", "china", "nanjing"]
 draft: false
 source:

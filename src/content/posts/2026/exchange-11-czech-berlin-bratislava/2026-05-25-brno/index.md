@@ -1,5 +1,10 @@
 ---
 title: "Brno"
+youtube:
+  items:
+    - kind: video
+      id: "rJyM-pTwgSM"
+  cover: "rJyM-pTwgSM"
 timestamp: 2026-05-25T00:00:00Z
 locations:
   - name: "Espressif"

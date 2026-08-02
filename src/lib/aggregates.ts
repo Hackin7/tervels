@@ -4,6 +4,9 @@ import { eventMeta, type EventMeta } from './events';
 
 export type Post = CollectionEntry<'posts'>;
 export type Location = Post['data']['locations'][number];
+export type Experience = Post['data']['experiences'][number];
+export type NamedExperienceKind = 'museum' | 'trail';
+export type NamedExperience = Extract<Experience, { kind: NamedExperienceKind }>;
 
 const UNRESOLVED_COUNTRY = 'XX';
 const UNRESOLVED_COUNTRY_NAME = 'Unknown';
@@ -91,6 +94,17 @@ export function postsInCity(posts: Post[], country: string, city: string): Post[
   ));
 }
 
+export function namedExperiences(post: Post, kind: NamedExperienceKind): NamedExperience[] {
+  return post.data.experiences.filter(
+    (experience): experience is NamedExperience => experience.kind === kind
+  );
+}
+
+/** Filter an already-sorted post list without changing its order. */
+export function postsWithExperience(posts: Post[], kind: NamedExperienceKind): Post[] {
+  return posts.filter(post => namedExperiences(post, kind).length > 0);
+}
+
 export function locationInCity(post: Post, country: string, city: string): Location | undefined {
   return post.data.locations.find(l => countrySlug(l.country) === country && l.city_slug === city);
 }
@@ -166,10 +180,13 @@ export function postsByTrip(posts: Post[]): TripGroup[] {
 export function postsByEvent(posts: Post[]): EventGroup[] {
   const buckets = new Map<string, Post[]>();
   for (const p of posts) {
-    for (const event of p.data.events) {
-      const arr = buckets.get(event) ?? [];
+    const eventSlugs = new Set(p.data.experiences
+      .filter((experience): experience is Extract<Experience, { kind: 'event' }> => experience.kind === 'event')
+      .map(experience => experience.slug));
+    for (const slug of eventSlugs) {
+      const arr = buckets.get(slug) ?? [];
       arr.push(p);
-      buckets.set(event, arr);
+      buckets.set(slug, arr);
     }
   }
 

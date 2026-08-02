@@ -1,5 +1,10 @@
 ---
 title: "Stonehenge is meh"
+youtube:
+  items:
+    - kind: video
+      id: "Z5wGoFFCjiM"
+  cover: "Z5wGoFFCjiM"
 timestamp: 2026-07-07T00:00:00Z
 locations:
   - name: "Stonehenge"

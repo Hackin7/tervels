@@ -11,6 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Toyota Commemorative Museum of Industry and Technology, Nagoya, Japan"
+experiences:
+  - kind: museum
+    name: "Toyota Commemorative Museum of Industry and Technology"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

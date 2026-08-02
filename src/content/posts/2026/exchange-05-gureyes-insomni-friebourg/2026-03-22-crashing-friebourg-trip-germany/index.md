@@ -1,5 +1,10 @@
 ---
 title: "Crashing Friebourg trip to Germany"
+youtube:
+  items:
+    - kind: video
+      id: "3So8hPmDC7Y"
+  cover: "3So8hPmDC7Y"
 timestamp: 2026-03-22T00:00:00Z
 locations:
   - name: "Friebourg"
@@ -8,6 +13,9 @@ locations:
     city_slug: "friebourg"
     gps: [46.5197, 6.6323]
     gps_source: old-frontmatter
+experiences:
+  - kind: trail
+    name: "Friebourg city hiking trail"
 source:
   kind: telegram
   message_id: 5871

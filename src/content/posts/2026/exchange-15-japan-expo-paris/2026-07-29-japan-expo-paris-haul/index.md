@@ -11,7 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Parc des Expositions, Villepinte, France"
-events: ["japan-expo-paris-2026"]
+experiences:
+  - kind: event
+    slug: "japan-expo-paris-2026"
 ---
 
 Japan Expo Paris Haul ish (only accounted on 29th July)

@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard, { type PostCardLabel } from '../../components/PostCard.astro';
+import {
+  namedExperiences,
+  navigablePosts,
+  postsByEvent,
+  postsWithExperience,
+  publishedPosts,
+  type NamedExperienceKind,
+  type Post,
+} from '../../lib/aggregates';
+
+const all = await getCollection('posts');
+const published = publishedPosts(all);
+const museums = postsWithExperience(published, 'museum');
+const trails = postsWithExperience(published, 'trail');
+const events = postsByEvent(navigablePosts(all));
+
+function labelsFor(post: Post, kind: NamedExperienceKind): PostCardLabel[] {
+  return namedExperiences(post, kind).map(experience => ({
+    kind,
+    name: experience.name,
+  }));
+}
+
+function fmtDateRange(start: Date, end: Date): string {
+  const s = start.toISOString().slice(0, 10);
+  const e = end.toISOString().slice(0, 10);
+  return s === e ? s : `${s} – ${e}`;
+}
+---
+<BaseLayout title="Explore · tervels" description="Browse museums, trails, and events from the tervels travel log.">
+  <h1>Explore</h1>
+  <p class="muted">Browse museum visits, nature trails, and events.</p>
+
+  <section id="museums" class="explore-section">
+    <h2>Museums</h2>
+    <p class="muted">{museums.length} post{museums.length === 1 ? '' : 's'}, sorted by most recent.</p>
+    <div class="grid grid-cards">
+      {museums.map(post => <PostCard post={post} labels={labelsFor(post, 'museum')} />)}
+    </div>
+  </section>
+
+  <section id="trails" class="explore-section">
+    <h2>Trails</h2>
+    <p class="muted">{trails.length} post{trails.length === 1 ? '' : 's'}, sorted by most recent.</p>
+    <div class="grid grid-cards">
+      {trails.map(post => <PostCard post={post} labels={labelsFor(post, 'trail')} />)}
+    </div>
+  </section>
+
+  <section id="events" class="explore-section">
+    <h2>Events</h2>
+    <p class="muted">{events.length} event{events.length === 1 ? '' : 's'}, sorted by most recent.</p>
+    <div style="display:grid; gap:2rem;">
+      {events.map(event => (
+        <section>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:0.75rem;">
+            <div>
+              <h3 style="margin:0;">{event.meta.name} · {event.meta.year || 'Unknown year'}</h3>
+              <p class="muted" style="margin:0.15rem 0 0;">
+                {fmtDateRange(event.earliest, event.latest)}
+                {event.meta.location && ` · ${event.meta.location}`}
+                {` · ${event.posts.length} note${event.posts.length === 1 ? '' : 's'}`}
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cards">
+            {event.posts.map(post => (
+              <PostCard post={post} labels={[{ kind: 'event', name: event.meta.name }]} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

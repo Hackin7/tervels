@@ -11,7 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: medium
     gps_query: "Vanke Design Commune / Vanke Cloud City, Shenzhen, China"
-events: ["maker-faire-shenzhen-2025"]
+experiences:
+  - kind: event
+    slug: "maker-faire-shenzhen-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

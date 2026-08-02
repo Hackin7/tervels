@@ -12,6 +12,8 @@ locations:
     gps_confidence: low
     gps_query: "Gruyeres, Switzerland"
 tags: ["exchange-05-gureyes", "switzerland", "gruyeres"]
+youtube:
+  cover: "mWPt3bsidSo"
 draft: false
 source:
   kind: telegram
@@ -24,8 +26,8 @@ Gureyes Cheese Factory
 
 its ok, they give you cheese samples which more than make up the cost
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wCeiAbyBjU8?si=fQNECDJgoUHNqHLS&amp;start=146" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=wCeiAbyBjU8&t=146s
 
 It is somewhat interesting seeing the cheese factory in production. You have to go early to see it though, we went late and didn't see the full process. Check the website for more information on the schedule.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mWPt3bsidSo?si=erGqxiwELMqaWV9S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=mWPt3bsidSo

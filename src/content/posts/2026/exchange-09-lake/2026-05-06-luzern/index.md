@@ -1,5 +1,12 @@
 ---
 title: "Luzern Rd 2"
+youtube:
+  items:
+    - kind: video
+      id: "_PQ7A9gTYNo"
+    - kind: video
+      id: "RFKo7Lppu-M"
+  cover: "_PQ7A9gTYNo"
 timestamp: 2026-05-07T00:00:00Z
 locations:
   - name: "Musegg Wall"

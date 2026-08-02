@@ -1,5 +1,14 @@
 ---
 title: "Went back Interlaken Lauterbrunnen"
+youtube:
+  items:
+    - kind: video
+      id: "c81WC9GJU2U"
+    - kind: video
+      id: "llxUEx3cv_c"
+    - kind: video
+      id: "mmOePWvQOpU"
+  cover: "c81WC9GJU2U"
 timestamp: 2026-04-13T00:00:00Z
 locations:
   - name: "Trümmelbach Falls"

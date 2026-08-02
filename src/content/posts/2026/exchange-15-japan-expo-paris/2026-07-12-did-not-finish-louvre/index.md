@@ -38,6 +38,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Eiffel Tower, Paris, France"
+experiences:
+  - kind: museum
+    name: "Musée du Louvre"
 ---
 
 I did not finish the Louvre. 

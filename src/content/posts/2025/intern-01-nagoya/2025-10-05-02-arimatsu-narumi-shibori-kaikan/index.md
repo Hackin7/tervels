@@ -11,6 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Arimatsu Narumi Shibori Kaikan, Nagoya, Japan"
+experiences:
+  - kind: museum
+    name: "Arimatsu Narumi Shibori Kaikan"
 tags: ["intern-01-nagoya", "japan", "arimatsu-nagoya"]
 draft: false
 source:

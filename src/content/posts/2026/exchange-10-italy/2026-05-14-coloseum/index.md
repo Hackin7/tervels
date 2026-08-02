@@ -11,6 +11,14 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Colosseum, Rome, Italy"
+experiences:
+  - kind: museum
+    name: "Colosseum museum"
+youtube:
+  items:
+    - kind: video
+      id: "ot77uC8PG2Y"
+  cover: "ot77uC8PG2Y"
 source:
   kind: telegram
   message_id: 7974

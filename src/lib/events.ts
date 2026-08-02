@@ -6,6 +6,8 @@ export interface EventMeta {
 }
 
 export const EVENT_CATALOG: EventMeta[] = [
+  { slug: 'japan-expo-paris-2026', name: 'Japan Expo Paris', year: 2026, location: 'Villepinte, France' },
+  { slug: 'dokomi-2026', name: 'DoKomi', year: 2026, location: 'Dusseldorf, Germany' },
   { slug: 'lakectf-2026', name: 'LakeCTF', year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'balelec-2026', name: 'Balelec', year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'polymanga-2026', name: 'PolyManga', year: 2026, location: 'Montreux, Switzerland' },
@@ -18,6 +20,7 @@ export const EVENT_CATALOG: EventMeta[] = [
   { slug: 'shanghai-maker-faire-2025', name: 'Shanghai Maker Faire', year: 2025, location: 'Shanghai, China' },
   { slug: 'defcon33-2025', name: 'DEF CON 33', year: 2025, location: 'Las Vegas, United States' },
   { slug: 'black-hat-usa-2025', name: 'Black Hat USA', year: 2025, location: 'Las Vegas, United States' },
+  { slug: 'isitdtu-ctf-finals-2023', name: 'ISITDTU CTF Finals', year: 2023, location: 'Da Nang, Vietnam' },
 ];
 
 export const EVENTS_BY_SLUG = new Map(EVENT_CATALOG.map(event => [event.slug, event]));
@@ -25,7 +28,7 @@ export const EVENTS_BY_SLUG = new Map(EVENT_CATALOG.map(event => [event.slug, ev
 export function eventMeta(slug: string): EventMeta {
   return EVENTS_BY_SLUG.get(slug) ?? {
     slug,
-    name: slug, //.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+    name: slug,
     year: Number(slug.match(/-(\d{4})$/)?.[1] ?? 0),
   };
 }

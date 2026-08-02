@@ -11,7 +11,9 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Atour Hotel Shenzhen Nanshan Vanke Yuncheng, Shenzhen, China"
-events: ["kicon-asia-2025"]
+experiences:
+  - kind: event
+    slug: "kicon-asia-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:
