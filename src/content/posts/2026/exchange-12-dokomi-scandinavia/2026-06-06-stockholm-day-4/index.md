@@ -1,5 +1,5 @@
 ---
-title: "Stockholm — Day 3 (6 June 2026)"
+title: "Stockholm — Day 4 (6 June 2026)"
 timestamp: 2026-06-06T00:00:00Z
 locations:
   - name: "Stockholm city centre"

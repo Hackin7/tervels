@@ -1,6 +1,6 @@
 ---
-title: "Copenhagen — Day 3 (3 June 2026)"
-timestamp: 2026-06-03T00:00:00Z
+title: "Copenhagen — Day 3 (2 June 2026)"
+timestamp: 2026-06-02T00:00:00Z
 locations:
   - name: "Christiansborg Palace"
     country: "Denmark"

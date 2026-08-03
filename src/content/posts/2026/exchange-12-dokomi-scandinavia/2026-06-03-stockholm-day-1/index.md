@@ -1,6 +1,6 @@
 ---
-title: "Stockholm — Day 1 (4 June 2026)"
-timestamp: 2026-06-04T00:00:00Z
+title: "Stockholm — Day 1 (3 June 2026)"
+timestamp: 2026-06-03T00:00:00Z
 locations:
   - name: "Vasa Museum"
     country: "Sweden"
@@ -11,15 +11,6 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Vasa Museum, Stockholm, Sweden"
-  - name: "7A Posthuset"
-    country: "Sweden"
-    city: "Stockholm"
-    city_slug: "stockholm"
-    gps: [59.3322954,18.0580946]
-    gps_source: openstreetmap
-    gps_granularity: building
-    gps_confidence: high
-    gps_query: "Vasagatan 28, Stockholm, Sweden"
   - name: "HEY STHLM"
     country: "Sweden"
     city: "Stockholm"
@@ -41,16 +32,6 @@ experiences:
     slug: "midnight-sun-ctf-2026"
 tags: ["exchange-12-dokomi-scandinavia","sweden","stockholm","midnight-sun-ctf-2026"]
 draft: false
----
-
-<!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-somehow-got-hotel-breakfast/index.md -->
-
-## Somehow got the Hotel Breakfast It
-
-Somehow got the Hotel Breakfast
-
-It was super good shit, super worth wtf
-
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-stockholm-crashed-midnight-sun/index.md -->
@@ -112,11 +93,3 @@ I find it interesting
 Only took me 3.5months in Europe to finally go to a real arcade and play maimai🤡
 
 Anyway it was freaking satisfying to finally do that
-
----
-
-<!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-midnight-sun-conference-meh/index.md -->
-
-## Midnight sun conference was meh tbh
-
-Midnight sun conference was meh tbh

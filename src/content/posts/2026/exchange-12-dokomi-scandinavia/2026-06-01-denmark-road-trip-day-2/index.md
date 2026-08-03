@@ -1,6 +1,6 @@
 ---
-title: "Denmark Road Trip — Day 2 (2 June 2026)"
-timestamp: 2026-06-02T00:00:00Z
+title: "Denmark Road Trip — Day 2 (1 June 2026)"
+timestamp: 2026-06-01T00:00:00Z
 locations:
   - name: "Forest Tower at Camp Adventure"
     country: "Denmark"
