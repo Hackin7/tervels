@@ -51,8 +51,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-02-tldr-things-did/index.md#denmark-trip-recap -->
 
-## Denmark trip recap
-
 Tldr of things I did in Demark (updates coming soonish) 
 1. Eat roast pork
 2. See the greatest attraction of denmark
@@ -73,8 +71,6 @@ Didn't leave codex running in the background enough but was fun
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-03-mala-denmark-master-chef/index.md -->
 
-## Mala from Denmark Master chef (all
-
 Mala from Denmark Master chef (all I can do is wash dishes like the peasant I am)
 
 Needless to say the Mala is amazing
@@ -82,8 +78,6 @@ Needless to say the Mala is amazing
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-03-unesco-deer-park-near/index.md -->
-
-## UNESCO Deer Park near the dorm
 
 UNESCO Deer Park near the dorm
 
@@ -94,16 +88,12 @@ Also the meal at the Cafe is good stuff, 32sgd 😢 huge burger with roast pork
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-03-back-around-copenhagen-skimmed/index.md -->
 
-## Back Around Copenhagen Skimmed through the
-
 Back Around Copenhagen
 Skimmed through the market, it was OK (but Denmark prices so)
 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-03-christianborg-palace-free-go/index.md -->
-
-## Christianborg Palace Was free to go
 
 Christianborg Palace
 
@@ -122,8 +112,6 @@ The highlight of the Palace is the top view and the garden imo
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-03-went-cafe-chilled/index.md -->
-
-## Went to a cafe and chilled,
 
 Went to a cafe and chilled, Ate some potato pizza for 12SGD (and shared :) 
 

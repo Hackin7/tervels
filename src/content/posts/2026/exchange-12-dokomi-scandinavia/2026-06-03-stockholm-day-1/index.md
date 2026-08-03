@@ -36,8 +36,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-stockholm-crashed-midnight-sun/index.md -->
 
-## Stockholm Crashed the Midnight Sun Team
-
 Stockholm
 Crashed the Midnight Sun Team to follow around lol
 
@@ -47,16 +45,12 @@ Decent view, tho I feel it's more similar to the rest of Europe
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-place-some-good-stuff/index.md -->
 
-## This place is some good stuff
-
 This place is some good stuff
 I think the Swedish toast that I got is actually quite nice, cold prawn seafood stuff
 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-vasa-museum-really-cool/index.md -->
-
-## Vasa museum Really cool ship I
 
 Vasa museum
 Really cool ship
@@ -70,8 +64,6 @@ Though it was quite funny I left without knowing why it sunk (I was so tired I s
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-dinner-crashed-midnight/index.md -->
-
-## Dinner crashed midnight sun people
 
 Dinner
 - crashed midnight sun people
@@ -87,8 +79,6 @@ I find it interesting
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-only-took-me-3/index.md -->
-
-## Only took me 3.5months in Europe
 
 Only took me 3.5months in Europe to finally go to a real arcade and play maimai🤡
 

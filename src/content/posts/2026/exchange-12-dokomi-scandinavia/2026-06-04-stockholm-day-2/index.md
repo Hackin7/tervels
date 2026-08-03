@@ -44,8 +44,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-somehow-got-hotel-breakfast/index.md -->
 
-## Somehow got the Hotel Breakfast It
-
 Somehow got the Hotel Breakfast
 
 It was super good shit, super worth wtf
@@ -54,15 +52,11 @@ It was super good shit, super worth wtf
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-04-midnight-sun-conference-meh/index.md -->
 
-## Midnight sun conference was meh tbh
-
 Midnight sun conference was meh tbh
 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-05-went-see-ikea-s/index.md -->
-
-## Went to see IKEA It's the
 
 Went to see IKEA
 It's the same ngl
@@ -75,8 +69,6 @@ Kinda felt I should have bought a drink for the European arcade experience but t
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-05-some-sights-around-mcdonald/index.md -->
-
-## Some sights around The McDonald's is
 
 Some sights around
 

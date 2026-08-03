@@ -45,8 +45,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-overall-dokomi-fun-still/index.md -->
 
-## Overall DoKomi and Düsseldorf reflections
-
 Overall Dokomi was fun
 I still feel quite sad that unlike polymanga, where all of a sudden you get a concert with Mika Kobayashi which made up the whole cost of the ticket, I didn't have time to see something like that. And I know there would have been something like that from looking at the schedule, maybe the Black Stage
 
@@ -66,8 +64,6 @@ At least now I can say I've seen Reji-sensei with my own eyes LOL
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-30-dokomi-fun-sad/index.md -->
 
-## Dokomi was fun but sad that
-
 Dokomi was fun but sad that I couldn't attend all the way though to sat
 Then JRave was also quite fun but was so late so was tired, will post updates later, both events quite interesting to dissect 
 
@@ -81,8 +77,6 @@ Screw their cancellation fee I'm gonna complain
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-30-https-www-youtube-com/index.md -->
 
-## [https://www.youtube.com/live/k9MFzKIatWo](https://www.youtube.com/live/k9MFzKIatWo) a dokomi live stream idk
-
 [https://www.youtube.com/live/k9MFzKIatWo](https://www.youtube.com/live/k9MFzKIatWo)
 a dokomi live stream
 idk what I'll do today now tbh, dont really feel like exploring Dusseldorf (didn't plan to nor saw anything interesting too)
@@ -92,8 +86,6 @@ maybe study/work for a while (and charge my devices lol, the hostel didn't have 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-then-went-back-creators/index.md#next-day-in-dusseldorf -->
-
-## The next day in Düsseldorf
 
 On the next day, woke up to my flixbus being cancelled
 
@@ -109,8 +101,6 @@ At about 2pm I decided I should really go eat and walked out
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-first-went-kongsaielle/index.md -->
 
-## At first I went to Kongsaielle
-
 At first I went to Kongsaielle
 It's just a normal bridge with a shopping mall near it and some luxury shops
 
@@ -121,16 +111,12 @@ Afterwards I googled more on Dusseldorf and found out that it's known for its ac
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-went-little-tokyo-decided/index.md -->
 
-## Went to little tokyo and decided
-
 Went to little tokyo and decided to get Ramen (Japanese Cultural Trip after all) , I've heard the
 Tastes exactly like the one I got in Nagoya Japan (I think saporo ramen), in fact I think in SG I would have to pay a similar price to get this type of ramen so very worth
 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-then-checked-out-takagi/index.md -->
-
-## Then I checked out the takagi
 
 Then I checked out the takagi bookshop which was much smaller than I thought, but I find it interesting that it serves both Japanese books and German books, and German books about Japanese culture, I get a sensing that it's made for the Japanese community in Dusseldorf instead of just Japanese Fans
 
@@ -141,8 +127,6 @@ They also had takiyaki icecream that I decided to skip out of, but that was quit
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-almost-thought-little-tokyo/index.md -->
-
-## Almost thought Little Tokyo didn't have
 
 Almost thought Little Tokyo didn't have much else other than food, which didn't seem right to me lol, went to Google (on slow data) 
 
@@ -156,8 +140,6 @@ They had some merch so I just went to support, also because the character is nic
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-asian-supermarkets-haven-t/index.md -->
-
-## Asian supermarkets!!! I haven't found them
 
 Asian supermarkets!!!
 
@@ -177,8 +159,6 @@ Little Tokyo is a very vibey place, the stalls are not particularly amazing tbh,
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-31-tower-merch/index.md -->
-
-## The tower was on the merch
 
 The tower was on the merch so I had to see it and take photos🤡
 In hindsight maybe I should have gambled harder on the garden but welp

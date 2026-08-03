@@ -41,8 +41,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-01-then-all-sudden-after/index.md -->
 
-## Then all of a sudden after
-
 Then all of a sudden after some sleeping we were asked to get off the bus
 And we were on a ferry wtf?
 
@@ -58,8 +56,6 @@ Might as well take a pic
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-01-food-greatest-attraction/index.md -->
 
-## Food with the greatest attraction in
-
 Food with the greatest attraction in denmark
 
 Denmark streets really quite clean and modern and colourful, quite different from Germany
@@ -70,8 +66,6 @@ The grass is cubiod shaped also lol
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-02-tldr-things-did/index.md#copenhagen-day-1 -->
-
-## Rosenborg Castle and cooking
 
 Rosenberg Castle + Surroundings
 Chill

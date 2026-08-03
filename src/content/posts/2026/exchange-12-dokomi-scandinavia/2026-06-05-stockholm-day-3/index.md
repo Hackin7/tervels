@@ -35,8 +35,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-05-hotel-breakfast-again-which/index.md -->
 
-## Hotel Breakfast again which was good
-
 Hotel Breakfast again which was good shit
 
 Midnight Sun talks actually got quite technical today and was super worth to go
@@ -53,8 +51,6 @@ And it's super technical too, they go in depth on the intricacies of exploitatio
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-05-really-nice-rooftop-view/index.md -->
-
-## Really nice rooftop view The after
 
 Really nice rooftop view
 The after party seemed nice but felt I was 3rd wheeling so left lol

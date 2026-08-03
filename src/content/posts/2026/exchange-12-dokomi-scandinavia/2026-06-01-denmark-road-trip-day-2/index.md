@@ -29,8 +29,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-02-tldr-things-did/index.md#denmark-road-trip -->
 
-## Road trip to Camp Adventure and Møns Klint
-
 Road Trip!!! 
 Unfortunately I didn't dare to drive (frankly I prob should, but also I wasn't on the reserve driver list so wtv) 
 
@@ -56,7 +54,5 @@ We invented maimai🤡
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-02-town-nearby-island/index.md -->
-
-## The town nearby on that island
 
 The town nearby on that island

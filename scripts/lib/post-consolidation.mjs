@@ -58,7 +58,6 @@ export async function consolidatePosts(options) {
     const source = displayPath(post.path, cwd);
     sections.push([
       `<!-- consolidated-from: ${source} -->`,
-      `## ${post.title}`,
       body,
     ].filter(Boolean).join('\n\n'));
   }

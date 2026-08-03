@@ -18,8 +18,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-05-29-love-nuremburg-rushed-see/index.md -->
 
-## I love Nuremburg Rushed to see
-
 I love Nuremburg
 
 Rushed to see the outside of Justice Palace then Flixbus

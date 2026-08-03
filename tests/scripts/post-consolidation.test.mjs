@@ -11,7 +11,7 @@ afterEach(async () => {
 });
 
 describe('post consolidation', () => {
-  it('sorts posts, merges schema fields, deduplicates locations, and normalizes headings', async () => {
+  it('sorts posts, merges schema fields, deduplicates locations, and separates source bodies without generated headings', async () => {
     const root = await tempRoot();
     const first = await makePost(root, 'later', {
       title: 'Later note',
@@ -46,10 +46,12 @@ describe('post consolidation', () => {
     expect(text).toContain('id: "earlier-video"\n      start: 42');
     expect(text).toContain('id: "trip-playlist"');
     expect(text).toContain('cover: "later-video"');
-    expect(text.indexOf('## Earlier note')).toBeLessThan(text.indexOf('## Later note'));
+    expect(text.indexOf('Earlier body.')).toBeLessThan(text.indexOf('Later body.'));
+    expect(text.match(/\n\n---\n\n/g)).toHaveLength(1);
     expect(text).toContain('### Start');
     expect(text).toContain('#### Details');
-    expect(text).not.toContain('### Earlier note');
+    expect(text).not.toContain('## Earlier note');
+    expect(text).not.toContain('## Later note');
   });
 
   it('copies local images and attachments while preserving page links', async () => {
@@ -89,7 +91,9 @@ describe('post consolidation', () => {
     const output = join(root, 'combined');
     await consolidatePosts({ inputDirs: [later, earlier], outputDir: output, sort: 'message-id', cwd: root });
     const text = await readFile(join(output, 'index.md'), 'utf8');
-    expect(text.indexOf('## Earlier message')).toBeLessThan(text.indexOf('## Later message'));
+    expect(text.indexOf('consolidated-from: filed-later/index.md')).toBeLessThan(text.indexOf('consolidated-from: filed-earlier/index.md'));
+    expect(text).not.toContain('## Earlier message');
+    expect(text).not.toContain('## Later message');
   });
 
   it('refuses overwrite unless force is enabled and replaces only the output directory', async () => {
@@ -102,7 +106,9 @@ describe('post consolidation', () => {
     await expect(consolidatePosts({ inputDirs: [input], outputDir: output, cwd: root })).rejects.toThrow('Pass --force');
     await consolidatePosts({ inputDirs: [input], outputDir: output, force: true, cwd: root });
     await expect(readFile(join(output, 'old.txt'))).rejects.toThrow();
-    expect(await readFile(join(output, 'index.md'), 'utf8')).toContain('## One');
+    const text = await readFile(join(output, 'index.md'), 'utf8');
+    expect(text).toContain('consolidated-from: one/index.md');
+    expect(text).not.toContain('## One');
   });
 
   it('reports missing assets and unsafe output placement', async () => {

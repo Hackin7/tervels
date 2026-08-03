@@ -28,8 +28,6 @@ draft: false
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-max-burger-ok-tried/index.md -->
 
-## Max burger is ok Tried herring
-
 Max burger is ok
 
 Tried herring which was actually quite interesting
@@ -40,15 +38,11 @@ Then walk around 1 last night
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-oh-its-swedens-national/index.md -->
 
-## oh its swedens national day
-
 oh its swedens national day
 
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-arlanda-airport-quite-nice/index.md -->
-
-## Arlanda Airport Quite nice
 
 Arlanda Airport
 Quite nice
@@ -56,8 +50,6 @@ Quite nice
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-ok-now-fomo-leaving/index.md -->
-
-## OK now I fomo leaving Sweden
 
 OK now I fomo leaving Sweden early because today there'll be the national horse race🤡
 
