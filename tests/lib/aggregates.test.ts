@@ -301,6 +301,19 @@ describe('named experiences', () => {
     expect(postsWithExperience([post], 'museum')).toEqual([post]);
     expect(postsWithExperience([post], 'trail')).toEqual([post]);
   });
+
+  it('supports separately labelled food places and markets', () => {
+    const post = fakePost('food-market', {
+      experiences: [
+        { kind: 'food', name: 'Dishoom' },
+        { kind: 'market', name: 'Borough Market' },
+      ],
+    });
+    expect(namedExperiences(post, 'food').map(experience => experience.name)).toEqual(['Dishoom']);
+    expect(namedExperiences(post, 'market').map(experience => experience.name)).toEqual(['Borough Market']);
+    expect(postsWithExperience([post], 'food')).toEqual([post]);
+    expect(postsWithExperience([post], 'market')).toEqual([post]);
+  });
 });
 
 describe('multiple locations', () => {

@@ -8,6 +8,7 @@ export interface EventMeta {
 export const EVENT_CATALOG: EventMeta[] = [
   { slug: 'japan-expo-paris-2026', name: 'Japan Expo Paris', year: 2026, location: 'Villepinte, France' },
   { slug: 'dokomi-2026', name: 'DoKomi', year: 2026, location: 'Dusseldorf, Germany' },
+  { slug: 'midnight-sun-ctf-2026', name: 'Midnight Sun CTF & Conference', year: 2026, location: 'Stockholm, Sweden' },
   { slug: 'lakectf-2026', name: 'LakeCTF', year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'balelec-2026', name: 'Balelec', year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'polymanga-2026', name: 'PolyManga', year: 2026, location: 'Montreux, Switzerland' },

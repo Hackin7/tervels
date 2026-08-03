@@ -61,6 +61,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "London Bridge, London"
+experiences:
+  - kind: food
+    name: "McDonald's London"
 ---
 
 # Tourist spots

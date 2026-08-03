@@ -8,6 +8,11 @@ locations:
     city_slug: "nagoya"
     gps: [35.18446750606475, 136.87438539318197]
     gps_source: old-frontmatter
+experiences:
+  - kind: food
+    name: "KOMEDA'S Coffee"
+  - kind: market
+    name: "AEON supermarket"
 source:
   kind: telegram
   message_id: 1585

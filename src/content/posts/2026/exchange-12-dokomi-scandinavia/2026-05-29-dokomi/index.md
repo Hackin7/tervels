@@ -1,6 +1,6 @@
 ---
 title: "Dokomi + JRave 2026 Friday"
-timestamp: 2026-05-30T00:00:00Z
+timestamp: 2026-05-29T12:00:00Z
 locations:
   - name: "Dokomi 2026"
     country: "Germany"
@@ -13,7 +13,7 @@ experiences:
     slug: "dokomi-2026"
 youtube:
   cover: "nIUbTrjCyc4"
-tags: []
+tags: ["exchange-12-dokomi-scandinavia", "germany", "dusseldorf", "dokomi"]
 draft: false
 ---
 

@@ -15,6 +15,8 @@ experiences:
     name: "Da Nang museum (name not recorded)"
   - kind: trail
     name: "Marble Mountains"
+  - kind: food
+    name: "McDonald's KLIA"
 tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false
 ---

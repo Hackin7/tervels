@@ -14,6 +14,8 @@ locations:
 experiences:
   - kind: event
     slug: "japan-expo-paris-2026"
+  - kind: food
+    name: "KFC France"
 ---
 
 Took a FlixBus from Lausanne to Paris, that got delayed and reach the site around 12pm. 

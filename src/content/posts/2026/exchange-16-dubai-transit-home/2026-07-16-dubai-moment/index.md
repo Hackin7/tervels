@@ -38,6 +38,9 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Dubai International Airport, Dubai, UAE"
+experiences:
+  - kind: food
+    name: "Burger King Dubai Airport"
 ---
 
 # Dubai moment🙏

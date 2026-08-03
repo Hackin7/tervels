@@ -34,6 +34,8 @@ experiences:
     name: "Ice cave museum"
   - kind: trail
     name: "Mer de Glace and ice-cave walk"
+  - kind: food
+    name: "McDonald's Chamonix"
 ---
 
 Chamonix was really really fun, talked and yapped to the other exchangers 

@@ -8,6 +8,9 @@ locations:
     city_slug: "shenzhen"
     gps: [22.5431, 114.0859]
     gps_source: old-frontmatter
+experiences:
+  - kind: food
+    name: "Huaqiangbei food street"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

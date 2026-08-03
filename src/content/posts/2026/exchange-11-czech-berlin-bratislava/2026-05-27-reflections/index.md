@@ -25,6 +25,11 @@ youtube:
     - kind: video
       id: "iPT_Mj9W5Zo"
   cover: "nN-R3hVHorc"
+experiences:
+  - kind: market
+    name: "Berlin pasar malam market"
+  - kind: food
+    name: "Burger King Berlin"
 source:
   kind: telegram
   message_id: 8656

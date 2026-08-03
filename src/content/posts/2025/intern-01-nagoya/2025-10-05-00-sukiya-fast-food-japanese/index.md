@@ -8,6 +8,9 @@ locations:
     city_slug: "nagoya"
     gps: [35.18657545227711, 136.87404207954413]
     gps_source: old-frontmatter
+experiences:
+  - kind: food
+    name: "Sukiya"
 source:
   kind: telegram
   message_id: 1281

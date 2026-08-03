@@ -12,6 +12,9 @@ locations:
     gps_confidence: medium
     gps_query: "Yamamotoya, Nagoya, Japan"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
+experiences:
+  - kind: food
+    name: "Yamamotoya"
 draft: false
 source:
   kind: telegram

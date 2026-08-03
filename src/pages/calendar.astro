@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CalendarMonth from '../components/CalendarMonth.astro';
+import { navigablePosts, postsByTrip } from '../lib/aggregates';
+import { calendarColorIndex, calendarMonthKeys, utcDateKey } from '../lib/calendar';
+
+const trips = postsByTrip(navigablePosts(await getCollection('posts')));
+const availableMonths = calendarMonthKeys(trips);
+const latestTrip = trips[0];
+const defaultMonth = latestTrip ? utcDateKey(latestTrip.latest).slice(0, 7) : '';
+const months = availableMonths.map(key => {
+  const [year, month] = key.split('-').map(Number);
+  return { key, year, month: month - 1 };
+});
+const base = import.meta.env.BASE_URL;
+const rangeLabel = (trip: typeof trips[number]) => {
+  const start = utcDateKey(trip.earliest);
+  const end = utcDateKey(trip.latest);
+  return start === end ? start : `${start} – ${end}`;
+};
+---
+<BaseLayout title="Calendar · tervels">
+  <h1>Trip Calendar</h1>
+  <p class="muted">Each bar spans a trip from its first through last post. Dots mark dates with an actual post.</p>
+
+  {availableMonths.length === 0 ? <p>No trips to display.</p> : (
+    <>
+      <section class="calendar-month-heading">
+        <h2>Month view</h2>
+        <div class="calendar-month-nav">
+          <button type="button" id="calendar-prev" aria-label="Previous month">← Previous</button>
+          <strong id="calendar-active-month"></strong>
+          <button type="button" id="calendar-next" aria-label="Next month">Next →</button>
+        </div>
+      </section>
+
+      <section class="calendar-legend" aria-label="Trips in displayed month">
+        {trips.map(trip => (
+          <a
+            href={`${base}/trips/${trip.year}/${trip.trip}`}
+            data-trip-start={utcDateKey(trip.earliest).slice(0, 7)}
+            data-trip-end={utcDateKey(trip.latest).slice(0, 7)}
+            class="calendar-legend-item"
+          >
+            <span class:list={['calendar-legend-swatch', `calendar-color-${calendarColorIndex(`${trip.year}/${trip.trip}`)}`]}></span>
+            <span><strong>{trip.displayName}</strong><small>{rangeLabel(trip)}</small></span>
+          </a>
+        ))}
+      </section>
+
+      <div id="calendar-focus">
+        {months.map(({ key, year, month }) => (
+          <div data-focus-month={key} hidden={key !== defaultMonth}>
+            <CalendarMonth year={year} month={month} trips={trips} />
+          </div>
+        ))}
+      </div>
+    </>
+  )}
+
+  <script define:vars={{ defaultMonth }}>
+    const legendItems = [...document.querySelectorAll('[data-trip-start]')];
+    const focusViews = [...document.querySelectorAll('[data-focus-month]')];
+    const previous = document.querySelector('#calendar-prev');
+    const next = document.querySelector('#calendar-next');
+    const activeMonthLabel = document.querySelector('#calendar-active-month');
+    const availableMonths = focusViews.map(view => view.dataset.focusMonth);
+    const requestedMonth = new URLSearchParams(window.location.search).get('month');
+    let activeMonth = requestedMonth && availableMonths.includes(requestedMonth) ? requestedMonth : defaultMonth;
+
+    function showMonth(month, updateUrl = true) {
+      if (!availableMonths.includes(month)) return;
+      activeMonth = month;
+      focusViews.forEach(view => { view.hidden = view.dataset.focusMonth !== month; });
+      legendItems.forEach(item => {
+        item.hidden = month < item.dataset.tripStart || month > item.dataset.tripEnd;
+      });
+      const active = focusViews.find(view => view.dataset.focusMonth === month);
+      activeMonthLabel.textContent = active?.querySelector('.calendar-month')?.getAttribute('aria-label')
+        ?? active?.querySelector('.calendar-grid')?.getAttribute('aria-label')
+        ?? month;
+      const index = availableMonths.indexOf(month);
+      previous.disabled = index === 0;
+      next.disabled = index === availableMonths.length - 1;
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('month', month);
+        history.replaceState({}, '', url);
+      }
+    }
+
+    previous?.addEventListener('click', () => showMonth(availableMonths[availableMonths.indexOf(activeMonth) - 1]));
+    next?.addEventListener('click', () => showMonth(availableMonths[availableMonths.indexOf(activeMonth) + 1]));
+    showMonth(activeMonth, false);
+  </script>
+</BaseLayout>

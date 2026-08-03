@@ -14,6 +14,10 @@ locations:
 experiences:
   - kind: museum
     name: "BMW Museum"
+  - kind: food
+    name: "Mercedes Cafe"
+  - kind: food
+    name: "Munich kebab"
 youtube:
   items:
     - kind: video

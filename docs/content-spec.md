@@ -38,6 +38,10 @@ experiences:
     name: "Kyoto Railway Museum"
   - kind: trail
     name: "Fushimi Inari summit trail"
+  - kind: food
+    name: "Nishiki Market snack stall"
+  - kind: market
+    name: "Nishiki Market"
   - kind: event
     slug: "example-event-2025"
 youtube:
@@ -68,10 +72,11 @@ draft: false
 - `gps_granularity` is `building`, `venue`, `street`, `area`, or `city`.
 - `gps_confidence` is `high`, `medium`, or `low`.
 - `gps_query` records the lookup or clue used for reproducibility.
-- `experiences` controls the Explore page. Museum and trail entries store the
-  exact editorial label shown on post cards. Event entries reference a stable
-  slug in `src/lib/events.ts`, which supplies the shared event name, year, and
-  location. A post may contain multiple entries of any kind.
+- `experiences` controls the Explore page. Museum, trail, food, and market
+  entries store the exact editorial label shown on post cards. Event entries
+  reference a stable slug in `src/lib/events.ts`, which supplies the shared
+  event name, year, and location. A post may contain multiple entries of any
+  kind.
 - `youtube.items` is the ordered video gallery for the post. Video entries use
   an 11-character YouTube ID and may include a non-negative `start` time in
   seconds. Playlist entries use the playlist ID and do not take a start time.
@@ -105,7 +110,7 @@ and triage views but is excluded from published place views. A location with
 ## Derived presentation
 
 - Trip membership comes from the storage path.
-- Museum, trail, and event membership comes from `experiences`.
+- Museum, trail, food, market, and event membership comes from `experiences`.
 - Country/city membership comes from every resolved `locations` entry, with an
   article listed only once per city even if it has several stops there.
 - Trip and event ranges are the minimum and maximum article timestamps.

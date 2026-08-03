@@ -16,6 +16,9 @@ locations:
     gps_granularity: city
     gps_confidence: low
     gps_query: "Salzburg, Austria"
+experiences:
+  - kind: food
+    name: "McDonald's Salzburg"
 tags: ["exchange-03-nuremburg-munich-salzburg", "austria", "salzburg"]
 draft: false
 ---

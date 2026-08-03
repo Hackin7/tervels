@@ -16,6 +16,9 @@ const all = await getCollection('posts');
 const published = publishedPosts(all);
 const museums = postsWithExperience(published, 'museum');
 const trails = postsWithExperience(published, 'trail');
+const food = published.filter(post =>
+  namedExperiences(post, 'food').length > 0 || namedExperiences(post, 'market').length > 0
+);
 const events = postsByEvent(navigablePosts(all));
 
 function labelsFor(post: Post, kind: NamedExperienceKind): PostCardLabel[] {
@@ -31,9 +34,9 @@ function fmtDateRange(start: Date, end: Date): string {
   return s === e ? s : `${s} – ${e}`;
 }
 ---
-<BaseLayout title="Explore · tervels" description="Browse museums, trails, and events from the tervels travel log.">
+<BaseLayout title="Explore · tervels" description="Browse museums, trails, food, markets, and events from the tervels travel log.">
   <h1>Explore</h1>
-  <p class="muted">Browse museum visits, nature trails, and events.</p>
+  <p class="muted">Browse museum visits, nature trails, food, markets, and events.</p>
 
   <section id="museums" class="explore-section">
     <h2>Museums</h2>
@@ -48,6 +51,17 @@ function fmtDateRange(start: Date, end: Date): string {
     <p class="muted">{trails.length} post{trails.length === 1 ? '' : 's'}, sorted by most recent.</p>
     <div class="grid grid-cards">
       {trails.map(post => <PostCard post={post} labels={labelsFor(post, 'trail')} />)}
+    </div>
+  </section>
+
+  <section id="food" class="explore-section">
+    <h2>Food</h2>
+    <p class="muted">{food.length} post{food.length === 1 ? '' : 's'}, sorted by most recent. Includes food places and markets.</p>
+    <div class="grid grid-cards">
+      {food.map(post => <PostCard post={post} labels={[
+        ...labelsFor(post, 'food'),
+        ...labelsFor(post, 'market'),
+      ]} />)}
     </div>
   </section>
 

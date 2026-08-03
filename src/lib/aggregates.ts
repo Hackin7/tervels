@@ -5,7 +5,7 @@ import { eventMeta, type EventMeta } from './events';
 export type Post = CollectionEntry<'posts'>;
 export type Location = Post['data']['locations'][number];
 export type Experience = Post['data']['experiences'][number];
-export type NamedExperienceKind = 'museum' | 'trail';
+export type NamedExperienceKind = 'museum' | 'trail' | 'food' | 'market';
 export type NamedExperience = Extract<Experience, { kind: NamedExperienceKind }>;
 
 const UNRESOLVED_COUNTRY = 'XX';

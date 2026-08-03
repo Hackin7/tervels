@@ -13,7 +13,7 @@ ways to browse the same post collection:
 - A reverse-chronological home feed with a map preview.
 - Geographic browsing by country and city.
 - Trip browsing from the storage folder structure.
-- Museum, trail, and event browsing from post frontmatter experiences.
+- Museum, trail, food, market, and event browsing from post frontmatter experiences.
 - A full map for coordinate-based exploration.
 - A triage workflow for posts whose location metadata is incomplete.
 
@@ -26,7 +26,7 @@ storage folder path.
 All pages use the shared base layout. The page shell includes:
 
 - A simple top navigation bar with links to `tervels`, `map`, `places`, `trips`,
-  and `explore`.
+  `calendar`, and `explore`.
 - A centered main content container with a maximum width suited to reading and
   card grids.
 - A quiet visual system: white cards, light borders, muted metadata text, and a
@@ -155,14 +155,29 @@ Trip detail pages show one trip group. They include:
 Trip pages include non-draft posts even when their location is unresolved, so
 they can act as a working browse view while metadata is being cleaned up.
 
+### Calendar
+
+Route: `/calendar`
+
+The calendar visualizes the inclusive date range between each trip's earliest
+and latest post in a focused month view. Previous and next controls navigate
+every month between the earliest and latest trip, including empty months, and
+the selected month is stored in the `month=YYYY-MM` query parameter.
+
+Trips appear as colour-coded bars spanning adjacent dates. Bars break only at
+week and month boundaries, use separate lanes when trips overlap, and link to
+trip detail pages. Dots on a bar identify dates containing an actual post. The
+legend lists only trips overlapping the displayed month. All calculations use
+UTC dates to match the site's timestamp display and avoid timezone date shifts.
+
 ### Explore
 
 Route: `/explore`
 
-Explore contains three anchored sections in order: Museums, Trails, and Events.
-Museum and trail sections show published posts newest first. Each card includes
-chips naming the matching museum or trail from the post's `experiences`
-frontmatter.
+Explore contains four anchored sections in order: Museums, Trails, Food, and
+Events. Museum and trail sections show published posts newest first. Food
+combines posts tagged with food places or markets. Each card includes chips
+naming the matching experience from the post's `experiences` frontmatter.
 
 The Events section groups non-draft posts by event experience slug. Each group
 shows its catalog name, year, date range, optional location, note count, and a
@@ -213,7 +228,8 @@ The primary user flows are:
 - Home feed: `home -> post card -> post`.
 - Geographic browse: `places -> country -> city -> post`.
 - Trip browse: `trips -> trip -> post`.
-- Explore browse: `explore -> museum, trail, or event section -> post`.
+- Calendar browse: `calendar -> marked date -> trip -> post`.
+- Explore browse: `explore -> museum, trail, food, or event section -> post`.
 - Map exploration: `home map` or `map -> marker popup -> post`.
 - Cleanup flow: `triage -> unresolved post/source id -> edit Markdown metadata`.
 
@@ -228,7 +244,7 @@ The current implementation uses these content sets:
 - Published posts: non-draft posts with resolved location metadata. These appear
   on home, places, city pages, and the map data source.
 - Navigable posts: all non-draft posts, including unresolved posts. These appear
-  in trips, Explore event groups, and generated post routes. Museum and trail
+  in trips, Explore event groups, and generated post routes. Museum, trail, food, and market
   sections use the published set.
 - Unresolved posts: non-draft posts whose country or city slug is still a
   placeholder. These appear in triage and can show `needs triage` badges.
@@ -246,7 +262,7 @@ is kept out of public geographic listings until the metadata is corrected.
   views. Explore cards can add typed experience chips.
 - The map is embedded on the home page at a shorter height and has a dedicated
   taller page at `/map`.
-- Museums, trails, and events are consolidated on Explore; none has a separate
+- Museums, trails, food, markets, and events are consolidated on Explore; none has a separate
   detail route.
 - Triage is exposed in the main nav because metadata cleanup is part of the
   current operating workflow.

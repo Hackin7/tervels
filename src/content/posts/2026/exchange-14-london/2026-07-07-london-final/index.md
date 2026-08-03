@@ -38,6 +38,13 @@ locations:
     gps_granularity: venue
     gps_confidence: medium
     gps_query: "Gatwick Airport, United Kingdom"
+experiences:
+  - kind: food
+    name: "Dishoom"
+  - kind: market
+    name: "Borough Market"
+  - kind: food
+    name: "Chief Coffee"
 ---
 
 # Nice Dishrooms English Breakfast

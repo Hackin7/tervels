@@ -24,7 +24,7 @@ const location = z.object({
 
 const experience = z.discriminatedUnion('kind', [
   z.object({
-    kind: z.enum(['museum', 'trail']),
+    kind: z.enum(['museum', 'trail', 'food', 'market']),
     name: z.string().min(1),
   }),
   z.object({

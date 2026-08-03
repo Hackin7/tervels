@@ -34,6 +34,9 @@ youtube:
     - kind: video
       id: "09b4eGNFpf4"
   cover: "09b4eGNFpf4"
+experiences:
+  - kind: food
+    name: "KFC London"
 ---
 # Platform 9 3/4
 Just dropped by to see (it's meh) , long queue (even into the shop also got queue) LOL so left

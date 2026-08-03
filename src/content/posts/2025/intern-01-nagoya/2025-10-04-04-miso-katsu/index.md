@@ -7,6 +7,9 @@ locations:
     city: "Nagoya"
     city_slug: "nagoya"
     gps: null
+experiences:
+  - kind: food
+    name: "Nagoya Miso Katsu Restaurant"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

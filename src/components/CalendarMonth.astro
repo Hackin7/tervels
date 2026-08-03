@@ -1,0 +1,76 @@
+---
+import type { TripGroup } from '../lib/aggregates';
+import { buildCalendarMonth, calendarColorIndex, daysBetween, utcDateKey } from '../lib/calendar';
+
+interface Props {
+  year: number;
+  month: number;
+  trips: TripGroup[];
+}
+
+const { year, month, trips } = Astro.props;
+const calendar = buildCalendarMonth(year, month, trips);
+const base = import.meta.env.BASE_URL;
+const weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+const tripKey = (trip: TripGroup) => `${trip.year}/${trip.trip}`;
+const tripUrl = (trip: TripGroup) => `${base}/trips/${trip.year}/${trip.trip}`;
+const tripRange = (trip: TripGroup) => {
+  const start = utcDateKey(trip.earliest);
+  const end = utcDateKey(trip.latest);
+  return start === end ? start : `${start} – ${end}`;
+};
+const segmentPostOffsets = (trip: TripGroup, startKey: string, endKey: string) => [...new Set(trip.posts
+  .map(post => utcDateKey(post.data.timestamp))
+  .filter(key => key >= startKey && key <= endKey)
+  .map(key => daysBetween(startKey, key) + 1))];
+---
+<section class="calendar-month" data-month={calendar.key} aria-label={calendar.label}>
+  <h3 class="sr-only">{calendar.label}</h3>
+  <div class="calendar-month-scroll">
+    <div class="calendar-grid" role="grid" aria-label={calendar.label}>
+      <div class="calendar-weekdays" role="row">
+        {weekdays.map(day => <div class="calendar-weekday" role="columnheader">{day}</div>)}
+      </div>
+      {calendar.weeks.map(week => (
+        <div class="calendar-week" role="row" style={`--calendar-lanes: ${Math.max(week.laneCount, 1)}`}>
+          {week.days.map((day, index) => day ? (
+            <div
+              class:list={['calendar-day', { 'calendar-day-active': day.ranges.length > 0 }]}
+              role="gridcell"
+              style={`grid-column: ${index + 1}; grid-row: 1 / ${Math.max(week.laneCount, 1) + 2}`}
+            >
+              <time datetime={day.key} class="calendar-date">{day.day}</time>
+            </div>
+          ) : (
+            <div class="calendar-day calendar-day-empty" role="gridcell" aria-hidden="true" style={`grid-column: ${index + 1}; grid-row: 1 / ${Math.max(week.laneCount, 1) + 2}`}></div>
+          ))}
+          {week.segments.map(segment => {
+            const trip = segment.range;
+            const postOffsets = segmentPostOffsets(trip, segment.startKey, segment.endKey);
+            return (
+              <a
+                href={tripUrl(trip)}
+                class:list={[
+                  'calendar-trip-bar',
+                  `calendar-color-${calendarColorIndex(tripKey(trip))}`,
+                  { 'calendar-trip-continues-before': segment.startsBefore, 'calendar-trip-continues-after': segment.endsAfter },
+                ]}
+                style={`grid-column: ${segment.startColumn} / ${segment.endColumn + 1}; grid-row: ${segment.lane + 2}; --calendar-segment-days: ${segment.endColumn - segment.startColumn + 1}`}
+                title={`${trip.displayName} · ${tripRange(trip)}`}
+              >
+                <span class="calendar-trip-name">{trip.displayName}</span>
+                {postOffsets.map(offset => (
+                  <span
+                    class="calendar-post-marker"
+                    style={`grid-column: ${offset}`}
+                    title="Post published on this date"
+                  ><span class="sr-only">Post published on this date</span></span>
+                ))}
+              </a>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
