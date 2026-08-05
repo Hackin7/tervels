@@ -1,5 +1,5 @@
 ---
-title: "Vegas Loop Tbh just a bunch"
+title: "Vegas Loop"
 timestamp: 2025-08-11T00:00:00Z
 locations:
   - name: "Vegas Loop"

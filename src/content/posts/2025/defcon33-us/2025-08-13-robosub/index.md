@@ -1,5 +1,5 @@
 ---
-title: "Robosub 🤡 1st thing once I"
+title: "Robosub 2025 🤡"
 timestamp: 2025-08-13T00:00:00Z
 locations:
   - name: "RoboSub / Woollett Aquatics Center"

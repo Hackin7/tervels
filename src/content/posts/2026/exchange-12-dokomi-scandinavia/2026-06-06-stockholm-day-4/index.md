@@ -26,15 +26,6 @@ tags: ["exchange-12-dokomi-scandinavia","sweden","stockholm","marsta"]
 draft: false
 ---
 
-<!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-max-burger-ok-tried/index.md -->
-
-Max burger is ok
-
-Tried herring which was actually quite interesting
-
-Then walk around 1 last night
-
----
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-oh-its-swedens-national/index.md -->
 

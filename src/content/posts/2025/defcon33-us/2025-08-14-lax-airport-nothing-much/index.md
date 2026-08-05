@@ -1,5 +1,5 @@
 ---
-title: "LAX Airport Nothing much but it"
+title: "LAX Airport"
 timestamp: 2025-08-14T00:00:00Z
 locations:
   - name: "LAX Airport"

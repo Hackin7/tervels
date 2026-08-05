@@ -54,3 +54,16 @@ And it's super technical too, they go in depth on the intricacies of exploitatio
 
 Really nice rooftop view
 The after party seemed nice but felt I was 3rd wheeling so left lol
+
+---
+
+
+<!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-06-max-burger-ok-tried/index.md -->
+
+Max burger is ok
+
+Tried herring which was actually quite interesting
+
+Then walk around 1 last night
+
+---

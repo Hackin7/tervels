@@ -58,7 +58,7 @@ Apparently its the smallest museum in the world or something idk.
 ## Kunstmuseum tldr
 
 I think its ok for the historical paintings it has. 
-Some caught me off guard (Abstract a little too abstract lol.
+Some caught me off guard (Abstract a little too abstract lol).
 
 I feel like in a museum have to go super close up to some of the paintings to really appreciate.
 Like in the museum being able to see scale, texture, glossiness makes a difference.
