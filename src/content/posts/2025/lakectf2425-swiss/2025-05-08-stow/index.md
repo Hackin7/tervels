@@ -39,12 +39,17 @@ We
 
 1. Went to Balelec – the rock Music Festival
 2. Visited CERN (or as Vincent called it, Science Centre)
-3. Climbed the mountain
-4. Visited the military airbase
+3. Climbed the mountain Grindelwald.
+4. Visited the military meringen airbase
 5. and many other things!
 
 Also Elijah was playing CTF during the trip.
 
  
+On the last day in Zurich I went to Kunstmuseum, and visited ETH to see a senior
+1. Kunstmuseum was actually very very nice - got to understand more about the Swiss Federation
+2. ETH is a City Uni, so it feels smaller than EPFL lol. But definitely more historical lol.
+
+
 
 quite vibes. Good break from finals
