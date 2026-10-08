@@ -15,15 +15,22 @@ const TABLE: Record<string, { name: string; flag: string }> = {
   at: { name: 'Austria', flag: '🇦🇹' },
   pl: { name: 'Poland', flag: '🇵🇱' },
   es: { name: 'Spain', flag: '🇪🇸' },
-  cz: { name: 'Czech', flag: '🇨🇿' },
+  cz: { name: 'Czechia', flag: '🇨🇿' },
   ae: { name: 'United Arab Emirates', flag: '🇦🇪' },
+  dk: { name: 'Denmark', flag: '🇩🇰' },
+  se: { name: 'Sweden', flag: '🇸🇪' },
+  va: { name: 'Vatican City', flag: '🇻🇦' },
 };
 
-const NAME_TO_KEY = new Map(Object.entries(TABLE).map(([key, value]) => [slug(value.name), key]));
+const NAME_TO_KEY = new Map(Object.entries(TABLE).flatMap(([key, value]) => [
+  [key, key] as const,
+  [slug(value.name), key] as const,
+]));
+NAME_TO_KEY.set('czech', 'cz');
+NAME_TO_KEY.set('czech-republic', 'cz');
 
 function keyFor(codeOrName: string): string {
-  const normalized = codeOrName.toLowerCase();
-  return TABLE[normalized] ? normalized : (NAME_TO_KEY.get(slug(codeOrName)) ?? normalized);
+  return NAME_TO_KEY.get(slug(codeOrName)) ?? '';
 }
 
 function slug(value: string): string {

@@ -1,6 +1,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { slugify } from './slugify';
 import { eventMeta, type EventMeta } from './events';
+import { countryName } from './countries';
 
 export type Post = CollectionEntry<'posts'>;
 export type Location = Post['data']['locations'][number];
@@ -13,7 +14,7 @@ const UNRESOLVED_COUNTRY_NAME = 'Unknown';
 const UNRESOLVED_CITY = 'unknown';
 
 export function countrySlug(country: string): string {
-  return slugify(country, 8) || country.toLowerCase();
+  return slugify(countryName(country), 8) || country.toLowerCase();
 }
 
 export function primaryLocation(post: Post): Location {
@@ -74,10 +75,11 @@ export function postsByCountry(posts: Post[]): Map<string, Post[]> {
 }
 
 export function citiesInCountry(posts: Post[], country: string): Map<string, Post[]> {
+  const canonicalCountry = countrySlug(country);
   const map = new Map<string, Post[]>();
   for (const p of posts) {
     const citySlugs = new Set(p.data.locations
-      .filter(l => isLocationValueResolved(l) && countrySlug(l.country) === country)
+      .filter(l => isLocationValueResolved(l) && countrySlug(l.country) === canonicalCountry)
       .map(l => l.city_slug));
     for (const slug of citySlugs) {
       const arr = map.get(slug) ?? [];
@@ -89,8 +91,9 @@ export function citiesInCountry(posts: Post[], country: string): Map<string, Pos
 }
 
 export function postsInCity(posts: Post[], country: string, city: string): Post[] {
+  const canonicalCountry = countrySlug(country);
   return posts.filter(p => p.data.locations.some(l =>
-    countrySlug(l.country) === country && l.city_slug === city
+    countrySlug(l.country) === canonicalCountry && l.city_slug === city
   ));
 }
 
@@ -106,7 +109,8 @@ export function postsWithExperience(posts: Post[], kind: NamedExperienceKind): P
 }
 
 export function locationInCity(post: Post, country: string, city: string): Location | undefined {
-  return post.data.locations.find(l => countrySlug(l.country) === country && l.city_slug === city);
+  const canonicalCountry = countrySlug(country);
+  return post.data.locations.find(l => countrySlug(l.country) === canonicalCountry && l.city_slug === city);
 }
 
 export interface MapPin {

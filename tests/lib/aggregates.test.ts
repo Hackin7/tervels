@@ -11,6 +11,8 @@ import {
   postsByEvent,
   namedExperiences,
   postsWithExperience,
+  countrySlug,
+  locationInCity,
   tripDisplayName,
   parseTripFromId,
   type Experience,
@@ -56,16 +58,16 @@ describe('postUrlSlug', () => {
       date: new Date('2025-04-12T00:00:00Z'),
       country: 'JP', city_slug: 'kyoto',
     });
-    expect(postUrlSlug(p)).toBe('jp/kyoto/2025-04-three-days-kyoto');
+    expect(postUrlSlug(p)).toBe('japan/kyoto/2025-04-three-days-kyoto');
   });
 
-  it('lowercases the country code', () => {
+  it('normalizes the country code to the country name', () => {
     const p = fakePost('any/folder/here', {
       title: 'X',
       date: new Date('2024-08-22T00:00:00Z'),
       country: 'IT', city_slug: 'rome',
     });
-    expect(postUrlSlug(p).startsWith('it/rome/')).toBe(true);
+    expect(postUrlSlug(p).startsWith('italy/rome/')).toBe(true);
   });
 
   it('slugifies full country names', () => {
@@ -122,8 +124,8 @@ describe('postsByCountry', () => {
     const b = fakePost('2025/sp/y', { country: 'JP', city_slug: 'tokyo' });
     const c = fakePost('2024/su/z', { country: 'IT', city_slug: 'rome' });
     const m = postsByCountry([a, b, c]);
-    expect(m.get('jp')!.length).toBe(2);
-    expect(m.get('it')!.length).toBe(1);
+    expect(m.get('japan')!.length).toBe(2);
+    expect(m.get('italy')!.length).toBe(1);
   });
 });
 
@@ -192,7 +194,7 @@ describe('postsByTrip', () => {
     expect(trips[0].trip).toBe('spring-japan');
     expect(trips[0].displayName).toBe('spring-japan');
     expect(trips[0].posts.length).toBe(2);
-    expect(trips[0].countries).toEqual(['jp']);
+    expect(trips[0].countries).toEqual(['japan']);
     expect(trips[0].cities.sort()).toEqual(['Kyoto', 'Tokyo']);
     expect(trips[0].earliest.toISOString().slice(0, 10)).toBe('2025-04-12');
     expect(trips[0].latest.toISOString().slice(0, 10)).toBe('2025-04-15');
@@ -251,7 +253,7 @@ describe('mapPins', () => {
     });
     const pins = mapPins([a, b]);
     expect(pins.length).toBe(1);
-    expect(pins[0].slug).toBe('jp/kyoto/2025-04-hello-world');
+    expect(pins[0].slug).toBe('japan/kyoto/2025-04-hello-world');
     expect(pins[0].gps).toEqual([35, 135]);
   });
 
@@ -317,6 +319,24 @@ describe('named experiences', () => {
 });
 
 describe('multiple locations', () => {
+  it('merges country codes and names across listings, city pages, trips, and map links', () => {
+    const codePost = fakePost('2026/swiss/code', { country: 'CH', city: 'Zurich', city_slug: 'zurich' });
+    const namePost = fakePost('2026/swiss/name', { country: 'Switzerland', city: 'Basel', city_slug: 'basel' });
+    codePost.data.locations.push({
+      name: 'Another stop', country: 'Switzerland', city: 'Zurich', city_slug: 'zurich', gps: [47, 8],
+    });
+    const posts = [codePost, namePost];
+    expect(countrySlug(' CH ')).toBe('switzerland');
+    expect([...postsByCountry(posts)]).toEqual([['switzerland', posts]]);
+    expect([...citiesInCountry(posts, 'switzerland')]).toEqual([
+      ['zurich', [codePost]], ['basel', [namePost]],
+    ]);
+    expect(postsInCity(posts, 'switzerland', 'zurich')).toEqual([codePost]);
+    expect(locationInCity(codePost, 'switzerland', 'zurich')).toBe(codePost.data.locations[0]);
+    expect(postsByTrip(posts)[0].countries).toEqual(['switzerland']);
+    expect(mapPins(posts).every(pin => pin.country === 'switzerland' && pin.slug.startsWith('switzerland/'))).toBe(true);
+  });
+
   it('groups an article into every distinct city without duplicates', () => {
     const post = fakePost('2025/sp/x', { country: 'JP', city: 'Kyoto', city_slug: 'kyoto' });
     post.data.locations.push(
