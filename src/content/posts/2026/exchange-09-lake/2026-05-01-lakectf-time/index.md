@@ -119,5 +119,10 @@ Was a really nice touch I could get the LakeCTF coin, only top 3 could get it us
 
 Main exchange goal complete, everything from here is sidequesting
 
+---
 
-Also fun note: Helped Cykor get to the metro lmao
+### Helped Cykor get to the metro
+
+Helped Cykor get to the metro lmao
+I lowkey feel sad I don't remember the people who went lake last year LOL
+

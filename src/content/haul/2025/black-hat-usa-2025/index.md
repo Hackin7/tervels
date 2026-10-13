@@ -23,3 +23,34 @@ draft: false
 ---
 
 Conference merchandise and vendor swag from Black Hat USA 2025.
+
+Some interesting merch at Blackhat
+1. Github (5000s?)
+   - raffle and free caps stuff stickers
+2. GitLab (Small Booth - Business Hall) 
+  - wireless charger
+  - lego need to listen to brief (it's 5min or so) 
+Actually it's super worth wtf
+3. Claroty
+  - caps
+4. N Able
+  - monkey plushie
+5. Splunk
+  - shirt + 2 pins
+  - need to listen to talk + demo
+6. Appdome
+  - RSVP and get your wristband
+7. SpectreOps
+  - Bloodhound shirt
+  - need to play game first
+
+Go get your merch
+
+New merch
+1. F5
+  - Just ask them about it and they'll give 👍
+  -  just need to go like 2 other booths to unlock something on the badge then go back to f5 and they'll give you the custom gameboy 
+  - Got the middle CTF
+2. Cymulate
+- badge
+- win ctf to get octopus

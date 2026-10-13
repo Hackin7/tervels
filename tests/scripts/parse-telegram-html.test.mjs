@@ -154,6 +154,23 @@ describe('parseHtmlExport', () => {
     expect(msgs[2].text).toBe('');
   });
 
+  it('recognizes document-style photo links without photo_wrap markup', () => {
+    const html = PHOTO_MSG.replace('photo_wrap clearfix pull_left', 'media clearfix media_photo');
+    const msgs = parseHtmlExport(html);
+    expect(msgs).toHaveLength(1);
+    expect(msgs[0].photo).toBe('photos/photo_1@06-05-2025_14-32-15.jpg');
+    expect(msgs[0].text).toBe('Single photo post');
+  });
+
+  it('deduplicates attachments linked in both photo formats', () => {
+    const html = PHOTO_MSG.replace('photo_wrap clearfix pull_left', 'media clearfix media_photo')
+      .replace('</a>', '</a><a class="photo_wrap" href="photos/photo_1@06-05-2025_14-32-15.jpg"></a>');
+    const msgs = parseHtmlExport(html);
+    expect(msgs).toHaveLength(1);
+    expect(msgs[0].photo).toBe('photos/photo_1@06-05-2025_14-32-15.jpg');
+    expect(msgs[0].text).toBe('Single photo post');
+  });
+
   it('inherits author and date for joined continuation messages', () => {
     const msgs = parseHtmlExport(JOINED_MSG);
     expect(msgs.length).toBe(2);

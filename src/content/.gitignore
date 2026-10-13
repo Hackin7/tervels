@@ -22,6 +22,11 @@ posts/2025/intern-main-shanghai/**
 !posts/2025/intern-main-shanghai/**/*.webp
 
 posts/2026/*
+
+# Exchange Lausanne weekly articles and their rehomed media.
+!posts/2026/exchange-main-lausanne/
+!posts/2026/exchange-main-lausanne/**
+
 # Brisbane / DEF CON / Seattle trip: allow the trip's posts, provenance, and media into Git.
 !posts/2026/brisbane-defcon-seattle/
 !posts/2026/brisbane-defcon-seattle/**
@@ -39,6 +44,8 @@ posts/2026/exchange-06-krakow-ski-trip/**
 
 !posts/2026/exchange-10-italy/
 posts/2026/exchange-10-italy/*/
+!posts/2026/exchange-10-italy/2026-05-11-bologna-transit/
+!posts/2026/exchange-10-italy/2026-05-11-bologna-transit/index.md
 !posts/2026/exchange-10-italy/2026-05-12-museum-correr/
 !posts/2026/exchange-10-italy/2026-05-12-museum-correr/index.md
 !posts/2026/exchange-10-italy/2026-05-13-doge-palace/

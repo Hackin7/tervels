@@ -22,6 +22,19 @@ source:
 
 # Talks (some of them)
 
+
+Other talks
+
+1. AWS - graph enumeration 
+2. Github actions - eh it's OK, just 
+3. LLM - didn't quite get it but it's apparently something like
+Stats doesn't mean the model actually learn
+4. Solana decompilation - funny talk, rust is pain to de compile, they got plugin
+
+Spend the day stoning/ not feeling well + doing div0 SAOs tbh so like
+Shag that I didn't feel like I got the best out of insomnihack
+
+
 Stomachache diarrhea during insomnihack is not it
 
 North Korean IT worker talk

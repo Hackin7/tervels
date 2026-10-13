@@ -8,7 +8,7 @@ import { parse } from 'node-html-parser';
  * Joined continuation messages (class "joined") inherit author + date from
  * the previous non-joined message in document order.
  *
- * Albums (one message div with multiple .photo_wrap children) are split into
+ * Albums (one message div with multiple photo links) are split into
  * N message entries sharing a synthetic grouped_id, so the existing grouping
  * logic in group-messages.mjs treats them as one post.
  */
@@ -49,10 +49,10 @@ export function parseHtmlExport(html) {
     const locationLink = findLocationLink(div);
     const location_information = locationLink;
 
-    const photoLinks = div.querySelectorAll('a.photo_wrap');
-    const photoPaths = photoLinks
+    const photoLinks = div.querySelectorAll('a.photo_wrap, a.media_photo');
+    const photoPaths = [...new Set(photoLinks
       .map(a => a.getAttribute('href'))
-      .filter(Boolean);
+      .filter(Boolean))];
 
     if (photoPaths.length > 1) {
       const grouped_id = `html-msg-${id ?? out.length}`;
