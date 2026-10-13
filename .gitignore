@@ -5,3 +5,5 @@ dist
 import-report.md
 *.log
 .DS_Store
+
+tervels-content-markdown.zip

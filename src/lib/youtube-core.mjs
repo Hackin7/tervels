@@ -60,6 +60,17 @@ export function youtubeThumbnailUrl(videoId) {
   return `https://i.ytimg.com/vi/${encodeURIComponent(videoId)}/hqdefault.jpg`;
 }
 
+export function youtubeListingVideoId(youtube, markdown) {
+  if (youtube?.cover) return youtube.cover;
+  const video = youtube?.items?.find(item => item.kind === 'video');
+  if (video) return video.id;
+  for (const match of String(markdown ?? '').matchAll(/https?:\/\/[^\s<>"'`)\]]+/g)) {
+    const item = parseYouTubeUrl(match[0].replace(/[.,;!?]+$/, ''));
+    if (item?.kind === 'video') return item.id;
+  }
+  return undefined;
+}
+
 export function standaloneYouTubeItems(markdown) {
   const out = [];
   for (const line of String(markdown ?? '').replace(/\r\n/g, '\n').split('\n')) {

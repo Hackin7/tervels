@@ -16,6 +16,10 @@ source:
   message_id: 7954
   imported_at: 2026-06-08T12:06:17.266Z
   date_basis: telegram
+youtube:
+  items:
+    - kind: video
+      id: "k-718qK75wY"
 ---
 Vatican City
 The outer square is qutie standard

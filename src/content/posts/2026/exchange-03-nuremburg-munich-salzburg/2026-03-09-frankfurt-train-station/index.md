@@ -18,6 +18,10 @@ source:
   message_id: 5286
   imported_at: 2026-05-06T21:17:26.997Z
   date_basis: telegram
+youtube:
+  items:
+    - kind: "video"
+      id: "4EWTlG2G6Yo"
 ---
 Frankfurt Train Station
 

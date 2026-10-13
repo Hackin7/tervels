@@ -10,20 +10,32 @@ locations:
     gps_source: old-frontmatter
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "nN-R3hVHorc"
-    - kind: video
+    - kind: "video"
       id: "VzdssotRqnc"
-    - kind: video
+    - kind: "video"
       id: "K8KMNQWxiPI"
-    - kind: video
+    - kind: "video"
       id: "uipxNlcw5_8"
-    - kind: video
+    - kind: "video"
       id: "-esQSMC-uUM"
-    - kind: video
+    - kind: "video"
       id: "f2_t52GcKvU"
-    - kind: video
+    - kind: "video"
       id: "iPT_Mj9W5Zo"
+    - kind: "video"
+      id: "5shhLbV8ntw"
+    - kind: "video"
+      id: "GMB1cVqoCrA"
+    - kind: "video"
+      id: "mLc50ET-w8U"
+    - kind: "video"
+      id: "22Yo36RztyI"
+    - kind: "video"
+      id: "6F6HsU1i4Ms"
+    - kind: "video"
+      id: "pxpmIGowj7Q"
   cover: "nN-R3hVHorc"
 experiences:
   - kind: market

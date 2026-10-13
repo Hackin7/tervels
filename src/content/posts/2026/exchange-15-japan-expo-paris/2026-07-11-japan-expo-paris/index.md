@@ -16,6 +16,24 @@ experiences:
     slug: "japan-expo-paris-2026"
   - kind: food
     name: "KFC France"
+youtube:
+  items:
+    - kind: "video"
+      id: "E5Yj_s8rmCc"
+    - kind: "video"
+      id: "yA-jQXV_8eE"
+    - kind: "video"
+      id: "VP_ORxZrAWA"
+    - kind: "video"
+      id: "BcjbI4cLiC4"
+    - kind: "video"
+      id: "1cg_K-2DVnc"
+    - kind: "video"
+      id: "DGf7nxWDziw"
+    - kind: "video"
+      id: "6maiO05DRD0"
+    - kind: "video"
+      id: "EpXkc7knXdA"
 ---
 
 Took a FlixBus from Lausanne to Paris, that got delayed and reach the site around 12pm. 

@@ -72,6 +72,13 @@ draft: false
 - `gps_granularity` is `building`, `venue`, `street`, `area`, or `city`.
 - `gps_confidence` is `high`, `medium`, or `low`.
 - `gps_query` records the lookup or clue used for reproducibility.
+- Optional `context` distinguishes visited locations from mentions, plans,
+  comparisons, skipped stops, retrospective references, and calendar clues.
+  `review_note` preserves uncertainty about a venue or attachment. Locations
+  that are not confirmed visits keep `gps: null` to avoid implying a visit pin.
+- Optional `gallery` lists local image paths in source order. Article pages show
+  them as clickable photos below the text; an image also used as `cover` appears
+  only once. The cover and gallery link to the full-size optimized image.
 - `experiences` controls the Explore page. Museum, trail, food, and market
   entries store the exact editorial label shown on post cards. Event entries
   reference a stable slug in `src/lib/events.ts`, which supplies the shared
@@ -119,3 +126,25 @@ and triage views but is excluded from published place views. A location with
 
 The deprecated `date`, `visited`, singular `location`, `coords`, and `events`
 fields must not be added to article frontmatter.
+
+## Combined Telegram imports
+
+`source.message_id` remains the first contributing message ID. Optional
+`source.message_ids` stores every contributing ID, and `source.channel_id`
+identifies the originating channel. `source.telegram_timestamp` preserves the
+original posting instant independently of the canonical article timestamp.
+`source.date_basis: calendar` indicates a visit day supplied by the user's
+calendar. When only the visit day is known, imports use noon in the destination
+timezone as a placeholder and explain it in the import review report.
+
+Each imported article's `telegram-sources.json` records its original source
+files, all photo references, missing attachments, review flags, and location
+clues. Combining articles must preserve the original Telegram bodies verbatim
+and must never delete, move, overwrite, or edit the staged source Markdown or
+its assets. Dubai and Zurich are excluded from the October 8, 2026 import.
+
+The gallery includes every available photo from the contributing Telegram
+messages. Repeated references to the same source file appear once per article;
+`telegram-sources.json` retains every original reference and its local image
+mapping. Additional images use the existing optimizer without changing the
+original export or staging assets.

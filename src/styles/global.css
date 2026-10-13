@@ -33,8 +33,8 @@ nav.site-nav a { color: var(--text); font-weight: 500; }
 .explore-section { scroll-margin-top: 1rem; margin-top: 2.5rem; }
 .youtube-cover { display: block; margin: 1rem 0; }
 .youtube-cover img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
-.card .youtube-cover { margin: 0 0 0.75rem; }
-.card .youtube-cover img { border-radius: 6px; }
+.post-thumbnail { display: block; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 6px; margin: 0 0 0.75rem; }
+.post-thumbnail img { width: 100%; height: 100%; object-fit: cover; }
 .youtube-gallery { display: grid; gap: 1.25rem; margin-top: 1rem; }
 .post-videos { margin: 1rem 0 2rem; }
 .youtube-figure { margin: 0; }

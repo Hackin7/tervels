@@ -2,9 +2,28 @@
   "channel": "https://www.youtube.com/@tervel5",
   "videos": [
     {
+      "id": "mI2rXbnuikw",
+      "title": "NUS Career Fest 2026",
+      "playlist_ids": []
+    },
+    {
+      "id": "GDmrExby5QY",
+      "title": "The OB1 2026 Experience ",
+      "playlist_ids": []
+    },
+    {
+      "id": "EPJvD81Uisk",
+      "title": "[Basel🇨🇭] Fire Festival - Exchange #1",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
       "id": "P7lar6pei_s",
       "title": "[Lausanne🇨🇭] Palais de Rumine",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "rQQpCx2hg18",
@@ -21,37 +40,51 @@
     {
       "id": "RFmI13rqE4w",
       "title": "[London🇬🇧] Day 7 Dishrooms, Museum, Arcade Chief Coffee, Travel Back",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "Z5wGoFFCjiM",
       "title": "[Stonehenge🇬🇧] - #Exchange 20.1",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "r-qCwBF58AE",
       "title": "[London🇬🇧] FreePlayCity",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "fTWZMlUtXXI",
       "title": "[Stockholm🇸🇪] p2",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "09b4eGNFpf4",
       "title": "[London🇬🇧] UCL, KFC, Chinatown",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "BuvU2AElbpE",
       "title": "[Stockholm🇸🇪] HEY STHLM",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "UONjpsxqg5g",
       "title": "[Stockholm🇸🇪] Midnight Sun",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "IgUsHcHbuns",
@@ -63,17 +96,23 @@
     {
       "id": "xWXeTyPuhE0",
       "title": "[Stockholm🇸🇪] Vasa Museum",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "GPXSwbcyiqM",
       "title": "[Copenhagen🇩🇰] p4",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "Vx8eo-Q7FT4",
       "title": "[🇩🇰] Deer park",
-      "playlist_ids": []
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     },
     {
       "id": "WpqafkPXLhc",
@@ -983,9 +1022,703 @@
       "playlist_ids": [
         "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
       ]
+    },
+    {
+      "id": "sFHG5_2jdeM",
+      "title": "[Balelec 2026] - 4 - Just Shani 2",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "Pz7kCoJ_RuI",
+      "title": "EPFL IC Cotton Candy + Faculty Dinner",
+      "playlist_ids": []
+    },
+    {
+      "id": "2qVBJa4P9DE",
+      "title": "[Shanghai 🇨🇳] Yu Garden Round 2",
+      "playlist_ids": [
+        "PLC8Kx6jpjypw"
+      ]
+    },
+    {
+      "id": "gqAcIdTiADc",
+      "title": "[Shanghai 🇨🇳] Joy Universe 3.0",
+      "playlist_ids": [
+        "PLC8Kx6jpjypw"
+      ]
+    },
+    {
+      "id": "WGbyjv5F8l4",
+      "title": "[Shanghai 🇨🇳] Intel Embedded Cup 2026",
+      "playlist_ids": [
+        "PLC8Kx6jpjypw"
+      ]
+    },
+    {
+      "id": "vwa5og0bJv0",
+      "title": "[Ho Chi Minh 🇻🇳] Layover +Bui Vien",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "SxzX3uwbKVA",
+      "title": "[Ho Chi Minh🇻🇳] Bike Ride",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "CbQqaOK8QeY",
+      "title": "[Brisbane🇦🇺] D1: Kelvin Grove + South Bank",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "2mRYgOYJCnY",
+      "title": "[Brisbane🇦🇺] D1: Skyview",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "BufPIzg7-nM",
+      "title": "[Brisbane🇦🇺] D2: Queensland Museum",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "IU5IHISPm_4",
+      "title": "[Brisbane🇦🇺] D2: City Hall and Brisbane Museum",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "Zl8Mkmv8ztQ",
+      "title": "[Brisbane🇦🇺] D2: Queensland Museum",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "FxviWkxELZU",
+      "title": "[Brisbane🇦🇺] D2: Queensland Art Gallery",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "8UYUF64TPuM",
+      "title": "[Brisbane🇦🇺] D3: Coombabah Conservation Reserve + Koala Trail",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "VgI8QX5Eg3A",
+      "title": "[Brisbane🇦🇺] D3: Gold Coast",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "B7pe2O0zQIo",
+      "title": "[Brisbane🇦🇺] D4: University of Queensland",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "QdGnltGomXA",
+      "title": "[Brisbane🇦🇺] D4: Mt Coot-tha + Gum Trail",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "6s914gRu6lY",
+      "title": "Flight to Vancouver ",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "XJrxUMUjNO8",
+      "title": "[Vancouver🇨🇦] Layover: Stanely Park + Canada Place",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "tIU9paY2hww",
+      "title": "Flight to Vegas",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "Y2wTnUS-g_8",
+      "title": "[Vegas🇺🇸] DEFCON 34",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "wRJvFm3w-2c",
+      "title": "[Seattle🇺🇸] D1: Southcenter Mall + Round 1",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "j2pQu8MCEIg",
+      "title": "[Seattle🇺🇸] D2: Mt Rainier",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "qvcLyiXk1JQ",
+      "title": "[Seattle🇺🇸] D3: Dennys, Wallace Falls, Raising Canes",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "bmj_W_XEfhA",
+      "title": "[Seattle🇺🇸] D4: Kerry Park, Space Needle, Pike Place Market, Apple Shop",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "KfytG8uLGII",
+      "title": "[Seattle🇺🇸] Airport",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "ukVq_gjw2gk",
+      "title": "[Seoul🇰🇷] Layover: Myeongdong, Deoksugung Palace, AK Plaza + Hongdae",
+      "playlist_ids": [
+        "PLIiuC1QB2GpI"
+      ]
+    },
+    {
+      "id": "1Fzz2JV9_eU",
+      "title": "Hey STHLM chunithm",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "MYuuCfhREIg",
+      "title": "Hey STHLM iidx",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "p2xwX1LAiWQ",
+      "title": "Hey STHLM iidx",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "HeZ5KMA4110",
+      "title": "Hey STHLM iidx",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "DGf7nxWDziw",
+      "title": "Bang dream our notes gameplay",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "809UjuPGtSk",
+      "title": "FreePlayCity Arcade Game",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "upGBWHweuto",
+      "title": "FreePlayCity Ongeki",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "4gEbe8QvvCk",
+      "title": "FreePlayCity IIDX",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "0NR5rEfM_Ds",
+      "title": "FreePlayCity love live arcade",
+      "playlist_ids": [
+        "PLPCDrkPHf9zE"
+      ]
+    },
+    {
+      "id": "E5Yj_s8rmCc",
+      "title": "[Japan Expo Paris 2026🇫🇷] Attack on Titan but French Cosplayers",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "1cg_K-2DVnc",
+      "title": "[Japan Expo Paris 2026🇫🇷] Sakura Stage 5",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "BcjbI4cLiC4",
+      "title": "[Japan Expo Paris 2026🇫🇷] Sakura Stage 4",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "VP_ORxZrAWA",
+      "title": "[Japan Expo Paris 2026🇫🇷] Sakura Stage 3",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "yA-jQXV_8eE",
+      "title": "[Japan Expo Paris 2026🇫🇷] Sakura Stage 2",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "2svhXeSsg3A",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 7",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "rvMIpwEVZ4g",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 6",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "wdxXY-HEOTQ",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 5",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "2jrYiBVNgYE",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 4",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "do6JHrhO3gw",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 3",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "irhA1_8TAi0",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 2",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "F6lNyJ3DF9U",
+      "title": "[Mudac🇨🇭] Japan Special - Ochikobore - 1",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "ZfKmOClqtq0",
+      "title": "Aiobahn +81 2026/05/29 DoK◯mi J-RAVE",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "WGQ0RXwg6ls",
+      "title": "[Balelec 2026] - 14 - Squatt - Lily Gasc",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "RSS9QdABwQQ",
+      "title": "[Balelec 2026] - 13",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "wj3H3xHORho",
+      "title": "[Balelec 2026] 2 - Square Move - Juggling",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "qIRJIQBx-OI",
+      "title": "Mika Kobayashi 11",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "qPxr_BsBau0",
+      "title": "Mika Kobayashi 10",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "HdVX4sLZabo",
+      "title": "Mika Kobayashi 9",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "FnfsS8T8AtI",
+      "title": "Mika Kobayashi 8",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "UFBOfutY06E",
+      "title": "Mika Kobayashi 7",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "XFS6NV0sh8M",
+      "title": "Mika Kobayashi 6",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "4aMEQwq9XRA",
+      "title": "Mika Kobayashi 5",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "cDm9XI3XJB8",
+      "title": "Mika Kobayashi 4",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "zbGQEntXHcE",
+      "title": "Mika Kobayashi 3",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "BvzoyETYExU",
+      "title": "Mika Kobayashi 2",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+      ]
+    },
+    {
+      "id": "hGGIK6IYj9I",
+      "title": "[Nice🇫🇷] Flight + ph0wn Workshop + Social",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCRBGmeYg-20ikSE1Q8ehyh",
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "AbnHgbjpbKw",
+      "title": "Embedded World - TI Software Defined Vehicle",
+      "playlist_ids": [
+        "PLyE8_TlXxAXCRBGmeYg-20ikSE1Q8ehyh"
+      ]
+    },
+    {
+      "id": "oO_covREQw8",
+      "title": "[Geneva🇨🇭] Patek Phillip Museum - Ancient Collection Brief Look - Exchange #2.2 (2026/02/28) ",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "4EWTlG2G6Yo",
+      "title": "[Train] From Lausanne to Nuremburg",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "X7upeccguEg",
+      "title": "[EPFL] Balelec 2026",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "D6i9s4hTHL4",
+      "title": "[Zermatt🇨🇭] Around the area",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "dm5n5YFqgx8",
+      "title": "[Zurich🇨🇭] Google",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "k-718qK75wY",
+      "title": "[Italy 🇮🇹] Vatican City",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "VHasTzN6WWs",
+      "title": "[Chamonix🇫🇷] Train up Chamonix",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "1H4ZVZGGKu8",
+      "title": "[Chamonix🇫🇷] Ride down Cableway",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "3uqEqrSVGaw",
+      "title": "[Chamonix🇫🇷] Glacerioum animation",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "XyuqCwGVqPc",
+      "title": "[Lausanne🇨🇭] Mudac",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "kUbbtLyQGkg",
+      "title": "[Brixton🇬🇧] Fish & Chips + Seven Sisters Cliff",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "ZRO3zgSilGY",
+      "title": "British Museum 1",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "7Sh8H_8GdzQ",
+      "title": "British Museum 2",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "btqd1v4umcc",
+      "title": "British Museum 3",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "C51REyXy1-4",
+      "title": "British Museum 4",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "2xESWmH5aQM",
+      "title": "British Museum 5",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "HRmbp9K9umI",
+      "title": "The Greatest Showman",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "uYUd4NsZJ08",
+      "title": "🇨🇭 Dent de Vaulion ",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "6maiO05DRD0",
+      "title": "Japan Expo Paris 2026🇫🇷 - Friday",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "EpXkc7knXdA",
+      "title": "Japan Expo Paris Day 2 ",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "MrFDPjGarqw",
+      "title": "Lausanne History Museum",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "MybTuyMCCGs",
+      "title": "[Chamonix🇫🇷] Cableway",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "NIugJzWUBso",
+      "title": "Dubai Mall Burj Khalifa",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "bUiGCI5WUas",
+      "title": "[Dubai] Al Fahidi ",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "AIGnvNe3zls",
+      "title": "Stockholm P1",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "EYYYcuzlIf0",
+      "title": "You are not finishing the Louvre",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "HRxzGkJ6KbY",
+      "title": "[Zurich🇨🇭] Uetilburg ",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "NnOtm_d1J8Q",
+      "title": "Lake Geneva to EPFL to FMEL",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "w7SFIUVnFoM",
+      "title": "[Dubai🇦🇪] Dubai Mall + Back to SG",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
+    },
+    {
+      "id": "plSoBt7U0qQ",
+      "title": "Adventure Cove",
+      "playlist_ids": [
+        "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"
+      ]
     }
   ],
   "playlists": [
+    {
+      "id": "PLC8Kx6jpjypw",
+      "title": "Trip 2026: Intel Embedded Cup 2026 🇨🇳",
+      "video_ids": [
+        "2qVBJa4P9DE",
+        "gqAcIdTiADc",
+        "WGbyjv5F8l4"
+      ]
+    },
+    {
+      "id": "PLIiuC1QB2GpI",
+      "title": "Trip: Brisbane DEFCON 34 Seattle",
+      "video_ids": [
+        "vwa5og0bJv0",
+        "SxzX3uwbKVA",
+        "CbQqaOK8QeY",
+        "2mRYgOYJCnY",
+        "BufPIzg7-nM",
+        "IU5IHISPm_4",
+        "Zl8Mkmv8ztQ",
+        "FxviWkxELZU",
+        "8UYUF64TPuM",
+        "VgI8QX5Eg3A",
+        "B7pe2O0zQIo",
+        "QdGnltGomXA",
+        "6s914gRu6lY",
+        "XJrxUMUjNO8",
+        "tIU9paY2hww",
+        "Y2wTnUS-g_8",
+        "wRJvFm3w-2c",
+        "j2pQu8MCEIg",
+        "qvcLyiXk1JQ",
+        "bmj_W_XEfhA",
+        "KfytG8uLGII",
+        "ukVq_gjw2gk"
+      ]
+    },
     {
       "id": "PLPCDrkPHf9zE",
       "title": "Gaming",
@@ -1089,7 +1822,7 @@
     },
     {
       "id": "PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp",
-      "title": "Trip: Exchange🇨🇭",
+      "title": "Trip 2026: Exchange🇨🇭",
       "video_ids": [
         "EPJvD81Uisk",
         "iP0GpBz1swk",
@@ -1191,7 +1924,47 @@
         "c4gDDMk7YW4",
         "WpqafkPXLhc",
         "gYhfXdDgYcY",
-        "IgUsHcHbuns"
+        "IgUsHcHbuns",
+        "Vx8eo-Q7FT4",
+        "GPXSwbcyiqM",
+        "xWXeTyPuhE0",
+        "fTWZMlUtXXI",
+        "BuvU2AElbpE",
+        "UONjpsxqg5g",
+        "VHasTzN6WWs",
+        "1H4ZVZGGKu8",
+        "3uqEqrSVGaw",
+        "2BaWielCDHE",
+        "XyuqCwGVqPc",
+        "P7lar6pei_s",
+        "td4a46Bktm8",
+        "kUbbtLyQGkg",
+        "09b4eGNFpf4",
+        "ZRO3zgSilGY",
+        "7Sh8H_8GdzQ",
+        "btqd1v4umcc",
+        "C51REyXy1-4",
+        "2xESWmH5aQM",
+        "O1opGGH6j2Y",
+        "HRmbp9K9umI",
+        "r-qCwBF58AE",
+        "X4Q_0GCeOeo",
+        "Z5wGoFFCjiM",
+        "RFmI13rqE4w",
+        "uYUd4NsZJ08",
+        "6maiO05DRD0",
+        "EpXkc7knXdA",
+        "MrFDPjGarqw",
+        "MybTuyMCCGs",
+        "NIugJzWUBso",
+        "bUiGCI5WUas",
+        "uYUd4NsZJ08",
+        "AIGnvNe3zls",
+        "EYYYcuzlIf0",
+        "HRxzGkJ6KbY",
+        "NnOtm_d1J8Q",
+        "w7SFIUVnFoM",
+        "plSoBt7U0qQ"
       ]
     }
   ]

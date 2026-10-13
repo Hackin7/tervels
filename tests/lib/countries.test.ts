@@ -9,6 +9,9 @@ describe('country listings', () => {
     ['VA', 'Vatican City', '🇻🇦'],
     ['CH', 'Switzerland', '🇨🇭'],
     ['CZ', 'Czechia', '🇨🇿'],
+    ['AU', 'Australia', '🇦🇺'],
+    ['CA', 'Canada', '🇨🇦'],
+    ['SK', 'Slovakia', '🇸🇰'],
   ])('resolves %s by code, name, or URL slug', (code, name, flag) => {
     for (const value of [code, code.toLowerCase(), name, countrySlug(name), ` ${name.toUpperCase()} `]) {
       expect(countryName(value)).toBe(name);

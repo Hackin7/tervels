@@ -25,6 +25,10 @@ experiences:
     name: "Møns Klint"
 tags: ["exchange-12-dokomi-scandinavia","denmark","ronnede","borre","mons-klint"]
 draft: false
+youtube:
+  items:
+    - kind: "video"
+      id: "plSoBt7U0qQ"
 ---
 
 <!-- consolidated-from: content_old/posts/2026/exchange-12-dokomi-scandinavia/2026-06-02-tldr-things-did/index.md#denmark-road-trip -->

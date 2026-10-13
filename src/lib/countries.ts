@@ -19,6 +19,9 @@ const TABLE: Record<string, { name: string; flag: string }> = {
   ae: { name: 'United Arab Emirates', flag: '🇦🇪' },
   dk: { name: 'Denmark', flag: '🇩🇰' },
   se: { name: 'Sweden', flag: '🇸🇪' },
+  au: { name: 'Australia', flag: '🇦🇺' },
+  ca: { name: 'Canada', flag: '🇨🇦' },
+  sk: { name: 'Slovakia', flag: '🇸🇰' },
   va: { name: 'Vatican City', flag: '🇻🇦' },
 };
 

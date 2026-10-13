@@ -1,5 +1,5 @@
 ---
-title: "**Overall Insomnihack Reflections** I was quite"
+title: "Overall Insomnihack 2026"
 youtube:
   items:
     - kind: video

@@ -2,8 +2,10 @@
 title: "Zermatt"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "uBugBNCd1QY"
+    - kind: "video"
+      id: "D6i9s4hTHL4"
   cover: "uBugBNCd1QY"
 timestamp: 2026-05-01T00:00:00Z
 locations:

@@ -15,6 +15,8 @@ const location = z.object({
   city: z.string().min(1),
   city_slug: z.string().regex(/^[a-z0-9-]+$/),
   gps,
+  context: z.enum(['visited', 'mentioned', 'planned', 'comparison', 'skipped', 'retrospective', 'calendar']).optional(),
+  review_note: z.string().optional(),
   gps_source: z.enum(['telegram', 'exif', 'manual', 'openstreetmap', 'official', 'old-frontmatter']).optional(),
   gps_granularity: z.enum(['building', 'venue', 'street', 'area', 'city']).optional(),
   gps_confidence: z.enum(['high', 'medium', 'low']).optional(),
@@ -54,6 +56,7 @@ const posts = defineCollection({
     timestamp: z.coerce.date(),
     locations: z.array(location).min(1),
     cover: image().optional(),
+    gallery: z.array(image()).default([]),
     youtube: z.object({
       items: z.array(youtubeItem).default([]),
       cover: youtubeVideoId.optional(),
@@ -64,8 +67,11 @@ const posts = defineCollection({
     source: z.object({
       kind: z.enum(['telegram', 'manual']).default('manual'),
       message_id: z.number().optional(),
+      message_ids: z.array(z.number().int()).optional(),
+      channel_id: z.number().int().optional(),
+      telegram_timestamp: z.coerce.date().optional(),
       imported_at: z.coerce.date().optional(),
-      date_basis: z.enum(['capture', 'telegram']).optional(),
+      date_basis: z.enum(['capture', 'telegram', 'calendar']).optional(),
     }).optional(),
   }).superRefine((post, ctx) => {
     if (post.cover && post.youtube?.cover) {

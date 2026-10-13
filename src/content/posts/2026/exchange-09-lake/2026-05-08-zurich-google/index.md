@@ -11,6 +11,10 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Google, Brandschenkestrasse 110, Zurich, Switzerland"
+youtube:
+  items:
+    - kind: video
+      id: "dm5n5YFqgx8"
 ---
 
 Google Zurich Office Visit.

@@ -16,6 +16,10 @@ source:
   message_id: 7871
   imported_at: 2026-06-08T12:06:17.254Z
   date_basis: telegram
+youtube:
+  items:
+    - kind: "video"
+      id: "VXhXQusc1fA"
 ---
 
 Trevi Fountain

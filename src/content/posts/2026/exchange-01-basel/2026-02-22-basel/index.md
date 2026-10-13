@@ -23,6 +23,10 @@ source:
   message_id: 4582
   imported_at: 2026-05-06T20:30:30.543Z
   date_basis: telegram
+youtube:
+  items:
+    - kind: video
+      id: "EPJvD81Uisk"
 ---
 
 Basel toilets are hitech wtf

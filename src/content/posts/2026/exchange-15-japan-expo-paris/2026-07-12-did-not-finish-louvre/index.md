@@ -41,6 +41,12 @@ locations:
 experiences:
   - kind: museum
     name: "Musée du Louvre"
+youtube:
+  items:
+    - kind: "video"
+      id: "rQQpCx2hg18"
+    - kind: "video"
+      id: "EYYYcuzlIf0"
 ---
 
 I did not finish the Louvre. 

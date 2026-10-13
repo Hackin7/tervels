@@ -2,8 +2,10 @@
 title: "Walking around Salzburg"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "zjwTEea4IeA"
+    - kind: "video"
+      id: "kcdPUH7m6zk"
   cover: "zjwTEea4IeA"
 timestamp: 2026-03-12T00:00:00Z
 locations:

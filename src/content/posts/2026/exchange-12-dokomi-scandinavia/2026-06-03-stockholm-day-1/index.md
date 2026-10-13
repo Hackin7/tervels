@@ -22,8 +22,10 @@ locations:
     gps_query: "HEY STHLM, Stockholm, Sweden"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "xWXeTyPuhE0"
+    - kind: "video"
+      id: "AIGnvNe3zls"
   cover: "xWXeTyPuhE0"
 experiences:
   - kind: museum

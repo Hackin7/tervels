@@ -29,6 +29,10 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Zurich Airport, Switzerland"
+youtube:
+  items:
+    - kind: "video"
+      id: "HRxzGkJ6KbY"
 ---
 
 # FMEL fine on Checking Out

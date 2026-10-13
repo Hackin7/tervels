@@ -2,14 +2,35 @@
 
 Channel: https://www.youtube.com/@tervel5
 
-Videos: 145 · Posts: 99
+Videos: 242 · Posts: 200
 
-## Linked (64)
+## Linked (175)
 
+- [The OB1 2026 Experience ](https://www.youtube.com/watch?v=GDmrExby5QY) — 2026/singapore-local-return-period/2026-09-15-off-by-one-2026
+- [[Basel🇨🇭] Fire Festival - Exchange #1](https://www.youtube.com/watch?v=EPJvD81Uisk) — 2026/exchange-01-basel/2026-02-22-basel
+- [[Lausanne🇨🇭] Palais de Rumine](https://www.youtube.com/watch?v=P7lar6pei_s) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Paris🇫🇷] Vibes ](https://www.youtube.com/watch?v=rQQpCx2hg18) — 2026/exchange-15-japan-expo-paris/2026-07-12-did-not-finish-louvre
+- [[London🇬🇧] Day 7 Dishrooms, Museum, Arcade Chief Coffee, Travel Back](https://www.youtube.com/watch?v=RFmI13rqE4w) — 2026/exchange-14-london/2026-07-07-london-final
 - [[Stonehenge🇬🇧] - #Exchange 20.1](https://www.youtube.com/watch?v=Z5wGoFFCjiM) — 2026/exchange-14-london/2026-07-06-stonehenge-meh
 - [[London🇬🇧] FreePlayCity](https://www.youtube.com/watch?v=r-qCwBF58AE) — 2026/exchange-14-london/2026-07-04-london-sights-play-freeplaycity-bridge
+- [[Stockholm🇸🇪] p2](https://www.youtube.com/watch?v=fTWZMlUtXXI) — 2026/exchange-12-dokomi-scandinavia/2026-06-05-stockholm-day-3
 - [[London🇬🇧] UCL, KFC, Chinatown](https://www.youtube.com/watch?v=09b4eGNFpf4) — 2026/exchange-14-london/2026-07-03-around-london
+- [[Stockholm🇸🇪] HEY STHLM](https://www.youtube.com/watch?v=BuvU2AElbpE) — 2026/exchange-12-dokomi-scandinavia/2026-06-04-stockholm-day-2
+- [[Stockholm🇸🇪] Midnight Sun](https://www.youtube.com/watch?v=UONjpsxqg5g) — 2026/exchange-12-dokomi-scandinavia/2026-06-05-stockholm-day-3
+- [[Copenhagen🇩🇰] Market and Castle](https://www.youtube.com/watch?v=IgUsHcHbuns) — 2026/exchange-12-dokomi-scandinavia/2026-06-02-copenhagen-day-3
+- [[Stockholm🇸🇪] Vasa Museum](https://www.youtube.com/watch?v=xWXeTyPuhE0) — 2026/exchange-12-dokomi-scandinavia/2026-06-03-stockholm-day-1
+- [[Copenhagen🇩🇰] p4](https://www.youtube.com/watch?v=GPXSwbcyiqM) — 2026/exchange-12-dokomi-scandinavia/2026-06-02-copenhagen-day-3
+- [[🇩🇰] Deer park](https://www.youtube.com/watch?v=Vx8eo-Q7FT4) — 2026/exchange-12-dokomi-scandinavia/2026-06-02-copenhagen-day-3
+- [[Travel] Dusseldorf to Copenhagen by FlixBus and Ferry](https://www.youtube.com/watch?v=WpqafkPXLhc) — 2026/exchange-12-dokomi-scandinavia/2026-05-31-dusseldorf-to-copenhagen
+- [[Copenhagen🇩🇰] Around the Castle](https://www.youtube.com/watch?v=gYhfXdDgYcY) — 2026/exchange-12-dokomi-scandinavia/2026-05-31-dusseldorf-to-copenhagen
+- [[Dusseldorf🇩🇪] Little Tokyo](https://www.youtube.com/watch?v=c4gDDMk7YW4) — 2026/exchange-12-dokomi-scandinavia/2026-05-30-dusseldorf
+- [[EPFL🇨🇭] Vivapoly](https://www.youtube.com/watch?v=4UbmVgNw4VE) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [HLY STHLM IIDX](https://www.youtube.com/watch?v=xHPERGLDvi4) — 2026/exchange-12-dokomi-scandinavia/2026-06-04-stockholm-day-2
+- [[Bratislava🇸🇰] Eurovea](https://www.youtube.com/watch?v=6F6HsU1i4Ms) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
+- [[Bratislava🇸🇰] Gas Museum](https://www.youtube.com/watch?v=pxpmIGowj7Q) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [[Rome🇮🇹] Colosseum](https://www.youtube.com/watch?v=ot77uC8PG2Y) — 2026/exchange-10-italy/2026-05-14-coloseum
+- [[Bratislava🇸🇰] Streets](https://www.youtube.com/watch?v=22Yo36RztyI) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
+- [[Bratislava🇸🇰] Nivy + Devin Castle Perimeter](https://www.youtube.com/watch?v=mLc50ET-w8U) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [[Brno🇨🇿] Around the area](https://www.youtube.com/watch?v=rJyM-pTwgSM) — 2026/exchange-11-czech-berlin-bratislava/2026-05-25-brno
 - [OSHW Moth Rave ](https://www.youtube.com/watch?v=iPT_Mj9W5Zo) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [[Berlin🇩🇪] East Side Gallery](https://www.youtube.com/watch?v=VzdssotRqnc) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
@@ -18,6 +39,8 @@ Videos: 145 · Posts: 99
 - [[Berlin🇩🇪] Topography of Terror](https://www.youtube.com/watch?v=uipxNlcw5_8) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [[Berlin🇩🇪] Sights](https://www.youtube.com/watch?v=-esQSMC-uUM) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [Open Hardware Summit Day 1](https://www.youtube.com/watch?v=f2_t52GcKvU) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
+- [[Prague🇨🇿] p2](https://www.youtube.com/watch?v=GMB1cVqoCrA) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
+- [[Prague🇨🇿] p1](https://www.youtube.com/watch?v=5shhLbV8ntw) — 2026/exchange-11-czech-berlin-bratislava/2026-05-27-reflections
 - [[Rome🇮🇹] Palentine Hill + Roman Forum](https://www.youtube.com/watch?v=02jIH0t4loI) — 2026/exchange-10-italy/2026-05-14-roman-forum-rome-jojo
 - [[Rome🇮🇹] Castel Sant'Angelo](https://www.youtube.com/watch?v=zM_98K2aJuY) — 2026/exchange-10-italy/2026-05-13-castel-sant-angelo-its
 - [[Lecco🇮🇹] Nightime walks](https://www.youtube.com/watch?v=jFAmJgdtkDA) — 2026/exchange-10-italy/2026-05-19-overall
@@ -26,13 +49,18 @@ Videos: 145 · Posts: 99
 - [Hackaday Europe 2026 🇮🇹 Day 2](https://www.youtube.com/watch?v=rlM67zuKZ-0) — 2026/exchange-10-italy/2026-05-19-overall
 - [Hackaday Europe 2026 Badge Hacking clips](https://www.youtube.com/watch?v=ouyU20n7a2A) — 2026/exchange-10-italy/2026-05-19-overall
 - [Hackaday Europe 2026 🇮🇹 Day 1](https://www.youtube.com/watch?v=V56ux6CoMlo) — 2026/exchange-10-italy/2026-05-19-overall
+- [[Rome🇮🇹] Waterfall](https://www.youtube.com/watch?v=VXhXQusc1fA) — 2026/exchange-10-italy/2026-05-14-trevi-fountain-s-crowded
 - [[Florence🇮🇹] p2](https://www.youtube.com/watch?v=jQldaWwuRcE) — 2026/exchange-10-italy/2026-05-12-uffizi-gallery-get-see
 - [[Florence🇮🇹] Venice to Florence ](https://www.youtube.com/watch?v=9ocBK9bfJIA) — 2026/exchange-10-italy/2026-05-12-uffizi-gallery-get-see
+- [[Venice🇮🇹] Pizza + Boat Ride ](https://www.youtube.com/watch?v=VEdjxzfeZZQ) — 2026/exchange-10-italy/2026-05-19-overall
 - [[Gureyes🇨🇭] Gureyes Cheese Factory Cheesemaking](https://www.youtube.com/watch?v=mWPt3bsidSo) — 2026/exchange-05-gureyes-insomni-friebourg/2026-03-17-gureyes-cheese-factory
 - [Dokomi 2026 Friday](https://www.youtube.com/watch?v=nIUbTrjCyc4) — 2026/exchange-12-dokomi-scandinavia/2026-05-29-dokomi
 - [[Venice 🇮🇹] Doge Palace](https://www.youtube.com/watch?v=wz04ysSmpko) — 2026/exchange-10-italy/2026-05-13-doge-palace
 - [Dokomi J-Rave 2026 Friday Random Mashup](https://www.youtube.com/watch?v=yfscD5kDY04) — 2026/exchange-12-dokomi-scandinavia/2026-05-29-dokomi
 - [[Venice🇮🇹] Museum Correr](https://www.youtube.com/watch?v=gmNySruHZVQ) — 2026/exchange-10-italy/2026-05-12-museum-correr
+- [[Venice 🇮🇹] Walking towards City Centre + Markets ](https://www.youtube.com/watch?v=08ASZjMmcpg) — 2026/exchange-10-italy/2026-05-19-overall
+- [[Bologna🇮🇹] In transit - Park and Streets ](https://www.youtube.com/watch?v=JcifS2dcjnE) — 2026/exchange-10-italy/2026-05-19-overall
+- [Clips around EPFL](https://www.youtube.com/watch?v=PN6ot11k4zA) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
 - [[Zurich 🇨🇭] p4](https://www.youtube.com/watch?v=GEH1MYZnCDQ) — 2026/exchange-09-lake/2026-05-08-zurich-again
 - [[Zurich🇨🇭] Gatt mall](https://www.youtube.com/watch?v=tpq8VEeqeRA) — 2026/exchange-09-lake/2026-05-08-zurich-again
 - [[Zurich🇨🇭] UZH Botanic Gardens](https://www.youtube.com/watch?v=8Q-jW9owhRs) — 2026/exchange-09-lake/2026-05-08-zurich-again
@@ -42,25 +70,40 @@ Videos: 145 · Posts: 99
 - [[Grindelwald🇨🇭] Grindelwald](https://www.youtube.com/watch?v=dJKxCKStLTE) — 2026/exchange-09-lake/2026-05-05-grindelwald-round-2
 - [[Zermatt🇨🇭] Gonergrat ](https://www.youtube.com/watch?v=uBugBNCd1QY) — 2026/exchange-09-lake/2026-05-03-zermatt
 - [[EPFL🇨🇭] LakeCTF 2026](https://www.youtube.com/watch?v=aI6WOpZcZdk) — 2026/exchange-09-lake/2026-05-01-lakectf-time
+- [[Lausanne🇨🇭] Jorat Park](https://www.youtube.com/watch?v=QMS6MVFtAzc) — 2026/_unsorted/2026-07-19-exchange-nature-ranking
+- [[La Serraz 🇨🇭] Hike + Castle](https://www.youtube.com/watch?v=s5meakF1YFw) — 2026/_unsorted/2026-07-19-exchange-nature-ranking
+- [[Lausanne🇨🇭] Parc de Mon Repos](https://www.youtube.com/watch?v=Kso9bi6iJ6Y) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
 - [[Interlaken🇨🇭] Cheese Fondue + Ice Cream + Vibe 2](https://www.youtube.com/watch?v=mmOePWvQOpU) — 2026/exchange-08-kingsley-geneva-interlakenv2/2026-04-13-went-back-interlaken-lauterbrunnen
 - [[Interlaken🇨🇭] Trummelbach Waterfall](https://www.youtube.com/watch?v=llxUEx3cv_c) — 2026/exchange-08-kingsley-geneva-interlakenv2/2026-04-13-went-back-interlaken-lauterbrunnen
 - [[Interlaken🇨🇭] Vibing 1](https://www.youtube.com/watch?v=c81WC9GJU2U) — 2026/exchange-08-kingsley-geneva-interlakenv2/2026-04-13-went-back-interlaken-lauterbrunnen
 - [[Barcelona🇪🇸] Sagrada Família ](https://www.youtube.com/watch?v=g2O-q0oM-Tk) — 2026/exchange-07-barcelona/2026-04-09-barcelona-day-3
+- [Barcelona to Geneva ](https://www.youtube.com/watch?v=Sof8iw0OXaQ) — 2026/exchange-07-barcelona/2026-04-09-barcelona-day-3
 - [[Barcelona🇪🇸] Barceloneta Beach + Dinner  ](https://www.youtube.com/watch?v=CkYa6R6JqCQ) — 2026/exchange-07-barcelona/2026-04-09-barcelona-day-3
-- [[Barcelona🇪🇸] Picasso Museum ](https://www.youtube.com/watch?v=b7DAcvQNJzA) — 2026/exchange-07-barcelona/2026-04-08-barcelona-day-2
+- [[Barcelona🇪🇸] Picasso Museum ](https://www.youtube.com/watch?v=b7DAcvQNJzA) — 2026/exchange-07-barcelona/2026-04-09-barcelona-day-3
 - [[Barcelona🇪🇸] Montjuïc Castle](https://www.youtube.com/watch?v=ixxLuSNx4dY) — 2026/exchange-07-barcelona/2026-04-08-barcelona-day-2
 - [[Barcelona🇪🇸] Shopping ](https://www.youtube.com/watch?v=YY3y6ClYZHA) — 2026/exchange-07-barcelona/2026-04-08-barcelona-day-2
-- [[Barcelona🇪🇸] Park Guell](https://www.youtube.com/watch?v=2qJye6K-msc) — 2026/exchange-07-barcelona/2026-04-08-barcelona-day-2
+- [[Barcelona🇪🇸] Park Guell](https://www.youtube.com/watch?v=2qJye6K-msc) — 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1
 - [[Barcelona 🇪🇸] FC Barcelona Museum + Shop + Lunch](https://www.youtube.com/watch?v=jwfZNHFvNf4) — 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1
-- [[Barcelona🇪🇸] Park](https://www.youtube.com/watch?v=4XCkeYsQk6s) — 2026/exchange-07-barcelona/2026-04-08-barcelona-day-2
+- [[Barcelona🇪🇸] Park](https://www.youtube.com/watch?v=4XCkeYsQk6s) — 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1
 - [[Travel] Lausanne to Lyon to Barcelona](https://www.youtube.com/watch?v=D6LwsoNVl2A) — 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1
+- [[Lausanne🇨🇭] Polymanga 3rd April 2026](https://www.youtube.com/watch?v=U14cDCmtW84) — 2026/_unsorted/2026-07-19-exchange-events-tier-list
+- [[EPFL🇨🇭] Helvetic Coding Contest HC2 2026](https://www.youtube.com/watch?v=FkNg6zqAMGg) — 2026/_unsorted/2026-07-19-exchange-events-tier-list
 - [[Nice🇫🇷] Night Beach Walk ](https://www.youtube.com/watch?v=PxWfj0q7jw4) — 2026/exchange-04-ph0wn-nice-trip/2026-03-14-walk-around-nice-antibes
 - [[Nice🇫🇷] ph0wn CTF](https://www.youtube.com/watch?v=1Pzolh0gN0E) — 2026/exchange-04-ph0wn-nice-trip/2026-03-14-ph0wn-freaking-fun-wtf
+- [[Zakopane🇵🇱] Mountain + Shopping + Heavy Snow](https://www.youtube.com/watch?v=Mpkn9r-wcUc) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[Zakopane🇵🇱] Museum](https://www.youtube.com/watch?v=ewNUhiFqHVc) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[Zakopane🇵🇱] Rainy Day](https://www.youtube.com/watch?v=imWbfpTrvPQ) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[🇵🇱] Skiing between mountains (Day 2) ](https://www.youtube.com/watch?v=NvwAMFa5We0) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[🇵🇱] Breakfast + Baby Ski (Day 2) ](https://www.youtube.com/watch?v=woBlGbluosg) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[🇵🇱] Ski Trip Day 1](https://www.youtube.com/watch?v=V1Xs2g3cwLk) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
+- [[Travel] Geneva to Krakow](https://www.youtube.com/watch?v=mniYQ0W16cA) — 2026/_unsorted/2026-07-19-exchange-locations-ranking
 - [[Freiburg🇩🇪] Hike + Streets](https://www.youtube.com/watch?v=3So8hPmDC7Y) — 2026/exchange-05-gureyes-insomni-friebourg/2026-03-22-crashing-friebourg-trip-germany
 - [[Lausanne🇨🇭] Insomnihack 2026](https://www.youtube.com/watch?v=MqzDXW2vbek) — 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite
 - [[Gureyes🇨🇭] Day Trip](https://www.youtube.com/watch?v=wCeiAbyBjU8) — 2026/exchange-05-gureyes-insomni-friebourg/2026-03-17-gureyes-cheese-factory; 2026/exchange-05-gureyes-insomni-friebourg/2026-03-17-went-up-gureyes-medival
 - [[Flight] Nice to Lausanne](https://www.youtube.com/watch?v=aNCBnGinHKo) — 2026/exchange-04-ph0wn-nice-trip/2026-03-14-flight-nice-france-mountain
+- [[Lausanne🇨🇭] Lausanne Cathedral](https://www.youtube.com/watch?v=79cqU0kIAl8) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
 - [[Munich🇩🇪] Day Trip English Garden](https://www.youtube.com/watch?v=9NqWLC9Uexs) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-11-bmw-museum-munich
+- [[Train] Munich to Salzburg](https://www.youtube.com/watch?v=kcdPUH7m6zk) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-12-walking-around-salzburg
 - [[Salzburg🇦🇹] Around Salzburg](https://www.youtube.com/watch?v=zjwTEea4IeA) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-12-walking-around-salzburg
 - [Embedded World - Analog Devices Analog Tools](https://www.youtube.com/watch?v=b88PRyrt3U4) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world
 - [Embedded World 2026 - Gowin](https://www.youtube.com/watch?v=AyxXaExSm8Q) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world
@@ -68,60 +111,91 @@ Videos: 145 · Posts: 99
 - [[Salzburg🇦🇹] Fortress](https://www.youtube.com/watch?v=B70HYOZumZ8) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-12-salzburg-fortress-view
 - [[Munich🇩🇪] BMW Museum ](https://www.youtube.com/watch?v=lMesBcf3Arc) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-11-bmw-museum-munich
 - [[Nuremburg 🇩🇪] Embedded World 2026](https://www.youtube.com/watch?v=QcPnEJqxUmw) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world
+- [[Shanghai🇨🇳] Disneyland Castle](https://www.youtube.com/watch?v=0JsNdM1kgB0) — 2025/intern-main-shanghai/2025-10-12-shanghai-disneyland
+- [[Lausanne🇨🇭] Port](https://www.youtube.com/watch?v=Lr1MWV9vf_4) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Lausanne🇨🇭] Olympic Museum Permanent Exhibition - #Exchange 3.2](https://www.youtube.com/watch?v=x5Nc-en6ODk) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Lausanne🇨🇭] Olympic Museum Temporary Exhibution](https://www.youtube.com/watch?v=eP4NUw3952k) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
 - [[Avoriaz🇫🇷] Ski Trip - #Exchange 2.3](https://www.youtube.com/watch?v=FRQXZNN3ADU) — 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip
+- [[Lausanne🇨🇭] Olympic Park - #Exchange 3.1](https://www.youtube.com/watch?v=6_UMi83VwoQ) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
 - [[Geneva🇨🇭] Mason Tavel Museum - Geneva history - Exchange #2.1](https://www.youtube.com/watch?v=iP0GpBz1swk) — 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-maison-tavel
+- [[Shanghai 🇨🇳] Yu Garden Round 2](https://www.youtube.com/watch?v=2qVBJa4P9DE) — 2026/intel-embedded-cup-shanghai/2026-07-24-shanghai-final-city-day
+- [[Shanghai 🇨🇳] Joy Universe 3.0](https://www.youtube.com/watch?v=gqAcIdTiADc) — 2026/intel-embedded-cup-shanghai/2026-07-24-shanghai-final-city-day
+- [[Shanghai 🇨🇳] Intel Embedded Cup 2026](https://www.youtube.com/watch?v=WGbyjv5F8l4) — 2026/intel-embedded-cup-shanghai/2026-07-21-shanghai-appraisal-day-1
+- [[Ho Chi Minh 🇻🇳] Layover +Bui Vien](https://www.youtube.com/watch?v=vwa5og0bJv0) — 2026/brisbane-defcon-seattle/2026-07-30-ho-chi-minh-arrival-and-evening
+- [[Ho Chi Minh🇻🇳] Bike Ride](https://www.youtube.com/watch?v=SxzX3uwbKVA) — 2026/brisbane-defcon-seattle/2026-07-30-ho-chi-minh-arrival-and-evening
+- [[Brisbane🇦🇺] D1: Kelvin Grove + South Bank](https://www.youtube.com/watch?v=CbQqaOK8QeY) — 2026/brisbane-defcon-seattle/2026-08-01-brisbane-arrival-and-city
+- [[Brisbane🇦🇺] D1: Skyview](https://www.youtube.com/watch?v=2mRYgOYJCnY) — 2026/brisbane-defcon-seattle/2026-08-01-brisbane-arrival-and-city
+- [[Brisbane🇦🇺] D2: Queensland Museum](https://www.youtube.com/watch?v=BufPIzg7-nM) — 2026/brisbane-defcon-seattle/2026-08-02-brisbane-museums-and-galleries
+- [[Brisbane🇦🇺] D2: City Hall and Brisbane Museum](https://www.youtube.com/watch?v=IU5IHISPm_4) — 2026/brisbane-defcon-seattle/2026-08-02-brisbane-museums-and-galleries
+- [[Brisbane🇦🇺] D2: Queensland Museum](https://www.youtube.com/watch?v=Zl8Mkmv8ztQ) — 2026/brisbane-defcon-seattle/2026-08-02-brisbane-museums-and-galleries
+- [[Brisbane🇦🇺] D2: Queensland Art Gallery](https://www.youtube.com/watch?v=FxviWkxELZU) — 2026/brisbane-defcon-seattle/2026-08-02-brisbane-museums-and-galleries
+- [[Brisbane🇦🇺] D3: Coombabah Conservation Reserve + Koala Trail](https://www.youtube.com/watch?v=8UYUF64TPuM) — 2026/brisbane-defcon-seattle/2026-08-03-gold-coast-coombabah-and-surfers-paradise
+- [[Brisbane🇦🇺] D3: Gold Coast](https://www.youtube.com/watch?v=VgI8QX5Eg3A) — 2026/brisbane-defcon-seattle/2026-08-03-gold-coast-coombabah-and-surfers-paradise
+- [[Brisbane🇦🇺] D4: University of Queensland](https://www.youtube.com/watch?v=B7pe2O0zQIo) — 2026/brisbane-defcon-seattle/2026-08-04-brisbane-uq-and-mount-coot-tha
+- [[Brisbane🇦🇺] D4: Mt Coot-tha + Gum Trail](https://www.youtube.com/watch?v=QdGnltGomXA) — 2026/brisbane-defcon-seattle/2026-08-04-brisbane-uq-and-mount-coot-tha
+- [Flight to Vancouver ](https://www.youtube.com/watch?v=6s914gRu6lY) — 2026/brisbane-defcon-seattle/2026-08-05-vancouver-layover
+- [[Vancouver🇨🇦] Layover: Stanely Park + Canada Place](https://www.youtube.com/watch?v=XJrxUMUjNO8) — 2026/brisbane-defcon-seattle/2026-08-05-vancouver-layover
+- [Flight to Vegas](https://www.youtube.com/watch?v=tIU9paY2hww) — 2026/brisbane-defcon-seattle/2026-08-05-las-vegas-arrival
+- [[Vegas🇺🇸] DEFCON 34](https://www.youtube.com/watch?v=Y2wTnUS-g_8) — 2026/brisbane-defcon-seattle/2026-08-10-defcon-34-reflections
+- [[Seattle🇺🇸] D1: Southcenter Mall + Round 1](https://www.youtube.com/watch?v=wRJvFm3w-2c) — 2026/brisbane-defcon-seattle/2026-08-10-southcenter-and-round-1
+- [[Seattle🇺🇸] D2: Mt Rainier](https://www.youtube.com/watch?v=j2pQu8MCEIg) — 2026/brisbane-defcon-seattle/2026-08-11-mount-rainier-skyline-trail
+- [[Seattle🇺🇸] D3: Dennys, Wallace Falls, Raising Canes](https://www.youtube.com/watch?v=qvcLyiXk1JQ) — 2026/brisbane-defcon-seattle/2026-08-13-road-trip-and-raising-canes
+- [[Seattle🇺🇸] D4: Kerry Park, Space Needle, Pike Place Market, Apple Shop](https://www.youtube.com/watch?v=bmj_W_XEfhA) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
+- [[Seattle🇺🇸] Airport](https://www.youtube.com/watch?v=KfytG8uLGII) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
+- [[Seoul🇰🇷] Layover: Myeongdong, Deoksugung Palace, AK Plaza + Hongdae](https://www.youtube.com/watch?v=ukVq_gjw2gk) — 2026/brisbane-defcon-seattle/2026-08-15-seoul-layover
+- [Bang dream our notes gameplay](https://www.youtube.com/watch?v=DGf7nxWDziw) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [[Japan Expo Paris 2026🇫🇷] Attack on Titan but French Cosplayers](https://www.youtube.com/watch?v=E5Yj_s8rmCc) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [[Japan Expo Paris 2026🇫🇷] Sakura Stage 5](https://www.youtube.com/watch?v=1cg_K-2DVnc) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [[Japan Expo Paris 2026🇫🇷] Sakura Stage 4](https://www.youtube.com/watch?v=BcjbI4cLiC4) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [[Japan Expo Paris 2026🇫🇷] Sakura Stage 3](https://www.youtube.com/watch?v=VP_ORxZrAWA) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [[Japan Expo Paris 2026🇫🇷] Sakura Stage 2](https://www.youtube.com/watch?v=yA-jQXV_8eE) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [Aiobahn +81 2026/05/29 DoK◯mi J-RAVE](https://www.youtube.com/watch?v=ZfKmOClqtq0) — 2026/exchange-12-dokomi-scandinavia/2026-05-29-dokomi
+- [[Nice🇫🇷] Flight + ph0wn Workshop + Social](https://www.youtube.com/watch?v=hGGIK6IYj9I) — 2026/exchange-04-ph0wn-nice-trip/2026-03-14-flight-nice-france-mountain
+- [[Geneva🇨🇭] Patek Phillip Museum - Ancient Collection Brief Look - Exchange #2.2 (2026/02/28) ](https://www.youtube.com/watch?v=oO_covREQw8) — 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-patek-phillip-watch-exhibition
+- [[Train] From Lausanne to Nuremburg](https://www.youtube.com/watch?v=4EWTlG2G6Yo) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-09-frankfurt-train-station
+- [[EPFL] Balelec 2026](https://www.youtube.com/watch?v=X7upeccguEg) — 2026/exchange-09-lake/2026-05-01-balelec
+- [[Zermatt🇨🇭] Around the area](https://www.youtube.com/watch?v=D6i9s4hTHL4) — 2026/exchange-09-lake/2026-05-03-zermatt
+- [[Zurich🇨🇭] Google](https://www.youtube.com/watch?v=dm5n5YFqgx8) — 2026/exchange-09-lake/2026-05-08-zurich-google
+- [[Italy 🇮🇹] Vatican City](https://www.youtube.com/watch?v=k-718qK75wY) — 2026/exchange-10-italy/2026-05-14-vatican-city-outer-square
+- [[Chamonix🇫🇷] Train up Chamonix](https://www.youtube.com/watch?v=VHasTzN6WWs) — 2026/exchange-13-chamonix/2026-06-22-chamonix
+- [[Chamonix🇫🇷] Ride down Cableway](https://www.youtube.com/watch?v=1H4ZVZGGKu8) — 2026/exchange-13-chamonix/2026-06-22-chamonix
+- [[Chamonix🇫🇷] Glacerioum animation](https://www.youtube.com/watch?v=3uqEqrSVGaw) — 2026/exchange-13-chamonix/2026-06-22-chamonix
+- [[Lausanne🇨🇭] Mudac](https://www.youtube.com/watch?v=XyuqCwGVqPc) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Brixton🇬🇧] Fish & Chips + Seven Sisters Cliff](https://www.youtube.com/watch?v=kUbbtLyQGkg) — 2026/exchange-14-london/2026-07-02-brighton-seven-sisters
+- [British Museum 1](https://www.youtube.com/watch?v=ZRO3zgSilGY) — 2026/exchange-14-london/2026-07-03-british-museum
+- [British Museum 2](https://www.youtube.com/watch?v=7Sh8H_8GdzQ) — 2026/exchange-14-london/2026-07-03-british-museum
+- [British Museum 3](https://www.youtube.com/watch?v=btqd1v4umcc) — 2026/exchange-14-london/2026-07-03-british-museum
+- [British Museum 4](https://www.youtube.com/watch?v=C51REyXy1-4) — 2026/exchange-14-london/2026-07-03-british-museum
+- [British Museum 5](https://www.youtube.com/watch?v=2xESWmH5aQM) — 2026/exchange-14-london/2026-07-03-british-museum
+- [The Greatest Showman](https://www.youtube.com/watch?v=HRmbp9K9umI) — 2026/exchange-14-london/2026-07-04-london-sights-play-freeplaycity-bridge
+- [🇨🇭 Dent de Vaulion ](https://www.youtube.com/watch?v=uYUd4NsZJ08) — 2026/_unsorted/2026-07-19-exchange-nature-ranking
+- [Japan Expo Paris 2026🇫🇷 - Friday](https://www.youtube.com/watch?v=6maiO05DRD0) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [Japan Expo Paris Day 2 ](https://www.youtube.com/watch?v=EpXkc7knXdA) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
+- [Lausanne History Museum](https://www.youtube.com/watch?v=MrFDPjGarqw) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Chamonix🇫🇷] Cableway](https://www.youtube.com/watch?v=MybTuyMCCGs) — 2026/exchange-13-chamonix/2026-06-22-chamonix
+- [Dubai Mall Burj Khalifa](https://www.youtube.com/watch?v=NIugJzWUBso) — 2026/exchange-16-dubai-transit-home/2026-07-16-dubai-moment
+- [[Dubai] Al Fahidi ](https://www.youtube.com/watch?v=bUiGCI5WUas) — 2026/exchange-16-dubai-transit-home/2026-07-16-dubai-moment
+- [Stockholm P1](https://www.youtube.com/watch?v=AIGnvNe3zls) — 2026/exchange-12-dokomi-scandinavia/2026-06-03-stockholm-day-1
+- [You are not finishing the Louvre](https://www.youtube.com/watch?v=EYYYcuzlIf0) — 2026/exchange-15-japan-expo-paris/2026-07-12-did-not-finish-louvre
+- [[Zurich🇨🇭] Uetilburg ](https://www.youtube.com/watch?v=HRxzGkJ6KbY) — 2026/exchange-16-dubai-transit-home/2026-07-15-zurich-plan
+- [Lake Geneva to EPFL to FMEL](https://www.youtube.com/watch?v=NnOtm_d1J8Q) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
+- [[Dubai🇦🇪] Dubai Mall + Back to SG](https://www.youtube.com/watch?v=w7SFIUVnFoM) — 2026/exchange-16-dubai-transit-home/2026-07-16-dubai-moment
+- [Adventure Cove](https://www.youtube.com/watch?v=plSoBt7U0qQ) — 2026/exchange-12-dokomi-scandinavia/2026-06-01-denmark-road-trip-day-2
 
 ## High Confidence (0)
 
 _None._
 
-## Review (23)
+## Review (2)
 
-- [[Lausanne🇨🇭] Palais de Rumine](https://www.youtube.com/watch?v=P7lar6pei_s) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Paris🇫🇷] Vibes ](https://www.youtube.com/watch?v=rQQpCx2hg18) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (6); 2026/exchange-15-japan-expo-paris/2026-07-12-did-not-finish-louvre (6); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (6)
-- [[London🇬🇧] Day 7 Dishrooms, Museum, Arcade Chief Coffee, Travel Back](https://www.youtube.com/watch?v=RFmI13rqE4w) — 2026/exchange-14-london/2026-07-03-british-museum (8); 2026/exchange-14-london/2026-07-01-navigation (6); 2026/exchange-14-london/2026-07-03-around-london (6)
-- [[🇩🇰] Deer park](https://www.youtube.com/watch?v=Vx8eo-Q7FT4) — 2026/exchange-14-london/2026-07-02-brighton-seven-sisters (6); 2023/2023_12_08_isitdtu_finals/stow-writeup (4); 2025/defcon33-us/2025-08-05-flight (4)
-- [[Travel] Dusseldorf to Copenhagen by FlixBus and Ferry](https://www.youtube.com/watch?v=WpqafkPXLhc) — 2026/exchange-14-london/2026-07-01-navigation (4); 2026/exchange-12-dokomi-scandinavia/2026-05-29-dokomi (2)
-- [[Dusseldorf🇩🇪] Little Tokyo](https://www.youtube.com/watch?v=c4gDDMk7YW4) — 2026/exchange-12-dokomi-scandinavia/2026-05-29-dokomi (6)
-- [[Rome🇮🇹] Waterfall](https://www.youtube.com/watch?v=VXhXQusc1fA) — 2026/exchange-10-italy/2026-05-13-castel-sant-angelo-its (6); 2026/exchange-10-italy/2026-05-14-coloseum (6); 2026/exchange-10-italy/2026-05-14-roman-forum-rome-jojo (6)
-- [[Venice🇮🇹] Pizza + Boat Ride ](https://www.youtube.com/watch?v=VEdjxzfeZZQ) — 2025/defcon33-us/2025-08-14-griffith-observatory-venice-beach (6); 2026/exchange-10-italy/2026-05-12-museum-correr (6); 2026/exchange-10-italy/2026-05-13-doge-palace (6)
-- [[Venice 🇮🇹] Walking towards City Centre + Markets ](https://www.youtube.com/watch?v=08ASZjMmcpg) — 2025/defcon33-us/2025-08-14-griffith-observatory-venice-beach (6); 2026/exchange-10-italy/2026-05-12-museum-correr (6); 2026/exchange-10-italy/2026-05-13-doge-palace (6)
-- [[Lausanne🇨🇭] Jorat Park](https://www.youtube.com/watch?v=QMS6MVFtAzc) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Lausanne🇨🇭] Parc de Mon Repos](https://www.youtube.com/watch?v=Kso9bi6iJ6Y) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Lausanne🇨🇭] Polymanga 3rd April 2026](https://www.youtube.com/watch?v=U14cDCmtW84) — 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (8); 2026/exchange-07-barcelona/2026-04-09-barcelona-day-3 (8); 2025/lakectf2425-swiss/2025-05-08-stow (6)
-- [[🇵🇱] Skiing between mountains (Day 2) ](https://www.youtube.com/watch?v=NvwAMFa5We0) — 2023/2023_12_08_isitdtu_finals/stow-writeup (6); 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip (6); 2025/defcon33-us/2025-08-05-flight (4)
-- [[🇵🇱] Breakfast + Baby Ski (Day 2) ](https://www.youtube.com/watch?v=woBlGbluosg) — 2025/intern-01-nagoya/2025-10-05-00-sukiya-fast-food-japanese (6); 2025/intern-03-shenzhen-kicon-asia/2025-11-15-00-bfast (6); 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip (6)
-- [[🇵🇱] Ski Trip Day 1](https://www.youtube.com/watch?v=V1Xs2g3cwLk) — 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip (6); 2023/2023_12_08_isitdtu_finals/stow-writeup (4); 2025/defcon33-us/2025-08-05-flight (4)
-- [[Travel] Geneva to Krakow](https://www.youtube.com/watch?v=mniYQ0W16cA) — 2026/exchange-14-london/2026-07-01-navigation (6); 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-cathedrale-saint-pierre (2); 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-maison-tavel (2)
 - [[🇵🇱] Ski 1](https://www.youtube.com/watch?v=g8mcqlNunwY) — 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip (6); 2023/2023_12_08_isitdtu_finals/stow-writeup (4); 2025/defcon33-us/2025-08-05-flight (4)
-- [[Lausanne🇨🇭] Lausanne Cathedral](https://www.youtube.com/watch?v=79cqU0kIAl8) — 2025/lakectf2425-swiss/2025-05-08-stow (8); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (8); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (8)
-- [[Train] Munich to Salzburg](https://www.youtube.com/watch?v=kcdPUH7m6zk) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-09-frankfurt-train-station (6); 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-train-transfers-reaching-hostel (6); 2026/exchange-03-nuremburg-munich-salzburg/2026-03-11-bmw-museum-munich (2)
-- [[Lausanne🇨🇭] Port](https://www.youtube.com/watch?v=Lr1MWV9vf_4) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Lausanne🇨🇭] Olympic Museum Permanent Exhibition - #Exchange 3.2](https://www.youtube.com/watch?v=x5Nc-en6ODk) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Lausanne🇨🇭] Olympic Museum Temporary Exhibution](https://www.youtube.com/watch?v=eP4NUw3952k) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
-- [[Lausanne🇨🇭] Olympic Park - #Exchange 3.1](https://www.youtube.com/watch?v=6_UMi83VwoQ) — 2025/lakectf2425-swiss/2025-05-08-stow (6); 2026/exchange-05-gureyes-insomni-friebourg/2026-03-21-overall-insomnihack-reflections-quite (6); 2026/exchange-07-barcelona/2026-04-07-barcelona-day-1 (6)
+- [Embedded World - TI Software Defined Vehicle](https://www.youtube.com/watch?v=AbnHgbjpbKw) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world (4)
 
-## Unassigned (58)
+## Unassigned (57)
 
+- [NUS Career Fest 2026](https://www.youtube.com/watch?v=mI2rXbnuikw) — 2026/_unsorted/2026-09-16-clic-donuts (2)
 - [[Mudac🇨🇭] Japan Special - Kaori](https://www.youtube.com/watch?v=rivFFgzXOeg) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
-- [[Stockholm🇸🇪] p2](https://www.youtube.com/watch?v=fTWZMlUtXXI)
-- [[Stockholm🇸🇪] HEY STHLM](https://www.youtube.com/watch?v=BuvU2AElbpE)
-- [[Stockholm🇸🇪] Midnight Sun](https://www.youtube.com/watch?v=UONjpsxqg5g)
-- [[Copenhagen🇩🇰] Market and Castle](https://www.youtube.com/watch?v=IgUsHcHbuns) — 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2)
-- [[Stockholm🇸🇪] Vasa Museum](https://www.youtube.com/watch?v=xWXeTyPuhE0) — 2023/2023_12_08_isitdtu_finals/stow-writeup (2); 2025/intern-01-nagoya/2025-10-04-01-toyota-commemorative-museum (2); 2025/intern-02-nanjing/2025-11-09-today-went-nanjing (2)
-- [[Copenhagen🇩🇰] p4](https://www.youtube.com/watch?v=GPXSwbcyiqM)
-- [[Copenhagen🇩🇰] Around the Castle](https://www.youtube.com/watch?v=gYhfXdDgYcY) — 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2)
-- [[EPFL🇨🇭] Vivapoly](https://www.youtube.com/watch?v=4UbmVgNw4VE)
 - [Mario and Sonic 2020 Playthrough](https://www.youtube.com/watch?v=qpN_AhVmIfQ)
-- [HLY STHLM IIDX](https://www.youtube.com/watch?v=xHPERGLDvi4)
-- [[Bratislava🇸🇰] Eurovea](https://www.youtube.com/watch?v=6F6HsU1i4Ms)
-- [[Bratislava🇸🇰] Gas Museum](https://www.youtube.com/watch?v=pxpmIGowj7Q) — 2023/2023_12_08_isitdtu_finals/stow-writeup (2); 2025/intern-01-nagoya/2025-10-04-01-toyota-commemorative-museum (2); 2025/intern-02-nanjing/2025-11-09-today-went-nanjing (2)
-- [[Bratislava🇸🇰] Streets](https://www.youtube.com/watch?v=22Yo36RztyI)
-- [[Bratislava🇸🇰] Nivy + Devin Castle Perimeter](https://www.youtube.com/watch?v=mLc50ET-w8U) — 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2)
-- [[Prague🇨🇿] p2](https://www.youtube.com/watch?v=GMB1cVqoCrA)
-- [[Prague🇨🇿] p1](https://www.youtube.com/watch?v=5shhLbV8ntw)
-- [[Bologna🇮🇹] In transit - Park and Streets ](https://www.youtube.com/watch?v=JcifS2dcjnE) — 2026/exchange-14-london/2026-07-02-brighton-seven-sisters (2)
-- [Clips around EPFL](https://www.youtube.com/watch?v=PN6ot11k4zA)
 - [[Balelec 2026] - 34 - Azimuts - Liv Del Estal](https://www.youtube.com/watch?v=VyzQQBcDvx0) — 2026/exchange-09-lake/2026-05-01-balelec (2); 2026/exchange-10-italy/2026-05-15-duomo-museum-surprisingly-good (2); 2026/exchange-10-italy/2026-05-19-overall (2)
 - [[Balelec 2026] - 35 - Azimuts - Liv Del Estal](https://www.youtube.com/watch?v=XamUmIzO39U) — 2026/exchange-09-lake/2026-05-01-balelec (2); 2026/exchange-10-italy/2026-05-15-duomo-museum-surprisingly-good (2); 2026/exchange-10-italy/2026-05-19-overall (2)
 - [[Balelec 2026] - 33 - Azimuts - Liv Del Estal](https://www.youtube.com/watch?v=XN_CmLmu8wM) — 2026/exchange-09-lake/2026-05-01-balelec (2); 2026/exchange-10-italy/2026-05-15-duomo-museum-surprisingly-good (2); 2026/exchange-10-italy/2026-05-19-overall (2)
@@ -143,7 +217,7 @@ _None._
 - [[Balelec 2026] - 16 - Squatt - Lily Gasc 3](https://www.youtube.com/watch?v=_jesgtFYv8c) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 15 - Squatt - Lily Gasc 2](https://www.youtube.com/watch?v=O9wDv9yjzNQ) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 12 - Fire Juggling 2](https://www.youtube.com/watch?v=AcblcmdMs90) — 2026/exchange-09-lake/2026-05-01-balelec (2)
-- [[Balelec 2026] - 11 - Square Move - Fire Juggling](https://www.youtube.com/watch?v=Kq7k1c1eAWo) — 2026/exchange-09-lake/2026-05-01-balelec (2)
+- [[Balelec 2026] - 11 - Square Move - Fire Juggling](https://www.youtube.com/watch?v=Kq7k1c1eAWo) — 2025/intern-main-shanghai/2025-09-20-anime-and-peoples-square (2); 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 10 - Redox ](https://www.youtube.com/watch?v=QwfU4ZFyxd4) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 9](https://www.youtube.com/watch?v=7iqCCbEnCKo) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 8 - Blame the Mono - 3](https://www.youtube.com/watch?v=HfAvQNCVthA) — 2026/exchange-09-lake/2026-05-01-balelec (2)
@@ -152,17 +226,39 @@ _None._
 - [[Balelec 2026] - 5 - Juste Shani 3](https://www.youtube.com/watch?v=3cvfV6F6fpk) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 3 - Juste Shani 1](https://www.youtube.com/watch?v=ip27yxcj3Qk) — 2026/exchange-09-lake/2026-05-01-balelec (2)
 - [[Balelec 2026] - 1  - Lb Aka Labat](https://www.youtube.com/watch?v=e5pFR_iYCaM) — 2026/exchange-09-lake/2026-05-01-balelec (2)
-- [[La Serraz 🇨🇭] Hike + Castle](https://www.youtube.com/watch?v=s5meakF1YFw) — 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2); 2026/exchange-09-lake/2026-05-03-zermatt (2)
-- [Barcelona to Geneva ](https://www.youtube.com/watch?v=Sof8iw0OXaQ) — 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-cathedrale-saint-pierre (2); 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-maison-tavel (2); 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-patek-phillip-watch-exhibition (2)
-- [[EPFL🇨🇭] Helvetic Coding Contest HC2 2026](https://www.youtube.com/watch?v=FkNg6zqAMGg)
 - [[Krakow🇵🇱] Rainy day: Food + Castle + Shopping Malls ](https://www.youtube.com/watch?v=V7U_4I69SZ8) — 2025/intern-01-nagoya/2025-10-02-03-osu-shopping-street (2); 2025/intern-01-nagoya/2025-10-05-00-sukiya-fast-food-japanese (2); 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2)
-- [[Zakopane🇵🇱] Mountain + Shopping + Heavy Snow](https://www.youtube.com/watch?v=Mpkn9r-wcUc) — 2025/intern-01-nagoya/2025-10-02-03-osu-shopping-street (2); 2026/exchange-04-ph0wn-nice-trip/2026-03-14-flight-nice-france-mountain (2); 2026/exchange-09-lake/2026-05-05-grindelwald-round-2 (2)
-- [[Zakopane🇵🇱] Museum](https://www.youtube.com/watch?v=ewNUhiFqHVc) — 2023/2023_12_08_isitdtu_finals/stow-writeup (2); 2025/intern-01-nagoya/2025-10-04-01-toyota-commemorative-museum (2); 2025/intern-02-nanjing/2025-11-09-today-went-nanjing (2)
-- [[Zakopane🇵🇱] Rainy Day](https://www.youtube.com/watch?v=imWbfpTrvPQ)
-- [Lausanne Train View](https://www.youtube.com/watch?v=ni7A7UoVS_Y) — 2025/lakectf2425-swiss/2025-05-08-stow (2); 2026/exchange-03-nuremburg-munich-salzburg/2026-03-09-frankfurt-train-station (2); 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-train-transfers-reaching-hostel (2)
-- [[Shanghai🇨🇳] Disneyland Castle](https://www.youtube.com/watch?v=0JsNdM1kgB0) — 2025/intern-01-nagoya/2025-10-05-01-inuyama-castle (2)
+- [Lausanne Train View](https://www.youtube.com/watch?v=ni7A7UoVS_Y) — 2025/lakectf2425-swiss/2025-05-08-stow (2); 2026/_unsorted/2026-07-19-exchange-events-tier-list (2); 2026/_unsorted/2026-09-16-clic-donuts (2)
+- [[Balelec 2026] - 4 - Just Shani 2](https://www.youtube.com/watch?v=sFHG5_2jdeM) — 2026/_unsorted/2026-08-25-https-www-reddit-com-r-defcon-11490 (2); 2026/_unsorted/2026-09-02-lmao-just-sent-mapping-because-didn-11493 (2); 2026/exchange-09-lake/2026-05-01-balelec (2)
+- [EPFL IC Cotton Candy + Faculty Dinner](https://www.youtube.com/watch?v=Pz7kCoJ_RuI) — 2026/_unsorted/2026-08-27-wonder-when-epfl-mod-mapping-will-11492 (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 7](https://www.youtube.com/watch?v=2svhXeSsg3A) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 6](https://www.youtube.com/watch?v=rvMIpwEVZ4g) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 5](https://www.youtube.com/watch?v=wdxXY-HEOTQ) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 4](https://www.youtube.com/watch?v=2jrYiBVNgYE) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 3](https://www.youtube.com/watch?v=do6JHrhO3gw) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 2](https://www.youtube.com/watch?v=irhA1_8TAi0) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Mudac🇨🇭] Japan Special - Ochikobore - 1](https://www.youtube.com/watch?v=F6lNyJ3DF9U) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris (2); 2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul (2)
+- [[Balelec 2026] - 14 - Squatt - Lily Gasc](https://www.youtube.com/watch?v=WGQ0RXwg6ls) — 2026/exchange-09-lake/2026-05-01-balelec (2)
+- [[Balelec 2026] - 13](https://www.youtube.com/watch?v=RSS9QdABwQQ) — 2026/exchange-09-lake/2026-05-01-balelec (2)
+- [[Balelec 2026] 2 - Square Move - Juggling](https://www.youtube.com/watch?v=wj3H3xHORho) — 2025/intern-main-shanghai/2025-09-20-anime-and-peoples-square (2); 2026/exchange-09-lake/2026-05-01-balelec (2)
+- [Mika Kobayashi 11](https://www.youtube.com/watch?v=qIRJIQBx-OI)
+- [Mika Kobayashi 10](https://www.youtube.com/watch?v=qPxr_BsBau0)
+- [Mika Kobayashi 9](https://www.youtube.com/watch?v=HdVX4sLZabo)
+- [Mika Kobayashi 8](https://www.youtube.com/watch?v=FnfsS8T8AtI)
+- [Mika Kobayashi 7](https://www.youtube.com/watch?v=UFBOfutY06E)
+- [Mika Kobayashi 6](https://www.youtube.com/watch?v=XFS6NV0sh8M)
+- [Mika Kobayashi 5](https://www.youtube.com/watch?v=4aMEQwq9XRA)
+- [Mika Kobayashi 4](https://www.youtube.com/watch?v=cDm9XI3XJB8)
+- [Mika Kobayashi 3](https://www.youtube.com/watch?v=zbGQEntXHcE)
+- [Mika Kobayashi 2](https://www.youtube.com/watch?v=BvzoyETYExU)
 
-## Excluded (0)
+## Excluded (8)
 
-_None._
+- [Hey STHLM chunithm](https://www.youtube.com/watch?v=1Fzz2JV9_eU)
+- [Hey STHLM iidx](https://www.youtube.com/watch?v=MYuuCfhREIg)
+- [Hey STHLM iidx](https://www.youtube.com/watch?v=p2xwX1LAiWQ)
+- [Hey STHLM iidx](https://www.youtube.com/watch?v=HeZ5KMA4110)
+- [FreePlayCity Arcade Game](https://www.youtube.com/watch?v=809UjuPGtSk)
+- [FreePlayCity Ongeki](https://www.youtube.com/watch?v=upGBWHweuto)
+- [FreePlayCity IIDX](https://www.youtube.com/watch?v=4gEbe8QvvCk)
+- [FreePlayCity love live arcade](https://www.youtube.com/watch?v=0NR5rEfM_Ds)
 

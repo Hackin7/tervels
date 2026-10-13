@@ -41,6 +41,14 @@ locations:
 experiences:
   - kind: food
     name: "Burger King Dubai Airport"
+youtube:
+  items:
+    - kind: "video"
+      id: "NIugJzWUBso"
+    - kind: "video"
+      id: "bUiGCI5WUas"
+    - kind: "video"
+      id: "w7SFIUVnFoM"
 ---
 
 # Dubai moment🙏

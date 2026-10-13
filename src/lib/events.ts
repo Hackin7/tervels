@@ -6,6 +6,11 @@ export interface EventMeta {
 }
 
 export const EVENT_CATALOG: EventMeta[] = [
+  { slug: 'intel-embedded-cup-2026', name: 'Intel Embedded Cup', year: 2026, location: 'Shanghai, China' },
+  { slug: 'defcon34-2026', name: 'DEF CON 34', year: 2026, location: 'Las Vegas, United States' },
+  { slug: 'off-by-one-2026', name: 'Off By One', year: 2026, location: 'Singapore' },
+  { slug: 'nice-hack-2026', name: 'Nice Hack', year: 2026 },
+  { slug: 'nus-career-fest-2026', name: 'NUS Career Fest', year: 2026 },
   { slug: 'japan-expo-paris-2026', name: 'Japan Expo Paris', year: 2026, location: 'Villepinte, France' },
   { slug: 'dokomi-2026', name: 'DoKomi', year: 2026, location: 'Dusseldorf, Germany' },
   { slug: 'midnight-sun-ctf-2026', name: 'Midnight Sun CTF & Conference', year: 2026, location: 'Stockholm, Sweden' },

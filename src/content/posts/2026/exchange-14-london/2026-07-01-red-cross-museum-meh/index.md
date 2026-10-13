@@ -19,6 +19,10 @@ source:
   message_id: 9716
   imported_at: 2026-07-30T17:45:22.691Z
   date_basis: telegram
+youtube:
+  items:
+    - kind: video
+      id: "td4a46Bktm8"
 ---
 Red Cross museum was meh tbh.
 

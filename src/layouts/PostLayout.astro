@@ -14,6 +14,7 @@ const primary = primaryLocation(post);
 const country = countrySlug(primary.country);
 const base = import.meta.env.BASE_URL;
 const resolved = isLocationResolved(post);
+const gallery = post.data.gallery.filter(photo => photo.src !== post.data.cover?.src);
 const locationLinks = post.data.locations.map(location => ({
   location,
   country: countrySlug(location.country),
@@ -60,7 +61,9 @@ for (const item of standaloneYouTubeItems(post.body ?? '') as YouTubeItem[]) add
     </ul>
   )}
   {post.data.cover && (
-    <Image src={post.data.cover} alt={post.data.title} width={1040} height={640} style="border-radius:8px; margin:1rem 0;" />
+    <a href={post.data.cover.src} target="_blank" rel="noopener noreferrer">
+      <Image src={post.data.cover} alt={post.data.title} width={1040} height={640} style="border-radius:8px; margin:1rem 0;" />
+    </a>
   )}
   {topItems.length > 0 && (
     <section class="post-videos">
@@ -73,6 +76,18 @@ for (const item of standaloneYouTubeItems(post.body ?? '') as YouTubeItem[]) add
   <article>
     <slot />
   </article>
+  {gallery.length > 0 && (
+    <section class="post-photos" aria-label="Photos">
+      <h2>Photos</h2>
+      <div class="photo-gallery">
+        {gallery.map((photo, index) => (
+          <a href={photo.src} target="_blank" rel="noopener noreferrer">
+            <Image src={photo} alt={`Photo ${index + 1} from ${post.data.title}`} width={Math.min(600, photo.width)} loading="lazy" decoding="async" />
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
   {!resolved && (
     <aside style="margin-top:2rem; padding:1rem; background:#fef3c7; border-radius:8px;">
       <strong>To publish this post:</strong> open <code>{post.id}/index.md</code> and set
@@ -82,3 +97,20 @@ for (const item of standaloneYouTubeItems(post.body ?? '') as YouTubeItem[]) add
     </aside>
   )}
 </BaseLayout>
+
+<style>
+  .post-photos { margin-top: 2rem; }
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 0.75rem;
+    align-items: start;
+  }
+  .photo-gallery a { display: block; }
+  .photo-gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>

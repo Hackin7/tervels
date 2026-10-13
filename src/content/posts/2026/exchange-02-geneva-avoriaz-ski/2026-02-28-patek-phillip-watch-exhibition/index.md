@@ -14,6 +14,10 @@ locations:
 experiences:
   - kind: museum
     name: "Patek Philippe Museum"
+youtube:
+  items:
+    - kind: video
+      id: "oO_covREQw8"
 ---
 
 I thought the watch exhibition would be more simple.

@@ -2,8 +2,10 @@
 title: "London Day 4: Sights, Play, FreePlayCity, Bridge"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "r-qCwBF58AE"
+    - kind: "video"
+      id: "HRmbp9K9umI"
   cover: "r-qCwBF58AE"
 timestamp: 2026-07-05T00:00:00Z
 locations:

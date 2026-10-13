@@ -2,18 +2,24 @@
 title: "Hackaday Europe + Overall"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "jFAmJgdtkDA"
-    - kind: video
+    - kind: "video"
       id: "PRnwtyV7TEc"
-    - kind: video
+    - kind: "video"
       id: "xESdXQ-PHuk"
-    - kind: video
+    - kind: "video"
       id: "rlM67zuKZ-0"
-    - kind: video
+    - kind: "video"
       id: "ouyU20n7a2A"
-    - kind: video
+    - kind: "video"
       id: "V56ux6CoMlo"
+    - kind: "video"
+      id: "JcifS2dcjnE"
+    - kind: "video"
+      id: "08ASZjMmcpg"
+    - kind: "video"
+      id: "VEdjxzfeZZQ"
   cover: "V56ux6CoMlo"
 timestamp: 2026-05-19T00:00:00Z
 locations:

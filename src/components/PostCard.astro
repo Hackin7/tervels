@@ -3,7 +3,7 @@ import type { Post } from '../lib/aggregates';
 import { postUrlSlug, isLocationResolved, primaryLocation } from '../lib/aggregates';
 import CountryFlag from './CountryFlag.astro';
 import { Image } from 'astro:assets';
-import { youtubeThumbnailUrl } from '../lib/youtube-core.mjs';
+import { youtubeListingVideoId, youtubeThumbnailUrl } from '../lib/youtube-core.mjs';
 export interface PostCardLabel {
   kind: 'museum' | 'trail' | 'food' | 'market' | 'event';
   name: string;
@@ -15,15 +15,16 @@ const href = `${base}/posts/${postUrlSlug(post)}`;
 const dateStr = post.data.timestamp.toISOString().slice(0, 10);
 const resolved = isLocationResolved(post);
 const location = primaryLocation(post);
-const youtubeCover = post.data.youtube?.cover;
+const youtubeCover = youtubeListingVideoId(post.data.youtube, post.body);
 ---
 <a href={href} class="card" style="display:block; color:inherit; text-decoration:none;">
-  {post.data.cover && (
-    <Image src={post.data.cover} alt={post.data.title} width={520} height={320} style="border-radius:6px; margin-bottom:0.75rem;" />
-  )}
-  {youtubeCover && (
-    <span class="youtube-cover">
-      <img src={youtubeThumbnailUrl(youtubeCover)} alt={post.data.title} width="480" height="360" loading="lazy" />
+  {(youtubeCover || post.data.cover) && (
+    <span class="post-thumbnail">
+      {youtubeCover ? (
+        <img src={youtubeThumbnailUrl(youtubeCover)} alt={post.data.title} width="480" height="360" loading="lazy" />
+      ) : (
+        <Image src={post.data.cover!} alt={post.data.title} width={520} height={320} />
+      )}
     </span>
   )}
   <h3>

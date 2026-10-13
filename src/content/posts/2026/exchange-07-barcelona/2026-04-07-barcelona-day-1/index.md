@@ -43,6 +43,16 @@ experiences:
     name: "FC Barcelona Museum"
 tags: ["exchange-main-lausanne","switzerland","lausanne","exchange-07-barcelona","spain","barcelona"]
 draft: false
+youtube:
+  items:
+    - kind: video
+      id: "D6LwsoNVl2A"
+    - kind: video
+      id: "4XCkeYsQk6s"
+    - kind: video
+      id: "jwfZNHFvNf4"
+    - kind: video
+      id: "2qJye6K-msc"
 ---
 
 <!-- consolidated-from: 2026-04-07-near-lausanne-bus-station/index.md -->

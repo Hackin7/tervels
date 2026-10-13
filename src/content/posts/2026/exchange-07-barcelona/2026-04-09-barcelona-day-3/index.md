@@ -2,10 +2,14 @@
 title: "Barcelona — Day 3 (9 April 2026)"
 youtube:
   items:
-    - kind: video
+    - kind: "video"
       id: "g2O-q0oM-Tk"
-    - kind: video
+    - kind: "video"
       id: "CkYa6R6JqCQ"
+    - kind: "video"
+      id: "b7DAcvQNJzA"
+    - kind: "video"
+      id: "Sof8iw0OXaQ"
   cover: "g2O-q0oM-Tk"
 timestamp: 2026-04-09T00:00:00.000Z
 locations:

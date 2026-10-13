@@ -25,6 +25,12 @@ experiences:
     name: "Casa Batlló"
 tags: ["exchange-07-barcelona","spain","barcelona"]
 draft: false
+youtube:
+  items:
+    - kind: video
+      id: "YY3y6ClYZHA"
+    - kind: video
+      id: "ixxLuSNx4dY"
 ---
 
 <!-- consolidated-from: 2026-04-08-porridge-breakfast-casa-batllo/index.md -->

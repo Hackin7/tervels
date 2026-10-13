@@ -14,6 +14,18 @@ locations:
 experiences:
   - kind: museum
     name: "British Museum"
+youtube:
+  items:
+    - kind: video
+      id: "ZRO3zgSilGY"
+    - kind: video
+      id: "7Sh8H_8GdzQ"
+    - kind: video
+      id: "btqd1v4umcc"
+    - kind: video
+      id: "C51REyXy1-4"
+    - kind: video
+      id: "2xESWmH5aQM"
 ---
 Things I saw at the British Museum
 1. Artefacts by various British explorers all over the World, how they link up

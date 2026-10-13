@@ -23,6 +23,10 @@ locations:
 experiences:
   - kind: trail
     name: "Seven Sisters Country Park"
+youtube:
+  items:
+    - kind: video
+      id: "kUbbtLyQGkg"
 ---
 
 Start of UK journey (Tesco Meal deal too, I got some cold wrap, boiled eggs, not bad)

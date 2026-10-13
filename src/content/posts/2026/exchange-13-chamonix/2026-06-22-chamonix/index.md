@@ -36,6 +36,16 @@ experiences:
     name: "Mer de Glace and ice-cave walk"
   - kind: food
     name: "McDonald's Chamonix"
+youtube:
+  items:
+    - kind: "video"
+      id: "VHasTzN6WWs"
+    - kind: "video"
+      id: "1H4ZVZGGKu8"
+    - kind: "video"
+      id: "3uqEqrSVGaw"
+    - kind: "video"
+      id: "MybTuyMCCGs"
 ---
 
 Chamonix was really really fun, talked and yapped to the other exchangers 

@@ -15,6 +15,10 @@ cover: "./assets/01-disneyland-shanghai-7am-and-the-queue/images/00.jpg"
 experiences: []
 tags: []
 draft: false
+youtube:
+  items:
+    - kind: video
+      id: "0JsNdM1kgB0"
 ---
 
 <!-- consolidated-from: 2025-10-12-disneyland-shanghai-7am-queue/index.md -->

@@ -31,6 +31,12 @@ The cover ID supplies the thumbnail on listing cards and is embedded at the top
 of the post. Frontmatter items and standalone links are deduplicated. A post
 cannot have both `cover` (a local image) and `youtube.cover`.
 
+Listing cards automatically use a YouTube preview thumbnail when a post links
+to a video, including links in the article body. They prefer `youtube.cover`,
+then the first video in `youtube.items`, then the first linked video in the body.
+Posts without a video keep their photo cover. Article photos and galleries are
+unaffected by this listing preference.
+
 ## Sync Tervel's channel
 
 The checked-in catalogue lets the site display channel titles and lets the
@@ -42,8 +48,15 @@ npm run youtube:report
 ```
 
 `youtube:sync` reads `https://www.youtube.com/@tervel5` with `yt-dlp` and writes
-`src/data/youtube.json`. It records channel videos, playlists, and playlist
-membership. Run it after new uploads or playlist changes.
+`src/data/youtube.json`. It records channel videos, Shorts, public playlist
+clips, and playlist membership. Playlist-only clips are retained even when they
+are absent from the main Videos tab; private/deleted entries are omitted from
+the video catalogue. It fetches metadata only. Run it after new uploads or
+playlist changes.
+
+Use a current `yt-dlp` release. Older releases can silently stop after the
+first playlist page. The sync refuses to overwrite the catalogue if a playlist
+returns fewer entries than YouTube reports.
 
 `youtube:report` writes `docs/youtube-link-report.md`. It separates videos that
 are already linked, strong title/location matches that are safe to review, and

@@ -13,8 +13,10 @@ locations:
     gps_query: "EPFL, Ecublens, Switzerland"
 youtube:
   items:
-    - kind: playlist
+    - kind: "playlist"
       id: "PLyE8_TlXxAXCfMQ-pAZYrES3_DQhI3wpb"
+    - kind: "video"
+      id: "X7upeccguEg"
   cover: "e5pFR_iYCaM"
 ---
 

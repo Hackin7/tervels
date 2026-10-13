@@ -45,6 +45,10 @@ experiences:
     name: "Borough Market"
   - kind: food
     name: "Chief Coffee"
+youtube:
+  items:
+    - kind: video
+      id: "RFmI13rqE4w"
 ---
 
 # Nice Dishrooms English Breakfast
