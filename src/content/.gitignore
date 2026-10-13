@@ -22,6 +22,12 @@ posts/2025/intern-main-shanghai/**
 !posts/2025/intern-main-shanghai/**/*.webp
 
 posts/2026/*
+# Poland: commit published articles; keep import provenance and media local.
+!posts/2026/exchange-06-krakow-ski-trip/
+posts/2026/exchange-06-krakow-ski-trip/**
+!posts/2026/exchange-06-krakow-ski-trip/**/
+!posts/2026/exchange-06-krakow-ski-trip/**/index.md
+
 !posts/2026/exchange-07-barcelona/
 !posts/2026/exchange-07-barcelona/**
 

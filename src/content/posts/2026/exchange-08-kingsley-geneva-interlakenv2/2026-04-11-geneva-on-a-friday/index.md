@@ -11,6 +11,11 @@ locations:
     gps_granularity: city
     gps_confidence: low
     gps_query: "Geneva, Switzerland"
+youtube:
+  items:
+    - kind: video
+      id: "Sof8iw0OXaQ"
+  cover: "Sof8iw0OXaQ"
 tags: ["exchange-08-kingsley-genevainterlakenv2", "switzerland", "geneva"]
 draft: false
 source:

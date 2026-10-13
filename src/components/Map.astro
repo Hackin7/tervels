@@ -11,7 +11,7 @@ const { dataUrl, height = '70vh' } = Astro.props;
   import 'leaflet.markercluster';
   const el = document.getElementById('tervels-map')!;
   const url = el.dataset.url!;
-  const base = (import.meta as any).env.BASE_URL || '';
+  const base = ((import.meta as any).env.BASE_URL || '').replace(/\/$/, '');
   const map = L.map(el).setView([20, 0], 2);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap',
