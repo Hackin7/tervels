@@ -97,6 +97,12 @@ The challenges are a lot more involved onsite, arcades, social engineering, fish
 A different spin on things, but ultimately still LakeCTF, and I think it turned out quite well
 
 
+# LakeCTF Ottersec Dinner
+
+It was before LakeCTF
+
+LakeCTF Ottersec Dinner Frankly the main course the meat is a lot harder, and there’s less chance for cross mingling of participants this year, the food still nice tho
+
 # Apero
 
 More free food
