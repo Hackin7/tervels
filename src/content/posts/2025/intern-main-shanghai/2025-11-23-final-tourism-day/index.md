@@ -72,6 +72,8 @@ Like wtf theres an open plain to chill, river, performances, etc.
 
 ---
 
+I then went to qibao ancient town to see
+
 <!-- consolidated-from: 2025-11-23-ok-tried-10rmb/index.md -->
 
 OK I tried 10rmb 臭豆腐 for the 1st time, and the 10rmb 串 is actually quite big
