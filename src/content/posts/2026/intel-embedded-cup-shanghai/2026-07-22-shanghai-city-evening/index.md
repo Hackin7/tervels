@@ -6,13 +6,21 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2312707, 121.4700152]
+    gps_source: "openstreetmap"
+    gps_granularity: "city"
+    gps_confidence: "high"
+    gps_query: "Shanghai, China"
     context: "visited"
   - name: "People's Square"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2314784, 121.470047]
+    gps_source: "openstreetmap"
+    gps_granularity: "area"
+    gps_confidence: "high"
+    gps_query: "People's Square, Shanghai (pedestrian square, not metro station)"
     context: "visited"
   - name: "Pond/waterfall at People's Square"
     country: "China"
@@ -24,8 +32,14 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2306916, 121.4688531]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "迪美购物中心, Shanghai, China"
     context: "visited"
+    review_note: "Identified as D Mall / 迪美购物中心 near People’s Square."
+
   - name: "Liella venue"
     country: "China"
     city: "Shanghai"
@@ -33,30 +47,55 @@ locations:
     gps: null
     context: "visited"
     review_note: "Liella venue (unidentified)"
-  - name: "SJTU banquet venue"
+  - name: "SJTU Academic Activity Center — second floor"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0210009, 121.4280109]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "medium"
+    gps_query: "学术活动中心 上海"
     context: "visited"
+    review_note: "Attached Intel Cup schedule confirms July 22 banquet, 17:00–19:00, second floor of the Academic Activity Center. Building-level pin."
+
   - name: "ZX Mall / GiGO"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2391749, 121.4787799]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "百联ZX"
     context: "visited"
+    review_note: "Bailian ZX, Nanjing East Road. Mall-level pin; GiGO floor is not separately geotagged."
+
   - name: "Unnamed mall near hotel"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
     gps: null
     context: "visited"
-  - name: "Bookshop and maimai arcade"
+  - name: "Maimai arcade near Xujiahui"
+    country: "China"
+    city: "Shanghai"
+    city_slug: "shanghai"
+    gps: [31.1955404, 121.4343816]
+    gps_source: "openstreetmap"
+    gps_granularity: "area"
+    gps_confidence: "medium"
+    gps_query: "徐家汇, 上海"
+    context: "visited"
+    review_note: "Author confirmed the D3 arcade was near Xujiahui. Area-level pin only; branch not specified. Bookshop is separately listed without GPS as requested."
+  - name: "Bookshop"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
     gps: null
     context: "visited"
+    review_note: "No GPS tag requested by the author."
+
 experiences: []
 tags:
   - "telegram-import"

@@ -6,13 +6,21 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2312707, 121.4700152]
+    gps_source: "openstreetmap"
+    gps_granularity: "city"
+    gps_confidence: "high"
+    gps_query: "Shanghai, China"
     context: "visited"
   - name: "Changi Airport"
     country: "Singapore"
     city: "Singapore"
     city_slug: "singapore"
-    gps: null
+    gps: [1.3510921, 103.9949824]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "[aeroway=aerodrome] Changi, Singapore"
     context: "visited"
   - name: "China Eastern flight"
     country: "China"
@@ -20,18 +28,30 @@ locations:
     city_slug: "shanghai"
     gps: null
     context: "visited"
-  - name: "Shanghai arrival airport"
+  - name: "Shanghai Pudong International Airport"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.1427359, 121.8041131]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "[aeroway=aerodrome] Shanghai Pudong International Airport, China"
     context: "visited"
-  - name: "Unnamed Shanghai hotel"
+    review_note: "Arrival airport confirmed by the author as Pudong. Airport-level pin; terminal unspecified."
+
+  - name: "Shanghai Platinum Hanjue Hotel"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0292181, 121.4134202]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "上海闵行白金汉爵大酒店"
     context: "visited"
+    review_note: "Author confirmed Shanghai Platinum Hanjue Hotel, 1577 Humin Road, Minhang District."
+
   - name: "Meituan vendors"
     country: "China"
     city: "Shanghai"
@@ -42,26 +62,44 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0275548, 121.4323084]
+    gps_source: "openstreetmap"
+    gps_granularity: "area"
+    gps_confidence: "high"
+    gps_query: "上海交通大学（闵行校区）, China"
     context: "visited"
-  - name: "Registration venue"
+    review_note: "Minhang campus, confirmed by the official 2026 Intel Cup report. Campus-level pin."
+
+  - name: "SJTU SEIEE Building 3 — Room 3-100"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0271677, 121.4370569]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "电信群楼3号楼"
     context: "visited"
+    review_note: "Attached schedule confirms July 20 registration and pre-meeting in SEIEE Building 3, room 3-100. Building-level pin."
+
   - name: "Meal-coupon dining venue"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
     gps: null
     context: "visited"
-  - name: "Intel Embedded Cup venue"
+  - name: "SJTU SEIEE Building 4 — E Valley"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.02633, 121.4370197]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "电信群楼4号楼"
     context: "visited"
+    review_note: "Attached schedule confirms July 21–22 appraisal in TED Theatre, E-Camp and Geeker Space, SEIEE Building 4 (E Valley), 600 Dongchuan Road. Building-level pin."
+
   - name: "Unnamed souffle pancake vendor"
     country: "China"
     city: "Shanghai"

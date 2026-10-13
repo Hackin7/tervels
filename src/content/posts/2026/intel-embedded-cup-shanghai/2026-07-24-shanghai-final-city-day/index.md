@@ -6,51 +6,90 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2312707, 121.4700152]
+    gps_source: "openstreetmap"
+    gps_granularity: "city"
+    gps_confidence: "high"
+    gps_query: "Shanghai, China"
     context: "visited"
-  - name: "Hotel"
+  - name: "Shanghai Platinum Hanjue Hotel"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0292181, 121.4134202]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "上海闵行白金汉爵大酒店"
     context: "visited"
+    review_note: "Author confirmed Shanghai Platinum Hanjue Hotel, 1577 Humin Road, Minhang District."
+
   - name: "ICBC branch"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
     gps: null
     context: "visited"
-  - name: "Espressif lunch venue"
+  - name: "Friday lunch — 96 Plaza"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.22962, 121.5197664]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "96广场, 上海"
     context: "visited"
+    review_note: "Author confirmed Friday lunch was in 96 Plaza, 796 Dongfang Road. Restaurant name/unit not specified."
+
   - name: "Joy City"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
-    context: "calendar"
-    review_note: "Joy City (calendar clue; anime-mall match tentative)"
+    gps: [31.2459874, 121.467506]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "Joy City, Shanghai, China"
+    context: "visited"
+    review_note: "Author confirmed the D5 anime mall as Joy City."
+
   - name: "Anime event / shops"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2459874, 121.467506]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "Joy City, Shanghai, China"
     context: "visited"
+    review_note: "Author confirmed these shops and the anime event were inside Joy City. Mall-level pin."
+
   - name: "Animate Cafe"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2459874, 121.467506]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "Joy City, Shanghai, China"
     context: "visited"
+    review_note: "Author confirmed Animate Cafe was inside Joy City. Mall-level pin; unit unspecified."
+
   - name: "Woodworking workshop"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2459874, 121.467506]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "Joy City, Shanghai, China"
     context: "visited"
+    review_note: "Author confirmed the woodworking workshop was inside Joy City. Mall-level pin; unit unspecified."
+
   - name: "Yu Garden"
     country: "China"
     city: "Shanghai"
@@ -65,7 +104,11 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2419464, 121.4952604]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "Oriental Pearl Tower, Shanghai, China"
     context: "skipped"
     review_note: "Oriental Pearl Tower (considered, not visited)"
   - name: "Unnamed ancient town"
@@ -75,13 +118,18 @@ locations:
     gps: null
     context: "skipped"
     review_note: "Unnamed ancient town (considered, not visited)"
-  - name: "Shanghai airport"
+  - name: "Shanghai Pudong International Airport"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.1427359, 121.8041131]
+    gps_source: "openstreetmap"
+    gps_granularity: "venue"
+    gps_confidence: "high"
+    gps_query: "[aeroway=aerodrome] Shanghai Pudong International Airport, China"
     context: "visited"
-    review_note: "Shanghai airport (unidentified)"
+    review_note: "Departure airport confirmed by the author as Pudong. Airport-level pin; terminal unspecified."
+
 experiences: []
 tags:
   - "telegram-import"

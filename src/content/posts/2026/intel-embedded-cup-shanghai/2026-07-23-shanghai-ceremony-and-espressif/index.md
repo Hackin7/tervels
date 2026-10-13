@@ -6,26 +6,48 @@ locations:
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.2312707, 121.4700152]
+    gps_source: "openstreetmap"
+    gps_granularity: "city"
+    gps_confidence: "high"
+    gps_query: "Shanghai, China"
     context: "visited"
   - name: "Award ceremony / poster venue"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0275548, 121.4323084]
+    gps_source: "openstreetmap"
+    gps_granularity: "area"
+    gps_confidence: "medium"
+    gps_query: "上海交通大学（闵行校区）, China"
     context: "visited"
-  - name: "Espressif office"
+    review_note: "Official report locates the ceremony in the Microelectronics Building auditorium. Pin is campus-level; exact building coordinate and poster location need confirmation."
+
+  - name: "Espressif new headquarters — 235 Yubei Road"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.1606641, 121.5571289]
+    gps_source: "openstreetmap"
+    gps_granularity: "street"
+    gps_confidence: "low"
+    gps_query: "御北路, 上海"
     context: "visited"
-  - name: "Nearby mall"
+    review_note: "Author confirmed the new HQ. Official address: Building 3, Lane 235, Yubei Road. Approximate street-level pin only; exact building coordinates remain unresolved."
+
+  - name: "96 Plaza"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.22962, 121.5197664]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "96广场, 上海"
     context: "visited"
+    review_note: "Author confirmed 96 Plaza at 796 Dongfang Road. Mall-level pin."
+
   - name: "Beef-noodle restaurant"
     country: "China"
     city: "Shanghai"
@@ -54,12 +76,18 @@ locations:
     city_slug: "shanghai"
     gps: null
     context: "visited"
-  - name: "Hotel"
+  - name: "Shanghai Platinum Hanjue Hotel"
     country: "China"
     city: "Shanghai"
     city_slug: "shanghai"
-    gps: null
+    gps: [31.0292181, 121.4134202]
+    gps_source: "openstreetmap"
+    gps_granularity: "building"
+    gps_confidence: "high"
+    gps_query: "上海闵行白金汉爵大酒店"
     context: "visited"
+    review_note: "Author confirmed Shanghai Platinum Hanjue Hotel, 1577 Humin Road, Minhang District."
+
 experiences:
   - kind: "event"
     slug: "intel-embedded-cup-2026"
