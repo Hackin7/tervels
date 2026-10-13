@@ -21,6 +21,9 @@ tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false
 ---
 
+Photos
+[https://photos.google.com/share/AF1QipNd2FxIk91lZsPDf_JTBd86Jt5aLEi4jVNAr4YbmNNtBOSwhE_sIndPE7dqBYZn1g?pli=1&key=NVhNaW9PclhWRjFTMlhfdmNnblBESGFMN1hKbnlR](https://photos.google.com/share/AF1QipNd2FxIk91lZsPDf_JTBd86Jt5aLEi4jVNAr4YbmNNtBOSwhE_sIndPE7dqBYZn1g?pli=1&key=NVhNaW9PclhWRjFTMlhfdmNnblBESGFMN1hKbnlR)
+
 Check https://blog.nus.edu.sg/hackin7/2024/02/13/isitdtu-ctf-finals-2023/ for initial post
 
 From 8/12/23 to 13/12/23, I had the honour to travel to Danang, Vietnam with NUS Greyhats. We were invited to participate in the ISITDTU CTF Finals.
