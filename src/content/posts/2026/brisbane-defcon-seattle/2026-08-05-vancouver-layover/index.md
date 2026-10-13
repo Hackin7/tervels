@@ -6,13 +6,25 @@ locations:
     country: Canada
     city: Vancouver
     city_slug: vancouver
-    gps: null
+    gps:
+      - 49.2608724
+      - -123.113952
+    gps_query: "Vancouver, Canada"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Stanley Park
     country: Canada
     city: Vancouver
     city_slug: vancouver
-    gps: null
+    gps:
+      - 49.3020684
+      - -123.1413263
+    gps_query: "Stanley Park, Vancouver, Canada"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: eSpot
     country: Canada
@@ -25,7 +37,13 @@ locations:
     country: Canada
     city: Vancouver
     city_slug: vancouver
-    gps: null
+    gps:
+      - 49.2885242
+      - -123.1169484
+    gps_query: "Canada Place, Vancouver, Canada"
+    gps_confidence: medium
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: Tim Hortons?
     country: Canada

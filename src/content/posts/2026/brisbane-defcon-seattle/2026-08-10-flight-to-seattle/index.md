@@ -6,13 +6,25 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1674263
+      - -115.1484131
+    gps_query: "Las Vegas, Nevada, United States"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Las Vegas departure airport
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.0861034
+      - -115.1611002
+    gps_query: "Harry Reid International Airport, Las Vegas, United States"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: Airport sandwich shop
     country: United States

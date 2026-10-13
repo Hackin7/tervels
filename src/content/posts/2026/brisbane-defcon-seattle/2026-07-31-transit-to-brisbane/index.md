@@ -6,7 +6,13 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4689623
+      - 153.0235009
+    gps_query: "Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Transit airports
     country: Australia

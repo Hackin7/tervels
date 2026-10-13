@@ -6,13 +6,25 @@ locations:
     country: Australia
     city: Gold Coast
     city_slug: gold-coast
-    gps: null
+    gps:
+      - -28.0023731
+      - 153.4145987
+    gps_query: "Gold Coast, Queensland, Australia"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Coombabah Lakelands Conservation Area
     country: Australia
     city: Gold Coast
     city_slug: gold-coast
-    gps: null
+    gps:
+      - -27.910973
+      - 153.3738025
+    gps_query: "Coombabah Lakelands Conservation Area, Gold Coast, Australia"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: Coombabah Lakelands Conservation Area - shared location
     country: Australia
@@ -24,6 +36,8 @@ locations:
     context: visited
     gps_source: telegram
     gps_query: Telegram shared location
+    gps_granularity: area
+    gps_confidence: high
   - name: Coombabah Lakelands Conservation Area - shared location
     country: Australia
     city: Gold Coast
@@ -34,6 +48,8 @@ locations:
     context: visited
     gps_source: telegram
     gps_query: Telegram shared location
+    gps_granularity: area
+    gps_confidence: high
   - name: Surfers Paradise
     country: Australia
     city: Gold Coast
@@ -45,7 +61,14 @@ locations:
     country: Australia
     city: Gold Coast
     city_slug: gold-coast
-    gps: null
+    gps:
+      - -27.9972571
+      - 153.4315176
+    gps_query: "Surfers Paradise Beach, Gold Coast, Australia"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
+    review_note: Surfers Paradise Beach inferred from the calendar; exact beach not named in article.
     context: visited
   - name: KFC
     country: Australia
@@ -58,14 +81,26 @@ locations:
     country: Australia
     city: Gold Coast
     city_slug: gold-coast
-    gps: null
+    gps:
+      - -28.0026102
+      - 153.4297351
+    gps_query: "Timezone, 2 Cavill Avenue, Surfers Paradise, Australia"
+    gps_confidence: medium
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
-    review_note: Timezone (calendar arcade clue)
-  - name: Waffle restaurant
+    review_note: Likely Surfers Paradise branch at 2 Cavill Avenue; exact branch unconfirmed.
+  - name: Cheeky Waffles
     country: Australia
     city: Gold Coast
     city_slug: gold-coast
-    gps: null
+    gps:
+      - -27.9991969
+      - 153.4287774
+    gps_query: "Cheeky Waffles, Gold Coast, Australia (Google Maps link supplied by user)"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: manual
     context: visited
 experiences: []
 tags:

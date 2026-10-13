@@ -6,13 +6,26 @@ locations:
     country: United States
     city: Seattle
     city_slug: seattle
-    gps: null
+    gps:
+      - 47.6038321
+      - -122.330062
+    gps_query: "Seattle, Washington, United States"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Seattle waterfront
     country: United States
     city: Seattle area
     city_slug: seattle-area
-    gps: null
+    gps:
+      - 47.6050808
+      - -122.3408405
+    gps_query: "Seattle Waterfront, Seattle, Washington, United States"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
+    review_note: Representative waterfront pin; exact Korean fair venue not identified.
     context: visited
   - name: Korean fair venue
     country: United States
@@ -24,13 +37,26 @@ locations:
     country: United States
     city: Seattle
     city_slug: seattle
-    gps: null
+    gps:
+      - 47.6094243
+      - -122.3412192
+    gps_query: "Pike Place Chowder - Pike Place Market (Google Maps link supplied by user)"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: manual
     context: visited
+    review_note: User confirmed Pike Place Chowder via Google Maps link.
   - name: Seattle airport
     country: United States
     city: Seattle area
     city_slug: seattle-area
-    gps: null
+    gps:
+      - 47.4475673
+      - -122.3080159
+    gps_query: "Seattle-Tacoma International Airport, SeaTac, Washington, United States"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
     review_note: Seattle airport (confirm)
   - name: Airport art/exhibition areas
