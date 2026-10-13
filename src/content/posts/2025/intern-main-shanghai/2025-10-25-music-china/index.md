@@ -11,7 +11,7 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Shanghai New International Expo Centre, Shanghai"
-cover: "./assets/01-cycling-around-the-area-today-s-main/images/00.jpg"
+cover: "./assets/01-cycling-around-the-area-today-s-main/images/00.webp"
 experiences: []
 tags: []
 draft: false

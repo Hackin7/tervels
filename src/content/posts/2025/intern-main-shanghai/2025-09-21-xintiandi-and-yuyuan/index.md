@@ -29,7 +29,7 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Yu Garden, Shanghai"
-cover: "./assets/01-today-is-a-long-day-i/images/00.jpg"
+cover: "./assets/01-today-is-a-long-day-i/images/00.webp"
 experiences: []
 tags: ["rocklife"]
 draft: false

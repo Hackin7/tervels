@@ -11,7 +11,7 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Shanghai Disneyland, Shanghai"
-cover: "./assets/01-disneyland-shanghai-7am-and-the-queue/images/00.jpg"
+cover: "./assets/01-disneyland-shanghai-7am-and-the-queue/images/00.webp"
 experiences: []
 tags: []
 draft: false

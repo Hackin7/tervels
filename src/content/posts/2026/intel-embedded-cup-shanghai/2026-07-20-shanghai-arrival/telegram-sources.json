@@ -1,0 +1,492 @@
+{
+  "group": "Shanghai journey and arrival",
+  "source_export": "C:/Users/zunmun/Downloads/Telegram Desktop/ChatExport_2026-10-08",
+  "source_channel_id": 2782935516,
+  "source_message_ids": [
+    10487,
+    10488,
+    10489,
+    10496,
+    10497,
+    10498,
+    10499,
+    10500,
+    10501,
+    10502,
+    10503,
+    10504,
+    10505,
+    10506,
+    10507,
+    10508,
+    10509,
+    10510,
+    10511,
+    10512
+  ],
+  "source_files": [
+    {
+      "anchor_id": 10487,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-19-back-flying\\index.md",
+      "message_ids": [
+        10487
+      ],
+      "telegram_timestamp": "2026-07-19T14:42:20.000Z",
+      "markdown_sha256": "023aa40a5fe7ba5aee570088577184cf602b51eeb63e05423147fc9baf18f952",
+      "body_sha256": "5e08014384b74a65848d1dd792b009c07b42aa98a5d0d83086b4086ff1a01e31",
+      "text": "Back to flying 🤡\nThis time hopefully school sponsored\n",
+      "photos": [
+        {
+          "message_id": 10487,
+          "path": "photos/photo_8392@19-07-2026_22-42-20.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    },
+    {
+      "anchor_id": 10488,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-19-refresher-china-eastern-airlines\\index.md",
+      "message_ids": [
+        10488
+      ],
+      "telegram_timestamp": "2026-07-19T16:50:46.000Z",
+      "markdown_sha256": "14956b540360442b784cda2af6e57000a27081e4076f77fe537c9210866ed5b2",
+      "body_sha256": "5382894833f21e1958ef79060806d28e9861b15b4f092de269bc163a91eaeecc",
+      "text": "Refresher of China Eastern Airlines for me lmao\n",
+      "photos": [],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "no-photo",
+          "reason": "No exported photo for this post"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10489,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-19-pillow-blanket-wtf\\index.md",
+      "message_ids": [
+        10489
+      ],
+      "telegram_timestamp": "2026-07-19T17:01:11.000Z",
+      "markdown_sha256": "3c78d7ac88d68898f402fca4851c1f5cb33a90dcd0c60b70f6fc6c6535004c97",
+      "body_sha256": "5b16d8a354044b1c85355a67922ba65c98e0020294f2f20684ea6ba696fbbfc2",
+      "text": "Pillow and blanket wtf\n",
+      "photos": [
+        {
+          "message_id": 10489,
+          "path": "photos/photo_8393@20-07-2026_01-01-11.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    },
+    {
+      "anchor_id": 10496,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-20-good-food-unlike-plain\\index.md",
+      "message_ids": [
+        10496,
+        10497,
+        10498,
+        10499,
+        10500,
+        10501,
+        10502,
+        10503,
+        10504,
+        10505
+      ],
+      "telegram_timestamp": "2026-07-20T08:00:06.000Z",
+      "markdown_sha256": "5080fe092bf8388dd83a15c3b57830de44624eb44bec9cb0fa90fb24af7c3321",
+      "body_sha256": "1a5d4e128a557a3ee1f3c8242ad392b28587ea714cd990f94b9d1140cfd056bb",
+      "text": "Good food unlike the plain Emirates food\n",
+      "photos": [
+        {
+          "message_id": 10496,
+          "path": "photos/photo_8394@20-07-2026_16-00-06.jpg"
+        },
+        {
+          "message_id": 10498,
+          "path": "photos/photo_8395@20-07-2026_16-00-06.jpg"
+        }
+      ],
+      "missing_media": [
+        {
+          "messageId": 10497,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10499,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10500,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10501,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10502,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10503,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10504,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10505,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        }
+      ],
+      "review_flags": [
+        {
+          "kind": "recovered-album",
+          "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+        },
+        {
+          "kind": "missing-media",
+          "reason": "8 unavailable attachments"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10506,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-20-wtf-hotel\\index.md",
+      "message_ids": [
+        10506
+      ],
+      "telegram_timestamp": "2026-07-20T08:00:33.000Z",
+      "markdown_sha256": "87aa74b82231b1c9b53a4ed9b83191221c37a3d9011feeaeaefd787d3c734666",
+      "body_sha256": "e45cb9a1486a6cd34cd59530287537a444e112c5153767deb0d64155966268c5",
+      "text": "Wtf is this hotel\nThere's a mock fireplace under the TV bruh\n",
+      "photos": [],
+      "missing_media": [
+        {
+          "messageId": 10506,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        }
+      ],
+      "review_flags": [
+        {
+          "kind": "missing-media",
+          "reason": "1 unavailable attachments"
+        },
+        {
+          "kind": "no-photo",
+          "reason": "No exported photo for this post"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10507,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-20-back-meituan-lol\\index.md",
+      "message_ids": [
+        10507,
+        10508,
+        10509,
+        10510,
+        10511,
+        10512
+      ],
+      "telegram_timestamp": "2026-07-20T08:01:24.000Z",
+      "markdown_sha256": "16ded5f3fcccbfab540446e3c615aaf136a0e18c707cc4df985b974423ddaf58",
+      "body_sha256": "e355b9fcf947e887aca00545fc545a29d7aec8cb3e15d8e2fb49a4526125d1d8",
+      "text": "Back to meituan lol\nFor now I just spam reuse the old phone number\n",
+      "photos": [
+        {
+          "message_id": 10507,
+          "path": "photos/photo_8396@20-07-2026_16-01-24.jpg"
+        },
+        {
+          "message_id": 10508,
+          "path": "photos/photo_8397@20-07-2026_16-01-24.jpg"
+        },
+        {
+          "message_id": 10509,
+          "path": "photos/photo_8398@20-07-2026_16-01-25.jpg"
+        },
+        {
+          "message_id": 10510,
+          "path": "photos/photo_8399@20-07-2026_16-01-25.jpg"
+        },
+        {
+          "message_id": 10511,
+          "path": "photos/photo_8400@20-07-2026_16-01-25.jpg"
+        },
+        {
+          "message_id": 10512,
+          "path": "photos/photo_8401@20-07-2026_16-01-25.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "recovered-album",
+          "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+        },
+        {
+          "kind": "forwarded",
+          "reason": "Forwarded source retained; check attribution/context"
+        }
+      ]
+    }
+  ],
+  "review_flags": [
+    {
+      "anchorId": 10488,
+      "kind": "no-photo",
+      "reason": "No exported photo for this post"
+    },
+    {
+      "anchorId": 10496,
+      "kind": "recovered-album",
+      "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+    },
+    {
+      "anchorId": 10496,
+      "kind": "missing-media",
+      "reason": "8 unavailable attachments"
+    },
+    {
+      "anchorId": 10506,
+      "kind": "missing-media",
+      "reason": "1 unavailable attachments"
+    },
+    {
+      "anchorId": 10506,
+      "kind": "no-photo",
+      "reason": "No exported photo for this post"
+    },
+    {
+      "anchorId": 10507,
+      "kind": "recovered-album",
+      "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+    },
+    {
+      "anchorId": 10507,
+      "kind": "forwarded",
+      "reason": "Forwarded source retained; check attribution/context"
+    }
+  ],
+  "grouping_notes": "Journey spans July 19 departure announcement and July 20 uploads. Airport identities need confirmation; hotel video unavailable. Emirates is a comparison, not a new Dubai visit.",
+  "location_clues": [
+    "Singapore departure airport",
+    "China Eastern flight",
+    "Shanghai arrival airport",
+    "Unnamed Shanghai hotel",
+    "Meituan vendors"
+  ],
+  "calendar_activities": [],
+  "timestamp_note": "Original Telegram posting time retained; visit-date uncertainties are in grouping_notes.",
+  "locations": [
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Singapore departure airport",
+      "country": "Singapore",
+      "city": "Singapore",
+      "city_slug": "singapore",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "China Eastern flight",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Shanghai arrival airport",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Unnamed Shanghai hotel",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Meituan vendors",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    }
+  ],
+  "selected_cover_anchor": 10487,
+  "excluded": false,
+  "linked_photos": [
+    {
+      "source": "photos/photo_8392@19-07-2026_22-42-20.jpg",
+      "message_ids": [
+        10487
+      ],
+      "local": "./images/telegram-cover.webp",
+      "source_sha256": "e324772e6d097214ea045659f8d25d974675fa10e6418174110ccab1fc46c558",
+      "local_sha256": "a27ed163d26a890f0fa319516555e6219c02b804698f3fb0bb88bbfdbaad8880",
+      "used_as_cover": true,
+      "original_local": "./images/telegram-cover.jpg",
+      "original_local_sha256": "53f98990fdd8de518a213814405cdbdb3793eddfabb1f3d625e347d2d5a81261",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8393@20-07-2026_01-01-11.jpg",
+      "message_ids": [
+        10489
+      ],
+      "local": "./images/telegram-10489.webp",
+      "source_sha256": "156e78e06fca31db35e74fd014dcd4ee7588672201530b77c2a095404b176cdc",
+      "local_sha256": "905906c459edf52a61d8d9fa060a66b78b016f885a7a2696d7fd69c63b033368",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10489.jpg",
+      "original_local_sha256": "4667fd3e92f3de5d6700f4d89f5cbf7b4f5c60c688272108d518212b401645fc",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8394@20-07-2026_16-00-06.jpg",
+      "message_ids": [
+        10496
+      ],
+      "local": "./images/telegram-10496.webp",
+      "source_sha256": "16acf5aab8db1f21fd408ceee42b5746d1501ee9becb888beb6e704b780063f9",
+      "local_sha256": "bdf4adf1a0ffe30aca251b9896bac55d3e6c6fcd3d65c89a8594d8d1d3c10803",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10496.jpg",
+      "original_local_sha256": "61d17792c6a6b79365a897da7c303bc182670fa1e5baa106d7670d03c81ae21f",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8395@20-07-2026_16-00-06.jpg",
+      "message_ids": [
+        10498
+      ],
+      "local": "./images/telegram-10498.webp",
+      "source_sha256": "41b221deb10221f7b96eefa0e41fa096268d0adeaa215ed6df813ded2d8ebc4f",
+      "local_sha256": "7ba00c9aa78571ef1f321d69626520df674da1376bfe8fe79b610dbe4e3cec78",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10498.jpg",
+      "original_local_sha256": "ae08247e1c6008d6a5697092da509fd3efd21262ace7afbfb9f3f3be8e2d4f9b",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8396@20-07-2026_16-01-24.jpg",
+      "message_ids": [
+        10507
+      ],
+      "local": "./images/telegram-10507.webp",
+      "source_sha256": "895ae42eec0e258e853f7ecceca0d206f92a69ff852c4a7c238753d5eb96fd51",
+      "local_sha256": "efa329baa4ab3c69e67582db911a66551eba37568c5e68db669ffa0f094da944",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10507.jpg",
+      "original_local_sha256": "c832fe721df5bcfeb880f81b957cd0426b45d711f838f359760053d0479f1c49",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8397@20-07-2026_16-01-24.jpg",
+      "message_ids": [
+        10508
+      ],
+      "local": "./images/telegram-10508.webp",
+      "source_sha256": "ddc083595157289a0fe933838502bcc088bd9761e8e76c4eded9c45798617a02",
+      "local_sha256": "a12c8cb2307e455ab074fa93903969631ee5d6603f1878dd1d5286e2eb9f8728",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10508.jpg",
+      "original_local_sha256": "2c4ec7aab0e89e8cb8c1bb74ff4e3dc39ad79e05b405f1587dee92bcf9b018ec",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8398@20-07-2026_16-01-25.jpg",
+      "message_ids": [
+        10509
+      ],
+      "local": "./images/telegram-10509.webp",
+      "source_sha256": "1fe3404de2e345d4820e0844d5d094be9424e0f1131db1ec80f90ae209b31c5a",
+      "local_sha256": "b51e2191396984fccd703f1562ee3e2eedeb6ee2385281f1795fe15401641756",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10509.jpg",
+      "original_local_sha256": "8b772c714f2026a915bcc1e5d233bd324f0165cb60f065df6a7a2be68b8dfd3b",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8399@20-07-2026_16-01-25.jpg",
+      "message_ids": [
+        10510
+      ],
+      "local": "./images/telegram-10510.webp",
+      "source_sha256": "fe9d122c3c69862e37fb222cb7783e336e34ad1f9b1997299f0248eb5dc1c7e6",
+      "local_sha256": "f939508468d7f780d70dca99c34c15a749784eaafad399b537a4ddb3ec9fad3b",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10510.jpg",
+      "original_local_sha256": "9d75d121ec629e9e6b93296802422313c24a2375a00f18eac1838c9d02f47e44",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8400@20-07-2026_16-01-25.jpg",
+      "message_ids": [
+        10511
+      ],
+      "local": "./images/telegram-10511.webp",
+      "source_sha256": "7ff231b7edc4570dea75f880195300ea57ae467de0fce5e0e031e16d6623bd33",
+      "local_sha256": "3dcfc92ca897a3cab7a585ff7f09ded6ebfcd3df0cdc0766e46bec477553847f",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10511.jpg",
+      "original_local_sha256": "e45f8578cc85351e80b2ed7be37089ee9d3f500ad4c5a1a4cf48989defcce79a",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8401@20-07-2026_16-01-25.jpg",
+      "message_ids": [
+        10512
+      ],
+      "local": "./images/telegram-10512.webp",
+      "source_sha256": "b1154ff6c3eb255051cde92905ded64c95cbf4a3b69948a9b393cc54c38f3fb2",
+      "local_sha256": "e9747e828143c96e944169f6335f332bc68159190f8361db48f46d2279de7292",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10512.jpg",
+      "original_local_sha256": "5bc6c1edf9a975f00da83cf7f0f32b40172e2209d4ed326fd2f58514a0eb1673",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    }
+  ],
+  "gallery_note": "All available source photos, in contributing-post/message order. Repeated file references are displayed once; the cover is not repeated in the gallery. Original source text and files are unchanged."
+}

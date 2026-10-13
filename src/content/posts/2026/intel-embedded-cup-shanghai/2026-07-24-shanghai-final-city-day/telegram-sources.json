@@ -1,0 +1,991 @@
+{
+  "group": "Shanghai final city day",
+  "source_export": "C:/Users/zunmun/Downloads/Telegram Desktop/ChatExport_2026-10-08",
+  "source_channel_id": 2782935516,
+  "source_message_ids": [
+    10727,
+    10728,
+    10729,
+    10730,
+    10731,
+    10732,
+    10733,
+    10734,
+    10735,
+    10736,
+    10737,
+    10738,
+    10739,
+    10740,
+    10741,
+    10742,
+    10743,
+    10744,
+    10745,
+    10746,
+    10747,
+    10748,
+    10749,
+    10750,
+    10751,
+    10752,
+    10753,
+    10754,
+    10755,
+    10756,
+    10757,
+    10758,
+    10759,
+    10760,
+    10761,
+    10762,
+    10763,
+    10764,
+    10765,
+    10766,
+    10767
+  ],
+  "source_files": [
+    {
+      "anchor_id": 10727,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-hotel-breakfast-checkout\\index.md",
+      "message_ids": [
+        10727,
+        10728,
+        10729,
+        10730,
+        10731,
+        10732,
+        10733,
+        10734,
+        10735,
+        10736
+      ],
+      "telegram_timestamp": "2026-07-24T12:15:02.000Z",
+      "markdown_sha256": "0b8236222593d4cb08ff8f10d8a5065711959cd9fe8ef692fa3be471c855288b",
+      "body_sha256": "69a55e890d81df34b135fa1d49b4c882d9fdd90b701a9b46d05e8b3088e11f00",
+      "text": "Hotel Breakfast + Checkout\n",
+      "photos": [
+        {
+          "message_id": 10727,
+          "path": "photos/photo_8554@24-07-2026_20-15-02.jpg"
+        },
+        {
+          "message_id": 10728,
+          "path": "photos/photo_8555@24-07-2026_20-15-02.jpg"
+        },
+        {
+          "message_id": 10734,
+          "path": "photos/photo_8556@24-07-2026_20-15-02.jpg"
+        },
+        {
+          "message_id": 10735,
+          "path": "photos/photo_8557@24-07-2026_20-15-02.jpg"
+        },
+        {
+          "message_id": 10736,
+          "path": "photos/photo_8558@24-07-2026_20-15-02.jpg"
+        }
+      ],
+      "missing_media": [
+        {
+          "messageId": 10729,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10730,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10731,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10732,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        },
+        {
+          "messageId": 10733,
+          "type": "video_file",
+          "file": "(File not included. Change data exporting settings to download.)"
+        }
+      ],
+      "review_flags": [
+        {
+          "kind": "missing-media",
+          "reason": "5 unavailable attachments"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10737,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-settled-bank-card-apparently\\index.md",
+      "message_ids": [
+        10737
+      ],
+      "telegram_timestamp": "2026-07-24T13:14:01.000Z",
+      "markdown_sha256": "496675f4a6f375e9b1f9567756fe54d0ebd7f735d6cebee374b6091e1ffb04b8",
+      "body_sha256": "9b1d8b5e65117d7bc672f52753b48a33d7190ca6f2c92694de54348e73b7350b",
+      "text": "Settled my bank card but apparently don't need to settle much on asking ICBC branch in person\n",
+      "photos": [],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "no-photo",
+          "reason": "No exported photo for this post"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10738,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-went-back-eat-more\\index.md",
+      "message_ids": [
+        10738,
+        10739,
+        10740,
+        10741,
+        10742,
+        10743,
+        10744,
+        10745
+      ],
+      "telegram_timestamp": "2026-07-24T14:22:01.000Z",
+      "markdown_sha256": "12afeb28642bc49a356cd6b275e639346f401e232bc48a9129e91ded323e47ef",
+      "body_sha256": "6ebb7c00136c24ca6433934b8175f0e47b8b39fbc4dbb400cd76c1bacf56475b",
+      "text": "Went back to eat with more Espressif people lol\nThe food actually good lmao\n\nTldr like\nShould play more before working money can earn back once you start working\n\nAlso when even espressif ceo say that AI creates braindead employees you know that maybe AI has gone too far lol\n\nOK lah hearing that it's good that I've decided to play more\n",
+      "photos": [
+        {
+          "message_id": 10738,
+          "path": "photos/photo_8559@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10739,
+          "path": "photos/photo_8560@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10740,
+          "path": "photos/photo_8561@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10741,
+          "path": "photos/photo_8562@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10742,
+          "path": "photos/photo_8563@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10743,
+          "path": "photos/photo_8564@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10744,
+          "path": "photos/photo_8565@24-07-2026_22-22-01.jpg"
+        },
+        {
+          "message_id": 10745,
+          "path": "photos/photo_8566@24-07-2026_22-22-01.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    },
+    {
+      "anchor_id": 10746,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-there-some-poster-about\\index.md",
+      "message_ids": [
+        10746,
+        10747,
+        10748,
+        10749,
+        10750,
+        10751,
+        10752,
+        10753,
+        10754,
+        10755
+      ],
+      "telegram_timestamp": "2026-07-24T15:42:01.000Z",
+      "markdown_sha256": "433fc96687661f3cc41f3e606c0a40b43b3a43cf3a29ae258bc402c498448933",
+      "body_sha256": "4542290106077225676364a6e40093031bb4050fbf76fdc4868c5f9cebadf791",
+      "text": "There was some poster about some anime event at the metro so I just went\nIt's bout what I expected, pop up shops\n\nI've actually not been in this anime mall (it's more like a mix of fashion and normal shops and a whole bunch of anime goods) before, got a lot of things going on like an animatecafe, woodworking workshops for anime goods wtf\n",
+      "photos": [
+        {
+          "message_id": 10746,
+          "path": "photos/photo_8567@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10747,
+          "path": "photos/photo_8568@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10748,
+          "path": "photos/photo_8569@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10749,
+          "path": "photos/photo_8570@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10750,
+          "path": "photos/photo_8571@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10751,
+          "path": "photos/photo_8572@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10752,
+          "path": "photos/photo_8573@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10753,
+          "path": "photos/photo_8574@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10754,
+          "path": "photos/photo_8575@24-07-2026_23-42-01.jpg"
+        },
+        {
+          "message_id": 10755,
+          "path": "photos/photo_8576@24-07-2026_23-42-01.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    },
+    {
+      "anchor_id": 10756,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-untitled-10756\\index.md",
+      "message_ids": [
+        10756
+      ],
+      "telegram_timestamp": "2026-07-24T16:49:01.000Z",
+      "markdown_sha256": "c2acc5ff2e8817691e5c449926707f05d9e9de0f13ff600979e3e022e61d8347",
+      "body_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "text": "\n",
+      "photos": [
+        {
+          "message_id": 10756,
+          "path": "photos/photo_8577@25-07-2026_00-49-01.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "needs-context",
+          "reason": "Captionless media/location batch: attachment needs review"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10757,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-went-back-yu-garden\\index.md",
+      "message_ids": [
+        10757,
+        10758,
+        10759,
+        10760,
+        10761,
+        10762,
+        10763,
+        10764,
+        10765,
+        10766
+      ],
+      "telegram_timestamp": "2026-07-24T17:11:48.000Z",
+      "markdown_sha256": "eb2cbbf15d1fc50d5af2b86f0c76015781afb68d3f42f22b20b4b5b706924473",
+      "body_sha256": "f46cadb89be0c23372cf5378dc0f106758330b88e997c497a60daae1d7294f91",
+      "text": "Went back to yu garden, this is somehow only my 2nd time\n\nNew promotions new vibes new things. Quite funny there's more anime thing interjection at like the rivers tho lol\n\nAlso it's smaller than I remember huh\n",
+      "photos": [
+        {
+          "message_id": 10757,
+          "path": "photos/photo_8578@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10758,
+          "path": "photos/photo_8579@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10759,
+          "path": "photos/photo_8580@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10760,
+          "path": "photos/photo_8581@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10761,
+          "path": "photos/photo_8582@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10762,
+          "path": "photos/photo_8583@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10763,
+          "path": "photos/photo_8584@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10764,
+          "path": "photos/photo_8585@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10765,
+          "path": "photos/photo_8586@25-07-2026_01-11-48.jpg"
+        },
+        {
+          "message_id": 10766,
+          "path": "photos/photo_8587@25-07-2026_01-11-48.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    },
+    {
+      "anchor_id": 10767,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-then-now-m-having\\index.md",
+      "message_ids": [
+        10767
+      ],
+      "telegram_timestamp": "2026-07-24T18:57:01.000Z",
+      "markdown_sha256": "903cde0175fd5ded2a46bb0af623c83a85640fd50c53b62a3d1450412c42cd8a",
+      "body_sha256": "6a2a3b992f19d726db138c1307435fa40bb5fabd90dd567aab57e3e9d1b3360c",
+      "text": "And then now I'm having an internal crisis about not spending more days in Shanghai man...\n\nI extended 1 day because I wanted to meet espressif people which I did, twice, was freaking fun ngl\n\nI was thinking about going up the pearl tower but eh I saw the images and it's fine \n\nTrip to ancient town but no time because the Espressif thing + acting as a tour guide wah\n\nI was really reminiscing about the days in Shanghai and it really does feel like there are other museums and other things to see\nBut then again the reason I enjoyed my time last time was really... Not because of all that but actually because of the memories and the fun times at work, out of work with other Singaporeans, trolling CG3207. The sights and all that were a nice addition, very nice\n",
+      "photos": [],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "no-photo",
+          "reason": "No exported photo for this post"
+        }
+      ]
+    }
+  ],
+  "review_flags": [
+    {
+      "anchorId": 10727,
+      "kind": "missing-media",
+      "reason": "5 unavailable attachments"
+    },
+    {
+      "anchorId": 10737,
+      "kind": "no-photo",
+      "reason": "No exported photo for this post"
+    },
+    {
+      "anchorId": 10756,
+      "kind": "needs-context",
+      "reason": "Captionless media/location batch: attachment needs review"
+    },
+    {
+      "anchorId": 10767,
+      "kind": "no-photo",
+      "reason": "No exported photo for this post"
+    }
+  ],
+  "grouping_notes": "Calendar July 24 names Espressif lunch, Joy City and Yu Garden. Joy City is a candidate for the unnamed anime mall; 10756 photo association still needs review. Do not mark Oriental Pearl Tower visited: Telegram explicitly says it was skipped.",
+  "location_clues": [
+    "Hotel",
+    "ICBC branch",
+    "Espressif lunch venue",
+    "Joy City (calendar clue; anime-mall match tentative)",
+    "Anime event / shops",
+    "Animate Cafe",
+    "Woodworking workshop",
+    "Yu Garden",
+    "Oriental Pearl Tower (considered, not visited)",
+    "Unnamed ancient town (considered, not visited)"
+  ],
+  "calendar_activities": [
+    "Espressif Lunch",
+    "Joy City",
+    "Yu Garden"
+  ],
+  "timestamp_note": "Visit date follows approved plan/calendar; noon in Asia/Shanghai is a placeholder because actual visit time is unknown.",
+  "locations": [
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Hotel",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "ICBC branch",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Espressif lunch venue",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Joy City",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "calendar",
+      "review_note": "Joy City (calendar clue; anime-mall match tentative)"
+    },
+    {
+      "name": "Anime event / shops",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Animate Cafe",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Woodworking workshop",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Yu Garden",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": [
+        31.2289274,
+        121.4879752
+      ],
+      "context": "visited",
+      "gps_source": "openstreetmap",
+      "gps_granularity": "venue",
+      "gps_confidence": "high",
+      "gps_query": "Yu Garden, Shanghai"
+    },
+    {
+      "name": "Oriental Pearl Tower",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "skipped",
+      "review_note": "Oriental Pearl Tower (considered, not visited)"
+    },
+    {
+      "name": "Unnamed ancient town",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "skipped",
+      "review_note": "Unnamed ancient town (considered, not visited)"
+    }
+  ],
+  "selected_cover_anchor": 10757,
+  "excluded": false,
+  "linked_photos": [
+    {
+      "source": "photos/photo_8554@24-07-2026_20-15-02.jpg",
+      "message_ids": [
+        10727
+      ],
+      "local": "./images/telegram-10727.webp",
+      "source_sha256": "cd65695cc79fe3f27b3c750543de72e59f2874f79fbc785475bb7ea79869e3fb",
+      "local_sha256": "16772a311cf8abd53245bc71d06ebafc9eeadca8b0fdfe8e8af077b182b2f4ec",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10727.jpg",
+      "original_local_sha256": "ef6377853b15ffcbb54a415fa4ee81b4c8306cb30785113e4de15dfa7f54e99e",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8555@24-07-2026_20-15-02.jpg",
+      "message_ids": [
+        10728
+      ],
+      "local": "./images/telegram-10728.webp",
+      "source_sha256": "bd1b4228acb458c7ca9c6ff11952c6515dd7448e250b77ef5394aedcf7d87bca",
+      "local_sha256": "232b9212847ba7eedee071f7ff80df2160439e7b71cf2c59d47f59290cbdfdbe",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10728.jpg",
+      "original_local_sha256": "39b0b604206b35c6cb5ff9197c8a2afe3a185541f022c19822aa0b5d3b844b6e",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8556@24-07-2026_20-15-02.jpg",
+      "message_ids": [
+        10734
+      ],
+      "local": "./images/telegram-10734.webp",
+      "source_sha256": "3a84cdd6f4ee6b0f3e3de2d568a28960293f9a0b0b7994ea214f70d66949667f",
+      "local_sha256": "b1ef717c0fcb5ab78e7f78a2daf881c86ed724b83591032e3f22d71c3e290ed7",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10734.jpg",
+      "original_local_sha256": "d850a4bbdfc2146b01f3449f182ce222917c5e1bdcb2974dbcae737c8c674698",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8557@24-07-2026_20-15-02.jpg",
+      "message_ids": [
+        10735
+      ],
+      "local": "./images/telegram-10735.webp",
+      "source_sha256": "47e1a71868f91115618b5c5a53ab536bc74fbfc8d00efba2532955cc7c4e82e9",
+      "local_sha256": "5047e1faae1c0914e4cc359a68556042d18d1d498223cfae15dd88b5c9d862e2",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10735.jpg",
+      "original_local_sha256": "2b0690696517247fab601a0365ecd738d43792bca0706a76d5c86214aed4c05d",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8558@24-07-2026_20-15-02.jpg",
+      "message_ids": [
+        10736
+      ],
+      "local": "./images/telegram-10736.webp",
+      "source_sha256": "beb478714ae8341cf0e7feda733d77ff6776379ec83d6757221b8498378b52ec",
+      "local_sha256": "ec9f35ef94fb57d7fcd8ac71505ac99281da7e3e2f50689c9bcec0f168ad385c",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10736.jpg",
+      "original_local_sha256": "de982f3054da1583175fa88fe29d3ee54b859be7b06c518a5ce89adf3bb052a1",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8559@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10738
+      ],
+      "local": "./images/telegram-10738.webp",
+      "source_sha256": "64b5f31f37fa7b7d989d1ffe9f9f7790f98af342772962ef75d33960701bb37e",
+      "local_sha256": "a972501b1a9323bba1f19e35d4ffd55489b10386e0b06bb15a33f0f121b0fd69",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10738.jpg",
+      "original_local_sha256": "237b40053ede470efad7ff18295f3b524de1efe6995103488ab1c3f0ea7fcc20",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8560@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10739
+      ],
+      "local": "./images/telegram-10739.webp",
+      "source_sha256": "a759f13d33fbeb0f33aefb6de6ebe12caf2c64a5883e590b32e54ed42cc4de5d",
+      "local_sha256": "b0d915ad781d87707041b39ad0d9ead6ed866f18618922c0ec2cf41ef1da07fa",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10739.jpg",
+      "original_local_sha256": "e11a150ac99b59324d95c1c0500a7befb73f24b0390ed06875b52e1bcfad0f24",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8561@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10740
+      ],
+      "local": "./images/telegram-10740.webp",
+      "source_sha256": "7cac6e8fe6d840ec9c019923535d40c0aaad72ea88bcb61ab0f4939dfc44c29f",
+      "local_sha256": "caa9b0ff0e64b207dd561bebc570e07b9e4785ab464d35b3d2200976d1ece875",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10740.jpg",
+      "original_local_sha256": "823213462b033361b51ec177d7121807d5cc455dd259035e93aad8444d694a10",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8562@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10741
+      ],
+      "local": "./images/telegram-10741.webp",
+      "source_sha256": "2171586870db7366da65a795d57a821dc15f04fb3075ad9e994428a5fe3e7908",
+      "local_sha256": "dd5153c2bcc711f944928bc9640addc0316fbbf5bbaa98542aa3f2975bcc63b7",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10741.jpg",
+      "original_local_sha256": "d4b65111159516d669298e4546b2e04dae22f29cc4ae228c2bf924d3f5987d40",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8563@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10742
+      ],
+      "local": "./images/telegram-10742.webp",
+      "source_sha256": "3a4b496bd7153969ceb4f5abf84fd51903ae3aaf7baf20aa536ec4fbf61898df",
+      "local_sha256": "d2a1268b80c39a207c40332c96d25963e8c836c018694e77bf4350ec529631e3",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10742.jpg",
+      "original_local_sha256": "153ab784b0b9c2c9da385fbcd4a77c52328f3165a10b667e6f25c922042b6c31",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8564@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10743
+      ],
+      "local": "./images/telegram-10743.webp",
+      "source_sha256": "2536d59c20d88e91230b8dc6ebea18fd681bfb6b2bc0bf6a44152d65b4320c6c",
+      "local_sha256": "2b28e6a9bdf8014dced5d31989e6cd418056914b84a3551eeea6bf794a5cfd82",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10743.jpg",
+      "original_local_sha256": "dd85f7a6becf3a02a3edb70e46551a1066a50211018de1270fdb7fa04591a649",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8565@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10744
+      ],
+      "local": "./images/telegram-10744.webp",
+      "source_sha256": "e4769f1c0e7f014381843dd51c4350ca1a1eaae9757aa577a65369baa2f4b082",
+      "local_sha256": "654728988bbea504f9f09e378976a420930d322d005c43be6c3994ea95d57437",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10744.jpg",
+      "original_local_sha256": "dcf334bde1adb176e83404a04624a6ac018420e6c62096016b48c1f7d33af6a7",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8566@24-07-2026_22-22-01.jpg",
+      "message_ids": [
+        10745
+      ],
+      "local": "./images/telegram-10745.webp",
+      "source_sha256": "df06ad2ce4688e383bd6bf25e03d913ea2d3488862e00d4600fb132456a72449",
+      "local_sha256": "48722b61bac4de78b9943689dacc7254da1834d27485661e19839679c26fc1ed",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10745.jpg",
+      "original_local_sha256": "87c098f28306846554cba6fa0ec79a0e0aa4f94cab4355d84626c8881e8ac6df",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8567@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10746
+      ],
+      "local": "./images/telegram-10746.webp",
+      "source_sha256": "dfc9ba33e0bc3cf1644e80a99cab26d69e115811b1848e1ce4c1a042215a24a0",
+      "local_sha256": "d3cd009ed528cfd6bbe03c5f6fc4daba99cb02a477a8fa9c658a9569fed5cb16",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10746.jpg",
+      "original_local_sha256": "41ca9086c8c39fbfea5e1a5f29e57c0d83d2e5fd19d70ccb02239e78458b77d6",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8568@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10747
+      ],
+      "local": "./images/telegram-10747.webp",
+      "source_sha256": "804aa7d29e089a21dd1cc307b8957cb7a60f38d989e52eedd55dd889ab2ab584",
+      "local_sha256": "796f652645e45f41b9400d360b41f782be4d5e7415f6533878a05f09bb76da22",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10747.jpg",
+      "original_local_sha256": "50961a038ff61cfea403a7aef4306fc641fbd7ceb2ce3dd04da20f6de7c8b27c",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8569@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10748
+      ],
+      "local": "./images/telegram-10748.webp",
+      "source_sha256": "61fb2a312254f6d91ea23280de6bbc6dc104201f9fe2d56defbd85982f438401",
+      "local_sha256": "1eddb1b06601c1d8491025c7ddc9acf9654f0eccfbc1d32a513e305a6ad0b02c",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10748.jpg",
+      "original_local_sha256": "3ca1e23239e5aace68dfcaa1ae8bc410549fb9a568549a1c5170cdca3819036d",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8570@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10749
+      ],
+      "local": "./images/telegram-10749.webp",
+      "source_sha256": "6ec6870d2ac7701980d8c828a375e7149d6925987bb7f4ef33e51f2a7028d03a",
+      "local_sha256": "9eba63427ff80b9e118d0c9dbc29d45c429642130cca2363500c65fc656c4032",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10749.jpg",
+      "original_local_sha256": "c58e085a24657a90bb1464db732102bb398ea4065a3ae1b936311745985eb485",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8571@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10750
+      ],
+      "local": "./images/telegram-10750.webp",
+      "source_sha256": "b056e9651643693fa19c2475616a0d0d6fe93b421e03ab2aee18601dc452c82e",
+      "local_sha256": "073b3fb7d092ea6b53508de85de205452a65dbf20f926e85eabe64eb7fcb6368",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10750.jpg",
+      "original_local_sha256": "45fbb86c6a40e04284792994be823f43363f98e6c5a65f6bcda4152561387438",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8572@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10751
+      ],
+      "local": "./images/telegram-10751.webp",
+      "source_sha256": "4ee29fdbdc1322c21ddef207cb12ab57a37d3cfe30ace26a9b05bf9f6f545cff",
+      "local_sha256": "e23be4bc6687468c0ad8d7109f2996992b82cf2c7e04ee80198f1c070355110a",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10751.jpg",
+      "original_local_sha256": "523539f3b9fbf941b48e68542368ef9513c0e19bb23cd5d5d7b68754ec1a9ff9",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8573@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10752
+      ],
+      "local": "./images/telegram-10752.webp",
+      "source_sha256": "6935cc1b488a1caf39ecbf02ae5f8176681e406f1ca41310b2e187befd3957cd",
+      "local_sha256": "22da9b796340a4b58e0a66f6917bbfd08016a79f78843425228b435af8002fe2",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10752.jpg",
+      "original_local_sha256": "4ae08f11abc03c2961a83d25f8aca72072fe3bf2daf06d200ef0cb30a3b908e7",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8574@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10753
+      ],
+      "local": "./images/telegram-10753.webp",
+      "source_sha256": "48355e85c8f8f9fd9a5aced672458947af359d48eea00e3e3202a8f561e7f6f8",
+      "local_sha256": "2024a0f0a757c9bea9c42fe38a5d83aea6919b33ad86ac9c73ab17d96a2a7758",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10753.jpg",
+      "original_local_sha256": "b718b7ac1695f488a03b8d101150895f6ff4c4d7d265a61746c5ed977f0a52d4",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8575@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10754
+      ],
+      "local": "./images/telegram-10754.webp",
+      "source_sha256": "bf64462969b750f09804f45c71576be80589b4da2b96b8649c1fdd8385c6d10b",
+      "local_sha256": "5ccf31db96411686ebfab3496508c6f81fb18ed8937dc5981ce74e85028543c8",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10754.jpg",
+      "original_local_sha256": "7553b90ccb7a44875d7ace657026426db1e33c43aef404306680912a50a6dfdb",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8576@24-07-2026_23-42-01.jpg",
+      "message_ids": [
+        10755
+      ],
+      "local": "./images/telegram-10755.webp",
+      "source_sha256": "257d4fee3ff51026e80e89fd446f7915c2510a41f0c336764a1d987435880d2e",
+      "local_sha256": "b515cc74af92671538416368956747dd9337d8dd33fd10513a4c003ea58fbcbe",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10755.jpg",
+      "original_local_sha256": "9eaa82f916d3b3ced05cf31710d4e008472e4dbddc92be1f19046ba29c6437fb",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8577@25-07-2026_00-49-01.jpg",
+      "message_ids": [
+        10756
+      ],
+      "local": "./images/telegram-10756.webp",
+      "source_sha256": "0ff1678dde9cb47c6792d2fe53c947e52a06790842d3f0437e67acd1402277e2",
+      "local_sha256": "1cca2ff1db3f10a7ca65a9fe37f0e16b834af7cee1fe151905bfaf4f99507a07",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10756.jpg",
+      "original_local_sha256": "6948da1942de66ebc6e9a164bef99a048ac0f1a923f6582d23d502f2f7459739",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8578@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10757
+      ],
+      "local": "./images/telegram-cover.webp",
+      "source_sha256": "ff545bd009050b4ea2eaadd75a3187ae32ab5f5c4ba28267a6ca3f204287e1f8",
+      "local_sha256": "09e4cb0654903a6cf502ab3defab64cfae92977e9319afe2f146840ea67e7a7e",
+      "used_as_cover": true,
+      "original_local": "./images/telegram-cover.jpg",
+      "original_local_sha256": "625e5ab56489636acd8f7c9aaea54a5bb58622aaad235d2f5c4508937f3dfb32",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8579@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10758
+      ],
+      "local": "./images/telegram-10758.webp",
+      "source_sha256": "1d62fc972ff696755e0233114bd399dcdfa55d1a25ea83d92de4d27ed15e104a",
+      "local_sha256": "2b9432e7baa21c62e5d6deb2d3e482a6cdd1131bb77b96433a6e982c15f2ea28",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10758.jpg",
+      "original_local_sha256": "a89b0adfb45727effe4d0c4857ab9e8aea4185602eb0b20edafaa4d5014ebce3",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8580@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10759
+      ],
+      "local": "./images/telegram-10759.webp",
+      "source_sha256": "5a2742e454a940cf038f229d501bc5f738084354e16d893045fe0a1fd1a2933c",
+      "local_sha256": "78eb5412120ac39b33f7a4f37bd5de307b0f3e8d7e708f55fbcaad904cb14b56",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10759.jpg",
+      "original_local_sha256": "63b37e9cec6174638950430762218454d50a03a487eb5a9a173ae2d4f027ed02",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8581@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10760
+      ],
+      "local": "./images/telegram-10760.webp",
+      "source_sha256": "f2fec746fbb1133653868f64142d9b4b1225ff007abeb12eec477b46c77121e9",
+      "local_sha256": "8617eb1d8b32270f146461c31d5c5a9d55499a4028167fdeb3e9eb779358f691",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10760.jpg",
+      "original_local_sha256": "ac821369431ef615c2c3b9c280b9fb49b82493cfa341e371a965c149c20f02cc",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8582@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10761
+      ],
+      "local": "./images/telegram-10761.webp",
+      "source_sha256": "7dbfba875c893639a98833f549e6de7701e86ab22612b38b77d7bb57684a4414",
+      "local_sha256": "2411c8eb884848e242c903b3b9b1751c0a1128c7e487d8bde18fca1d3f60c6e8",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10761.jpg",
+      "original_local_sha256": "6c4e2cb4eae8ea2abf7eab0261878351a089fe2e8ec6747169dc1ec092266151",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8583@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10762
+      ],
+      "local": "./images/telegram-10762.webp",
+      "source_sha256": "26faeecb090fd83bf37fafa66ab8f65600254a3b9aacc7f3559aa0b098aa3d85",
+      "local_sha256": "e8ceaf2332935ef4c9dc953c94c120d5816a1e0668926f1bcf0526a043c1243c",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10762.jpg",
+      "original_local_sha256": "07de1fc391d8c0f68c7feb5f9aa907a8a7824cc365943bc1020c96af1c6f7861",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8584@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10763
+      ],
+      "local": "./images/telegram-10763.webp",
+      "source_sha256": "e23e652400c7b680946724a4c5e4ff6d8d119d55d45f8f7095075e311b9dd3cb",
+      "local_sha256": "6c63b77a815fcdf525f8ddbbd0cd823dab2d571f1945c394f5a4a4612aec1871",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10763.jpg",
+      "original_local_sha256": "4c5050d08bdf68fb34b19922bca71c6009b040fc807a49401a1e04af998108f1",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8585@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10764
+      ],
+      "local": "./images/telegram-10764.webp",
+      "source_sha256": "45aec304a976f047129b4527c506025d36a7ed9f03d8516bd9019e4bf3a45401",
+      "local_sha256": "e0cf3c187f47e551d3f737cce68c7f9869bee02303741a455274e59d42e82a6b",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10764.jpg",
+      "original_local_sha256": "7b97d7214a98107b5e1948490e35e7959008f6f5c800cb6ff5cf738090e9cfa8",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8586@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10765
+      ],
+      "local": "./images/telegram-10765.webp",
+      "source_sha256": "057e1626a365f771bc7d50f66a460974bf49c6f595f62b06e37d934ba0e8725c",
+      "local_sha256": "acf21c78b01ddffb1f750774da343bdbe85bd2136d29dfb35eb875f38563f113",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10765.jpg",
+      "original_local_sha256": "123e98a6a56a5a2f2b1ac72fb24433d69029d5d86afbdb2acbe6425a4f252dfc",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8587@25-07-2026_01-11-48.jpg",
+      "message_ids": [
+        10766
+      ],
+      "local": "./images/telegram-10766.webp",
+      "source_sha256": "24dff09c305f5513e7840376e8e896f1d7df15e1c7263e01385043feef6ab5d6",
+      "local_sha256": "f2156af5ae00ee69f692bddd28384edd9c14cbb6d891d7577f4e53efd4ec135b",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10766.jpg",
+      "original_local_sha256": "8fc0ef85919d93947c805d2d6614b83a5a201e0265b6628ab42764495878ddea",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    }
+  ],
+  "gallery_note": "All available source photos, in contributing-post/message order. Repeated file references are displayed once; the cover is not repeated in the gallery. Original source text and files are unchanged."
+}

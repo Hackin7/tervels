@@ -29,7 +29,7 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Bailian ZX Creative Center, 340-372 East Nanjing Road, Shanghai"
-cover: "./assets/01-afterwards-i-decided-to-go-to/images/00.jpg"
+cover: "./assets/01-afterwards-i-decided-to-go-to/images/00.webp"
 experiences: []
 tags: []
 draft: false

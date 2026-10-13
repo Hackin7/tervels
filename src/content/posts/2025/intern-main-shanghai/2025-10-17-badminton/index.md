@@ -11,7 +11,7 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "皮克蛋体育，上海市浦东新区康桥镇康花路205号6幢"
-cover: "./assets/01-espressif-badminton/images/00.jpg"
+cover: "./assets/01-espressif-badminton/images/00.webp"
 experiences: []
 tags: []
 draft: false
@@ -23,6 +23,6 @@ Espressif Badminton
 
 ##### Court photos
 
-![Purple badminton courts at Pikedan Sports Center](./assets/01-espressif-badminton/images/00.jpg)
+![Purple badminton courts at Pikedan Sports Center](./assets/01-espressif-badminton/images/00.webp)
 
-![Badminton session at Pikedan Sports Center](./assets/01-espressif-badminton/images/01.jpg)
+![Badminton session at Pikedan Sports Center](./assets/01-espressif-badminton/images/01.webp)

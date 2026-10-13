@@ -11,7 +11,7 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Bailian ZX Zaoquchang, 2500 Siping Road, Yangpu District, Shanghai, China"
-cover: "./assets/01-so-i-was-thinking-after-library/images/00.jpg"
+cover: "./assets/01-so-i-was-thinking-after-library/images/00.webp"
 experiences: []
 tags: []
 draft: false

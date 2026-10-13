@@ -11,7 +11,7 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "竞力羽毛球培训中心 / 浦东尧力羽毛球俱乐部（康桥店），上海市浦东新区康花路326号"
-cover: "./assets/01-i-don-t-want-to-know-who/images/00.jpg"
+cover: "./assets/01-i-don-t-want-to-know-who/images/00.webp"
 experiences: []
 tags: []
 draft: false
@@ -25,9 +25,13 @@ Badminton
 
 ##### Court photos
 
-![Badminton courts at Yaoli Badminton Club in Kangqiao](./assets/01-i-don-t-want-to-know-who/images/10.jpg)
+![Badminton courts at Yaoli Badminton Club in Kangqiao](./assets/01-i-don-t-want-to-know-who/images/10.webp)
 
-![Badminton session at Yaoli Badminton Club in Kangqiao](./assets/01-i-don-t-want-to-know-who/images/11.jpg)
+![Badminton session at Yaoli Badminton Club in Kangqiao](./assets/01-i-don-t-want-to-know-who/images/11.webp)
+
+
+
+
 
 Chill & Board game
 

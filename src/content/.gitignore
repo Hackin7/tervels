@@ -15,7 +15,11 @@ posts/2025/defcon33-us/*bl*/
 !posts/2025/intern-03*/**
 
 !posts/2025/intern-main-shanghai/
-!posts/2025/intern-main-shanghai/**
+posts/2025/intern-main-shanghai/**
+!posts/2025/intern-main-shanghai/**/
+!posts/2025/intern-main-shanghai/**/*.md
+!posts/2025/intern-main-shanghai/**/*.json
+!posts/2025/intern-main-shanghai/**/*.webp
 
 posts/2026/*
 !posts/2026/exchange-07-barcelona/
@@ -77,3 +81,11 @@ posts/2026/exchange-12-*/*/
 !posts/2026/exchange-14-*/
 !posts/2026/exchange-15-*/
 !posts/2026/exchange-16-*/
+
+# Shanghai competition: publish posts, provenance, and compressed WebP media.
+!posts/2026/intel-embedded-cup-shanghai/
+posts/2026/intel-embedded-cup-shanghai/**
+!posts/2026/intel-embedded-cup-shanghai/**/
+!posts/2026/intel-embedded-cup-shanghai/**/*.md
+!posts/2026/intel-embedded-cup-shanghai/**/*.json
+!posts/2026/intel-embedded-cup-shanghai/**/*.webp

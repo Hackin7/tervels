@@ -8,7 +8,7 @@ locations:
     city_slug: "shanghai"
     gps: [31.2304,121.4737]
     gps_source: old-frontmatter
-cover: "./assets/01-some-good-scores-at-the-arcade/images/00.jpg"
+cover: "./assets/01-some-good-scores-at-the-arcade/images/00.webp"
 experiences: []
 tags: []
 draft: false

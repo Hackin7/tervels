@@ -1,0 +1,112 @@
+{
+  "group": "Shanghai departure",
+  "source_export": "C:/Users/zunmun/Downloads/Telegram Desktop/ChatExport_2026-10-08",
+  "source_channel_id": 2782935516,
+  "source_message_ids": [
+    10768,
+    10769,
+    10770
+  ],
+  "source_files": [
+    {
+      "anchor_id": 10768,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-24-anyway-besides-being-depressed\\index.md",
+      "message_ids": [
+        10768,
+        10769,
+        10770
+      ],
+      "telegram_timestamp": "2026-07-24T23:07:59.000Z",
+      "markdown_sha256": "9c1738cc8733a06a4e5794d19e1627229cb276a7ad0e550f92499cefa86b65d5",
+      "body_sha256": "c6b411ca13a901f3e664ec60c9adce9975ec0433b0a5a10585370383991b0c95",
+      "text": "Anyway besides being depressed we then quickly saw\n\nLike celebrity crowds at the airport wtf\n\nAnd then we managed to queue behind the celebrity for passport control lol\n\nTbh I have no idea who they are but what it's the 1 thing easing post trip depression\nTo be one of the few people to see celebrity\n\nFrom what I heard it's 张凌赫? (I have no clue)\n",
+      "photos": [
+        {
+          "message_id": 10768,
+          "path": "photos/photo_8588@25-07-2026_07-07-59.jpg"
+        },
+        {
+          "message_id": 10769,
+          "path": "photos/photo_8589@25-07-2026_07-07-59.jpg"
+        },
+        {
+          "message_id": 10770,
+          "path": "photos/photo_8590@25-07-2026_07-07-59.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    }
+  ],
+  "review_flags": [],
+  "grouping_notes": "Retain July 25 airport caption as departure. Calendar July 25 contains Singapore laptop/SSD activities, so departure/arrival remain tied to source travel context rather than an invented sightseeing day.",
+  "location_clues": [
+    "Shanghai airport (unidentified)"
+  ],
+  "calendar_activities": [],
+  "timestamp_note": "Visit date follows approved plan/calendar; noon in Asia/Shanghai is a placeholder because actual visit time is unknown.",
+  "locations": [
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Shanghai airport",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited",
+      "review_note": "Shanghai airport (unidentified)"
+    }
+  ],
+  "selected_cover_anchor": 10768,
+  "excluded": false,
+  "linked_photos": [
+    {
+      "source": "photos/photo_8588@25-07-2026_07-07-59.jpg",
+      "message_ids": [
+        10768
+      ],
+      "local": "./images/telegram-cover.webp",
+      "source_sha256": "b1f26cdd73be246e291156487937b752c004e1a3820f7192cf7f922f9346b341",
+      "local_sha256": "02772ddbad68822865a6d7e4089f9f3409b70496b9b687531ed7e146548e6514",
+      "used_as_cover": true,
+      "original_local": "./images/telegram-cover.jpg",
+      "original_local_sha256": "4c17575650e4782879a0aed3c0c7f369d812b9bbaa726cf36146d965a2031815"
+    },
+    {
+      "source": "photos/photo_8589@25-07-2026_07-07-59.jpg",
+      "message_ids": [
+        10769
+      ],
+      "local": "./images/telegram-10769.webp",
+      "source_sha256": "9ed05f8802d07e00c972e996306ac85725390d7340a28f68cea1b347cb824daf",
+      "local_sha256": "49351c3d968471b59977f7a37f52fb4f05acce6c0f7fdd69a430a915154dd800",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10769.jpg",
+      "original_local_sha256": "bc865d8af59a7bc243ae21d805197a9525b34282aea9335fab1e31337d4dd1fd",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8590@25-07-2026_07-07-59.jpg",
+      "message_ids": [
+        10770
+      ],
+      "local": "./images/telegram-10770.webp",
+      "source_sha256": "9e241a4c02fcbdced00d69751eaeba42af35773edfa36f8f0318a19768348fa5",
+      "local_sha256": "eb2d827b2c3902c35caf759f6bd77c172b22a00591eaa581fcf338635436f325",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10770.jpg",
+      "original_local_sha256": "af47aa053714bd89ac212d4759bac0076eae90b192fbbb7521ec997792f23f9a",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    }
+  ],
+  "gallery_note": "All available source photos, in contributing-post/message order. Repeated file references are displayed once; the cover is not repeated in the gallery. Original source text and files are unchanged."
+}

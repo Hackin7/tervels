@@ -1,0 +1,440 @@
+{
+  "group": "Shanghai registration",
+  "source_export": "C:/Users/zunmun/Downloads/Telegram Desktop/ChatExport_2026-10-08",
+  "source_channel_id": 2782935516,
+  "source_message_ids": [
+    10520,
+    10521,
+    10522,
+    10523,
+    10524,
+    10525,
+    10526,
+    10527,
+    10528,
+    10529,
+    10530,
+    10531,
+    10532,
+    10533,
+    10534,
+    10535,
+    10536
+  ],
+  "source_files": [
+    {
+      "anchor_id": 10520,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-22-went-register-draw-ballots\\index.md",
+      "message_ids": [
+        10520,
+        10521,
+        10522,
+        10523,
+        10524,
+        10525,
+        10526,
+        10527,
+        10528
+      ],
+      "telegram_timestamp": "2026-07-22T02:23:44.000Z",
+      "markdown_sha256": "baa1e04dae86cfb1c809cb009c37ab88728b06d1af1bf71f8cf4bc98b548acd3",
+      "body_sha256": "acec3bad63d44cbeb6d1a5cf37ad2cf83ea6b23d92c1896a34c09dfd2f6eb526",
+      "text": "Went to 上海交通大学 to register and draw ballots\n\nI remember going to see the outside of the school before or something\n\nNo it's much bigger wtf, why tf got river and lake in the school one\n",
+      "photos": [
+        {
+          "message_id": 10520,
+          "path": "photos/photo_8402@22-07-2026_10-23-44.jpg"
+        },
+        {
+          "message_id": 10521,
+          "path": "photos/photo_8403@22-07-2026_10-23-44.jpg"
+        },
+        {
+          "message_id": 10522,
+          "path": "photos/photo_8404@22-07-2026_10-23-44.jpg"
+        },
+        {
+          "message_id": 10523,
+          "path": "photos/photo_8405@22-07-2026_10-23-45.jpg"
+        },
+        {
+          "message_id": 10524,
+          "path": "photos/photo_8406@22-07-2026_10-23-45.jpg"
+        },
+        {
+          "message_id": 10525,
+          "path": "photos/photo_8407@22-07-2026_10-23-45.jpg"
+        },
+        {
+          "message_id": 10526,
+          "path": "photos/photo_8408@22-07-2026_10-23-45.jpg"
+        },
+        {
+          "message_id": 10527,
+          "path": "photos/photo_8409@22-07-2026_10-23-45.jpg"
+        },
+        {
+          "message_id": 10528,
+          "path": "photos/photo_8410@22-07-2026_10-23-45.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": [
+        {
+          "kind": "recovered-album",
+          "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+        }
+      ]
+    },
+    {
+      "anchor_id": 10529,
+      "path": "C:\\Users\\zunmun\\AppData\\Local\\Temp\\tervels-telegram-review-2026-10-08\\posts\\2026\\telegram-staging\\2026-07-22-got-free-meal-coupons\\index.md",
+      "message_ids": [
+        10529,
+        10530,
+        10531,
+        10532,
+        10533,
+        10534,
+        10535,
+        10536
+      ],
+      "telegram_timestamp": "2026-07-22T02:26:43.000Z",
+      "markdown_sha256": "9bf65e7c710343ae09ff490be9f410051d06050288a695a425b975a75b4ac33f",
+      "body_sha256": "9c6ed8960a91e2c77145fd4b46698af438bb8ac4301fa9839e5484e0488f44ce",
+      "text": "Got free meal coupons, can claim for like a 40rmb meal or something but let's me honest we gonna explore out and meituan\n",
+      "photos": [
+        {
+          "message_id": 10529,
+          "path": "photos/photo_8411@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10530,
+          "path": "photos/photo_8412@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10531,
+          "path": "photos/photo_8413@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10532,
+          "path": "photos/photo_8414@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10533,
+          "path": "photos/photo_8415@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10534,
+          "path": "photos/photo_8416@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10535,
+          "path": "photos/photo_8417@22-07-2026_10-26-43.jpg"
+        },
+        {
+          "message_id": 10536,
+          "path": "photos/photo_8418@22-07-2026_10-26-43.jpg"
+        }
+      ],
+      "missing_media": [],
+      "review_flags": []
+    }
+  ],
+  "review_flags": [
+    {
+      "anchorId": 10520,
+      "kind": "recovered-album",
+      "reason": "Captionless continuation within 10 seconds, inferred rather than exported album ID"
+    }
+  ],
+  "grouping_notes": "Registration and free-meal captions were uploaded on July 22. Map registration to calendar July 20. Top week dates are inferred because headers are cropped.",
+  "location_clues": [
+    "Shanghai Jiao Tong University (campus unresolved)",
+    "Registration venue",
+    "Meal-coupon dining venue"
+  ],
+  "calendar_activities": [
+    "Registration",
+    "Setting Up"
+  ],
+  "timestamp_note": "Visit date follows approved plan/calendar; noon in Asia/Shanghai is a placeholder because actual visit time is unknown.",
+  "locations": [
+    {
+      "name": "Shanghai",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Shanghai Jiao Tong University",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "mentioned",
+      "review_note": "Shanghai Jiao Tong University (campus unresolved)"
+    },
+    {
+      "name": "Registration venue",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    },
+    {
+      "name": "Meal-coupon dining venue",
+      "country": "China",
+      "city": "Shanghai",
+      "city_slug": "shanghai",
+      "gps": null,
+      "context": "visited"
+    }
+  ],
+  "selected_cover_anchor": 10520,
+  "excluded": false,
+  "linked_photos": [
+    {
+      "source": "photos/photo_8402@22-07-2026_10-23-44.jpg",
+      "message_ids": [
+        10520
+      ],
+      "local": "./images/telegram-cover.webp",
+      "source_sha256": "9836368305f565ff7a59c59c0f9572b57c13a6a93cc29b9a554ffdb02d2dd7ca",
+      "local_sha256": "47b6a5da6130125e590957964773306aefb7e28393b82ec44f849f6549679a7f",
+      "used_as_cover": true,
+      "original_local": "./images/telegram-cover.jpg",
+      "original_local_sha256": "80d506846eeb968fb340b10333f4398c96a07735f3db05a0b41500c76a6cdaec",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8403@22-07-2026_10-23-44.jpg",
+      "message_ids": [
+        10521
+      ],
+      "local": "./images/telegram-10521.webp",
+      "source_sha256": "8e11dbef48abf63f98bcddbe626bb349ea045495cda4476e362df4e3d00d6369",
+      "local_sha256": "984ca833f09a4306730fe9e15dc1a6250aa8ee3489768e6ba4e93db40b42022c",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10521.jpg",
+      "original_local_sha256": "73c77388a16d14600f5684d6689a3b1f97bee54d00e2ca78435f65349e881d7b",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8404@22-07-2026_10-23-44.jpg",
+      "message_ids": [
+        10522
+      ],
+      "local": "./images/telegram-10522.webp",
+      "source_sha256": "0cd1759b2a2c20d239f386fff7eafd0f8b935045b0060600dfa25afca4107a6c",
+      "local_sha256": "73683bf7b3b79703d4aadbb58b705ef6b3fccafaa382e761598de42ddfadef40",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10522.jpg",
+      "original_local_sha256": "b513b4953396c807554119e4682c1cd9d6a8228a0dafae9833584ec88792ab59",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8405@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10523
+      ],
+      "local": "./images/telegram-10523.webp",
+      "source_sha256": "4b28a95d1a1b05e6064111b645f54ff708538db5cf2fc4f8fafc2b45e624a3a7",
+      "local_sha256": "6dbc6aace4e37ecc1b71d4a63aab6f867cd8bcb283a2d00af097ce27034a362b",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10523.jpg",
+      "original_local_sha256": "b2334879cd960013a74d0c81d48bd65b0100f64347db7ac6a315859d4d722a5d",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8406@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10524
+      ],
+      "local": "./images/telegram-10524.webp",
+      "source_sha256": "0337a74018e837b839a45d3890e0bb2811b60461c400040ab2fc05711075eddd",
+      "local_sha256": "3c734f2d25cdedba2d2f0ac06194cb637c8e0f97ad1efbb3caeeafa6e5e589cd",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10524.jpg",
+      "original_local_sha256": "4af080011702d62b1bda443a4f949d5d1fea5c3304dc4c57d2b6cd8ced48e87b",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8407@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10525
+      ],
+      "local": "./images/telegram-10525.webp",
+      "source_sha256": "dc1a9587f54e3ee7360e95a3cdcdcaca0a2a8c44cb029af16bb2f81a7d419960",
+      "local_sha256": "486812f2b392a2a012cbb03983252572bbe3c915be432cbf8de9651162fc0635",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10525.jpg",
+      "original_local_sha256": "0c114f1a4bc8875adac6857bc859cca25b687e6493007e0d95ff49250aa68bcf",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8408@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10526
+      ],
+      "local": "./images/telegram-10526.webp",
+      "source_sha256": "446d2a51283a4fc4665bb01d2ea786a356f1d27b09b0a4ce2398411c8a1299b7",
+      "local_sha256": "74802006c0b0c271ed1acc07fbfaa2ac73ea3578e2357cbd4bb2703ac5236804",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10526.jpg",
+      "original_local_sha256": "d10efbdfd086954bdbb8c52defb3ae76a55aeeb442414f3e506cc20ba6c8a9c3",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8409@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10527
+      ],
+      "local": "./images/telegram-10527.webp",
+      "source_sha256": "7a735674573dda6644029a7b3710532572913a383ec0b37be1d72002b09e3afb",
+      "local_sha256": "b5c11ea55a2ec2374df61e35d2bf626bc54f92e6c7ef75696a3be5f1c01d6817",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10527.jpg",
+      "original_local_sha256": "a9e002749347e611f043e91384ad72c42e2da2a3084e0c3b2c09e1d0ca5e5373",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8410@22-07-2026_10-23-45.jpg",
+      "message_ids": [
+        10528
+      ],
+      "local": "./images/telegram-10528.webp",
+      "source_sha256": "4d32784c4c8a0646e5063fe5490b89dc28e1c044e71aeaa676fc6173704d91b2",
+      "local_sha256": "62e4876fddb3aed609baa0b6993299873a290dbcaa29bf9f7bac252977e37993",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10528.jpg",
+      "original_local_sha256": "6354f8687547b818108ca04af6571ee80d1d679d1c1b7d27af27b00050282607",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8411@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10529
+      ],
+      "local": "./images/telegram-10529.webp",
+      "source_sha256": "0dd74faf35a5cc6ff7ef5af2afdb77d41102c4fc8bd04330e8d0220e76fc5dbe",
+      "local_sha256": "877f01906a7f463e269fb41e3a24b27212e8377b1f057f464bdeb575d37b5227",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10529.jpg",
+      "original_local_sha256": "01806d49b51079721a02db78b693c8d59173d910eb9a3cccfab93b9551ac91b3",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8412@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10530
+      ],
+      "local": "./images/telegram-10530.webp",
+      "source_sha256": "6176d4c413f146bd5327f5bd19e6503d167b7356702f934a968c7fd301d6c359",
+      "local_sha256": "e73e0115f32d26dca7c52bc41e58207d91d31eace29ab2e068fcab0dec9f5001",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10530.jpg",
+      "original_local_sha256": "3393dbee9e7716ab3b9ed36272f52a65cd9413886f763f989d8660c67eb42d58",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8413@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10531
+      ],
+      "local": "./images/telegram-10531.webp",
+      "source_sha256": "6922b5ca3783bf7a0ee0165296b2b3bff388d3f84d19894fcb2d8c4642a4e4b2",
+      "local_sha256": "e57cec38971c2079038917abdd37f619a4b9416108a256beed29795b757bdaf6",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10531.jpg",
+      "original_local_sha256": "bb12298e6a8bca43cbec2bae405daeb458766d355d3048871fbb0d917945a4d5",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8414@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10532
+      ],
+      "local": "./images/telegram-10532.webp",
+      "source_sha256": "a670b3837a3fda7d92313cc2fb3b2318a2132773ca7b9797fddbd5cf2ee108a8",
+      "local_sha256": "ec091c9dcea94500c2a51c4eb73adf1f919810bda30c5f48520a7d2031df0246",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10532.jpg",
+      "original_local_sha256": "56f401295cc3b799b2ea7b7c3bfb7c3601405c1c1c8fc8e65d08f4a612736d1a",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8415@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10533
+      ],
+      "local": "./images/telegram-10533.webp",
+      "source_sha256": "d8fbd8cd2ff9cd828efb2563c8d7ae43cf9c9b0c93226f1117c0d901b7e5952f",
+      "local_sha256": "7c3ed36aaab3cac4eab38abe2f591920f00895b2ed2777693cc6cd691675a7d1",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10533.jpg",
+      "original_local_sha256": "1f4a71046aaaefbe2c00bdda2d39a2b7721a267dbeea209a96fb8a9ea52aef38",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8416@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10534
+      ],
+      "local": "./images/telegram-10534.webp",
+      "source_sha256": "584742debddf8b1a75013262392952e981595685fb8d1c6fb4bd94ca14bcd0e3",
+      "local_sha256": "3cd94aaa83c64e94d35d39abdd754202989b328f0edefa764a1df6d8d6a05aea",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10534.jpg",
+      "original_local_sha256": "407784139c93d7cd5f48b4a57ca3f74804a513c40a87efec05609cddf684ee0d",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8417@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10535
+      ],
+      "local": "./images/telegram-10535.webp",
+      "source_sha256": "9b0bed5c336403793c060255bdb0877b0fb326db6098758b39042fc14c5afe78",
+      "local_sha256": "0e695ce691068205096c2040a887790677cfbb6453aaa7460b3382e55fb6a90e",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10535.jpg",
+      "original_local_sha256": "b0974090b743f908bf549a2cd8a440d84f75de190f3c9f1cda834b4d685bd9e7",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    },
+    {
+      "source": "photos/photo_8418@22-07-2026_10-26-43.jpg",
+      "message_ids": [
+        10536
+      ],
+      "local": "./images/telegram-10536.webp",
+      "source_sha256": "12f36cc1e71458120395d03b2a4c7464867b528d737225ac5d326276c33b0ed0",
+      "local_sha256": "6c2b9388c87e8d24137d75fde5fee4782d8bbe65a6648f5cbfb6efa2620ff0ea",
+      "used_as_cover": false,
+      "original_local": "./images/telegram-10536.jpg",
+      "original_local_sha256": "62b686d493c7584f22fd3b9fc66a51c99873379ca9960ea85cb6ace76da2d2bd",
+      "local_deleted": true,
+      "deletion_reason": "YouTube video replaces article photos"
+    }
+  ],
+  "gallery_note": "All available source photos, in contributing-post/message order. Repeated file references are displayed once; the cover is not repeated in the gallery. Original source text and files are unchanged."
+}

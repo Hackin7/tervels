@@ -38,7 +38,7 @@ locations:
     gps_granularity: area
     gps_confidence: high
     gps_query: "Xujiahui, Shanghai"
-cover: "./assets/01-just-nice-dropped-by-to-use/images/00.jpg"
+cover: "./assets/01-just-nice-dropped-by-to-use/images/00.webp"
 experiences: []
 tags: ["intern-main-shanghai","china","shanghai"]
 draft: false
