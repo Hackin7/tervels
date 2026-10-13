@@ -1,5 +1,5 @@
 ---
-title: "Final Shanghai Weekend"
+title: "Intern W10: Final Shanghai Weekend"
 timestamp: 2025-11-22T00:00:00.000Z
 locations:
   - name: "Bailian ZX Creative Center"

@@ -1,5 +1,5 @@
 ---
-title: "Arrival in Shanghai"
+title: "Intern W0: Arrival in Shanghai"
 timestamp: 2025-09-14T00:00:00.000Z
 locations:
   - name: "Arrival / internet setup / safety-video context"

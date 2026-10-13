@@ -1,5 +1,5 @@
 ---
-title: "Final Shanghai Tourism Day"
+title: "Intern W10: Final Shanghai Tourism Day"
 timestamp: 2025-11-23T00:00:00.000Z
 locations:
   - name: "Jing'an Temple"

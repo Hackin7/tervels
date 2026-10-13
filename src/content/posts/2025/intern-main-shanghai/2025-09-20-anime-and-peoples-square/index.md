@@ -1,5 +1,5 @@
 ---
-title: "Nanjing Road Anime and People's Square"
+title: "Intern W1: Nanjing Road Anime and People's Square"
 timestamp: 2025-09-20T00:00:00.000Z
 locations:
   - name: "Bailian ZX Creative Center"

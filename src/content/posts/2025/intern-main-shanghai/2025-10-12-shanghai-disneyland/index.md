@@ -1,5 +1,5 @@
 ---
-title: "Shanghai Disneyland"
+title: "Intern W4: Shanghai Disneyland"
 timestamp: 2025-10-12T00:00:00.000Z
 locations:
   - name: "Shanghai Disneyland"

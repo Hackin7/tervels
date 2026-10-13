@@ -1,5 +1,5 @@
 ---
-title: "Maker Faire Shanghai 2025"
+title: "Intern W7: Maker Faire Shanghai 2025"
 timestamp: 2025-11-02T00:00:00.000Z
 locations:
   - name: "Maker Faire Shanghai 2025 at Waitanyuan"

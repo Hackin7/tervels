@@ -52,6 +52,27 @@ function fakePost(id: string, data: {
 }
 
 describe('postUrlSlug', () => {
+  it.each([0, 1, 10, 11])('retains the W%i prefix and four title words', week => {
+    const p = fakePost('2025/intern-main-shanghai/example', {
+      title: `Intern W${week}: First Mall Visit in Shanghai`,
+      date: new Date('2025-09-16T00:00:00Z'),
+      country: 'China', city_slug: 'shanghai',
+    });
+    expect(postUrlSlug(p)).toBe(`china/shanghai/2025-09-intern-w${week}-first-mall-visit-shanghai`);
+  });
+
+  it('keeps final-week posts with shared opening words distinct', () => {
+    const data = { date: new Date('2025-11-22T00:00:00Z'), country: 'China', city_slug: 'shanghai' };
+    const weekend = fakePost('2025/intern-main-shanghai/weekend', {
+      ...data, title: 'Intern W10: Final Shanghai Weekend',
+    });
+    const tourism = fakePost('2025/intern-main-shanghai/tourism', {
+      ...data, title: 'Intern W10: Final Shanghai Tourism Day',
+    });
+    expect(postUrlSlug(weekend)).toBe('china/shanghai/2025-11-intern-w10-final-shanghai-weekend');
+    expect(postUrlSlug(tourism)).toBe('china/shanghai/2025-11-intern-w10-final-shanghai-tourism-day');
+  });
+
   it('builds country/city/YYYY-MM-title slug', () => {
     const p = fakePost('2025/spring-japan/kyoto-temples', {
       title: 'Three days in Kyoto',

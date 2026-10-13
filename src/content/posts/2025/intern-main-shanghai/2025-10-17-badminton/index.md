@@ -1,5 +1,5 @@
 ---
-title: "Espressif Badminton — 17 October"
+title: "Intern W5: Espressif Badminton — 17 October"
 timestamp: 2025-10-17T00:00:00.000Z
 locations:
   - name: "Pikedan Sports Center (Pudong)"

@@ -1,5 +1,5 @@
 ---
-title: "Saizeriya in Shanghai"
+title: "Intern W4: Saizeriya in Shanghai"
 timestamp: 2025-10-08T00:00:00.000Z
 locations:
   - name: "Saizeriya"

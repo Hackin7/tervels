@@ -1,5 +1,5 @@
 ---
-title: "Central Shanghai with a Senior"
+title: "Intern W8: Central Shanghai with a Senior"
 timestamp: 2025-11-08T00:00:00.000Z
 locations:
   - name: "Nanjing East Road and The Bund"

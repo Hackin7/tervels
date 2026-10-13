@@ -1,5 +1,5 @@
 ---
-title: "Settling In in Shanghai"
+title: "Intern W1: Settling In in Shanghai"
 timestamp: 2025-09-15T00:00:00.000Z
 locations:
   - name: "Hotel buffet"

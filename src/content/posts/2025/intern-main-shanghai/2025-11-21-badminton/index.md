@@ -1,5 +1,5 @@
 ---
-title: "Espressif Badminton — 21 November"
+title: "Intern W10: Espressif Badminton — 21 November"
 timestamp: 2025-11-21T00:00:00.000Z
 locations:
   - name: "Jingli Badminton Training Center / Yaoli Badminton Club (Kangqiao)"

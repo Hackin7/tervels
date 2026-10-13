@@ -1,5 +1,5 @@
 ---
-title: "Music China 2025"
+title: "Intern W6: Music China 2025"
 timestamp: 2025-10-25T00:00:00.000Z
 locations:
   - name: "Music China at Shanghai New International Expo Centre"

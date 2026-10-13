@@ -1,5 +1,5 @@
 ---
-title: "Shanghai Night Walk"
+title: "Intern W2: Shanghai Night Walk"
 timestamp: 2025-09-28T00:00:00.000Z
 locations:
   - name: "Night walk route / KFC dinner"

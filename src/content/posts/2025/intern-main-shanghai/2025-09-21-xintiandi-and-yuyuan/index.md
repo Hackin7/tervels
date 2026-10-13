@@ -1,5 +1,5 @@
 ---
-title: "Xintiandi and Yuyuan"
+title: "Intern W1: Xintiandi and Yuyuan"
 timestamp: 2025-09-21T00:00:00.000Z
 locations:
   - name: "Xintiandi"

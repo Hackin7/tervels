@@ -1,5 +1,5 @@
 ---
-title: "Morning Walk in Shanghai"
+title: "Intern W1: Morning Walk in Shanghai"
 timestamp: 2025-09-18T00:00:00.000Z
 locations:
   - name: "Morning walk route"

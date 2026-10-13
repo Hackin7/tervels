@@ -38,7 +38,10 @@ export function postUrlSlug(post: Post): string {
   const city = location.city_slug;
   const timestamp = post.data.timestamp;
   const ym = `${timestamp.getUTCFullYear()}-${String(timestamp.getUTCMonth() + 1).padStart(2, '0')}`;
-  const title = slugify(post.data.title) || 'untitled';
+  const internTitle = post.data.title.match(/^Intern W(\d+):\s*(.*)$/);
+  // Keep the week prefix outside the title's four-word slug budget.
+  const titleBody = slugify(internTitle ? internTitle[2] : post.data.title) || 'untitled';
+  const title = internTitle ? `intern-w${internTitle[1]}-${titleBody}` : titleBody;
   return `${country}/${city}/${ym}-${title}`;
 }
 
