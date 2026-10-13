@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { EVENTS_BY_SLUG } from './lib/events';
 
 const gps = z.union([
   z.tuple([
@@ -84,4 +85,20 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { posts };
+const hauls = defineCollection({
+  loader: glob({ pattern: '**/index.md', base: './src/content/haul' }),
+  schema: ({ image }) => z.object({
+    title: z.string().optional(),
+    event: z.string().refine(slug => EVENTS_BY_SLUG.has(slug), 'Event must exist in the event catalog.'),
+    date: z.coerce.date(),
+    locations: z.array(location).default([]),
+    photos: z.array(z.object({
+      src: image(),
+      alt: z.string().min(1),
+      caption: z.string().optional(),
+    })).min(1),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { posts, hauls };

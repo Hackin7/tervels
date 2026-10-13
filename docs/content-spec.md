@@ -114,6 +114,16 @@ An article whose primary location is unresolved remains available through trip
 and triage views but is excluded from published place views. A location with
 `gps: null` does not create a map pin.
 
+## Haul albums
+
+Store each event edition at `src/content/haul/<year>/<event-slug>/index.md`,
+with its photos in an adjacent `images/` directory. The event slug must exist
+in `src/lib/events.ts`, and the folder year must match that event's catalog
+year. Each album records its attendance date and ordered photos with
+descriptive alt text; the first photo is used as the album cover. Captions,
+article text, and event location metadata are optional. Haul albums do not
+require Telegram provenance.
+
 ## Derived presentation
 
 - Trip membership comes from the storage path.

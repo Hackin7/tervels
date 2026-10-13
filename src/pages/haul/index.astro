@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { eventMeta } from '../../lib/events';
+import { publishedHauls } from '../../lib/hauls';
+
+const hauls = publishedHauls(await getCollection('hauls'));
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Haul · tervels" description="Photos of conference and event hauls.">
+  <h1>Haul</h1>
+  <p class="muted">Merch, badges, and other things brought home from events.</p>
+  {hauls.length > 0 ? (
+    <div class="grid haul-cards">
+      {hauls.map(haul => {
+        const event = eventMeta(haul.data.event);
+        const title = `${event.name} · ${event.year || 'Unknown year'}`;
+        const cover = haul.data.photos[0];
+        return (
+          <a class="haul-card" href={`${base}/haul/${haul.data.event}`}>
+            <span class="haul-card-image">
+              <Image src={cover.src} alt={cover.alt} width={520} height={360} />
+            </span>
+            <h2>{title}</h2>
+            <p class="muted">{event.location ?? 'Event location unavailable'} · {haul.data.photos.length} photo{haul.data.photos.length === 1 ? '' : 's'}</p>
+          </a>
+        );
+      })}
+    </div>
+  ) : (
+    <p class="muted">No haul albums yet.</p>
+  )}
+</BaseLayout>
+
+<style>
+  .haul-cards { grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+  .haul-card { display: block; color: inherit; text-decoration: none; }
+  .haul-card:hover { text-decoration: none; }
+  .haul-card-image { display: block; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 8px; background: white; }
+  .haul-card-image img { width: 100%; height: 100%; object-fit: cover; }
+  .haul-card h2 { margin: 0.65rem 0 0.1rem; font-size: 1.1rem; }
+  .haul-card p { margin: 0; font-size: 0.9rem; }
+</style>

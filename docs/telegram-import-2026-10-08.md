@@ -1,8 +1,8 @@
 # Telegram import review - October 8, 2026
 
-Imported 70 new articles and added a cover and Telegram provenance to one existing Japan Expo haul article. The import accounts for 187 staged posts and 1,042 source messages. Dubai and Zurich were excluded from this import; their existing website articles remain unchanged.
+Imported 70 new articles and initially updated one existing Japan Expo haul article. That article has since been converted into a haul album, with its Telegram provenance removed. The import accounts for 187 staged posts and 1,042 source messages. Dubai and Zurich were excluded from this import; their existing website articles remain unchanged.
 
-All 191 original staged Markdown files were retained in [the staging folder](<C:/Users/zunmun/AppData/Local/Temp/tervels-telegram-review-2026-10-08/posts/2026/telegram-staging>). Their hashes and original Telegram bodies were verified. No staged Markdown or asset was deleted, moved, overwritten, or edited. The existing Japan Expo haul body was also preserved exactly; its original Telegram wording is retained in its source sidecar.
+All 191 original staged Markdown files were retained in [the staging folder](<C:/Users/zunmun/AppData/Local/Temp/tervels-telegram-review-2026-10-08/posts/2026/telegram-staging>). Their hashes and original Telegram bodies were verified. No staged Markdown or asset was deleted, moved, overwritten, or edited. The Japan Expo haul's article text was preserved during its later conversion; its Telegram provenance was removed from the haul album.
 
 New article bodies contain the staged source bodies in source order, separated only by Markdown horizontal rules. No paraphrasing, trimming, heading changes, or spelling corrections were applied. Each article now links all available contributing photos through its `gallery` list, with its cover displayed once. Photos are optimized local copies, shown as lazy-loaded thumbnails linked to full-size images. Original photo references and local mappings remain in its adjacent `telegram-sources.json`. Unavailable videos or other attachments are listed there.
 
@@ -40,7 +40,7 @@ Edit each linked `index.md` for title, body, date, locations, experiences, or it
 | 18 | [The food is good and we're back in SG](<../src/content/posts/2026/singapore-local-return-period/2026-07-25-back-in-sg/index.md>) | 6 | 2 | 14 | New article |
 | 19 | [Science Centre is gonna close soon so here's some pics videos](<../src/content/posts/2026/singapore-local-return-period/2026-07-26-science-centre-outing/index.md>) | 2 | 2 | 20 | New article; Date review |
 | 20 | [Professional larping session🤡🤡🤡](<../src/content/posts/2026/singapore-local-return-period/2026-07-29-jump-trading-outing/index.md>) | 7 | 1 | 7 | New article; Date review |
-| 21 | [Japan Expo Paris Haul ish](<../src/content/posts/2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul/index.md>) | 2 | 1 | 2 | Existing article updated; Date review |
+| 21 | [Japan Expo Paris Haul ish](<../src/content/haul/2026/japan-expo-paris-2026/index.md>) | 1 | 1 | 2 | Converted into a haul album; Telegram provenance removed |
 | 22 | [The start of a very long journey](<../src/content/posts/2026/brisbane-defcon-seattle/2026-07-30-outbound-flight/index.md>) | 6 | 2 | 6 | New article |
 | 23 | [Spent](<../src/content/posts/2026/brisbane-defcon-seattle/2026-07-30-ho-chi-minh-arrival-and-evening/index.md>) | 8 | 2 | 20 | New article |
 | 24 | [Banh Mi](<../src/content/posts/2026/brisbane-defcon-seattle/2026-07-31-banh-mi/index.md>) | 5 | 1 | 9 | New article |
@@ -499,18 +499,12 @@ Review flags:
 
 ### 21. Japan Expo haul overlap
 
-[src/content/posts/2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul/index.md](<../src/content/posts/2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul/index.md>)
+[src/content/haul/2026/japan-expo-paris-2026/index.md](<../src/content/haul/2026/japan-expo-paris-2026/index.md>)
 
-- Website route: `/tervels/posts/france/villepinte/2026-07-japan-expo-paris-haul/`
-- Article timestamp: `2026-07-29T12:00:00+08:00`; Visit date follows approved plan/calendar; noon in Asia/Singapore is a placeholder because actual visit time is unknown.
-- Locations: Japan Expo Paris / Parc des Expositions Paris Nord Villepinte (Unknown / Unknown; retrospective) - Japan Expo Paris / Parc des Expositions Paris Nord Villepinte (retrospective).
-- Cover: source post 10812.
-- Grouping notes: Existing article lists these purchases with edited formatting. Propose cover/provenance addition after review; avoid duplicate article or automatic replacement. July 30 +08:00 is upload time, not event date. Existing article body retained exactly; only cover and source provenance added.
-- Provenance: [telegram-sources.json](<../src/content/posts/2026/exchange-15-japan-expo-paris/2026-07-29-japan-expo-paris-haul/telegram-sources.json>).
-- Original source files, in combination order:
-
-  - [Post 10812 - 2026-07-29-japan-expo-paris-haul/index.md](<C:/Users/zunmun/AppData/Local/Temp/tervels-telegram-review-2026-10-08/posts/2026/telegram-staging/2026-07-29-japan-expo-paris-haul/index.md>) (messages 10812, 10813).
-
+- Website route: `/tervels/haul/japan-expo-paris-2026/` (the previous article URL redirects here).
+- Attendance date: `2026-07-11`; the article says the haul was accounted for on 29 July.
+- Location: Japan Expo Paris / Parc des Expositions Paris Nord Villepinte, Villepinte, France.
+- The original article text and image were moved into the haul album. Telegram provenance was removed at the user's request.
 ### 22. Singapore outbound flight
 
 [src/content/posts/2026/brisbane-defcon-seattle/2026-07-30-outbound-flight/index.md](<../src/content/posts/2026/brisbane-defcon-seattle/2026-07-30-outbound-flight/index.md>)

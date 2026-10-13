@@ -1,6 +1,7 @@
 ---
 title: "Japan Expo Paris Haul ish"
-timestamp: 2026-07-11T00:00:00Z
+event: "japan-expo-paris-2026"
+date: 2026-07-11
 locations:
   - name: "Japan Expo Paris 2026 — Parc des Expositions Paris Nord Villepinte"
     country: "France"
@@ -11,22 +12,10 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Parc des Expositions, Villepinte, France"
-experiences:
-  - kind: event
-    slug: "japan-expo-paris-2026"
-cover: "./images/telegram-cover.jpg"
-source:
-  kind: "telegram"
-  message_id: 10812
-  message_ids:
-    - 10812
-    - 10813
-  channel_id: 2782935516
-  telegram_timestamp: "2026-07-29T16:15:03.000Z"
-  imported_at: "2026-10-08T09:45:14.561Z"
-  date_basis: "telegram"
-gallery:
-  - "./images/telegram-cover.jpg"
+photos:
+  - src: "./images/haul.jpg"
+    alt: "Japan Expo Paris haul laid out together: anime cards, keychains, stickers, badges, and other small goods"
+draft: false
 ---
 
 Japan Expo Paris Haul ish (only accounted on 29th July)

@@ -11,6 +11,7 @@ import {
   type NamedExperienceKind,
   type Post,
 } from '../../lib/aggregates';
+import { publishedHauls } from '../../lib/hauls';
 
 const all = await getCollection('posts');
 const published = publishedPosts(all);
@@ -20,6 +21,8 @@ const food = published.filter(post =>
   namedExperiences(post, 'food').length > 0 || namedExperiences(post, 'market').length > 0
 );
 const events = postsByEvent(navigablePosts(all));
+const hauls = new Set(publishedHauls(await getCollection('hauls')).map(haul => haul.data.event));
+const base = import.meta.env.BASE_URL;
 
 function labelsFor(post: Post, kind: NamedExperienceKind): PostCardLabel[] {
   return namedExperiences(post, kind).map(experience => ({
@@ -70,7 +73,7 @@ function fmtDateRange(start: Date, end: Date): string {
     <p class="muted">{events.length} event{events.length === 1 ? '' : 's'}, sorted by most recent.</p>
     <div style="display:grid; gap:2rem;">
       {events.map(event => (
-        <section>
+        <section id={`event-${event.slug}`}>
           <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:0.75rem;">
             <div>
               <h3 style="margin:0;">{event.meta.name} · {event.meta.year || 'Unknown year'}</h3>
@@ -78,6 +81,7 @@ function fmtDateRange(start: Date, end: Date): string {
                 {fmtDateRange(event.earliest, event.latest)}
                 {event.meta.location && ` · ${event.meta.location}`}
                 {` · ${event.posts.length} note${event.posts.length === 1 ? '' : 's'}`}
+                {hauls.has(event.slug) && <> · <a href={`${base}/haul/${event.slug}`}>View haul</a></>}
               </p>
             </div>
           </div>

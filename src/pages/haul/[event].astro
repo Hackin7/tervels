@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { eventMeta } from '../../lib/events';
+import { publishedPosts, postUrlSlug } from '../../lib/aggregates';
+import { publishedHauls } from '../../lib/hauls';
+
+export async function getStaticPaths() {
+  const hauls = publishedHauls(await getCollection('hauls'));
+  return hauls.map(haul => ({ params: { event: haul.data.event }, props: { haul } }));
+}
+
+const { haul } = Astro.props;
+const event = eventMeta(haul.data.event);
+const posts = publishedPosts(await getCollection('posts'))
+  .filter(post => post.data.experiences.some(experience => experience.kind === 'event' && experience.slug === haul.data.event));
+const base = import.meta.env.BASE_URL;
+const title = haul.data.title ?? `${event.name} · ${event.year || 'Unknown year'}`;
+const date = haul.data.date.toISOString().slice(0, 10);
+const { Content } = await render(haul);
+---
+<BaseLayout title={`${title} · Haul · tervels`} description={`${title} haul photos.`}>
+  <p class="muted"><a href={`${base}/haul`}>← all hauls</a></p>
+  <h1>{title}</h1>
+  <p class="muted">{date}{event.location && ` · ${event.location}`}</p>
+  {haul.data.locations.map(location => (
+    <p class="muted" style="margin:0.25rem 0;">{location.name}</p>
+  ))}
+  {posts.length > 0 && (
+    <p class="haul-related"><strong>Event notes:</strong>{' '}
+      {posts.map((post, index) => (
+        <>
+          {index > 0 && ' · '}
+          <a href={`${base}/posts/${postUrlSlug(post)}`}>{post.data.title}</a>
+        </>
+      ))}
+    </p>
+  )}
+  <article><Content /></article>
+  <div class="haul-gallery">
+    {haul.data.photos.map(photo => (
+      <figure>
+        <a href={photo.src.src} target="_blank" rel="noopener noreferrer">
+          <Image src={photo.src} alt={photo.alt} width={Math.min(900, photo.src.width)} loading="lazy" decoding="async" />
+        </a>
+        {photo.caption && <figcaption>{photo.caption}</figcaption>}
+      </figure>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .haul-related { margin: 1rem 0; }
+  .haul-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1rem; align-items: start; margin-top: 1.5rem; }
+  .haul-gallery figure { margin: 0; }
+  .haul-gallery a { display: block; }
+  .haul-gallery img { width: 100%; height: auto; border-radius: 8px; }
+  .haul-gallery figcaption { margin-top: 0.35rem; color: var(--muted); font-size: 0.9rem; }
+</style>

@@ -16,7 +16,8 @@ export const EVENT_CATALOG: EventMeta[] = [
   { slug: 'midnight-sun-ctf-2026', name: 'Midnight Sun CTF & Conference', year: 2026, location: 'Stockholm, Sweden' },
   { slug: 'lakectf-2026', name: 'LakeCTF', year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'balelec-2026', name: 'Balelec', year: 2026, location: 'Lausanne, Switzerland' },
-  { slug: 'polymanga-2026', name: 'PolyManga', year: 2026, location: 'Montreux, Switzerland' },
+  { slug: 'polymanga-2026', name: 'PolyManga', year: 2026, location: 'Lausanne, Switzerland' },
+  { slug: 'hackaday-europe-2026', name: 'Hackaday Europe', year: 2026, location: 'Lecco, Italy' },
   { slug: 'insomnihack-2026', name: "Insomni'hack", year: 2026, location: 'Lausanne, Switzerland' },
   { slug: 'ph0wn-2026', name: 'ph0wn', year: 2026, location: 'Nice, France' },
   { slug: 'embedded-world-2026', name: 'Embedded World', year: 2026, location: 'Nuremberg, Germany' },
@@ -25,6 +26,7 @@ export const EVENT_CATALOG: EventMeta[] = [
   { slug: 'kicon-asia-2025', name: 'KiCon Asia', year: 2025, location: 'Shenzhen, China' },
   { slug: 'shanghai-maker-faire-2025', name: 'Shanghai Maker Faire', year: 2025, location: 'Shanghai, China' },
   { slug: 'defcon33-2025', name: 'DEF CON 33', year: 2025, location: 'Las Vegas, United States' },
+  { slug: 'robosub-2025', name: 'RoboSub', year: 2025, location: 'Irvine, United States' },
   { slug: 'black-hat-usa-2025', name: 'Black Hat USA', year: 2025, location: 'Las Vegas, United States' },
   { slug: 'isitdtu-ctf-finals-2023', name: 'ISITDTU CTF Finals', year: 2023, location: 'Da Nang, Vietnam' },
 ];

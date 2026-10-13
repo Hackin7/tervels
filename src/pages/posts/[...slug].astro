@@ -5,12 +5,33 @@ import { navigablePosts, postUrlSlug } from '../../lib/aggregates';
 
 export async function getStaticPaths() {
   const posts = navigablePosts(await getCollection('posts'));
-  return posts.map(post => ({ params: { slug: postUrlSlug(post) }, props: { post } }));
+  const base = import.meta.env.BASE_URL;
+  return [
+    ...posts.map(post => ({ params: { slug: postUrlSlug(post) }, props: { post } })),
+    {
+      params: { slug: 'france/villepinte/2026-07-japan-expo-paris-haul' },
+      props: { redirectTo: `${base}/haul/japan-expo-paris-2026` },
+    },
+  ];
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
+const post = Astro.props.post;
+const redirectTo = Astro.props.redirectTo;
+const Content = post ? (await render(post)).Content : null;
 ---
-<PostLayout post={post}>
-  <Content />
-</PostLayout>
+{redirectTo ? (
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
+      <link rel="canonical" href={redirectTo} />
+      <title>Japan Expo Paris haul moved · tervels</title>
+    </head>
+    <body><p>This haul has moved to <a href={redirectTo}>Japan Expo Paris · 2026</a>.</p></body>
+  </html>
+) : (
+  <PostLayout post={post!}>
+    <Content />
+  </PostLayout>
+)}
