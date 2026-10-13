@@ -6,7 +6,13 @@ locations:
     country: United States
     city: Mount Rainier area
     city_slug: mount-rainier-area
-    gps: null
+    gps:
+      - 46.854338
+      - -121.7063343
+    gps_query: "Mount Rainier National Park, Washington, United States"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: Tipsoo Lake
     country: United States

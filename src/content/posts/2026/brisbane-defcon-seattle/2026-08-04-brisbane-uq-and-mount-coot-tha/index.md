@@ -6,19 +6,37 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4689623
+      - 153.0235009
+    gps_query: "Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Mount Coot-tha
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4850319
+      - 152.9589108
+    gps_query: "Mount Coot-tha (One Tree Hill), Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: University of Queensland
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4981423
+      - 153.0111536
+    gps_query: "University of Queensland, St Lucia, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: UQ lake and sandstone buildings
     country: Australia

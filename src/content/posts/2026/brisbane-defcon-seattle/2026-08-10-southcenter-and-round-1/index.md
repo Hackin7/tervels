@@ -12,16 +12,28 @@ locations:
     country: United States
     city: Seattle area
     city_slug: seattle-area
-    gps: null
+    gps:
+      - 47.4589462
+      - -122.2584088
+    gps_query: "Westfield Southcenter, Tukwila, Washington, United States"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
     review_note: Southcenter Mall (city verify)
   - name: Round 1 arcade
     country: United States
     city: Seattle area
     city_slug: seattle-area
-    gps: null
+    gps:
+      - 47.4589462
+      - -122.2584088
+    gps_query: "Round1 at Westfield Southcenter, Tukwila, Washington, United States"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
-    review_note: Round 1 arcade (branch verify)
+    review_note: Pin marks Westfield Southcenter; exact arcade location inside mall is unverified.
   - name: Seattle / Tukwila area
     country: United States
     city: Seattle area
@@ -33,13 +45,25 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1674263
+      - -115.1484131
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: high
+    gps_query: "Las Vegas, Nevada, United States"
     context: visited
   - name: Las Vegas departure airport
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.0861034
+      - -115.1611002
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: "Harry Reid International Airport, Las Vegas, United States"
     context: visited
   - name: Airport sandwich shop
     country: United States

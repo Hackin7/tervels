@@ -6,43 +6,85 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4689623
+      - 153.0235009
+    gps_query: "Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Brisbane City Hall
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4689738
+      - 153.0234885
+    gps_query: "Brisbane City Hall, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Museum of Brisbane
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4687147
+      - 153.0234187
+    gps_query: "Museum of Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Queensland Museum
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4727764
+      - 153.0179843
+    gps_query: "Queensland Museum, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Queensland Art Gallery
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.472575
+      - 153.0185608
+    gps_query: "Queensland Art Gallery, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Queensland Gallery of Modern Art
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4705444
+      - 153.01711
+    gps_query: "Gallery of Modern Art, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Skydeck
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.471826
+      - 153.0287257
+    gps_query: "Brisbane Skytower, 222 Margaret Street, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Cream-donut shop
     country: Australia

@@ -6,20 +6,39 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1674263
+      - -115.1484131
+    gps_query: "Las Vegas, Nevada, United States"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Las Vegas arrival airport
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.0861034
+      - -115.1611002
+    gps_query: "Harry Reid International Airport, Las Vegas, United States"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: SPL BBQ venue
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Vancouver
     country: Canada
     city: Vancouver
@@ -31,33 +50,60 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Merch queue
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Inhumans
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: mentioned
-    review_note: Inhumans (confirm meaning/venue)
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Costco
     country: United States
     city: Las Vegas
     city_slug: las-vegas
     gps: null
     context: visited
-  - name: Hotel
+  - name: Best Western Royal Casino
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1203339
+      - -115.1717851
+    gps_query: "Best Western Plus Casino Royale, Las Vegas, Nevada, USA (user identified as Best Western Royal Casino)"
+    gps_confidence: medium
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
+    review_note: Likely the Best Western Plus Casino Royale at 3411 Las Vegas Boulevard; user named it Best Western Royal Casino and the venue name differs slightly.
   - name: Nearby Roman-style malls
     country: United States
     city: Las Vegas
@@ -68,44 +114,91 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1222043
+      - -115.1702949
+    gps_query: "Grand Canal Shoppes, Las Vegas, United States"
+    gps_confidence: medium
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: DEF CON venue
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: SAO setup area
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Payment Village
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Badgelife talk venue
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
-  - name: SG dinner restaurant
+    review_note: User confirmed this DEF CON area location is at LVCC.
+  - name: Battista's Hole in the Wall
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1154507
+      - -115.1683653
+    gps_query: "Battista's Hole in the Wall, 4041 LINQ Lane, Las Vegas, Nevada, USA"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: Merch area
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Denny's
     country: United States
     city: Las Vegas
@@ -116,14 +209,28 @@ locations:
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Gothcon venue
     country: United States
     city: Las Vegas
     city_slug: las-vegas
-    gps: null
+    gps:
+      - 36.1310204
+      - -115.1501804
+    gps_query: "Las Vegas Convention Center (user confirmed DEF CON area location)"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
+    review_note: User confirmed this DEF CON area location is at LVCC.
   - name: Polygl0ts farewell location
     country: United States
     city: Las Vegas

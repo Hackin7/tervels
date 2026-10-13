@@ -6,19 +6,37 @@ locations:
     country: United States
     city: Mount Rainier
     city_slug: mount-rainier
-    gps: null
+    gps:
+      - 46.8522029
+      - -121.7575158
+    gps_query: "Mount Rainier, Pierce County, Washington, United States"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: Mount Rainier
     country: United States
     city: Mount Rainier area
     city_slug: mount-rainier-area
-    gps: null
+    gps:
+      - 46.854338
+      - -121.7063343
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: "Mount Rainier National Park, Washington, United States"
     context: visited
   - name: Skyline Trail
     country: United States
     city: Mount Rainier area
     city_slug: mount-rainier-area
-    gps: null
+    gps:
+      - 46.7902743
+      - -121.7374099
+    gps_query: "Skyline Trail, Paradise, Mount Rainier National Park, Washington, USA"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: American diners
     country: United States

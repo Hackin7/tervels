@@ -6,20 +6,38 @@ locations:
     country: Vietnam
     city: Ho Chi Minh City
     city_slug: ho-chi-minh-city
-    gps: null
+    gps:
+      - 10.7737261
+      - 106.7166008
+    gps_query: "Ho Chi Minh City, Vietnam"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Arrival airport
     country: Vietnam
     city: Ho Chi Minh City
     city_slug: ho-chi-minh-city
-    gps: null
+    gps:
+      - 10.8179793
+      - 106.6562645
+    gps_query: "Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
     review_note: Arrival airport (unidentified)
   - name: Bui Vien
     country: Vietnam
     city: Ho Chi Minh City
     city_slug: ho-chi-minh-city
-    gps: null
+    gps:
+      - 10.7668329
+      - 106.6926683
+    gps_query: "Bui Vien Street, Ho Chi Minh City, Vietnam"
+    gps_confidence: medium
+    gps_granularity: street
+    gps_source: openstreetmap
     context: visited
   - name: Banh Mi shop
     country: Vietnam

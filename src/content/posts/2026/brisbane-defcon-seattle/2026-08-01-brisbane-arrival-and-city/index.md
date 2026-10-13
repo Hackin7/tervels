@@ -6,14 +6,27 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4689623
+      - 153.0235009
+    gps_query: "Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Kelvin Grove Market
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4518961
+      - 153.0156099
+    gps_query: "Kelvin Grove Markets, Queensland Markets (Kelvin Grove Urban Village, Brisbane, Australia)"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
+    review_note: Kelvin Grove Markets confirmed by the user; pin represents the nearby Kelvin Grove Urban Village area.
   - name: Seoul Steals
     country: South Korea
     city: Seoul
@@ -27,11 +40,18 @@ locations:
     city_slug: brisbane
     gps: null
     context: visited
+    review_note: QUT Kelvin Grove library identified; venue-specific coordinates not confirmed from geocoder results.
   - name: Botanic gardens
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4760254
+      - 153.0301742
+    gps_query: "Brisbane City Botanic Gardens, Brisbane, Australia"
+    gps_confidence: medium
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
     review_note: Botanic gardens (which garden unknown)
   - name: Brisbane River
@@ -44,7 +64,14 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.480673
+      - 153.0269819
+    gps_query: "Goodwill Bridge, Brisbane, Australia"
+    gps_confidence: medium
+    gps_granularity: building
+    gps_source: openstreetmap
+    review_note: Likely Goodwill Bridge based on route from the city gardens to South Bank; confirm.
     context: visited
   - name: Friendship stones
     country: Australia
@@ -56,19 +83,37 @@ locations:
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4752616
+      - 153.0213587
+    gps_query: "Nepalese Peace Pagoda, South Bank, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: South Bank
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.4775593
+      - 153.0223999
+    gps_query: "South Bank Parklands, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: area
+    gps_source: openstreetmap
     context: visited
   - name: Skydeck
     country: Australia
     city: Brisbane
     city_slug: brisbane
-    gps: null
+    gps:
+      - -27.471826
+      - 153.0287257
+    gps_query: "Brisbane Skytower, 222 Margaret Street, Brisbane, Australia"
+    gps_confidence: high
+    gps_granularity: building
+    gps_source: openstreetmap
     context: visited
   - name: Mall
     country: Australia

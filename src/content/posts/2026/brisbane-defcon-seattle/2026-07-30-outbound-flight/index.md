@@ -6,13 +6,25 @@ locations:
     country: Singapore
     city: Singapore
     city_slug: singapore
-    gps: null
+    gps:
+      - 1.2899175
+      - 103.8519072
+    gps_query: "Singapore"
+    gps_confidence: high
+    gps_granularity: city
+    gps_source: openstreetmap
     context: visited
   - name: Changi Airport
     country: Singapore
     city: Singapore
     city_slug: singapore
-    gps: null
+    gps:
+      - 1.3510921
+      - 103.9949824
+    gps_query: "Singapore Changi Airport, Singapore"
+    gps_confidence: high
+    gps_granularity: venue
+    gps_source: openstreetmap
     context: visited
   - name: Flight to Ho Chi Minh City
     country: Singapore
