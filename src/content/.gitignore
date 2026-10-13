@@ -27,6 +27,10 @@ posts/2026/*
 !posts/2026/exchange-main-lausanne/
 !posts/2026/exchange-main-lausanne/**
 
+# Local Singapore trip articles and their media.
+!posts/2026/local/
+!posts/2026/local/**
+
 # Brisbane / DEF CON / Seattle trip: allow the trip's posts, provenance, and media into Git.
 !posts/2026/brisbane-defcon-seattle/
 !posts/2026/brisbane-defcon-seattle/**
