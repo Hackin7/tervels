@@ -1,6 +1,6 @@
 ---
-title: "Museum Correr"
-timestamp: 2026-05-12T00:00:00Z
+title: "Italy D1: Museum Correr"
+timestamp: 2026-05-11T00:00:00Z
 locations:
   - name: "Museum Correr"
     country: "Italy"

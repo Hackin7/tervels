@@ -1,5 +1,6 @@
 ---
 title: "Around Milan station to kill time/ work on my tiny tapeout"
+draft: true
 timestamp: 2026-05-17T00:00:00Z
 locations:
   - name: "Milano Centrale Railway Station"

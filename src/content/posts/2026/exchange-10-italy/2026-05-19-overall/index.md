@@ -1,5 +1,5 @@
 ---
-title: "Hackaday Europe + Overall"
+title: "Italy D6–D7: Hackaday Europe + Overall"
 youtube:
   items:
     - kind: "video"
@@ -21,7 +21,7 @@ youtube:
     - kind: "video"
       id: "VEdjxzfeZZQ"
   cover: "V56ux6CoMlo"
-timestamp: 2026-05-19T00:00:00Z
+timestamp: 2026-05-17T00:00:00Z
 locations:
   - name: "Hackaday Europe 2026"
     country: "Italy"
@@ -41,7 +41,8 @@ source:
   kind: telegram
   message_id: 8243
   imported_at: 2026-06-08T10:09:18.114Z
-  date_basis: telegram
+  telegram_timestamp: 2026-05-19T00:00:00Z
+  date_basis: calendar
 ---
 
 # Hackaday Europe

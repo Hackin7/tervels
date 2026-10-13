@@ -2,6 +2,11 @@
   "channel": "https://www.youtube.com/@tervel5",
   "videos": [
     {
+      "id": "x32zqD5GQ74",
+      "title": "[Milan]",
+      "playlist_ids": ["PLyE8_TlXxAXBnZYa4Dt5gElBFeKVtqlyp"]
+    },
+    {
       "id": "mI2rXbnuikw",
       "title": "NUS Career Fest 2026",
       "playlist_ids": []
@@ -1170,35 +1175,40 @@
     },
     {
       "id": "wRJvFm3w-2c",
-      "title": "[Seattle🇺🇸] D1: Southcenter Mall + Round 1",
+      "title": "[Seattle] D0: Southcenter Mall + Round 1",
       "playlist_ids": [
         "PLIiuC1QB2GpI"
       ]
     },
     {
       "id": "j2pQu8MCEIg",
-      "title": "[Seattle🇺🇸] D2: Mt Rainier",
+      "title": "[Seattle] D2: Mt Rainier",
       "playlist_ids": [
         "PLIiuC1QB2GpI"
       ]
     },
     {
       "id": "qvcLyiXk1JQ",
-      "title": "[Seattle🇺🇸] D3: Dennys, Wallace Falls, Raising Canes",
+      "title": "[Seattle] D2: Tipsoo Lake, Meteor Shower",
       "playlist_ids": [
         "PLIiuC1QB2GpI"
       ]
     },
     {
       "id": "bmj_W_XEfhA",
-      "title": "[Seattle🇺🇸] D4: Kerry Park, Space Needle, Pike Place Market, Apple Shop",
+      "title": "[Seattle] D3: Dennys, Wallace Falls, Drive to City",
       "playlist_ids": [
         "PLIiuC1QB2GpI"
       ]
     },
     {
+      "id": "q6TR6aGQmL0",
+      "title": "[Seattle ] D4: Kerry Park, Space Needle, Amazon, etc.",
+      "playlist_ids": []
+    },
+    {
       "id": "KfytG8uLGII",
-      "title": "[Seattle🇺🇸] Airport",
+      "title": "[Seattle] Airport",
       "playlist_ids": [
         "PLIiuC1QB2GpI"
       ]

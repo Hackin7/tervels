@@ -1,5 +1,5 @@
 ---
-title: "Uffizi Gallery"
+title: "Italy D2: Uffizi Gallery"
 youtube:
   items:
     - kind: video

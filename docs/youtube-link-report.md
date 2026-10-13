@@ -2,10 +2,11 @@
 
 Channel: https://www.youtube.com/@tervel5
 
-Videos: 242 · Posts: 200
+Videos: 244 · Posts: 198
 
-## Linked (175)
+## Linked (177)
 
+- [[Milan]](https://www.youtube.com/watch?v=x32zqD5GQ74) — 2026/exchange-10-italy/2026-05-15-duomo-museum-surprisingly-good
 - [The OB1 2026 Experience ](https://www.youtube.com/watch?v=GDmrExby5QY) — 2026/singapore-local-return-period/2026-09-15-off-by-one-2026
 - [[Basel🇨🇭] Fire Festival - Exchange #1](https://www.youtube.com/watch?v=EPJvD81Uisk) — 2026/exchange-01-basel/2026-02-22-basel
 - [[Lausanne🇨🇭] Palais de Rumine](https://www.youtube.com/watch?v=P7lar6pei_s) — 2026/_unsorted/2026-09-07-exchange-wrap-up-slides
@@ -120,7 +121,7 @@ Videos: 242 · Posts: 200
 - [[Geneva🇨🇭] Mason Tavel Museum - Geneva history - Exchange #2.1](https://www.youtube.com/watch?v=iP0GpBz1swk) — 2026/exchange-02-geneva-avoriaz-ski/2026-02-28-maison-tavel
 - [[Shanghai 🇨🇳] Yu Garden Round 2](https://www.youtube.com/watch?v=2qVBJa4P9DE) — 2026/intel-embedded-cup-shanghai/2026-07-24-shanghai-final-city-day
 - [[Shanghai 🇨🇳] Joy Universe 3.0](https://www.youtube.com/watch?v=gqAcIdTiADc) — 2026/intel-embedded-cup-shanghai/2026-07-24-shanghai-final-city-day
-- [[Shanghai 🇨🇳] Intel Embedded Cup 2026](https://www.youtube.com/watch?v=WGbyjv5F8l4) — 2026/intel-embedded-cup-shanghai/2026-07-21-shanghai-appraisal-day-1
+- [[Shanghai 🇨🇳] Intel Embedded Cup 2026](https://www.youtube.com/watch?v=WGbyjv5F8l4) — 2026/intel-embedded-cup-shanghai/2026-07-20-shanghai-arrival; 2026/intel-embedded-cup-shanghai/2026-07-21-shanghai-appraisal-day-1
 - [[Ho Chi Minh 🇻🇳] Layover +Bui Vien](https://www.youtube.com/watch?v=vwa5og0bJv0) — 2026/brisbane-defcon-seattle/2026-07-30-ho-chi-minh-arrival-and-evening
 - [[Ho Chi Minh🇻🇳] Bike Ride](https://www.youtube.com/watch?v=SxzX3uwbKVA) — 2026/brisbane-defcon-seattle/2026-07-30-ho-chi-minh-arrival-and-evening
 - [[Brisbane🇦🇺] D1: Kelvin Grove + South Bank](https://www.youtube.com/watch?v=CbQqaOK8QeY) — 2026/brisbane-defcon-seattle/2026-08-01-brisbane-arrival-and-city
@@ -135,13 +136,14 @@ Videos: 242 · Posts: 200
 - [[Brisbane🇦🇺] D4: Mt Coot-tha + Gum Trail](https://www.youtube.com/watch?v=QdGnltGomXA) — 2026/brisbane-defcon-seattle/2026-08-04-brisbane-uq-and-mount-coot-tha
 - [Flight to Vancouver ](https://www.youtube.com/watch?v=6s914gRu6lY) — 2026/brisbane-defcon-seattle/2026-08-05-vancouver-layover
 - [[Vancouver🇨🇦] Layover: Stanely Park + Canada Place](https://www.youtube.com/watch?v=XJrxUMUjNO8) — 2026/brisbane-defcon-seattle/2026-08-05-vancouver-layover
-- [Flight to Vegas](https://www.youtube.com/watch?v=tIU9paY2hww) — 2026/brisbane-defcon-seattle/2026-08-05-las-vegas-arrival
-- [[Vegas🇺🇸] DEFCON 34](https://www.youtube.com/watch?v=Y2wTnUS-g_8) — 2026/brisbane-defcon-seattle/2026-08-10-defcon-34-reflections
-- [[Seattle🇺🇸] D1: Southcenter Mall + Round 1](https://www.youtube.com/watch?v=wRJvFm3w-2c) — 2026/brisbane-defcon-seattle/2026-08-10-southcenter-and-round-1
-- [[Seattle🇺🇸] D2: Mt Rainier](https://www.youtube.com/watch?v=j2pQu8MCEIg) — 2026/brisbane-defcon-seattle/2026-08-11-mount-rainier-skyline-trail
-- [[Seattle🇺🇸] D3: Dennys, Wallace Falls, Raising Canes](https://www.youtube.com/watch?v=qvcLyiXk1JQ) — 2026/brisbane-defcon-seattle/2026-08-13-road-trip-and-raising-canes
-- [[Seattle🇺🇸] D4: Kerry Park, Space Needle, Pike Place Market, Apple Shop](https://www.youtube.com/watch?v=bmj_W_XEfhA) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
-- [[Seattle🇺🇸] Airport](https://www.youtube.com/watch?v=KfytG8uLGII) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
+- [Flight to Vegas](https://www.youtube.com/watch?v=tIU9paY2hww) — 2026/brisbane-defcon-seattle/2026-08-05-las-vegas-arrival; 2026/brisbane-defcon-seattle/2026-08-06-linecon-costco-and-dinner
+- [[Vegas🇺🇸] DEFCON 34](https://www.youtube.com/watch?v=Y2wTnUS-g_8) — 2026/brisbane-defcon-seattle/2026-08-06-linecon-costco-and-dinner; 2026/brisbane-defcon-seattle/2026-08-10-defcon-34-reflections
+- [[Seattle] D0: Southcenter Mall + Round 1](https://www.youtube.com/watch?v=wRJvFm3w-2c) — 2026/brisbane-defcon-seattle/2026-08-10-southcenter-and-round-1
+- [[Seattle] D2: Mt Rainier](https://www.youtube.com/watch?v=j2pQu8MCEIg) — 2026/brisbane-defcon-seattle/2026-08-11-mount-rainier-skyline-trail
+- [[Seattle] D2: Tipsoo Lake, Meteor Shower](https://www.youtube.com/watch?v=qvcLyiXk1JQ) — 2026/brisbane-defcon-seattle/2026-08-12-tipsoo-lake-and-meteor-shower
+- [[Seattle] D3: Dennys, Wallace Falls, Drive to City](https://www.youtube.com/watch?v=bmj_W_XEfhA) — 2026/brisbane-defcon-seattle/2026-08-13-road-trip-and-raising-canes
+- [[Seattle ] D4: Kerry Park, Space Needle, Amazon, etc.](https://www.youtube.com/watch?v=q6TR6aGQmL0) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
+- [[Seattle] Airport](https://www.youtube.com/watch?v=KfytG8uLGII) — 2026/brisbane-defcon-seattle/2026-08-14-seattle-city-and-airport
 - [[Seoul🇰🇷] Layover: Myeongdong, Deoksugung Palace, AK Plaza + Hongdae](https://www.youtube.com/watch?v=ukVq_gjw2gk) — 2026/brisbane-defcon-seattle/2026-08-15-seoul-layover
 - [Bang dream our notes gameplay](https://www.youtube.com/watch?v=DGf7nxWDziw) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
 - [[Japan Expo Paris 2026🇫🇷] Attack on Titan but French Cosplayers](https://www.youtube.com/watch?v=E5Yj_s8rmCc) — 2026/exchange-15-japan-expo-paris/2026-07-11-japan-expo-paris
@@ -189,7 +191,7 @@ _None._
 ## Review (2)
 
 - [[🇵🇱] Ski 1](https://www.youtube.com/watch?v=g8mcqlNunwY) — 2026/exchange-02-geneva-avoriaz-ski/2026-03-01-ski-trip (6); 2023/2023_12_08_isitdtu_finals/stow-writeup (4); 2025/defcon33-us/2025-08-05-flight (4)
-- [Embedded World - TI Software Defined Vehicle](https://www.youtube.com/watch?v=AbnHgbjpbKw) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world (4)
+- [Embedded World - TI Software Defined Vehicle](https://www.youtube.com/watch?v=AbnHgbjpbKw) — 2026/exchange-03-nuremburg-munich-salzburg/2026-03-10-embedded-world (4); 2026/intel-embedded-cup-shanghai/2026-07-20-shanghai-arrival (2)
 
 ## Unassigned (57)
 
