@@ -16,6 +16,12 @@ experiences:
     slug: "japan-expo-paris-2026"
   - kind: food
     name: "KFC France"
+  - kind: food
+    name: "Japan Expo bubble-waffle ice cream"
+  - kind: food
+    name: "Japan Expo onigiri"
+  - kind: food
+    name: "Nissin cup-noodle samples"
 youtube:
   items:
     - kind: "video"

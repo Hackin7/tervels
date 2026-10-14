@@ -102,7 +102,11 @@ locations:
     gps_granularity: venue
     gps_source: manual
     context: visited
-experiences: []
+experiences:
+  - kind: food
+    name: "Cheeky Waffles, Gold Coast"
+  - kind: food
+    name: "KFC Gold Coast"
 tags:
   - telegram-import
 draft: false

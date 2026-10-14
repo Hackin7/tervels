@@ -41,6 +41,8 @@ locations:
 experiences:
   - kind: museum
     name: "Musée du Louvre"
+  - kind: food
+    name: "Paris pastries and quiche (bakery unidentified)"
 youtube:
   items:
     - kind: "video"

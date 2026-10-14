@@ -33,7 +33,9 @@ youtube:
       id: 79cqU0kIAl8
     - kind: video
       id: P7lar6pei_s
-experiences: []
+experiences:
+  - kind: museum
+    name: "Palais de Rumine"
 tags:
   - exchange
   - exchange-week-16

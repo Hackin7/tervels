@@ -11,6 +11,10 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Inuyama Castle, Inuyama, Japan"
+experiences:
+  - kind: food
+    name: "Inuyama omu yakisoba (venue unidentified)"
+
 tags: ["intern-01-nagoya", "japan", "inuyama"]
 draft: false
 source:

@@ -79,7 +79,9 @@ youtube:
       id: 2svhXeSsg3A
     - kind: video
       id: XyuqCwGVqPc
-experiences: []
+experiences:
+  - kind: museum
+    name: "MUDAC"
 tags:
   - exchange
   - exchange-week-17

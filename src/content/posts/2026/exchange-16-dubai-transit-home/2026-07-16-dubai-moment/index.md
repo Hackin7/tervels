@@ -41,6 +41,10 @@ locations:
 experiences:
   - kind: food
     name: "Burger King Dubai Airport"
+  - kind: food
+    name: "Dubai Lebanese meal (venue unidentified)"
+  - kind: food
+    name: "Dubai chocolate (shop unidentified)"
 youtube:
   items:
     - kind: "video"

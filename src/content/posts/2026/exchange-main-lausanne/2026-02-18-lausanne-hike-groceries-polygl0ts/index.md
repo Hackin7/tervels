@@ -101,7 +101,11 @@ locations:
     gps: null
     context: visited
     review_note: User located shops/offices around Flon, but the residence-permit passage also references Echandens; exact office unresolved.
-experiences: []
+experiences:
+  - kind: food
+    name: "Holy Cow! EPFL"
+  - kind: food
+    name: "Burger King Lausanne-Flon"
 tags:
   - exchange
   - exchange-week-1

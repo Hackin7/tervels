@@ -51,6 +51,10 @@ experiences:
     name: "Museu Picasso"
   - kind: museum
     name: "Sagrada Família Museum"
+  - kind: food
+    name: "Colom Restaurant, Barcelona"
+  - kind: food
+    name: "Catalana tapas, Barcelona (full venue name unconfirmed)"
 tags: ["exchange-07-barcelona","spain","barcelona"]
 draft: false
 ---

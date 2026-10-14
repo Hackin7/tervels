@@ -45,6 +45,8 @@ experiences:
     name: "Borough Market"
   - kind: food
     name: "Chief Coffee"
+  - kind: food
+    name: "Borough Market oysters (stall unidentified)"
 youtube:
   items:
     - kind: video

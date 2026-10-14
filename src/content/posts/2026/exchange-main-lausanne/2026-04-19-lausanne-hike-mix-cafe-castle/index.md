@@ -84,7 +84,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: trail
+    name: "Tine de Conflens waterfall hike"
 tags:
   - exchange
   - exchange-week-8

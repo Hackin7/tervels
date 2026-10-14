@@ -15,7 +15,9 @@ locations:
     gps_confidence: high
     gps_query: Palais de Beaulieu, Avenue des Bergières 10, Lausanne, Switzerland
     review_note: 2026 Polymanga venue verified from the organizer; not the Montreux venue used for other editions.
-experiences: []
+experiences:
+  - kind: event
+    slug: "polymanga-2026"
 tags:
   - exchange
   - exchange-week-7

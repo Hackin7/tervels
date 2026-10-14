@@ -134,6 +134,10 @@ experiences:
     name: Queensland Art Gallery
   - kind: museum
     name: Queensland Gallery of Modern Art
+  - kind: food
+    name: "Brisbane cream doughnut"
+  - kind: food
+    name: "Brisbane ramen (venues unidentified)"
 tags:
   - telegram-import
 draft: false

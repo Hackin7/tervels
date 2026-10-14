@@ -18,6 +18,10 @@ experiences:
     name: "Mercedes Cafe"
   - kind: food
     name: "Munich kebab"
+  - kind: food
+    name: "Munich currywurst (venue unidentified)"
+  - kind: food
+    name: "Munich raspberry banana bread and hot chocolate (cafe unidentified)"
 youtube:
   items:
     - kind: video

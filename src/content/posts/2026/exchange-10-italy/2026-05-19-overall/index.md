@@ -37,6 +37,8 @@ experiences:
     name: "Uffizi Gallery"
   - kind: museum
     name: "Museo del Duomo"
+  - kind: event
+    slug: "hackaday-europe-2026"
 source:
   kind: telegram
   message_id: 8243

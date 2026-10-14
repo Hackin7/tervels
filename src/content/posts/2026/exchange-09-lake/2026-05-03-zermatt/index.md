@@ -18,6 +18,11 @@ locations:
 experiences:
   - kind: trail
     name: "Zermatt city hike"
+  - kind: food
+    name: "Zermatt salmon pasta"
+  - kind: food
+    name: "Zermatt chicken burger (venues unidentified)"
+
 ---
 
 # City

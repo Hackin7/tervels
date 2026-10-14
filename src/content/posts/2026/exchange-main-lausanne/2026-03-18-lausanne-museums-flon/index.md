@@ -97,7 +97,13 @@ locations:
     gps: null
     context: visited
     review_note: User described the shopping mall near Decathlon; likely Au Centre but not confirmed. Battery-explosion demonstration was not seen and is not tagged as visited.
-experiences: []
+experiences:
+  - kind: museum
+    name: "Musée Bolo"
+  - kind: museum
+    name: "Palais de Rumine"
+  - kind: food
+    name: "Burger King Lausanne-Flon"
 tags:
   - exchange
   - exchange-week-5

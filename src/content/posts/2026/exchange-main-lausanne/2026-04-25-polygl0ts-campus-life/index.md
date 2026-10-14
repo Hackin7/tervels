@@ -35,7 +35,11 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: trail
+    name: "Parc naturel du Jorat"
+  - kind: food
+    name: "KFC Lausanne area"
 tags:
   - exchange
   - exchange-week-9

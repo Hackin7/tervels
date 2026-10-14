@@ -45,6 +45,10 @@ experiences:
     name: "Jægersborg Dyrehave cafe"
   - kind: market
     name: "Copenhagen market"
+  - kind: food
+    name: "Copenhagen potato pizza (cafe unidentified)"
+  - kind: food
+    name: "Home-cooked mala in Denmark"
 tags: ["exchange-12-dokomi-scandinavia","denmark","copenhagen","klampenborg"]
 draft: false
 ---

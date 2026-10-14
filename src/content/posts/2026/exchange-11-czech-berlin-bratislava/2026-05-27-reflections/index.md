@@ -42,6 +42,12 @@ experiences:
     name: "Berlin pasar malam market"
   - kind: food
     name: "Burger King Berlin"
+  - kind: event
+    slug: "open-hardware-summit-2026"
+  - kind: food
+    name: "TU Berlin cafeteria chicken korma"
+  - kind: food
+    name: "chimney cake with banana and ice cream (venue/city to confirm)"
 source:
   kind: telegram
   message_id: 8656

@@ -10,7 +10,7 @@ locations:
     gps_source: old-frontmatter
 experiences:
   - kind: event
-    slug: "maker-faire-shenzhen-2025"
+    slug: "china-hi-tech-fair-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

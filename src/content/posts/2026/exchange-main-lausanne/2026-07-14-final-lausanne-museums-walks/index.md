@@ -63,6 +63,8 @@ youtube:
 experiences:
   - kind: museum
     name: Lausanne History Museum
+  - kind: museum
+    name: "Roman Museum of Lausanne-Vidy"
 tags:
   - exchange
   - exchange-week-21

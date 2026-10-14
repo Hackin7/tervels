@@ -16,6 +16,8 @@ experiences:
     name: "Smallest museum (name not recorded)"
   - kind: museum
     name: "Kunstmuseum Basel"
+  - kind: food
+    name: "McDonald's Basel"
 tags: ["exchange-01-basel", "switzerland", "basel"]
 draft: false
 source:

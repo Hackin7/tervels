@@ -29,6 +29,8 @@ youtube:
 experiences:
   - kind: event
     slug: "midnight-sun-ctf-2026"
+  - kind: food
+    name: "MAX Burgers, Stockholm (branch unidentified)"
 tags: ["exchange-12-dokomi-scandinavia","sweden","stockholm","midnight-sun-ctf-2026"]
 draft: false
 ---

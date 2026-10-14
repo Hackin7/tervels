@@ -9,7 +9,9 @@ locations:
     gps: null
     context: visited
     review_note: City and branch not established by the body. Body says 2 May despite the filename saying 4 May; date metadata has not been changed.
-experiences: []
+experiences:
+  - kind: food
+    name: "Chinese lamb noodles (venue/city unidentified)"
 tags:
   - exchange
   - exchange-week-11

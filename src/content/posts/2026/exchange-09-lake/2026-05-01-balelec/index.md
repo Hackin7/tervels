@@ -11,6 +11,10 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "EPFL, Ecublens, Switzerland"
+experiences:
+  - kind: event
+    slug: "balelec-2026"
+
 youtube:
   items:
     - kind: "playlist"

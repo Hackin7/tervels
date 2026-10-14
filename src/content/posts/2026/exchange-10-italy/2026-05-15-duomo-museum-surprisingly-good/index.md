@@ -27,6 +27,10 @@ locations:
 experiences:
   - kind: museum
     name: "Museo del Duomo"
+  - kind: food
+    name: "Milan milk risotto (venue unidentified)"
+  - kind: food
+    name: "McDonald's Milan breakfast"
 source:
   kind: telegram
   message_id: 8079

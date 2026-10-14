@@ -1,5 +1,9 @@
 ---
 title: "Overall Insomnihack 2026"
+experiences:
+  - kind: event
+    slug: "insomnihack-2026"
+
 youtube:
   items:
     - kind: video

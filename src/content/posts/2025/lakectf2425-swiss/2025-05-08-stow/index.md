@@ -11,6 +11,14 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "EPFL campus, Lausanne, Switzerland"
+experiences:
+  - kind: trail
+    name: "Grindelwald mountain path"
+  - kind: event
+    slug: "lakectf-2025"
+  - kind: event
+    slug: "balelec-2025"
+
 tags: ["lakectf2425-swiss", "switzerland", "lausanne"]
 youtube:
   items:

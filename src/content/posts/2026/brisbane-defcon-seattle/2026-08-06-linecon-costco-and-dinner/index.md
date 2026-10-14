@@ -253,6 +253,14 @@ locations:
 experiences:
   - kind: event
     slug: defcon34-2026
+  - kind: food
+    name: "Costco chicken bake, Las Vegas (branch unidentified)"
+  - kind: food
+    name: "Flight Club, Las Vegas"
+  - kind: food
+    name: "Battista's Hole in the Wall, Las Vegas"
+  - kind: food
+    name: "Denny's, Las Vegas (branch unidentified)"
 tags:
   - telegram-import
 draft: false

@@ -72,7 +72,11 @@ locations:
     gps: null
     context: visited
     review_note: Branch not identifiable from the caption.
-experiences: []
+experiences:
+  - kind: food
+    name: "Staro Izba, Białka Tatrzańska"
+  - kind: food
+    name: "McDonald's Kraków"
 tags:
   - telegram-import
 draft: false

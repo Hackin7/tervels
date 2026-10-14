@@ -55,7 +55,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: food
+    name: "McDonald's Basel"
 tags:
   - exchange
   - exchange-week-1

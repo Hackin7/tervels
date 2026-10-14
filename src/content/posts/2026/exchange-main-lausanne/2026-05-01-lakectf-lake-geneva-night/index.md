@@ -22,7 +22,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact lakeshore location is not identified.
-experiences: []
+experiences:
+  - kind: event
+    slug: "lakectf-2026"
 tags:
   - exchange
   - exchange-week-10

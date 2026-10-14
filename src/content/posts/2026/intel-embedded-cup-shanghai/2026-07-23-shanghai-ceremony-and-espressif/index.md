@@ -91,6 +91,8 @@ locations:
 experiences:
   - kind: "event"
     slug: "intel-embedded-cup-2026"
+  - kind: food
+    name: "Shanghai beef noodles near Espressif (venue unidentified)"
 tags:
   - "telegram-import"
 draft: false

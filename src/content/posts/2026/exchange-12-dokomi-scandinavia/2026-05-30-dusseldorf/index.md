@@ -39,6 +39,10 @@ experiences:
     name: "Düsseldorf Little Tokyo ramen"
   - kind: market
     name: "Little Tokyo Asian supermarkets"
+  - kind: event
+    slug: "dokomi-2026"
+  - kind: food
+    name: "Little Tokyo matcha/hojicha ice cream and ham-cheese taiyaki (stall unidentified)"
 tags: ["exchange-12-dokomi-scandinavia","germany","dusseldorf"]
 draft: false
 ---

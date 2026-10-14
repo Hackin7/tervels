@@ -32,6 +32,8 @@ experiences:
     name: "Vasa Museum"
   - kind: event
     slug: "midnight-sun-ctf-2026"
+  - kind: food
+    name: "Stockholm prawn toast (venue unidentified)"
 tags: ["exchange-12-dokomi-scandinavia","sweden","stockholm","midnight-sun-ctf-2026"]
 draft: false
 ---

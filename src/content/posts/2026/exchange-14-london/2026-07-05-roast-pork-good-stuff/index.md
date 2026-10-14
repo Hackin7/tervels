@@ -50,6 +50,11 @@ locations:
 experiences:
   - kind: museum
     name: "National Gallery"
+  - kind: food
+    name: "Tesco meal deal, London"
+  - kind: food
+    name: "London roast pork and mutton (venue unidentified)"
+
 ---
 
 # Breakfast

@@ -41,8 +41,8 @@ locations:
     gps_confidence: high
     gps_query: "Glattzentrum, Wallisellen, Switzerland"
 experiences:
-  - kind: museum
-    name: "Swiss National Museum"
+  - kind: market
+    name: "Zurich street food fair (name unidentified)"
 source:
   kind: telegram
   message_id: 7373

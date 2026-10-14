@@ -1,5 +1,9 @@
 ---
 title: "Luzern Rd 2"
+experiences:
+  - kind: food
+    name: "Lucerne chocolate fondue (venue unidentified)"
+
 youtube:
   items:
     - kind: video

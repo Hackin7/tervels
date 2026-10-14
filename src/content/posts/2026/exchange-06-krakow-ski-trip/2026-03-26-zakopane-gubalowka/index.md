@@ -102,7 +102,13 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue/street not established from the caption.
-experiences: []
+experiences:
+  - kind: museum
+    name: "Zakopane museum (name not recorded)"
+  - kind: food
+    name: "Willa Nad Białką breakfast"
+  - kind: food
+    name: "Zakopane food street (name unidentified)"
 tags:
   - telegram-import
 draft: false

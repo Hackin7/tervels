@@ -11,6 +11,10 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Woollett Aquatics Center, Irvine, California, United States"
+experiences:
+  - kind: event
+    slug: "robosub-2025"
+
 tags: ["defcon33-us", "united-states", "irvine"]
 draft: false
 source:

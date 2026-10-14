@@ -41,6 +41,10 @@ locations:
 experiences:
   - kind: museum
     name: "FC Barcelona Museum"
+  - kind: food
+    name: "McDonald's Barcelona"
+  - kind: food
+    name: "KFC Barcelona"
 tags: ["exchange-main-lausanne","switzerland","lausanne","exchange-07-barcelona","spain","barcelona"]
 draft: false
 youtube:

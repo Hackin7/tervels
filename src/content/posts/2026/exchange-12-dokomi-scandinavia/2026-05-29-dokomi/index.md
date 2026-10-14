@@ -11,6 +11,10 @@ locations:
 experiences:
   - kind: event
     slug: "dokomi-2026"
+  - kind: food
+    name: "DoKomi Thai curry noodles"
+  - kind: food
+    name: "DoKomi melonpan ice cream (stalls unidentified)"
 youtube:
   cover: "nIUbTrjCyc4"
 tags: ["exchange-12-dokomi-scandinavia", "germany", "dusseldorf", "dokomi"]

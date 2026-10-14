@@ -22,7 +22,9 @@ locations:
     gps: null
     context: visited
     review_note: Could be EPFL or another conference venue; the article only says “Other talks”.
-experiences: []
+experiences:
+  - kind: food
+    name: "Moléson cheese fondue (restaurant name unidentified)"
 tags:
   - exchange
   - exchange-week-5

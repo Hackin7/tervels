@@ -10,6 +10,8 @@ locations:
 experiences:
   - kind: food
     name: "Nagoya Miso Katsu Restaurant"
+  - kind: food
+    name: "Nagoya miso katsu (venue unidentified)"
 tags: ["intern-01-nagoya", "japan", "nagoya"]
 draft: false
 source:

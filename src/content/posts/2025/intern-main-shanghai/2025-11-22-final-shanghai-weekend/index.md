@@ -56,7 +56,11 @@ locations:
     gps_granularity: area
     gps_confidence: high
     gps_query: "Tianzifang, Shanghai"
-experiences: []
+experiences:
+  - kind: museum
+    name: "Qian Xuesen Library & Museum"
+  - kind: museum
+    name: "Shanghai History Museum"
 tags: ["intern-main-shanghai","china","shanghai"]
 draft: false
 ---

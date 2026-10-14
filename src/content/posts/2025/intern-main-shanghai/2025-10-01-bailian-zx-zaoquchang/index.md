@@ -12,7 +12,9 @@ locations:
     gps_confidence: high
     gps_query: "Bailian ZX Zaoquchang, 2500 Siping Road, Yangpu District, Shanghai, China"
 cover: "./assets/01-so-i-was-thinking-after-library/images/00.webp"
-experiences: []
+experiences:
+  - kind: food
+    name: "Pizza Hut, Shanghai (branch unidentified)"
 tags: []
 draft: false
 ---

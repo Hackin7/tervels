@@ -16,6 +16,8 @@ experiences:
     name: "Nanjing mall art museum (name not recorded)"
   - kind: trail
     name: "Xuanwu Lake walk"
+  - kind: food
+    name: "Nanjing tangbao (venue unidentified)"
 tags: ["intern-02-nanjing", "china", "nanjing"]
 draft: false
 source:

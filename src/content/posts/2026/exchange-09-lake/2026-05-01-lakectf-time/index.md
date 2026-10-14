@@ -1,5 +1,11 @@
 ---
 title: "LakeCTF Time"
+experiences:
+  - kind: event
+    slug: "lakectf-2026"
+  - kind: event
+    slug: "balelec-2026"
+
 youtube:
   items:
     - kind: video

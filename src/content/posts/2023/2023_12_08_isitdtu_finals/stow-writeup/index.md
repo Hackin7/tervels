@@ -17,6 +17,12 @@ experiences:
     name: "Marble Mountains"
   - kind: food
     name: "McDonald's KLIA"
+  - kind: food
+    name: "Da Nang frog noodles"
+  - kind: food
+    name: "Vietnamese chicken rice"
+  - kind: food
+    name: "Vietnamese bánh mì (venues unidentified)"
 tags: ["isitdtu-ctf-finals-2023", "vietnam", "danang"]
 draft: false
 ---

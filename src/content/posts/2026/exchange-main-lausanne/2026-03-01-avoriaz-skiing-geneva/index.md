@@ -69,7 +69,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: trail
+    name: "Avoriaz ski-slope descent"
 tags:
   - exchange
   - exchange-week-2

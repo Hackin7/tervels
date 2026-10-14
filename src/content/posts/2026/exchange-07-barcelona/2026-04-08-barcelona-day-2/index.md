@@ -23,6 +23,10 @@ locations:
 experiences:
   - kind: museum
     name: "Casa Batlló"
+  - kind: food
+    name: "Gothic Quarter seafood paella (venue unidentified)"
+  - kind: market
+    name: "Barcelona market (name unidentified)"
 tags: ["exchange-07-barcelona","spain","barcelona"]
 draft: false
 youtube:

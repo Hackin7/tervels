@@ -29,6 +29,11 @@ export const EVENT_CATALOG: EventMeta[] = [
   { slug: 'robosub-2025', name: 'RoboSub', year: 2025, location: 'Irvine, United States' },
   { slug: 'black-hat-usa-2025', name: 'Black Hat USA', year: 2025, location: 'Las Vegas, United States' },
   { slug: 'isitdtu-ctf-finals-2023', name: 'ISITDTU CTF Finals', year: 2023, location: 'Da Nang, Vietnam' },
+  { slug: 'lakectf-2025', name: 'LakeCTF', year: 2025, location: 'Lausanne, Switzerland' },
+  { slug: 'balelec-2025', name: 'Balelec', year: 2025, location: 'Lausanne, Switzerland' },
+  { slug: 'music-china-2025', name: 'Music China', year: 2025, location: 'Shanghai, China' },
+  { slug: 'china-hi-tech-fair-2025', name: 'China Hi-Tech Fair', year: 2025, location: 'Shenzhen, China' },
+  { slug: 'open-hardware-summit-2026', name: 'Open Hardware Summit', year: 2026, location: 'Berlin, Germany' },
 ];
 
 export const EVENTS_BY_SLUG = new Map(EVENT_CATALOG.map(event => [event.slug, event]));

@@ -15,7 +15,9 @@ locations:
     gps_confidence: high
     gps_query: EPFL campus, Ecublens, Switzerland
     review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
-experiences: []
+experiences:
+  - kind: food
+    name: "Holy Cow! sponsored meal (branch unidentified)"
 tags:
   - exchange
   - exchange-week-7

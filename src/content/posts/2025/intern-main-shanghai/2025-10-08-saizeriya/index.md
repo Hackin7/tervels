@@ -11,7 +11,9 @@ locations:
     gps_granularity: venue
     gps_confidence: medium
     gps_query: "Saizeriya, Shanghai, China"
-experiences: []
+experiences:
+  - kind: food
+    name: "Saizeriya, Shanghai (branch unidentified)"
 tags: ["intern-main-shanghai","china","shanghai"]
 draft: false
 ---

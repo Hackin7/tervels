@@ -22,7 +22,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact shore not identified; PolyLAN is discussed rather than clearly visited.
-experiences: []
+experiences:
+  - kind: event
+    slug: "lakectf-2026"
 tags:
   - exchange
   - exchange-week-10

@@ -60,7 +60,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: museum
+    name: "Olympic Museum"
 tags:
   - exchange
   - exchange-week-3

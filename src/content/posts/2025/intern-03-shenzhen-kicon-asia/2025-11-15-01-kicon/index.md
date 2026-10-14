@@ -14,6 +14,8 @@ locations:
 experiences:
   - kind: event
     slug: "kicon-asia-2025"
+  - kind: event
+    slug: "maker-faire-shenzhen-2025"
 tags: ["intern-03-shenzhen-kicon-asia", "china", "shenzhen"]
 draft: false
 source:

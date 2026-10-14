@@ -7,7 +7,9 @@ locations:
     gps: null
     context: visited
     review_note: Residence is confirmed, but river, trail and starting point are not. Residence coordinates are not substituted for the hike.
-experiences: []
+experiences:
+  - kind: trail
+    name: "Riverside hike near FMEL Rainbow (route unidentified)"
 tags:
   - exchange
   - exchange-week-16

@@ -1,5 +1,9 @@
 ---
 title: "Went back Interlaken Lauterbrunnen"
+experiences:
+  - kind: food
+    name: "Interlaken cheese fondue and fried cheese (venue unidentified)"
+
 youtube:
   items:
     - kind: video

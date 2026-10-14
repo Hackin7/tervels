@@ -29,7 +29,11 @@ locations:
     gps_granularity: building
     gps_confidence: high
     gps_query: "Shanghai Museum, 201 People's Avenue, Shanghai"
-experiences: []
+experiences:
+  - kind: museum
+    name: "Shanghai Museum (People's Square)"
+  - kind: food
+    name: "Shanghai crab-roe noodles and xiaolongbao (venue unidentified)"
 tags: ["intern-main-shanghai","china","shanghai"]
 draft: false
 ---

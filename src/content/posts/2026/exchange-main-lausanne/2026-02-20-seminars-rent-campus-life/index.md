@@ -54,7 +54,9 @@ locations:
     gps: null
     context: visited
     review_note: Exact venue or branch not identified.
-experiences: []
+experiences:
+  - kind: museum
+    name: "Musée Bolo"
 tags:
   - exchange
   - exchange-week-1

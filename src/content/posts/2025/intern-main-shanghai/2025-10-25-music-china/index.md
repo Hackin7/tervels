@@ -12,7 +12,9 @@ locations:
     gps_confidence: high
     gps_query: "Shanghai New International Expo Centre, Shanghai"
 cover: "./assets/01-cycling-around-the-area-today-s-main/images/00.webp"
-experiences: []
+experiences:
+  - kind: event
+    slug: "music-china-2025"
 tags: []
 draft: false
 ---

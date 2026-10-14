@@ -11,6 +11,10 @@ locations:
     gps_granularity: city
     gps_confidence: low
     gps_query: "Nuremberg, Germany"
+experiences:
+  - kind: food
+    name: "Nuremberg mala dinner (venue unidentified)"
+
 tags: ["exchange-03-nuremburg-munich-salzburg", "germany", "nuremberg"]
 draft: false
 source:

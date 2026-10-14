@@ -23,6 +23,10 @@ locations:
 experiences:
   - kind: trail
     name: "Seven Sisters Country Park"
+  - kind: food
+    name: "Tesco meal deal, Brighton trip (branch unidentified)"
+  - kind: food
+    name: "Brighton smoked mackerel and fish and chips (venue unidentified)"
 youtube:
   items:
     - kind: video

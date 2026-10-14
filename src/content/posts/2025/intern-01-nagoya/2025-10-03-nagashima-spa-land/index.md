@@ -11,6 +11,12 @@ locations:
     gps_granularity: venue
     gps_confidence: high
     gps_query: "Nagashima Spa Land, Kuwana, Japan"
+experiences:
+  - kind: food
+    name: "Hitsumabushi near Nagashima (venue unidentified)"
+  - kind: food
+    name: "Love Live collaboration cafe drink"
+
 tags: ["intern-01-nagoya", "japan", "kuwana-nagashima"]
 draft: false
 source:

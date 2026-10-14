@@ -53,7 +53,11 @@ locations:
     gps_confidence: high
     gps_query: Staro Izba — Środkowa 160, Białka Tatrzańska, Poland
     review_note: Confirmed by the author’s Google Maps screenshot and https://share.google/DMznLli3lpmrN67VT. Coordinates identify the mapped street address. Original caption spelling retained.
-experiences: []
+experiences:
+  - kind: food
+    name: "Staro Izba, Białka Tatrzańska"
+  - kind: food
+    name: "Willa Nad Białką breakfast"
 tags:
   - telegram-import
 draft: false

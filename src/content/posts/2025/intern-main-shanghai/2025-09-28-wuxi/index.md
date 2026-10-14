@@ -30,7 +30,11 @@ locations:
     gps_confidence: medium
     gps_query: "Huishan National Forest Park, Wuxi, China"
     review_note: "Hike matched to Huishan based on the nearby Huishan Ancient Town visit; exact trail not identified."
-experiences: []
+experiences:
+  - kind: trail
+    name: "Huishan Mountain hike (route unidentified)"
+  - kind: food
+    name: "KFC Wuxi"
 tags: ["intern-main-shanghai","china"]
 draft: false
 ---
