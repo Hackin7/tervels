@@ -2,17 +2,59 @@
 title: 'Exchange W1: 22 February — Basel Sights & River Crossing'
 timestamp: '2026-02-22T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Basel
     country: CH
-    city: Lausanne
-    city_slug: lausanne
+    city: Basel
+    city_slug: basel
     gps:
-      - 46.5197
-      - 6.6323
+      - 47.558108
+      - 7.587826
     context: visited
-    gps_source: old-frontmatter
+    gps_source: openstreetmap
     gps_granularity: city
     gps_confidence: high
+    gps_query: Basel, Basel, Switzerland
+  - name: Kunstmuseum Basel
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps:
+      - 47.5539294
+      - 7.5944513
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Kunstmuseum Basel Hauptbau, St. Alban-Graben 16, Basel, Switzerland
+    review_note: Museum-complex pin at Hauptbau; precise exhibition building not recorded.
+  - name: Basel cathedral (unidentified)
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Rhine ferry crossing (unidentified)
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Amusement park (unidentified)
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: McDonald’s (branch unconfirmed)
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

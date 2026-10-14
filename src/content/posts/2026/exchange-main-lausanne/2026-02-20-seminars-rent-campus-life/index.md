@@ -2,17 +2,58 @@
 title: 'Exchange W1: 20 February — Seminars, Rent & Campus Life'
 timestamp: '2026-02-20T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
+  - name: Musée Bolo
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5187352
+      - 6.5637197
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Musée Bolo, Ecublens, Switzerland
+    review_note: Computing museum confirmed by user; located on the EPFL campus.
+  - name: Echandens
+    country: CH
+    city: Echandens
+    city_slug: echandens
+    gps:
+      - 46.534381
+      - 6.5410474
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: high
+    gps_query: Echandens, Echandens, Switzerland
+  - name: Residence-permit office (unconfirmed)
+    country: CH
+    city: Echandens
+    city_slug: echandens
+    gps: null
+    context: visited
+    review_note: Article references Echandens; user described the offices as around Flon. Exact office needs clarification.
+  - name: Rent-payment post office (unconfirmed)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

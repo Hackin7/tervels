@@ -2,17 +2,31 @@
 title: 'Exchange W16: 14 June — Palais de Rumine & Cathedral Tower'
 timestamp: '2026-06-14T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Palais de Rumine
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5235869
+      - 6.6338031
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: building
     gps_confidence: high
+    gps_query: Palais de Rumine, Lausanne, Switzerland
+    review_note: Archaeology, natural-history and animal collections share this building; user confirmed the animal museum was inside.
+  - name: Lausanne Cathedral
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5225806
+      - 6.6353629
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: Lausanne Cathedral, Lausanne, Switzerland
 youtube:
   items:
     - kind: video

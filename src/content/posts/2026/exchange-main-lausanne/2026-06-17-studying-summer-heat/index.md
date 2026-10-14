@@ -1,16 +1,12 @@
 ---
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne exchange base — exact location not recorded
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
-    context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    gps: null
+    context: mentioned
+    review_note: Study and weather discussion; physical study location not explicitly established.
 experiences: []
 tags:
   - exchange

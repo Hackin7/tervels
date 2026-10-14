@@ -2,12 +2,19 @@
 title: "Dent de Vaulion"
 timestamp: 2026-07-10T00:00:00Z
 locations:
-  - name: "Dent de Vaulion, Switzerland"
+  - name: Dent de Vaulion summit
     country: CH
     city: Vaulion
     city_slug: vaulion
-    gps: null
+    gps:
+      - 46.6840409
+      - 6.351073
     context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: Dent de Vaulion summit, Vaulion, Switzerland
+    review_note: Summit/destination pin; trailhead and exact route are not established.
 experiences:
   - kind: trail
     name: "Dent de Vaulion"

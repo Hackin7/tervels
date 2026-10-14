@@ -2,17 +2,57 @@
 title: 'Exchange W21: 14–15 July — Final Lausanne Museums & Walks'
 timestamp: '2026-07-14T10:46:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne History Museum
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5222197
+      - 6.6349237
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Lausanne History Museum, Lausanne, Switzerland
+  - name: Lausanne-Flon district
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5206725
+      - 6.630333
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Lausanne-Flon, Place de l’Europe, Lausanne, Switzerland
+    review_note: Representative district pin near Lausanne-Flon station; individual shops are tagged separately when identified.
+  - name: Roman Museum of Lausanne-Vidy
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5189571
+      - 6.5986725
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Roman Museum of Lausanne-Vidy, Lausanne, Switzerland
+    review_note: Kodai exhibition and the Roman collection are at the same museum; article includes the 15 July visit.
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
 youtube:
   items:
     - kind: video

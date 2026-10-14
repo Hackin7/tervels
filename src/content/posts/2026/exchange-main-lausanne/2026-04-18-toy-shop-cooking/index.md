@@ -2,17 +2,50 @@
 title: 'Exchange W8: 18 April — Toy Shop & Cooking'
 timestamp: '2026-04-18T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Parc de Mon-Repos
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5191535
+      - 6.6430166
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: area
     gps_confidence: high
+    gps_query: Parc de Mon-Repos, Lausanne, Switzerland
+    review_note: Park identified by the Google Maps link in the article.
+  - name: UNIL Dorigny campus
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5225695
+      - 6.5809499
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: UNIL Dorigny campus, Lausanne, Switzerland
+  - name: Rolex Learning Center / EPFL Library
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5183517
+      - 6.5676152
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: Rolex Learning Center / EPFL Library, Ecublens, Switzerland
+  - name: Toy shop near Bessières (unidentified)
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

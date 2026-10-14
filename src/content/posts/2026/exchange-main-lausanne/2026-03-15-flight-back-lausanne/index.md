@@ -2,17 +2,13 @@
 title: 'Exchange W4: 15 March — Flight Back to Lausanne'
 timestamp: '2026-03-15T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Return-flight airport (unidentified)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Swiss arrival airport and departure airport are not established by the article text.
 experiences: []
 tags:
   - exchange

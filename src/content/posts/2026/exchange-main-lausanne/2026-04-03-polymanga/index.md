@@ -2,17 +2,19 @@
 title: 'Exchange W7: 3?6 April ? Polymanga'
 timestamp: '2026-04-03T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Beaulieu Lausanne — Polymanga 2026
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5295577
+      - 6.6229047
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Palais de Beaulieu, Avenue des Bergières 10, Lausanne, Switzerland
+    review_note: 2026 Polymanga venue verified from the organizer; not the Montreux venue used for other editions.
 experiences: []
 tags:
   - exchange

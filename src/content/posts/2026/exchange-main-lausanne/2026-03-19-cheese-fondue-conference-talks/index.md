@@ -2,17 +2,26 @@
 title: 'Exchange W5: 19 March — Cheese Fondue & Conference Talks'
 timestamp: '2026-03-19T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Fondue restaurant — Moléson map location
+    country: CH
+    city: Moléson-sur-Gruyères
+    city_slug: moleson-sur-gruyeres
+    gps:
+      - 46.569986
+      - 7.0461181
+    context: visited
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: https://maps.app.goo.gl/it4ZtAgn7NeWYjZZ7
+    review_note: Coordinates taken from the article’s restaurant map link; restaurant business name not established.
+  - name: Conference-talk venue (unidentified)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Could be EPFL or another conference venue; the article only says “Other talks”.
 experiences: []
 tags:
   - exchange

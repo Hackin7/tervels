@@ -2,17 +2,44 @@
 title: 'Exchange W4: 9 March — Journey to Embedded World'
 timestamp: '2026-03-09T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: EPFL campus
     country: CH
-    city: Lausanne
-    city_slug: lausanne
+    city: Ecublens
+    city_slug: ecublens
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5186594
+      - 6.5665615
     context: visited
-    gps_source: old-frontmatter
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
+  - name: Basel
+    country: CH
+    city: Basel
+    city_slug: basel
+    gps:
+      - 47.558108
+      - 7.587826
+    context: visited
+    gps_source: openstreetmap
     gps_granularity: city
     gps_confidence: high
+    gps_query: Basel, Basel, Switzerland
+  - name: Frankfurt (Main) Hauptbahnhof
+    country: DE
+    city: Frankfurt
+    city_slug: frankfurt
+    gps:
+      - 50.1066539
+      - 8.6625808
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Frankfurt Hauptbahnhof, Germany
+    review_note: Station identified by the linked Frankfurt transit trip record.
 experiences: []
 tags:
   - exchange

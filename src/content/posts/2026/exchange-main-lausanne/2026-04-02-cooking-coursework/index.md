@@ -2,17 +2,13 @@
 title: 'Exchange W7: 2 April — Cooking & Coursework'
 timestamp: '2026-04-02T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne exchange base — exact location not recorded
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
-    context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    gps: null
+    context: mentioned
+    review_note: Cooking and coursework recap; no physical classroom or cooking location is explicitly established.
 experiences: []
 tags:
   - exchange

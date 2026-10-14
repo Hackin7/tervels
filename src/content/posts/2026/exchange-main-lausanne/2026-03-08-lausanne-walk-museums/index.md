@@ -2,17 +2,64 @@
 title: 'Exchange W3: 8 March — Lausanne Walk & Museums'
 timestamp: '2026-03-08T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Olympic Museum and park
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5086895
+      - 6.6340686
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Olympic Museum and park, Lausanne, Switzerland
+  - name: Ouchy waterfront
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.506498
+      - 6.6286202
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Vieux Port d’Ouchy, Lausanne, Switzerland
+    review_note: Representative Ouchy waterfront pin; precise walking route and Lausanne-sign location unconfirmed.
+  - name: Lausanne-Flon district
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5206725
+      - 6.630333
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Lausanne-Flon, Place de l’Europe, Lausanne, Switzerland
+    review_note: Representative district pin near Lausanne-Flon station; individual shops are tagged separately when identified.
+  - name: FMEL Rainbow residence
+    country: CH
+    city: Echandens
+    city_slug: echandens
+    gps:
+      - 46.5403205
+      - 6.548691
+    context: visited
+    gps_source: manual
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: FMEL Rainbow, Route de la Chocolatière 29, Echandens (user confirmed)
+    review_note: Residence-complex midpoint between buildings 29A and 29B; individual building not specified.
+  - name: Stream near FMEL Rainbow (unidentified)
+    country: CH
+    city: Echandens
+    city_slug: echandens
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

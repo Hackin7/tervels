@@ -2,17 +2,83 @@
 title: 'Exchange W1: 21 February — Lausanne Shops & Polygl0ts Dinner'
 timestamp: '2026-02-21T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
+  - name: Lausanne-Flon district
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5206725
+      - 6.630333
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Lausanne-Flon, Place de l’Europe, Lausanne, Switzerland
+    review_note: Representative district pin near Lausanne-Flon station; individual shops are tagged separately when identified.
+  - name: Lausanne Cathedral
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5225806
+      - 6.6353629
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
     gps_confidence: high
+    gps_query: Lausanne Cathedral, Lausanne, Switzerland
+  - name: Mix-Image / Mix Café
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.52133
+      - 6.6327925
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Mix-Image, Rue du Petit-Saint-Jean 3, Lausanne, Switzerland
+  - name: Cash’n Go – Lausanne
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5236135
+      - 6.6283677
+    context: visited
+    gps_source: manual
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: https://maps.app.goo.gl/GTVQGTPs5yyfJQNz9
+    review_note: Pawn shop identified by the Google Maps link supplied by user.
+  - name: Coop City near Bel-Air (branch unconfirmed)
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps: null
+    context: visited
+    review_note: Likely Coop City Lausanne Au Centre; user described the mall near Decathlon, without naming the branch.
+  - name: Bookstore (possibly FNAC Lausanne-Flon)
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps: null
+    context: visited
+    review_note: User identified FNAC as likely, not confirmed.
 experiences: []
 tags:
   - exchange

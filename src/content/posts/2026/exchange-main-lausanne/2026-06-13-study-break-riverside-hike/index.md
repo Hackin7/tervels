@@ -1,16 +1,12 @@
 ---
 locations:
-  - name: Lausanne, Switzerland
+  - name: Riverside hike near FMEL Rainbow (unidentified)
     country: CH
-    city: Lausanne
-    city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    city: Echandens
+    city_slug: echandens
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Residence is confirmed, but river, trail and starting point are not. Residence coordinates are not substituted for the hike.
 experiences: []
 tags:
   - exchange

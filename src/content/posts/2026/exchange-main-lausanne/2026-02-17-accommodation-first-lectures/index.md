@@ -2,17 +2,39 @@
 title: 'Exchange W1: 17 February — Accommodation & First Lectures'
 timestamp: '2026-02-17T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
+  - name: FMEL Rainbow residence
+    country: CH
+    city: Echandens
+    city_slug: echandens
+    gps:
+      - 46.5403205
+      - 6.548691
+    context: visited
+    gps_source: manual
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: FMEL Rainbow, Route de la Chocolatière 29, Echandens (user confirmed)
+    review_note: Residence-complex midpoint between buildings 29A and 29B; individual building not specified.
+  - name: migrolino (Flon branch unconfirmed)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

@@ -2,17 +2,64 @@
 title: 'Exchange W2: 28 February — Geneva Museums & City Walk'
 timestamp: '2026-02-28T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Geneva
     country: CH
-    city: Lausanne
-    city_slug: lausanne
+    city: Geneva
+    city_slug: geneva
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.2017559
+      - 6.1466014
     context: visited
-    gps_source: old-frontmatter
+    gps_source: manual
     gps_granularity: city
     gps_confidence: high
+    gps_query: Geneva city centre; representative city-level pin
+  - name: Maison Tavel
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps:
+      - 46.201512
+      - 6.146995
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: Maison Tavel, Geneva, Switzerland
+    review_note: Identified using the matching Geneva trip record and the model-of-Geneva description.
+  - name: Patek Philippe Museum
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps:
+      - 46.1984004
+      - 6.1382674
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: Patek Philippe Museum, Geneva, Switzerland
+  - name: Scientific-tools museum (unconfirmed)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Likely Musée d’histoire des sciences; not confirmed by user.
+  - name: Winter-painting exhibition (unidentified)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Venue with wall patterns and organ (unidentified)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

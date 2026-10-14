@@ -2,17 +2,43 @@
 title: 'Exchange W3: 7 March — UNIL & Markov Chains'
 timestamp: '2026-03-07T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: UNIL Dorigny campus
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5225695
+      - 6.5809499
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: area
     gps_confidence: high
+    gps_query: UNIL Dorigny campus, Lausanne, Switzerland
+  - name: Renens railway station
+    country: CH
+    city: Renens
+    city_slug: renens
+    gps:
+      - 46.5373741
+      - 6.5782827
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Renens railway station, Renens, Switzerland
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
 experiences: []
 tags:
   - exchange

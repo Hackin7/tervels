@@ -2,17 +2,88 @@
 title: 'Exchange W8: 19 April — Lausanne Hike, Mix Cafe & Castle'
 timestamp: '2026-04-19T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: La Sarraz
+    country: CH
+    city: La Sarraz
+    city_slug: la-sarraz
+    gps:
+      - 46.6590583
+      - 6.5124448
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: city
+    gps_confidence: high
+    gps_query: La Sarraz, La Sarraz, Switzerland
+  - name: Tine de Conflens waterfall
+    country: CH
+    city: La Sarraz
+    city_slug: la-sarraz
+    gps:
+      - 46.6555141
+      - 6.4935728
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: Tine de Conflens, Ferreyres, Switzerland
+    review_note: Waterfall confirmed by user; near La Sarraz, at Ferreyres.
+  - name: Château de La Sarraz
+    country: CH
+    city: La Sarraz
+    city_slug: la-sarraz
+    gps:
+      - 46.6603745
+      - 6.5142636
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: building
+    gps_confidence: high
+    gps_query: Château de La Sarraz, La Sarraz, Switzerland
+    review_note: User confirmed the castle. Exterior visit only; the museum was closed.
+  - name: Mix-Image / Mix Café
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.52133
+      - 6.6327925
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Mix-Image, Rue du Petit-Saint-Jean 3, Lausanne, Switzerland
+  - name: FNAC Lausanne-Flon
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5218475
+      - 6.6291898
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: FNAC Lausanne-Flon, Lausanne, Switzerland
+  - name: EPFL campus
+    country: CH
+    city: Ecublens
+    city_slug: ecublens
+    gps:
+      - 46.5186594
+      - 6.5665615
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: EPFL campus, Ecublens, Switzerland
+    review_note: Campus-level pin for EPFL classes, exams and student activities; individual rooms are not identified.
+  - name: McDonald’s (branch unconfirmed)
+    country: CH
+    city: La Sarraz
+    city_slug: la-sarraz
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

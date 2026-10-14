@@ -2,17 +2,20 @@
 title: 'Exchange W11: 5 May — Grindelwald & Travel Costs'
 timestamp: '2026-05-05T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Zermatt — travel-cost recap
     country: CH
-    city: Lausanne
-    city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
-    context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    city: Zermatt
+    city_slug: zermatt
+    gps: null
+    context: retrospective
+    review_note: Retrospective cost discussion; not a new visit on this article date.
+  - name: Grindelwald — linked trip
+    country: CH
+    city: Grindelwald
+    city_slug: grindelwald
+    gps: null
+    context: retrospective
+    review_note: Linked trip identifies Grindelwald, but exact hike and same-day attendance are not established by this article.
 experiences: []
 tags:
   - exchange

@@ -2,17 +2,73 @@
 title: 'Exchange W2: 1 March — Avoriaz Skiing & Geneva'
 timestamp: '2026-03-01T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
-    country: CH
-    city: Lausanne
-    city_slug: lausanne
+  - name: Avoriaz ski area
+    country: FR
+    city: Avoriaz
+    city_slug: avoriaz
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.1899135
+      - 6.7824601
     context: visited
-    gps_source: old-frontmatter
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: high
+    gps_query: Avoriaz winter sports area, France
+    review_note: Ski-area pin only; exact piste and tourism-centre location unconfirmed.
+  - name: Geneva
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps:
+      - 46.2017559
+      - 6.1466014
+    context: visited
+    gps_source: manual
     gps_granularity: city
     gps_confidence: high
+    gps_query: Geneva city centre; representative city-level pin
+  - name: Patek Philippe Museum — recap
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: retrospective
+    review_note: Watch-exhibition text matches the 28 February Geneva trip record; venue pin is assigned to that day.
+  - name: Ski-trip pizza restaurant (unidentified)
+    country: CH
+    city: Avoriaz
+    city_slug: avoriaz
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Tourism centre (unidentified)
+    country: CH
+    city: Avoriaz
+    city_slug: avoriaz
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Geneva hotel (unidentified)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Art exhibition (unidentified)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
+  - name: Government building with cannons (unidentified)
+    country: CH
+    city: Geneva
+    city_slug: geneva
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

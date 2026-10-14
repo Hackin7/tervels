@@ -2,17 +2,13 @@
 title: 'Exchange W8: 14 April — Calzone & Numerical Analysis'
 timestamp: '2026-04-14T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Calzone meal (venue unconfirmed)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: Restaurant visit versus delivered food at EPFL is not established.
 experiences: []
 tags:
   - exchange

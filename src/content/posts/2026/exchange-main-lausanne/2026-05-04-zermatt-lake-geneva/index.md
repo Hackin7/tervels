@@ -2,17 +2,13 @@
 title: 'Exchange W11: 2 May — Chinese lamb Noodles'
 timestamp: '2026-05-02T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Chinese lamb-noodle restaurant (unidentified)
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
+    gps: null
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    review_note: City and branch not established by the body. Body says 2 May despite the filename saying 4 May; date metadata has not been changed.
 experiences: []
 tags:
   - exchange

@@ -2,17 +2,13 @@
 title: 'Exchange W9: 22 April — Spacecraft Team Updates'
 timestamp: '2026-04-22T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne exchange base — exact location not recorded
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
-    context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    gps: null
+    context: mentioned
+    review_note: Social-media/project updates; no physical visit recorded.
 experiences: []
 tags:
   - exchange

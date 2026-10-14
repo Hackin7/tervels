@@ -2,17 +2,13 @@
 title: 'Exchange W5: 16 March — Spacecraft PCB Review & Travel Costs'
 timestamp: '2026-03-16T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne exchange base — exact location not recorded
     country: CH
     city: Lausanne
     city_slug: lausanne
-    gps:
-      - 46.5197
-      - 6.6323
-    context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
-    gps_confidence: high
+    gps: null
+    context: mentioned
+    review_note: Project-work recap; no physical work location is established.
 experiences: []
 tags:
   - exchange

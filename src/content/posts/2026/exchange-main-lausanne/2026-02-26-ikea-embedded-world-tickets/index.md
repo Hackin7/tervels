@@ -2,17 +2,26 @@
 title: 'Exchange W2: 26 February — IKEA & Embedded World Tickets'
 timestamp: '2026-02-26T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: IKEA Aubonne, Littoral Parc
     country: CH
-    city: Lausanne
-    city_slug: lausanne
+    city: Aubonne
+    city_slug: aubonne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.4767605
+      - 6.3972343
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: IKEA Aubonne, Littoral Parc, Aubonne, Switzerland
+    review_note: Aubonne branch confirmed by user.
+  - name: Coop in Littoral Parc (branch unconfirmed)
+    country: CH
+    city: Aubonne
+    city_slug: aubonne
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 experiences: []
 tags:
   - exchange

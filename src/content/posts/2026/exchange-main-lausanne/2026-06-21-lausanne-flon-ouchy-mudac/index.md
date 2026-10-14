@@ -2,17 +2,63 @@
 title: 'Exchange W17: 21 June — Lausanne Flon, Ouchy & Mudac'
 timestamp: '2026-06-21T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne-Flon district
     country: CH
     city: Lausanne
     city_slug: lausanne
     gps:
-      - 46.5197
-      - 6.6323
+      - 46.5206725
+      - 6.630333
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Lausanne-Flon, Place de l’Europe, Lausanne, Switzerland
+    review_note: Representative district pin near Lausanne-Flon station; individual shops are tagged separately when identified.
+  - name: Mix-Image / Mix Café
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.52133
+      - 6.6327925
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Mix-Image, Rue du Petit-Saint-Jean 3, Lausanne, Switzerland
+  - name: Ouchy waterfront
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.506498
+      - 6.6286202
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: area
+    gps_confidence: medium
+    gps_query: Vieux Port d’Ouchy, Lausanne, Switzerland
+    review_note: Representative Ouchy waterfront pin; precise walking route and Lausanne-sign location unconfirmed.
+  - name: MUDAC, Plateforme 10
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps:
+      - 46.5185536
+      - 6.6235053
+    context: visited
+    gps_source: openstreetmap
+    gps_granularity: venue
+    gps_confidence: high
+    gps_query: MUDAC, Plateforme 10, Lausanne, Switzerland
+  - name: Hidden-gem anime shop (unidentified)
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps: null
+    context: visited
+    review_note: Exact venue or branch not identified.
 youtube:
   items:
     - kind: video

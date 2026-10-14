@@ -2,7 +2,7 @@
 title: 'Exchange W1: 16 February — Arrival & Train to Lausanne'
 timestamp: '2026-02-16T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne
     country: CH
     city: Lausanne
     city_slug: lausanne
@@ -10,9 +10,17 @@ locations:
       - 46.5197
       - 6.6323
     context: visited
-    gps_source: old-frontmatter
+    gps_source: openstreetmap
     gps_granularity: city
     gps_confidence: high
+    gps_query: Lausanne, Lausanne, Switzerland
+  - name: Arrival airport (unidentified)
+    country: CH
+    city: Lausanne
+    city_slug: lausanne
+    gps: null
+    context: visited
+    review_note: Arrival destination is Lausanne; Swiss arrival airport and flight connections have not been confirmed.
 experiences: []
 tags:
   - exchange

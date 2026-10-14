@@ -1,6 +1,6 @@
 ---
 locations:
-  - name: Lausanne, Switzerland
+  - name: Lausanne
     country: CH
     city: Lausanne
     city_slug: lausanne
@@ -8,9 +8,10 @@ locations:
       - 46.5197
       - 6.6323
     context: visited
-    gps_source: old-frontmatter
+    gps_source: openstreetmap
     gps_granularity: city
     gps_confidence: high
+    gps_query: Lausanne, Lausanne, Switzerland
 experiences: []
 tags:
   - exchange

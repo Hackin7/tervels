@@ -2,17 +2,18 @@
 title: 'Exchange W1: 15 February — Departure for Switzerland'
 timestamp: '2026-02-15T12:00:00Z'
 locations:
-  - name: Lausanne, Switzerland
-    country: CH
-    city: Lausanne
-    city_slug: lausanne
+  - name: Jewel Changi Airport
+    country: SG
+    city: Singapore
+    city_slug: singapore
     gps:
-      - 46.5197
-      - 6.6323
+      - 1.3602243
+      - 103.9896749
     context: visited
-    gps_source: old-frontmatter
-    gps_granularity: city
+    gps_source: openstreetmap
+    gps_granularity: venue
     gps_confidence: high
+    gps_query: Jewel Changi Airport, Singapore
 experiences: []
 tags:
   - exchange
